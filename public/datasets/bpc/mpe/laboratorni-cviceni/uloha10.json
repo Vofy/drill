@@ -1,0 +1,86 @@
+{
+  "name": "Úloha 10",
+  "description": "",
+  "questions": [
+    {
+      "question": "Jaká je jednotka relativní permitivity?",
+      "answers": {
+        "correct": [
+          "[-] - Nemá jednotku"
+          ]
+      }
+    },
+    {
+      "question": "Jaký je správný vzorec pro výpošet relativní permitivity ε<sub>r</sub>",
+      "answers": {
+        "correct": [
+          "ε<sub>r</sub> = C<sub>x</sub> / C<sub>0</sub>"
+          ]
+      }
+    },
+    {
+      "question": "Jaká je jednotka absolutní permitivity?",
+      "answers": {
+        "correct": [
+          "F.m<sup>-1</sup>"
+          ]
+      }
+    },
+    {
+      "question": "Jaká je vzájemná poloha fázorů intenzity elektrického pole E^ a elektrické indukce D^ při polarizaci dielektrika střídavým elektrickým polem ?",
+      "answers": {
+        "correct": [
+          "Elektrická indukce se zpožďuje za intenzitou elektrického pole"
+          ]
+      }
+    },
+    {
+      "question": "Uveďte vztah pro vžpošet efektivná plochy měřící elektrody S<sub>ef</sub>",
+      "answers": {
+        "correct": [
+          "s<sub>ef</sub>=π * ((d<sub>m</sub> + B* C)<sup>2</sup> / 4)"
+          ]
+      }
+    },
+    {
+      "question": "Jakým způsobem se mení odpor většiny kovových materiálů s rostoucí teplotou v intervalu blízkému pokojové teplotě?",
+      "answers": {
+        "correct": [
+          "Odpor roste lineárně"
+          ]
+      }
+    },
+    {
+      "question": "Který z uvedených materiálů má nejlepší vodivost při běžných podmínkách?",
+      "answers": {
+        "correct": [
+          "stříbro"
+          ]
+      }
+    },
+    {
+      "question": "Jak se značí pohyblivost elektronů?",
+      "answers": {
+        "correct": [
+          "μ"
+          ]
+      }
+    },
+    {
+      "question": "Teplotní součinitel rezistivity odporových materiálů [K<sup>-1</sup>] má při teplotě 20 °C hodnotu:",
+      "answers": {
+        "correct": [
+          "blízké 0"
+          ]
+      }
+    },
+    {
+      "question": "Při zmenšení průřezu vodiče se jeho odpor:",
+      "answers": {
+        "correct": [
+          "Zvětší"
+          ]
+      }
+    }
+  ]
+}

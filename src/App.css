@@ -1,38 +1,125 @@
-.App {
+
+:root {
+  --white: white;
+  --black: black;
+  --card-background: #e5f0ff;
+  --border: #cad0d7;
+  --correct: black;
+  --correct-background: #dff4d8;
+  --incorrect: black;
+  --incorrect-bacground: #fcdcdc;
+  --comment: black;
+  --comment-background: #fcefdc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  background-color: #575859;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: var(--white);
+  border-bottom: 2px solid #333436;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+.header-menu-button {
+  height: 100%;
+  width: 60px;
+  margin: 0;
+  background: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.search {
+  width: 100%;
+  height: calc(100% - 16px);
+  background-color: var(--white);
+  color: var(--black);
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
   text-align: center;
+  margin: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.content {
+  background-color: var(--white);
+  height: calc(100vh - 60px);
+  padding: 0.25vw;
+  overflow-y: scroll;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.result {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: var(--black);
+  background-color: var(--card-background);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 16px;
+  border: 1px solid var(--card-background);
+  min-width: fit-content;
 }
 
-.App-link {
-  color: #61dafb;
+.result-header {
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result-question {
+  padding: .5rem;
+  flex-grow: 1;
+  border: 1px solid var(--border);
+}
+
+.result-score {
+  padding: .5rem;
+  text-align: center;
+  width: 4em;
+  border: 1px solid var(--border);
+}
+
+.result-answer-correct {
+  color: var(--correct);
+  background-color: var(--correct-background);
+  padding: .5rem;
+  display: none;
+  border: 1px solid var(--border);
+}
+
+.result-answer-wrong {
+  color: var(--incorrect);
+  background-color: var(--incorrect-bacground);
+  padding: .5rem;
+  display: none;
+  border: 1px solid var(--border);
+}
+
+.result-comment {
+  color: var(--comment);
+  background-color: var(--comment-background);
+  padding: .5rem;
+  display: none;
+  border: 1px solid var(--border);
+}
+
+.result img {
+  vertical-align: middle;
 }
