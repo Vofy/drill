@@ -58,7 +58,7 @@ export default function Exam(props) {
 
       useEffect(() => {
         initFuse();
-      });
+      }, []);
 
     return (
         <>
