@@ -7,7 +7,6 @@ export default function Accordion(props) {
 
     const toggleAccordion = () => {
         setAccordionOpened(accordionOpened ? false : true);
-        console.log(accordionOpened);
     }
 
     useEffect(() => {

@@ -12,7 +12,7 @@ export function SideBar(props) {
                     <Link to="/exams/bpc/mpe/zkouska">Zkouška</Link>
                 </Accordion>
             </Accordion>
-            <select className="header-menu-select" onChange={props.themeChange} value={props.theme}>
+            <select className="sidebar-theme-select" onChange={props.themeChange} value={props.theme}>
                 {props.colorThemes.map((colorTheme, index) => <option key={index} value={colorTheme.value}>{colorTheme.name}</option>)}
             </select>
         </nav>

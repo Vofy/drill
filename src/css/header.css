@@ -2,7 +2,7 @@
 
 .header {
     position: fixed;
-    color: var(--text-background);
+    color: var(--header);
     background-color: var(--header-background);
     height: 60px;
     width: 100%;
@@ -15,7 +15,7 @@
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
   }
   
-  .header-menu-button {
+  .header-button {
     color: var(--header);
     height: 100%;
     width: 60px;
@@ -26,21 +26,10 @@
     cursor: pointer;
   }
   
-  .header-menu-select {
-    background-color: var(--search-background);
-    color: var(--search);
-    border: none;
-    padding: 10px;
-    font-size: 1rem;
-    text-align: center;
-    margin: 8px;
-    margin-top: auto;
-  }
-  
-  .header-menu-search {
+  .header-search {
     width: 100%;
-    background-color: var(--search-background);
-    color: var(--search);
+    background-color: var(--input-background);
+    color: var(--input);
     border: none;
     padding: 10px;
     font-size: 1rem;
