@@ -10,12 +10,10 @@ import Home from './components/home';
 function App() {
   const [menuOpened,setMenuOpened] = useState(false);
   const [headerMode,setHeaderMode] = useState("");
-
   const [searchedString, setSearchedString] = useState("");
 
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
+  const [theme, setTheme] = useLocalStorage('theme', 'light');
+  
   const content = React.createRef();
 
   const handleChange = (e) => {
