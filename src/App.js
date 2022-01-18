@@ -58,7 +58,9 @@ function App() {
   }
 
   const handleThemeChange = (e) => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
+    setTheme(e.target.value);
+    console.log(e.target.value);
+    console.log(theme);
   }
 
   useEffect(() => {
@@ -83,14 +85,22 @@ function App() {
     initFuse();
   }, []);
 
+  const colorThemes = [
+    {name: "Moodle (light)", value: ""},
+    {name: "Nord (dark)", value: "nord-dark"},
+    {name: "Mocha (dark)", value: "mocha-dark"}
+  ];
+
   return (
     <div className="App" data-theme={theme}>
       <header className="header">
         <button className="header-menu-button">
           <i className="fas fa-bars"></i>
         </button>
-        <input autoFocus className="search" type="text" placeholder="Hledejte mezi 140 otázkami" defaultValue={searchedString} onInput={handleChange}/>
-        <button className="header-menu-button" onClick={handleThemeChange}><i className={theme === 'light' ? 'fas fa-moon' : 'fas fa-sun'}></i></button>
+        <input autoFocus className="header-menu-search" type="text" placeholder="Hledejte mezi 140 otázkami" defaultValue={searchedString} onInput={handleChange}/>
+        <select className="header-menu-select" onChange={handleThemeChange}>
+            {colorThemes.map((colorTheme) => <option selected={colorTheme.value == theme} value={colorTheme.value}>{colorTheme.name}</option>)}
+          </select>
       </header>
       <div className="content" ref={content}>
         { result && result.map((res, index) => <Result key={index} res={res}/>) }

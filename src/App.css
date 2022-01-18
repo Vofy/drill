@@ -17,7 +17,7 @@
   --comment-background: #fcefdc;
 }
 
-[data-theme='dark'] {
+[data-theme='nord-dark'] {
   --text-background: #2e3440;
   --text: #eceff4;
   --page-background: #3b4252;
@@ -35,6 +35,24 @@
   --comment-background: #ebcb8b;
 }
 
+[data-theme='mocha-dark'] {
+  --text-background: #3b3228;
+  --text: #d0c8c6;
+  --page-background: #3b3228;
+  --header: #eceff4;
+  --header-background: #2e3440;
+  --search: #e5e9f0;
+  --search-background: #4c566a;
+  --card-background: #2e3440;
+  --border: #2e3440;
+  --correct: #2e3440;
+  --correct-background: #beb55b;
+  --incorrect: #2e3440;
+  --incorrect-bacground: #cb6077;
+  --comment: #2e3440;
+  --comment-background: #f4bc87;
+}
+
 * {
   box-sizing: border-box;
   transition: color 100ms ease-in-out, background-color 250ms ease-in-out;
@@ -42,7 +60,7 @@
 
 .header {
   position: relative;
-  color: var(--header);
+  color: var(--text);
   background-color: var(--header-background);
   height: 60px;
   width: 100%;
@@ -66,9 +84,18 @@
   cursor: pointer;
 }
 
-.search {
+.header-menu-select {
+  background-color: var(--search-background);
+  color: var(--search);
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 8px;
+}
+
+.header-menu-search {
   width: 100%;
-  height: calc(100% - 16px);
   background-color: var(--search-background);
   color: var(--search);
   border: none;
