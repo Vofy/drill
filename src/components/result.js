@@ -1,5 +1,6 @@
 import React from 'react';
 import DOMPurify from 'dompurify';
+import '../css/result.css';
 
 export default function Result(props) {
     return (

@@ -1,31 +1,17 @@
 import { Link } from "react-router-dom";
-
-
+import './../css/sidebar.css';
+import Accordion from './accordion';
 
 export function SideBar(props) {
 
     return (
         <nav className={"sidebar" + (props.opened ? ' opened' : '')}>
-            <ul>
-                <li>
-                    <Link to="/">Domů</Link>
-                    <ul>
-                        <li>
-                            <a>BPC</a>
-                            <ul>
-                                <li>
-                                    <a>MPE</a>
-                                    <ul>
-                                        <li>
-                                            <Link to="/exams/bpc/mpe/zkouska">Zkouška</Link>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <Link to="/">Domů</Link>
+            <Accordion name="BPC">
+                <Accordion name="MPE">
+                    <Link to="/exams/bpc/mpe/zkouska">Zkouška</Link>
+                </Accordion>
+            </Accordion>
             <select className="header-menu-select" onChange={props.themeChange} value={props.theme}>
                 {props.colorThemes.map((colorTheme, index) => <option key={index} value={colorTheme.value}>{colorTheme.name}</option>)}
             </select>

@@ -1,0 +1,59 @@
+@import url('./themes.css');
+
+.result {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: var(--text);
+    background-color: var(--card-background);
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    border: 1px solid var(--card-background);
+    min-width: fit-content;
+  }
+  
+  .result-header {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .result-question {
+    padding: .5rem;
+    flex-grow: 1;
+    border: 1px solid var(--border);
+  }
+  
+  .result-score {
+    padding: .5rem;
+    text-align: center;
+    width: 4em;
+    border: 1px solid var(--border);
+  }
+  
+  .result-answer-correct {
+    color: var(--correct);
+    background-color: var(--correct-background);
+    padding: .5rem;
+    display: none;
+    border: 1px solid var(--border);
+  }
+  
+  .result-answer-wrong {
+    color: var(--incorrect);
+    background-color: var(--incorrect-bacground);
+    padding: .5rem;
+    display: none;
+    border: 1px solid var(--border);
+  }
+  
+  .result-comment {
+    color: var(--comment);
+    background-color: var(--comment-background);
+    padding: .5rem;
+    display: none;
+    border: 1px solid var(--border);
+  }
+  
+  .result img {
+    vertical-align: middle;
+  }

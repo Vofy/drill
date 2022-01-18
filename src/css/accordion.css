@@ -1,0 +1,33 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion-name {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    color: var(--text-background);
+    text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+    padding: 12px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accordion-name:hover {
+    background-color: #00000088;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-content.opened {
+    display: block;
+}

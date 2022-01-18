@@ -1,0 +1,54 @@
+@import url('./themes.css');
+
+.header {
+    position: fixed;
+    color: var(--text-background);
+    background-color: var(--header-background);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 2px solid #333436;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+  }
+  
+  .header-menu-button {
+    color: var(--header);
+    height: 100%;
+    width: 60px;
+    margin: 0;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .header-menu-select {
+    background-color: var(--search-background);
+    color: var(--search);
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 8px;
+    margin-top: auto;
+  }
+  
+  .header-menu-search {
+    width: 100%;
+    background-color: var(--search-background);
+    color: var(--search);
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 8px;
+    margin-top: auto;
+  }
+  
+  textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+    outline: none;
+  }

@@ -19,14 +19,6 @@
             }
         },
         {
-            "question": "Magnetické kvantové číslo",
-            "answers": {
-                "correct": [
-                    "souvisí s orientací nábojového oblaku a může nabývat hodnot celých čísel v intervalu záporné hodnoty vedlejšího kvantového čísla až po kladnou hodnotu vedlejšího kvantového čísla"
-                ]
-            }
-        },
-        {
             "question": "Vedlejší kvantové číslo",
             "answers": {
                 "correct": [
@@ -39,6 +31,14 @@
             "answers": {
                 "correct": [
                     "0, 1, 2, 3, 4, 5, ... (s, p, d, f, g, h, ...)"
+                ]
+            }
+        },
+        {
+            "question": "Magnetické kvantové číslo",
+            "answers": {
+                "correct": [
+                    "souvisí s orientací nábojového oblaku a může nabývat hodnot celých čísel v intervalu záporné hodnoty vedlejšího kvantového čísla až po kladnou hodnotu vedlejšího kvantového čísla"
                 ]
             }
         },

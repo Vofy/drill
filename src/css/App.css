@@ -1,6 +1,4 @@
 
-@import url('./themes.css');
-@import url('./sidebar.css');
 
 * {
   box-sizing: border-box;
@@ -11,60 +9,6 @@ body {
   background-color: var(--page-background);
 }
 
-.header {
-  position: fixed;
-  color: var(--text);
-  background-color: var(--header-background);
-  height: 60px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  border-bottom: 2px solid #333436;
-  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-}
-
-.header-menu-button {
-  color: var(--header);
-  height: 100%;
-  width: 60px;
-  margin: 0;
-  background: transparent;
-  border: none;
-  font-size: 25px;
-  cursor: pointer;
-}
-
-.header-menu-select {
-  background-color: var(--search-background);
-  color: var(--search);
-  border: none;
-  padding: 10px;
-  font-size: 1rem;
-  text-align: center;
-  margin: 8px;
-  margin-top: auto;
-}
-
-.header-menu-search {
-  width: 100%;
-  background-color: var(--search-background);
-  color: var(--search);
-  border: none;
-  padding: 10px;
-  font-size: 1rem;
-  text-align: center;
-  margin: 8px;
-  margin-top: auto;
-}
-
-textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
-  outline: none;
-}
-
-
 .content {
   position: absolute;
   background-color: var(--page-background);
@@ -72,64 +16,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
   width: 100%;
   height: calc(100vh - 60px);
   overflow-y: scroll;
-}
-
-.result {
-  font-size: 1em;
-  line-height: 1.5em;
-  color: var(--text);
-  background-color: var(--card-background);
-  display: flex;
-  flex-direction: column;
-  margin: 16px;
-  border: 1px solid var(--card-background);
-  min-width: fit-content;
-}
-
-.result-header {
-  display: flex;
-  flex-direction: row;
-}
-
-.result-question {
-  padding: .5rem;
-  flex-grow: 1;
-  border: 1px solid var(--border);
-}
-
-.result-score {
-  padding: .5rem;
-  text-align: center;
-  width: 4em;
-  border: 1px solid var(--border);
-}
-
-.result-answer-correct {
-  color: var(--correct);
-  background-color: var(--correct-background);
-  padding: .5rem;
-  display: none;
-  border: 1px solid var(--border);
-}
-
-.result-answer-wrong {
-  color: var(--incorrect);
-  background-color: var(--incorrect-bacground);
-  padding: .5rem;
-  display: none;
-  border: 1px solid var(--border);
-}
-
-.result-comment {
-  color: var(--comment);
-  background-color: var(--comment-background);
-  padding: .5rem;
-  display: none;
-  border: 1px solid var(--border);
-}
-
-.result img {
-  vertical-align: middle;
 }
 
 .backdrop-item {
