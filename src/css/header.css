@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: calc(10px + 2vmin);
-    border-bottom: 2px solid #333436;
+    border-bottom: 2px solid var(--border);
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
   }
   
