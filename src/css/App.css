@@ -19,8 +19,8 @@ body {
 }
 
 .backdrop-item {
-  color: white;
-  background-color: rgb(6, 55, 122);
+  color: var(--text);
+  background-color: var(--text-background);
   padding: 0px 20px;
   margin-left: -20px;
   line-height: 1.5;

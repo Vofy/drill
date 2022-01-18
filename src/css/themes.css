@@ -1,5 +1,5 @@
 :root {
-    --text-background: white;
+    --text-background: #e5f0ff;
     --text: black;
     --page-backgound: white;
     --header: white;
@@ -37,7 +37,7 @@
   }
   
   [data-theme='mocha-dark'] {
-    --text-background: #3b3228;
+    --text-background: #322a22;
     --text: #d0c8c6;
     --page-background: #3b3228;
     --header: #eceff4;
