@@ -57,6 +57,10 @@ function App() {
     return () => clearTimeout(delayDebounceFn);
   }
 
+  const handleThemeChange = (e) => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  }
+
   useEffect(() => {
     const Search = async () => {
       if (fuse && allQuestions) {
@@ -85,10 +89,8 @@ function App() {
         <button className="header-menu-button">
           <i className="fas fa-bars"></i>
         </button>
-        <button className="header-menu-button">
-          <i class="fas fa-sun"></i>
-        </button>
         <input autoFocus className="search" type="text" placeholder="Hledejte mezi 140 otázkami" defaultValue={searchedString} onInput={handleChange}/>
+        <button className="header-menu-button" onClick={handleThemeChange}><i className={theme === 'light' ? 'fas fa-moon' : 'fas fa-sun'}></i></button>
       </header>
       <div className="content" ref={content}>
         { result && result.map((res, index) => <Result key={index} res={res}/>) }
