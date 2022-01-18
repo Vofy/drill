@@ -1,65 +1,18 @@
 
-:root {
-  --text-background: white;
-  --text: black;
-  --page-backgound: white;
-  --header: white;
-  --header-background: #444547;
-  --search: #aaaaaa;
-  --search-background: #606162;
-  --card-background: #e5f0ff;
-  --border: #cad0d7;
-  --correct: black;
-  --correct-background: #dff4d8;
-  --incorrect: black;
-  --incorrect-bacground: #fcdcdc;
-  --comment: black;
-  --comment-background: #fcefdc;
-}
-
-[data-theme='nord-dark'] {
-  --text-background: #2e3440;
-  --text: #eceff4;
-  --page-background: #3b4252;
-  --header: #eceff4;
-  --header-background: #2e3440;
-  --search: #e5e9f0;
-  --search-background: #4c566a;
-  --card-background: #2e3440;
-  --border: #2e3440;
-  --correct: #2e3440;
-  --correct-background: #a3be8c;
-  --incorrect: #2e3440;
-  --incorrect-bacground: #bf616a;
-  --comment: #2e3440;
-  --comment-background: #ebcb8b;
-}
-
-[data-theme='mocha-dark'] {
-  --text-background: #3b3228;
-  --text: #d0c8c6;
-  --page-background: #3b3228;
-  --header: #eceff4;
-  --header-background: #2e3440;
-  --search: #e5e9f0;
-  --search-background: #4c566a;
-  --card-background: #2e3440;
-  --border: #2e3440;
-  --correct: #2e3440;
-  --correct-background: #beb55b;
-  --incorrect: #2e3440;
-  --incorrect-bacground: #cb6077;
-  --comment: #2e3440;
-  --comment-background: #f4bc87;
-}
+@import url('./themes.css');
+@import url('./sidebar.css');
 
 * {
   box-sizing: border-box;
   transition: color 100ms ease-in-out, background-color 250ms ease-in-out;
 }
 
+body {
+  background-color: var(--page-background);
+}
+
 .header {
-  position: relative;
+  position: fixed;
   color: var(--text);
   background-color: var(--header-background);
   height: 60px;
@@ -92,6 +45,7 @@
   font-size: 1rem;
   text-align: center;
   margin: 8px;
+  margin-top: auto;
 }
 
 .header-menu-search {
@@ -103,6 +57,7 @@
   font-size: 1rem;
   text-align: center;
   margin: 8px;
+  margin-top: auto;
 }
 
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
@@ -111,9 +66,11 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 
 
 .content {
+  position: absolute;
   background-color: var(--page-background);
+  top: 60px;
+  width: 100%;
   height: calc(100vh - 60px);
-  padding: 0.25vw;
   overflow-y: scroll;
 }
 
@@ -173,4 +130,14 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 
 .result img {
   vertical-align: middle;
+}
+
+.backdrop-item {
+  color: white;
+  background-color: rgb(6, 55, 122);
+  padding: 0px 20px;
+  margin-left: -20px;
+  line-height: 1.5;
+  overflow-wrap: normal;
+  display: inline-block;
 }

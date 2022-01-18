@@ -1,10 +1,16 @@
-import './App.css';
+import './css/App.css';
 import Fuse from 'fuse.js';
-import Result from './components/result.js';
+import Home from './components/home.js';
+import { SideBar } from './components/sidebar';
 import React, { useState, useEffect } from 'react';
 import useLocalStorage from "use-local-storage";
+import { Routes, Route, useLocation } from "react-router-dom";
+import Exam from './components/exam';
 
 function App() {
+  const [menuOpened,setMenuOpened] = useState(false);
+  const [headerMode,setHeaderMode] = useState("");
+
   const [fuse,setFuse] = useState("");
   const [allQuestions,setAllQuestions] = useState([]);
 
@@ -59,8 +65,14 @@ function App() {
 
   const handleThemeChange = (e) => {
     setTheme(e.target.value);
-    console.log(e.target.value);
-    console.log(theme);
+  }
+  
+  const toggleMenu = (e) => {
+    setMenuOpened(menuOpened ? false : true);
+  }
+  
+  const closeMenu = () => {
+    setMenuOpened(false);
   }
 
   useEffect(() => {
@@ -82,6 +94,15 @@ function App() {
   }, [fuse, searchedString]);
 
   useEffect(() => {
+    closeMenu();
+    setHeaderMode("");
+  }, [useLocation()]);
+
+  useEffect(() => {
+    setSearchedString("");
+  }, [headerMode]);
+
+  useEffect(() => {
     initFuse();
   }, []);
 
@@ -93,17 +114,18 @@ function App() {
 
   return (
     <div className="App" data-theme={theme}>
+      <SideBar opened={menuOpened} colorThemes={colorThemes} theme={theme} themeChange={handleThemeChange} />
       <header className="header">
-        <button className="header-menu-button">
+        <button className="header-menu-button" onClick={toggleMenu}>
           <i className="fas fa-bars"></i>
         </button>
-        <input autoFocus className="header-menu-search" type="text" placeholder="Hledejte mezi 140 otázkami" defaultValue={searchedString} onInput={handleChange}/>
-        <select className="header-menu-select" onChange={handleThemeChange}>
-            {colorThemes.map((colorTheme) => <option selected={colorTheme.value == theme} value={colorTheme.value}>{colorTheme.name}</option>)}
-          </select>
+        { headerMode === 'search' ? <input autoFocus className="header-menu-search" type="text" placeholder="Hledejte mezi 140 otázkami" defaultValue={searchedString} onInput={handleChange}/> : <span style={{margin:"auto"}}><img src="/images/drill.svg" height="35" alt="Drill" />PerFEKTní drill</span> }
       </header>
-      <div className="content" ref={content}>
-        { result && result.map((res, index) => <Result key={index} res={res}/>) }
+      <div className="content">
+        <Routes>
+            <Route path="/" exact element={<Home />}/>
+            <Route path="/exams/bpc/mpe/zkouska" element={<Exam result={result} content={content} setHeaderMode={setHeaderMode} />}/>
+        </Routes>
       </div>
     </div>
   );
