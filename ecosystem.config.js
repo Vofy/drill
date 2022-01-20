@@ -1,16 +1,16 @@
 module.exports = {
 	apps: [{
 		name: 'perfektnidrill',
-		script: 'npm',
-		args: 'start',
-		watch: 'src',
-		env: {
+		script: 'yarn',
+		args: "start",
+		watch: 'build',
+		env_development: {
 			NODE_ENV: 'development',
 			PORT: 50004
 		},
 		env_production: {
 			NODE_ENV: 'production',
-			POERT: 50004
+			PORT: 50004
 		},
 	}],
 };
