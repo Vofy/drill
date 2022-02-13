@@ -1,0 +1,76 @@
+{
+    "name": "Úloha 24",
+    "description": "Přepis z fektušky",
+    "questions": [
+        {
+            "question": "Výstupní práce elektronu z kobaltu je 4,18 eV. Vypočtěte mezní vlnovou délku světla, při které nastane fotoelektrický jev. (Planckova konstanta ...",
+            "answers": {
+                "correct": [
+                    "297 nm"
+                ],
+                "incorrect": [
+                    "240 nm",
+                    "450 nm",
+                    "112 nm",
+                    "195 nm"
+                ]
+            }
+        },
+        {
+            "question": "Výstupní práce elektronu je",
+            "answers": {
+                "correct": [
+                    "energie potřebná k uvolnění elektronu z povrchu materiálu s nulovou rychlostí."
+                ],
+                "incorrect": [
+                    "energie potřebná k uvolnění elektonu z materiálu s nenulovou kinetickou energií.",
+                    "energie potřebná k přeskoku elektronu na vyšší energetickou hladinu.",
+                    "energie potřebná k uvolnění elektronu z vnitřku materiálu a jeho přechodu na povrch.",
+                    "energie potřebná k uvolnění elektronů z atomové vazby."
+                ]
+            }
+        },
+        {
+            "question": "Který ze vztahů mezi vlnovou délkou λ , ferkvencí f , periodou T a fázovou rychlostí c vlnění není správný?",
+            "answers": {
+                "correct": [
+                    "λ=cf"
+                ],
+                "incorrect": [
+                    "c=λf",
+                    "f=c/λ",
+                    "λ=c/f",
+                    "c=λ/T"
+                ]
+            }
+        },
+        {
+            "question": "Číselnou hodnotu Planckovy konstanty je možno udávat také v jednotkách",
+            "answers": {
+                "correct": [
+                    "eV.s"
+                ],
+                "incorrect": [
+                    "J.s<sup>-1</sup>",
+                    "W",
+                    "J",
+                    "W.m<sup>-2</sup>"
+                ]
+            }
+        },
+        {
+            "question": "Podstatou této úlohy je měření brzdného napětí elektronů, uvolněných fotony z fotokatody. Brzdné napětí závisí",
+            "answers": {
+                "correct": [
+                    "na frekvenci dopadajícího záření i na velikosti výstupní práce."
+                ],
+                "incorrect": [
+                    "pouze na velikosti výstupní práce, tj. na materiálu fotokatody.",
+                    "pouze na frekvenci dopadajícího elektromagnetického záření.",
+                    "na frekvencí dopadajícího záření, na velikosti výstupní práce a navíc i na vzdálenosti anody od katody.",
+                    "---"
+                ]
+            }
+        }
+    ]
+}

@@ -1,4 +1,6 @@
-export default function Home() {
+export default function Home(props) {
+    props.setMode('title');
+
     return (
         <div style={{display: "grid", justifyItems: "center", minHeight: "calc(100vh - 63px", alignContent: "center"}}>
             <h1 className="text-uppercase" style={{textAlign: "center"}}>
