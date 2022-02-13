@@ -3,6 +3,62 @@
     "description": "Přepis z fektušky",
     "questions": [
         {
+            "question": "Podstatou této úlohy je měření brzdného napětí elektronů, uvolněných fotony z fotokatody. Brzdné napětí závisí",
+            "answers": {
+                "correct": [
+                    "na frekvenci dopadajícího záření i na velikosti výstupní práce."
+                ],
+                "incorrect": [
+                    "pouze na velikosti výstupní práce, tj. na materiálu fotokatody.",
+                    "pouze na frekvenci dopadajícího elektromagnetického záření.",
+                    "na frekvencí dopadajícího záření, na velikosti výstupní práce a navíc i na vzdálenosti anody od katody.",
+                    "---"
+                ]
+            }
+        },
+        {
+            "question": "Součet kinetické energie fotoelektronu a výstupní práce z povrchu fotokatody je závislý na vlnové délce světla, dopadajícího na fotokatodu. Tato závislost je",
+            "answers": {
+                "correct": [
+                    "nepřímou úměrností"
+                ],
+                "incorrect": [
+                    "přímou úměrností",
+                    "lineární závislostí",
+                    "logaritmickou závislostí",
+                    "kvadratickou závislostí"
+                ]
+            }
+        },
+        {
+            "question": "Brzdné napětí fotoelektronů závisí na intenzitě monochromatického světla, dopadajícího na fotoelektrodu",
+            "answers": {
+                "correct": [
+                    "nezávisí na ní"
+                ],
+                "incorrect": [
+                    "přímo úměrně",
+                    "lineárně",
+                    "kvadraticky",
+                    "exponenciálně"
+                ]
+            }
+        },
+        {
+            "question": "Ze závislosti brzdného napětí fotoelektronů na frekvenci, resp. na vlnové délce dopadajícího světla je zřejmé, že existuje krajní frekvence (resp. vlnová délka), při níž je brzdné napětí nulové a záření tedy vnější fotoefekt nevyvolá. Wolfram má výstupní práci elektronů z povrchu asi 4,5 eV, Planckova konstanta je 6,63.10<sup>-34</sup> J.s, náboj elektronu je -1,6.10<sup>-19</sup> A.s. Nejdelší vlnová délka světla, jež vyvolá na wolframovém povrchu vnější fotoefekt, proto je",
+            "answers": {
+                "correct": [
+                    "276 nm"
+                ],
+                "incorrect": [
+                    "112 nm",
+                    "195 nm",
+                    "240 nm",
+                    "450 nm"
+                ]
+            }
+        },
+        {
             "question": "Výstupní práce elektronu z kobaltu je 4,18 eV. Vypočtěte mezní vlnovou délku světla, při které nastane fotoelektrický jev. (Planckova konstanta ...",
             "answers": {
                 "correct": [
@@ -55,20 +111,6 @@
                     "W",
                     "J",
                     "W.m<sup>-2</sup>"
-                ]
-            }
-        },
-        {
-            "question": "Podstatou této úlohy je měření brzdného napětí elektronů, uvolněných fotony z fotokatody. Brzdné napětí závisí",
-            "answers": {
-                "correct": [
-                    "na frekvenci dopadajícího záření i na velikosti výstupní práce."
-                ],
-                "incorrect": [
-                    "pouze na velikosti výstupní práce, tj. na materiálu fotokatody.",
-                    "pouze na frekvenci dopadajícího elektromagnetického záření.",
-                    "na frekvencí dopadajícího záření, na velikosti výstupní práce a navíc i na vzdálenosti anody od katody.",
-                    "---"
                 ]
             }
         }
