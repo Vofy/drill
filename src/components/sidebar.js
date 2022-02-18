@@ -1,11 +1,22 @@
 import { Link } from "react-router-dom";
 import './../css/sidebar.css';
 import Accordion from './accordion';
+import { useRecoilState, useRecoilValue } from "recoil";
+import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "../globalState";
 
 export function SideBar(props) {
+    const menuOpened = useRecoilValue(menuOpenedState);
+
+    const [showIncorrectAnswers, setShowIncorrectAnswers] = useRecoilState(showIncorrectAnswersState);
+    const [theme, setTheme] = useRecoilState(themeState);
+    const [mode, setMode] = useRecoilState(modeState);
+
+    const toggleShowIncorrectAnswers = () => {
+        setShowIncorrectAnswers(showIncorrectAnswers ? false : true);
+    }
 
     return (
-        <nav className={"sidebar" + (props.opened ? ' opened' : '')}>
+        <nav className={"sidebar" + (menuOpened ? ' opened' : '')}>
             <Link to="/">Domů</Link>
             <Accordion name="BPC">
                 <Accordion name="MPE">
@@ -19,13 +30,14 @@ export function SideBar(props) {
             </Accordion>
             <div className="sidebar-bottom">
                 <div>
-                    <input type="checkbox" id="showIncorrectAnswers" name="showIncorrectAnswers" value={true}/>
-                    <label for="showIncorrectAnswers">Nesprávné odpovědi</label>
+                    <input type="checkbox" id="showIncorrectAnswers" name="showIncorrectAnswers" 
+                        onChange={toggleShowIncorrectAnswers} checked={showIncorrectAnswers}/>
+                    <label htmlFor="showIncorrectAnswers">Nesprávné odpovědi</label>
                 </div>
-                <select className="sidebar-select" onChange={props.modeChange} value={props.theme}>
+                <select className="sidebar-select" onChange={(e) => setMode(e.target.value)} defaultValue={mode}>
                     {props.modes.map((mode, index) => <option key={index} value={mode.value}>{mode.name}</option>)}
                 </select>
-                <select className="sidebar-select" onChange={props.themeChange} value={props.theme}>
+                <select className="sidebar-select" onChange={(e) => setTheme(e.target.value)} defaultValue={theme}>
                     {props.colorThemes.map((colorTheme, index) => <option key={index} value={colorTheme.value}>{colorTheme.name}</option>)}
                 </select>
             </div>

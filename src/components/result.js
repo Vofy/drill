@@ -1,8 +1,13 @@
 import React from 'react';
 import DOMPurify from 'dompurify';
 import '../css/result.css';
+import { useRecoilValue } from 'recoil';
+
+import { showIncorrectAnswersState } from '../globalState';
 
 export default function Result(props) {
+    const showIncorrectAnswers = useRecoilValue(showIncorrectAnswersState);
+
     return (
         <div className="result">
             <div className="result-header">
@@ -14,8 +19,8 @@ export default function Result(props) {
                     <div key={index} dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(answer)}}></div>
                 )}
             </div>
-            <div className="result-answer-wrong" style={props.res.item.answers.incorrect && {display: "block"}}>
-                {props.res.item.answers.incorrect && props.res.item.answers.incorrect.map((answer, index) =>
+            <div className="result-answer-wrong" style={(showIncorrectAnswers && props.res.item.answers.incorrect) ? {display: "block"} : {}}>
+                { props.res.item.answers.incorrect && props.res.item.answers.incorrect.map((answer, index) =>
                     <div key={index} dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(answer)}}></div>
                 )}
             </div>

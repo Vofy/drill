@@ -4,45 +4,23 @@ import useLocalStorage from "use-local-storage";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Header from './components/header'
 import { SideBar } from './components/sidebar';
+import {  useRecoilState } from 'recoil';
+import { menuOpenedState, modeState, searchedStringState, themeState, showIncorrectAnswersState } from './globalState'
 
 import Exam from './components/exam';
 import Home from './components/home';
 
+
 function App() {
-  const [menuOpened, setMenuOpened] = useState(false);
-  const [searchedString, setSearchedString] = useState("");
+  const [theme, setTheme] = useRecoilState(themeState);
+  const [mode, setMode] = useRecoilState(modeState);
 
-  const [theme, setTheme] = useLocalStorage('theme', 'light');
-  const [mode, setMode] = useLocalStorage('mode', 'search');
-  const [showIncorrectAnswers, setShowIncorrectAnswers] = useLocalStorage('show_incorrect_ansvers', false);
+  const [menuOpened, setMenuOpened] = useRecoilState(menuOpenedState);
+  const [searchedString, setSearchedString] = useRecoilState(searchedStringState);
+
+  const [showIncorrectAnswers, setShowIncorrectAnswers] = useRecoilState(showIncorrectAnswersState);
   
-
   const content = React.createRef();
-
-  const handleChange = (e) => {
-    const delayDebounceFn = setTimeout(() => setSearchedString(e.target.value), 500)
-    return () => clearTimeout(delayDebounceFn);
-  }
-
-  const handleThemeChange = (e) => {
-    setTheme(e.target.value);
-  }
-  
-  const toggleMenu = (e) => {
-    setMenuOpened(menuOpened ? false : true);
-  }
-  
-  const closeMenu = (e) => {
-    setMenuOpened(false);
-  }
-
-  useEffect(() => {
-    closeMenu();
-  }, [useLocation()]);
-
-  useEffect(() => {
-    setSearchedString("");
-  }, [mode]);
 
   const colorThemes = [
     {name: "Moodle (light)", value: ""},
@@ -68,12 +46,8 @@ function App() {
 
   return (
     <div className="App" data-theme={theme}>
-      <SideBar opened={menuOpened}
-        modes={modes} mode={mode} setMode={setMode}
-        showIncorrectAnswers={showIncorrectAnswers} setShowIncorrectAnswers={setShowIncorrectAnswers}
-        theme={theme} colorThemes={colorThemes} themeChange={handleThemeChange} />
-
-      <Header toggleMenu={toggleMenu} mode={mode} searchedString={searchedString} handleChange={handleChange} />
+      <SideBar modes={modes} colorThemes={colorThemes} />
+      <Header/>
 
       <div className="content" ref={content}>
         <Routes>
