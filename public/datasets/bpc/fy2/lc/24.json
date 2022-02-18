@@ -113,6 +113,181 @@
                     "W.m<sup>-2</sup>"
                 ]
             }
+        },
+        {
+            "question": "Dojde-li k vnějšímu fotoelektrickému jevu, pak při konstantním napětí mezi anodou a fotokatodou vakuové fotonky závisí velikost fotoproudu na velikosti světelného toku dopadajícího na fotokatodu",
+            "answers": {
+                "correct": [
+                    "přímo úměrně"
+                ],
+                "incorrect": [
+                    "lineárně",
+                    "kvadraticky",
+                    "s vyšší mocninou",
+                    "nezávisí na světelném toku"
+                    
+                ]
+            }
+        },
+        {
+            "question": "Změřením závislosti brzdného napětí fotoelektronů na frekvenci dopadajícího záření můžeme určit nejen Planckovu konstantu, ale i výstupní práci elektronů z fotokatody. Měřéním bylo zjištěno brzdné ňapětí 1,54 V pro vlnovou délku 400 nm a brzdné nápětí 0,51 V pro vlnovou délku 600 nm (e = —1,6.10<sup></sup> C). Výstupní práce elektronů z tétofotokatody je",
+            "answers": {
+                "correct": [
+                    "2,48.10<sup>-19</sup> J"
+                ],
+                "incorrect": [
+                    "2,03.10<sup>-19</sup> J",
+                    "1,8 eV",
+                    "0,88 eV",
+                    "3,11.10<sup>-19</sup> J"
+                ]
+            },
+            "comment": "W = h*f-e*U<sub>b</sub>"
+        },
+        {
+            "question": "Hodnota Planckovy konstanty h = 6,63.10<sup>-34</sup> Js a velikost náboje elektronu e = —1,6.10<sup>-19</sup> A.s jsou obecné konstanty, uváděné v řadě fyzikálních tabulek. Změřením brzdného napětí fotoelektronů, uvolněných monochromatickým světlem známé vlnové délky, můžeme proto vypočítat výstupní práci elektronů z dané fotokatody. Při dopadu monochromatického UV světla vlnové délky 300 nm jsme naměřili brzdné napětí 0,73 V. Výstupní práce elektronů je",
+            "answers": {
+                "correct": [
+                    "5,46.10<sup>-19</sup> J"
+                ],
+                "incorrect": [
+                    "5,46 eV",
+                    "3,80 eV",
+                    "3,80.10<sup>-19</sup> J",
+                    "2,63 eV"
+                ]
+            },
+            "comment": "W = h*f-e*U<sub>b</sub>"
+        },
+        {
+            "question": "V oblasti viditelného světla má největší energii foton příslušející světlu barvy",
+            "answers": {
+                "correct": [
+                    "fialové"
+                ],
+                "incorrect": [
+                    "červené",
+                    "zelené",
+                    "žluté",
+                    "fotony viditelného světla mají stejnou energii"
+                ]
+            }
+        },
+        {
+            "question": "Lze použít při zkoumání vnějšího fotoelektrického jevu místo vakuové fotonky fotonku polovodičovou?",
+            "answers": {},
+            "commnet": "Zatím bez odpovědi"
+        },
+        {
+            "question": "Elektromagnetické záření vyvolává fotoelektrický jev",
+            "answers": {
+                "correct": [
+                    "jen tehdy, je-li jeho vlnová délka menší než určitá λ<sub>max</sub>"
+                ],
+                "incorrect": [
+                    "jen tehdy, je-li jeho vlnová délka větší než určitá λ<sub>min</sub>",
+                    "jen tehdy, je-li jeho frekvence menší než určitá f<sub>max</sub>",
+                    "vždy"
+                ]
+            }
+        },
+        {
+            "question": "Maximální rychlost fotoelektronů emitovaných z kovu působením monochromatického světla závisí",
+            "answers": {
+                "correct": [
+                    "na energii fotonů a na druhu kovu."
+                ],
+                "incorrect": [
+                    "na rychlosti šíření světla v Prostředí obklopující kov.",
+                    "na počtu fotonů dopadajících na kov a na druhu kovu.",
+                    "na celkové energii světla dopadajícího na kov.",
+                    "pouze na druhu kovu."
+                ]
+            }
+        },
+        {
+            "question": "Einsteinova rovnice pro fotoelektrický jev vyjadřuje zákon zachování",
+            "answers": {
+                "correct": [
+                    "energie"
+                ],
+                "incorrect": [
+                    "hybnosti",
+                    "momentu hybnosti",
+                    "hmotnosti"
+                ]
+            }
+        },
+        {
+            "question": "Foton má",
+            "answers": {
+                "correct": [
+                    "částicové i vlnové vlastnosti"
+                ],
+                "incorrect": [
+                    "pouze vlastnosti částice",
+                    "pouze vlastnosti vlny",
+                    "nenulovou klidovou hmotnost"
+                ]
+            }
+        },
+        {
+            "question": "Energie základního stavu elektronu v určitém atomu je",
+            "answers": {
+                "correct": [
+                    "nejnižší možná"
+                ],
+                "incorrect": [
+                    "kladná",
+                    "závislá na počtu neutronů v jádře",
+                    "závislá na nukleonovém čísle",
+                    "nejvyšší možná"
+                ]
+            }
+        },
+        {
+            "question": "Rychlost uvolněných elektronů při vnějším fotoelektrickém jevu závisí na",
+            "answers": {
+                "correct": [
+                    "vlnové délce světla"
+                ],
+                "incorrect": [
+                    "intenzitě světla",
+                    "velikosti osvětlené plochy"
+                ]
+            }
+        },
+        {
+            "question": "Číselnou hodnotu Planckovy konstanty je možno udávat v jednotkách",
+            "answers": {
+                "correct": [
+                    "eV.s"
+                ],
+                "incorrect": [
+                    "J.s<sup>-1</sup>",
+                    "W",
+                    "W.m<sup>-2</sup>"
+                ]
+            }
+        },
+        {
+            "question": "Co je příčinou toho, že mohou existovat LED diody vyzařující světlo různé barvy?",
+            "answers": {},
+            "comment": "---"
+        },
+        {
+            "question": "Z následujících optoelektronických součástek: vakuová fotonka, plynem plněná fotonka, selenový fotočlánek, polovodičová fotodioda je možné v této úloze použít",
+            "answers": {
+                "correct": [
+                    "pouze vakuovou fotonku"
+                ],
+                "incorrect": [
+                    "pouze selenový fotočlánek",
+                    "pouze polovodičovou diodu",
+                    "všechny uvedené součástky kromě polovodičové diody" ,
+                    "pouze vakuovou nebo plynem plněnou fotonku"
+                ]
+            }
         }
     ]
 }
