@@ -4,12 +4,13 @@ import Answer from './answer.js';
 import "../../css/card.css";
 import "../../css/quiz/quiz.css";
 import DOMPurify from 'dompurify';
+import { shuffleArray } from "../../lib/arrays"
+import { quizQuestionParse } from '../../lib/dataParser1.js';
 
 export default function Quiz(props) {
     const [allQuestions, setAllQuestions] = useState([]);
     const [currentQuestion, setCurrentQuestion] = useState({});
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [shuffledAnswers, setShuffledAnswers] = useState([]);
 
     const fetchDataset = async () => {   
         let dataset = await fetch(props.dataset);
@@ -23,26 +24,9 @@ export default function Quiz(props) {
         });
     };
 
-    const shuffleArray = (array) => {
-        var m = array.length, t, i;
-      
-        // While there remain elements to shuffle…
-        while (m) {
-      
-            // Pick a remaining element…
-            i = Math.floor(Math.random() * m--);
-        
-            // And swap it with the current element.
-            t = array[m];
-            array[m] = array[i];
-            array[i] = t;
-        }
-      
-        return array;
-    }
-
     const nextQuestion = (e) => {
-        setCurrentQuestion(allQuestions[currentQuestionIndex]);
+        let currentQuestion = quizQuestionParse(allQuestions[currentQuestionIndex])
+        setCurrentQuestion(currentQuestion);
 
         if (currentQuestionIndex < allQuestions.length - 1) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
@@ -59,33 +43,12 @@ export default function Quiz(props) {
         nextQuestion();
     }, [allQuestions]);
 
-    useEffect(() => {
-        var answers = [];
-        if (currentQuestion && currentQuestion.answers) {
-            if (currentQuestion.answers.correct) {
-                answers = answers.concat(currentQuestion.answers.correct.map(answer => ({
-                    text: answer,
-                    correct: true
-                })));
-            }
-    
-            if (currentQuestion.answers.incorrect) {
-                answers = answers.concat(currentQuestion.answers.incorrect.map(answer => ({
-                    text: answer,
-                    correct: false
-                })));
-            }
-
-            setShuffledAnswers(shuffleArray(answers));
-        }
-    }, [currentQuestion])
-
     return (
-        <div className='card'>
+        <div className='card' key={currentQuestionIndex}>
             <div className='question' dangerouslySetInnerHTML={{__html: currentQuestion && currentQuestion.question && DOMPurify.sanitize(currentQuestion.question)}}>
             </div>
-            { shuffledAnswers && shuffledAnswers.map((answer, key) => {
-                return <Answer key={key} answer={answer}>{answer}</Answer>
+            { currentQuestion && currentQuestion.answers && currentQuestion.answers.map((answer, key) => {
+                return <Answer key={key} answer={answer}></Answer>
             })}
             <button className="button" onClick={nextQuestion}>Další otázka</button>
         </div>
