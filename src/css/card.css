@@ -1,16 +1,20 @@
-@import url('./themes.css');
-
 .card {
-    font-size: 1em;
-    line-height: 1.5em;
-    color: var(--text);
-    background-color: var(--card-background);
-    display: flex;
-    flex-direction: column;
-    margin: 16px;
-    border: 1px solid var(--border);
-    min-width: fit-content;
-  }
+  font-size: 1em;
+  line-height: 1.5em;
+  color: var(--text);
+  background-color: var(--card-background);
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  border: 1px solid var(--border);
+  min-width: fit-content;
+}
+
+.card > * {
+  padding: .5rem;
+  font-size: inherit;
+  line-height: inherit;
+}
   
   .card-header {
     display: flex;
@@ -18,13 +22,11 @@
   }
   
   .card-question {
-    padding: .5rem;
     flex-grow: 1;
     border: 1px solid var(--border);
   }
   
   .card-score {
-    padding: .5rem;
     text-align: center;
     width: 4em;
     border: 1px solid var(--border);
@@ -33,7 +35,6 @@
   .card-answer-neutral {
     color: var(--text-background);
     background-color: var(--text);
-    padding: .5rem;
     display: none;
     border: 1px solid var(--border);
   }
@@ -41,7 +42,6 @@
   .card-answer-correct {
     color: var(--correct);
     background-color: var(--correct-background);
-    padding: .5rem;
     display: none;
     border: 1px solid var(--border);
   }
@@ -49,7 +49,6 @@
   .card-answer-wrong {
     color: var(--incorrect);
     background-color: var(--incorrect-background);
-    padding: .5rem;
     display: none;
     border: 1px solid var(--border);
   }
@@ -57,7 +56,6 @@
   .card-comment {
     color: var(--comment);
     background-color: var(--comment-background);
-    padding: .5rem;
     display: none;
     border: 1px solid var(--border);
   }

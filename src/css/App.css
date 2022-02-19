@@ -11,6 +11,8 @@ body {
 
 .content {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   background-color: var(--page-background);
   top: 60px;
   width: 100%;

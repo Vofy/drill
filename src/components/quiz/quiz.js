@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Answer from './answer.js';
+import "../../index.css";
 import "../../css/card.css";
 import "../../css/quiz/quiz.css";
 import DOMPurify from 'dompurify';
@@ -19,7 +20,7 @@ export default function Quiz(props) {
         return dataset.json();
     };
 
-    const setQuestions = async () => {
+    const fetchAndShuffleDataset = async () => {
         fetchDataset()
         .then((dataset) => {
             setAllQuestions(shuffleArray(dataset.questions));
@@ -34,18 +35,19 @@ export default function Quiz(props) {
         setCurrentQuestionIndex(currentQuestionIndex - 1);
     };
 
-
     useEffect(() => {
-        setQuestions();
+        fetchAndShuffleDataset();
     }, [location]);
 
     useEffect(() => {
-        nextQuestion();
-    }, [allQuestions]);
+        if (currentQuestionIndex < 0) {
+            setCurrentQuestionIndex(allQuestions.length - 1);
+        } else if (currentQuestionIndex > allQuestions.length - 1) {
+            setCurrentQuestionIndex(0);
+        }
 
-    useEffect(() => {
         setCurrentQuestion(quizQuestionParse(allQuestions[currentQuestionIndex]));
-    }, [currentQuestionIndex]);
+    }, [currentQuestionIndex, allQuestions]);
 
     return (<>
         <div className='card' key={currentQuestionIndex}>
@@ -56,9 +58,9 @@ export default function Quiz(props) {
             })}
         </div>
 
-        <div className='card'>
-            <button className="button" onClick={nextQuestion}>Předchozí otázka</button>
-            <button className="button" onClick={previousQuestion}>Další otázka</button>
+        <div className='card flex-end flex-row'>
+            <button className="button" onClick={previousQuestion}>Předchozí otázka</button>
+            <button className="button" onClick={nextQuestion}>Další otázka</button>
         </div>
         </>
     )
