@@ -1,9 +1,9 @@
 import React from 'react';
 import DOMPurify from 'dompurify';
-import '../css/card.css';
+import '../../css/card.css';
 import { useRecoilValue } from 'recoil';
 
-import { showIncorrectAnswersState } from '../globalState';
+import { showIncorrectAnswersState } from '../../globalState';
 
 export default function Result(props) {
     const showIncorrectAnswers = useRecoilValue(showIncorrectAnswersState);

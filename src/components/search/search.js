@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Result from './result.js';
 import Fuse from 'fuse.js';
 import { useRecoilValue } from 'recoil';
-import { searchedStringState } from '../globalState.js';
+import { searchedStringState } from '../../globalState.js';
 import { useLocation } from 'react-router-dom';
 
 export default function Search(props) {

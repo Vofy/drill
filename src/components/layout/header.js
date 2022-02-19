@@ -1,7 +1,7 @@
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 import { useLocation } from "react-router";
-import { menuOpenedState, modeState, searchedStringState } from "../globalState";
-import '../css/header.css';
+import { menuOpenedState, modeState, searchedStringState } from "../../globalState";
+import '../../css/header.css';
 
 export default function Header(props) {
   const location = useLocation();

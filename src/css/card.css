@@ -30,6 +30,14 @@
     border: 1px solid var(--border);
   }
   
+  .card-answer-neutral {
+    color: var(--text-background);
+    background-color: var(--text);
+    padding: .5rem;
+    display: none;
+    border: 1px solid var(--border);
+  }
+
   .card-answer-correct {
     color: var(--correct);
     background-color: var(--correct-background);

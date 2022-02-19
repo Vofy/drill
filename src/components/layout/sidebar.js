@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import './../css/sidebar.css';
-import Accordion from './accordion';
+import '../../css/sidebar.css';
+import Accordion from '../accordion';
 import { useRecoilState } from "recoil";
-import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "../globalState";
+import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "../../globalState";
 import { useLocation } from "react-router";
 import { useEffect } from "react";
 
-export function SideBar() {
+export default function SideBar() {
     const location = useLocation();
 
     const [showIncorrectAnswers, setShowIncorrectAnswers] = useRecoilState(showIncorrectAnswersState);

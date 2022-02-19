@@ -1,13 +1,14 @@
 import './css/App.css';
 import React from 'react';
 import { Routes, Route, useLocation } from "react-router-dom";
-import Header from './components/header'
-import { SideBar } from './components/sidebar';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { modeState, searchedStringState, themeState } from './globalState'
 
+
+import Header from './components/layout/header'
+import SideBar from './components/layout/sidebar';
 import Quiz from './components/quiz/quiz';
-import Search from './components/search';
+import Search from './components/search/search';
 import Home from './components/home';
 
 

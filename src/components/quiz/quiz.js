@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Result from '../result.js';
 import Answer from './answer.js';
 import "../../css/card.css";
 import "../../css/quiz/quiz.css";
@@ -28,15 +27,13 @@ export default function Quiz(props) {
     };
 
     const nextQuestion = (e) => {
-        let currentQuestion = quizQuestionParse(allQuestions[currentQuestionIndex])
-        setCurrentQuestion(currentQuestion);
-
-        if (currentQuestionIndex < allQuestions.length - 1) {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
-        } else {
-            setCurrentQuestionIndex(0);
-        }
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
     };
+
+    const previousQuestion = (e) => {
+        setCurrentQuestionIndex(currentQuestionIndex - 1);
+    };
+
 
     useEffect(() => {
         setQuestions();
@@ -46,14 +43,23 @@ export default function Quiz(props) {
         nextQuestion();
     }, [allQuestions]);
 
-    return (
+    useEffect(() => {
+        setCurrentQuestion(quizQuestionParse(allQuestions[currentQuestionIndex]));
+    }, [currentQuestionIndex]);
+
+    return (<>
         <div className='card' key={currentQuestionIndex}>
             <div className='question' dangerouslySetInnerHTML={{__html: currentQuestion && currentQuestion.question && DOMPurify.sanitize(currentQuestion.question)}}>
             </div>
             { currentQuestion && currentQuestion.answers && currentQuestion.answers.map((answer, key) => {
                 return <Answer key={key} answer={answer}></Answer>
             })}
-            <button className="button" onClick={nextQuestion}>Další otázka</button>
         </div>
+
+        <div className='card'>
+            <button className="button" onClick={nextQuestion}>Předchozí otázka</button>
+            <button className="button" onClick={previousQuestion}>Další otázka</button>
+        </div>
+        </>
     )
 }
