@@ -20,7 +20,7 @@ export function SideBar() {
 
     useEffect(() => {
         setMenuOpened(false);
-    }, [location])
+    }, [location, showIncorrectAnswers, theme, mode])
 
     const colorThemes = [
         {name: "Moodle (light)", value: ""},
