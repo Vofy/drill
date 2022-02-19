@@ -64,8 +64,8 @@ export default function Search(props) {
     }, [location]);
     
     return (
-        <div key={props.dataset}>
+        <>
         { result && result.map((res, index) => <Result key={index} res={res}/>) }
-        </div>
+        </>
     )
 }

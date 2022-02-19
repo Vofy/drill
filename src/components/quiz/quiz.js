@@ -6,8 +6,11 @@ import "../../css/quiz/quiz.css";
 import DOMPurify from 'dompurify';
 import { shuffleArray } from "../../lib/arrays"
 import { quizQuestionParse } from '../../lib/dataParser1.js';
+import { useLocation } from 'react-router-dom';
 
 export default function Quiz(props) {
+    const location = useLocation();
+
     const [allQuestions, setAllQuestions] = useState([]);
     const [currentQuestion, setCurrentQuestion] = useState({});
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -37,7 +40,7 @@ export default function Quiz(props) {
 
     useEffect(() => {
         setQuestions();
-    }, []);
+    }, [location]);
 
     useEffect(() => {
         nextQuestion();
