@@ -1,0 +1,22 @@
+.answer {
+    display: block;
+    width: 100%;
+
+    color: var(--comment);
+    background-color: var(--comment-background);
+    padding: .5rem;
+    border: 1px solid var(--border);
+}
+
+.answer:hover {
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+.answer.correct {
+    background-color: var(--correct-background);
+}
+
+.answer.incorrect {
+    background-color: var(--incorrect-background);
+}

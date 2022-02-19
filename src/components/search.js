@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Result from './result.js';
 import Fuse from 'fuse.js';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { modeState, searchedStringState } from '../globalState.js';
 
-export default function Exam(props) {
-    const [result,setResult] = useState([]);
-    const [fuse,setFuse] = useState(null);
-    const [allQuestions,setAllQuestions] = useState([]);
+export default function Search(props) {
+  const setMode = useSetRecoilState(modeState);
+  const searchedString = useRecoilValue(searchedStringState);
+
+  const [result,setResult] = useState([]);
+  const [fuse,setFuse] = useState(null);
+  const [allQuestions,setAllQuestions] = useState([]);
 
   const fetchDataset = async () => {   
     let dataset = await fetch(props.dataset);
@@ -36,12 +41,12 @@ export default function Exam(props) {
   
       const Search = async () => {
         if (fuse && allQuestions) {
-          if (props.searchedString === "") {
+          if (searchedString === "") {
             let mappedArray = [];
             allQuestions.forEach(question => mappedArray.push({ item: question }));
             setResult(mappedArray);
           } else {
-            setResult(fuse.search(props.searchedString));
+            setResult(fuse.search(searchedString));
           }
   
           props.contentRef.current.scrollTo(0, 0);
@@ -50,11 +55,10 @@ export default function Exam(props) {
 
       Search();
       
-    }, [fuse, props.searchedString]);
+    }, [fuse, searchedString]);
 
     useEffect(() => {
       initFuse();
-      props.setMode('search');
     }, []);
     return (
         <>

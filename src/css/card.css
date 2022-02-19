@@ -1,6 +1,6 @@
 @import url('./themes.css');
 
-.result {
+.card {
     font-size: 1em;
     line-height: 1.5em;
     color: var(--text);
@@ -12,25 +12,25 @@
     min-width: fit-content;
   }
   
-  .result-header {
+  .card-header {
     display: flex;
     flex-direction: row;
   }
   
-  .result-question {
+  .card-question {
     padding: .5rem;
     flex-grow: 1;
     border: 1px solid var(--border);
   }
   
-  .result-score {
+  .card-score {
     padding: .5rem;
     text-align: center;
     width: 4em;
     border: 1px solid var(--border);
   }
   
-  .result-answer-correct {
+  .card-answer-correct {
     color: var(--correct);
     background-color: var(--correct-background);
     padding: .5rem;
@@ -38,15 +38,15 @@
     border: 1px solid var(--border);
   }
   
-  .result-answer-wrong {
+  .card-answer-wrong {
     color: var(--incorrect);
-    background-color: var(--incorrect-bacground);
+    background-color: var(--incorrect-background);
     padding: .5rem;
     display: none;
     border: 1px solid var(--border);
   }
   
-  .result-comment {
+  .card-comment {
     color: var(--comment);
     background-color: var(--comment-background);
     padding: .5rem;
@@ -54,6 +54,6 @@
     border: 1px solid var(--border);
   }
   
-  .result img {
+  .card img {
     vertical-align: middle;
   }
