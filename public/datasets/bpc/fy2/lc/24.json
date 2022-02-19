@@ -175,7 +175,14 @@
         },
         {
             "question": "Lze použít při zkoumání vnějšího fotoelektrického jevu místo vakuové fotonky fotonku polovodičovou?",
-            "answers": {},
+            "answers": {
+	    	"correct": [
+		    "Ne"
+		],
+		"incorrect": [
+		    "Ano"
+		]
+	    },
             "commnet": "Zatím bez odpovědi"
         },
         {
