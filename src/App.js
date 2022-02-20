@@ -28,11 +28,9 @@ function App() {
       <div className="content" ref={content}>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path={location.pathname}>
-            {((mode === 'search') && <Search searchedString={searchedString} contentRef={content} dataset={'/datasets' + location.pathname + '.json'} />) ||
-            ((mode === 'quiz') && <Quiz dataset={'/datasets' + location.pathname + '.json'} />)
-          } 
-          </Route>
+          <Route path={location.pathname} element={
+            ((mode === 'search') && <Search searchedString={searchedString} contentRef={content} dataset={'/datasets' + location.pathname + '.json'} />) ||
+            ((mode === 'quiz') && <Quiz dataset={'/datasets' + location.pathname + '.json'} />)} />
         </Routes>
       </div>
     </div>
