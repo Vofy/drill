@@ -4,7 +4,6 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { modeState, searchedStringState, themeState } from './globalState'
 
-
 import Header from './components/layout/header'
 import SideBar from './components/layout/sidebar';
 import Quiz from './components/quiz/quiz';
@@ -13,22 +12,13 @@ import Home from './components/home';
 
 
 function App() {
+  const location = useLocation();
+
   const [theme, setTheme] = useRecoilState(themeState);
-  const state = useRecoilValue(modeState);
+  const mode = useRecoilValue(modeState);
   const [searchedString, setSearchedString] = useRecoilState(searchedStringState);
   
   const content = React.createRef();
-
-  const datasets = [
-    {
-      name: 'Zkouška',
-      path: '/bpc/mpe/zkouska'
-    },
-    {
-      name: '24 Fotoelektrický jev a Planckova konstanta ',
-      path: '/bpc/fy2/lc/24'
-    },
-  ];
 
   return (
     <div className="App" data-theme={theme}>
@@ -38,12 +28,11 @@ function App() {
       <div className="content" ref={content}>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          {datasets.map((dataset, index) => 
-            <Route key={index} path={dataset.path} element={
-              ((state === 'search') && <Search searchedString={searchedString} contentRef={content} dataset={'/datasets' + dataset.path + '.json'} />) ||
-              ((state === 'quiz') && <Quiz dataset={'/datasets' + dataset.path + '.json'} />)
-            } />
-          )}
+          <Route path={location.pathname}>
+            {((mode === 'search') && <Search searchedString={searchedString} contentRef={content} dataset={'/datasets' + location.pathname + '.json'} />) ||
+            ((mode === 'quiz') && <Quiz dataset={'/datasets' + location.pathname + '.json'} />)
+          } 
+          </Route>
         </Routes>
       </div>
     </div>

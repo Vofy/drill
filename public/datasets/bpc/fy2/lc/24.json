@@ -1,9 +1,10 @@
 {
-    "name": "Úloha 24",
+    "title": "Úloha 24",
     "description": "Přepis z fektušky",
-    "questions": [
+    "parser_version": 1,
+    "tasks": [
         {
-            "question": "Podstatou této úlohy je měření brzdného napětí elektronů, uvolněných fotony z fotokatody. Brzdné napětí závisí",
+            "title": "Podstatou této úlohy je měření brzdného napětí elektronů, uvolněných fotony z fotokatody. Brzdné napětí závisí",
             "answers": {
                 "correct": [
                     "na frekvenci dopadajícího záření i na velikosti výstupní práce."
@@ -17,7 +18,7 @@
             }
         },
         {
-            "question": "Součet kinetické energie fotoelektronu a výstupní práce z povrchu fotokatody je závislý na vlnové délce světla, dopadajícího na fotokatodu. Tato závislost je",
+            "title": "Součet kinetické energie fotoelektronu a výstupní práce z povrchu fotokatody je závislý na vlnové délce světla, dopadajícího na fotokatodu. Tato závislost je",
             "answers": {
                 "correct": [
                     "nepřímou úměrností"
@@ -31,7 +32,7 @@
             }
         },
         {
-            "question": "Brzdné napětí fotoelektronů závisí na intenzitě monochromatického světla, dopadajícího na fotoelektrodu",
+            "title": "Brzdné napětí fotoelektronů závisí na intenzitě monochromatického světla, dopadajícího na fotoelektrodu",
             "answers": {
                 "correct": [
                     "nezávisí na ní"
@@ -45,7 +46,7 @@
             }
         },
         {
-            "question": "Ze závislosti brzdného napětí fotoelektronů na frekvenci, resp. na vlnové délce dopadajícího světla je zřejmé, že existuje krajní frekvence (resp. vlnová délka), při níž je brzdné napětí nulové a záření tedy vnější fotoefekt nevyvolá. Wolfram má výstupní práci elektronů z povrchu asi 4,5 eV, Planckova konstanta je 6,63.10<sup>-34</sup> J.s, náboj elektronu je -1,6.10<sup>-19</sup> A.s. Nejdelší vlnová délka světla, jež vyvolá na wolframovém povrchu vnější fotoefekt, proto je",
+            "title": "Ze závislosti brzdného napětí fotoelektronů na frekvenci, resp. na vlnové délce dopadajícího světla je zřejmé, že existuje krajní frekvence (resp. vlnová délka), při níž je brzdné napětí nulové a záření tedy vnější fotoefekt nevyvolá. Wolfram má výstupní práci elektronů z povrchu asi 4,5 eV, Planckova konstanta je 6,63.10<sup>-34</sup> J.s, náboj elektronu je -1,6.10<sup>-19</sup> A.s. Nejdelší vlnová délka světla, jež vyvolá na wolframovém povrchu vnější fotoefekt, proto je",
             "answers": {
                 "correct": [
                     "276 nm"
@@ -59,7 +60,7 @@
             }
         },
         {
-            "question": "Výstupní práce elektronu z kobaltu je 4,18 eV. Vypočtěte mezní vlnovou délku světla, při které nastane fotoelektrický jev. (Planckova konstanta ...",
+            "title": "Výstupní práce elektronu z kobaltu je 4,18 eV. Vypočtěte mezní vlnovou délku světla, při které nastane fotoelektrický jev. (Planckova konstanta ...",
             "answers": {
                 "correct": [
                     "297 nm"
@@ -73,7 +74,7 @@
             }
         },
         {
-            "question": "Výstupní práce elektronu je",
+            "title": "Výstupní práce elektronu je",
             "answers": {
                 "correct": [
                     "energie potřebná k uvolnění elektronu z povrchu materiálu s nulovou rychlostí."
@@ -87,7 +88,7 @@
             }
         },
         {
-            "question": "Který ze vztahů mezi vlnovou délkou λ , ferkvencí f , periodou T a fázovou rychlostí c vlnění není správný?",
+            "title": "Který ze vztahů mezi vlnovou délkou λ , ferkvencí f , periodou T a fázovou rychlostí c vlnění není správný?",
             "answers": {
                 "correct": [
                     "λ=cf"
@@ -101,7 +102,7 @@
             }
         },
         {
-            "question": "Číselnou hodnotu Planckovy konstanty je možno udávat také v jednotkách",
+            "title": "Číselnou hodnotu Planckovy konstanty je možno udávat také v jednotkách",
             "answers": {
                 "correct": [
                     "eV.s"
@@ -115,7 +116,7 @@
             }
         },
         {
-            "question": "Dojde-li k vnějšímu fotoelektrickému jevu, pak při konstantním napětí mezi anodou a fotokatodou vakuové fotonky závisí velikost fotoproudu na velikosti světelného toku dopadajícího na fotokatodu",
+            "title": "Dojde-li k vnějšímu fotoelektrickému jevu, pak při konstantním napětí mezi anodou a fotokatodou vakuové fotonky závisí velikost fotoproudu na velikosti světelného toku dopadajícího na fotokatodu",
             "answers": {
                 "correct": [
                     "přímo úměrně"
@@ -130,7 +131,7 @@
             }
         },
         {
-            "question": "Změřením závislosti brzdného napětí fotoelektronů na frekvenci dopadajícího záření můžeme určit nejen Planckovu konstantu, ale i výstupní práci elektronů z fotokatody. Měřéním bylo zjištěno brzdné ňapětí 1,54 V pro vlnovou délku 400 nm a brzdné nápětí 0,51 V pro vlnovou délku 600 nm (e = —1,6.10<sup></sup> C). Výstupní práce elektronů z tétofotokatody je",
+            "title": "Změřením závislosti brzdného napětí fotoelektronů na frekvenci dopadajícího záření můžeme určit nejen Planckovu konstantu, ale i výstupní práci elektronů z fotokatody. Měřéním bylo zjištěno brzdné ňapětí 1,54 V pro vlnovou délku 400 nm a brzdné nápětí 0,51 V pro vlnovou délku 600 nm (e = —1,6.10<sup></sup> C). Výstupní práce elektronů z tétofotokatody je",
             "answers": {
                 "correct": [
                     "2,48.10<sup>-19</sup> J"
@@ -145,7 +146,7 @@
             "comment": "W = h*f-e*U<sub>b</sub>"
         },
         {
-            "question": "Hodnota Planckovy konstanty h = 6,63.10<sup>-34</sup> Js a velikost náboje elektronu e = —1,6.10<sup>-19</sup> A.s jsou obecné konstanty, uváděné v řadě fyzikálních tabulek. Změřením brzdného napětí fotoelektronů, uvolněných monochromatickým světlem známé vlnové délky, můžeme proto vypočítat výstupní práci elektronů z dané fotokatody. Při dopadu monochromatického UV světla vlnové délky 300 nm jsme naměřili brzdné napětí 0,73 V. Výstupní práce elektronů je",
+            "title": "Hodnota Planckovy konstanty h = 6,63.10<sup>-34</sup> Js a velikost náboje elektronu e = —1,6.10<sup>-19</sup> A.s jsou obecné konstanty, uváděné v řadě fyzikálních tabulek. Změřením brzdného napětí fotoelektronů, uvolněných monochromatickým světlem známé vlnové délky, můžeme proto vypočítat výstupní práci elektronů z dané fotokatody. Při dopadu monochromatického UV světla vlnové délky 300 nm jsme naměřili brzdné napětí 0,73 V. Výstupní práce elektronů je",
             "answers": {
                 "correct": [
                     "5,46.10<sup>-19</sup> J"
@@ -160,7 +161,7 @@
             "comment": "W = h*f-e*U<sub>b</sub>"
         },
         {
-            "question": "V oblasti viditelného světla má největší energii foton příslušející světlu barvy",
+            "title": "V oblasti viditelného světla má největší energii foton příslušející světlu barvy",
             "answers": {
                 "correct": [
                     "fialové"
@@ -174,7 +175,7 @@
             }
         },
         {
-            "question": "Lze použít při zkoumání vnějšího fotoelektrického jevu místo vakuové fotonky fotonku polovodičovou?",
+            "title": "Lze použít při zkoumání vnějšího fotoelektrického jevu místo vakuové fotonky fotonku polovodičovou?",
             "answers": {
 	    	"correct": [
 		    "Ne"
@@ -186,7 +187,7 @@
             "commnet": "Zatím bez odpovědi"
         },
         {
-            "question": "Elektromagnetické záření vyvolává fotoelektrický jev",
+            "title": "Elektromagnetické záření vyvolává fotoelektrický jev",
             "answers": {
                 "correct": [
                     "jen tehdy, je-li jeho vlnová délka menší než určitá λ<sub>max</sub>"
@@ -199,7 +200,7 @@
             }
         },
         {
-            "question": "Maximální rychlost fotoelektronů emitovaných z kovu působením monochromatického světla závisí",
+            "title": "Maximální rychlost fotoelektronů emitovaných z kovu působením monochromatického světla závisí",
             "answers": {
                 "correct": [
                     "na energii fotonů a na druhu kovu."
@@ -213,7 +214,7 @@
             }
         },
         {
-            "question": "Einsteinova rovnice pro fotoelektrický jev vyjadřuje zákon zachování",
+            "title": "Einsteinova rovnice pro fotoelektrický jev vyjadřuje zákon zachování",
             "answers": {
                 "correct": [
                     "energie"
@@ -226,7 +227,7 @@
             }
         },
         {
-            "question": "Foton má",
+            "title": "Foton má",
             "answers": {
                 "correct": [
                     "částicové i vlnové vlastnosti"
@@ -239,7 +240,7 @@
             }
         },
         {
-            "question": "Energie základního stavu elektronu v určitém atomu je",
+            "title": "Energie základního stavu elektronu v určitém atomu je",
             "answers": {
                 "correct": [
                     "nejnižší možná"
@@ -253,7 +254,7 @@
             }
         },
         {
-            "question": "Rychlost uvolněných elektronů při vnějším fotoelektrickém jevu závisí na",
+            "title": "Rychlost uvolněných elektronů při vnějším fotoelektrickém jevu závisí na",
             "answers": {
                 "correct": [
                     "vlnové délce světla"
@@ -265,7 +266,7 @@
             }
         },
         {
-            "question": "Číselnou hodnotu Planckovy konstanty je možno udávat v jednotkách",
+            "title": "Číselnou hodnotu Planckovy konstanty je možno udávat v jednotkách",
             "answers": {
                 "correct": [
                     "eV.s"
@@ -278,12 +279,12 @@
             }
         },
         {
-            "question": "Co je příčinou toho, že mohou existovat LED diody vyzařující světlo různé barvy?",
+            "title": "Co je příčinou toho, že mohou existovat LED diody vyzařující světlo různé barvy?",
             "answers": {},
             "comment": "---"
         },
         {
-            "question": "Z následujících optoelektronických součástek: vakuová fotonka, plynem plněná fotonka, selenový fotočlánek, polovodičová fotodioda je možné v této úloze použít",
+            "title": "Z následujících optoelektronických součástek: vakuová fotonka, plynem plněná fotonka, selenový fotočlánek, polovodičová fotodioda je možné v této úloze použít",
             "answers": {
                 "correct": [
                     "pouze vakuovou fotonku"

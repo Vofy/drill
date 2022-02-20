@@ -38,6 +38,11 @@ export default function SideBar() {
             <Link to="/">Domů</Link>
             <Accordion name="BPC">
                 <Accordion name="MPE">
+                    <Accordion name="LC">
+                        <Link to="/bpc/mpe/lc/8">Úloha 8</Link>
+                        <Link to="/bpc/mpe/lc/9">Úloha 9</Link>
+                        <Link to="/bpc/mpe/lc/10">Úloha 10</Link>
+                    </Accordion>
                     <Link to="/bpc/mpe/zkouska">Zkouška</Link>
                 </Accordion>
                 <Accordion name="FY2">

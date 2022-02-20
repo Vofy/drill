@@ -1,9 +1,9 @@
 {
-  "name": "Úloha 9",
+  "title": "Úloha 9",
   "description": "",
-  "questions": [
+  "tasks": [
     {
-      "question": "Kterými hrotovými doteky teče proud a kterými doteky se měří napětí při měření konduktivity polovodiče 4-bodovou metodou ?",
+      "title": "Kterými hrotovými doteky teče proud a kterými doteky se měří napětí při měření konduktivity polovodiče 4-bodovou metodou ?",
       "answers": {
         "correct": [
           "Vnějšími teče proud (1-4) a vnitřními se měří napětí (2-3)"
@@ -11,7 +11,7 @@
       }
     },
     {
-      "question": "Jaké vodivost převažuje u příměsového polovodiče typu N ?",
+      "title": "Jaké vodivost převažuje u příměsového polovodiče typu N ?",
       "answers": {
         "correct": [
           "Elektronová"
@@ -19,7 +19,7 @@
       }
     },
     {
-      "question": "Uveďte vztah pro výpočet konduktivity polovodiče γ pro obdélníkový vzorek ve čtyřbodové metodě.",
+      "title": "Uveďte vztah pro výpočet konduktivity polovodiče γ pro obdélníkový vzorek ve čtyřbodové metodě.",
       "answers": {
         "correct": [
           "γ = <b>(I/U)</b>.(1/(<b>h</b>*F(h/s)*c(d/s)))"
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "Jaká je velikost Boltzmannovy konstanty k ?",
+      "title": "Jaká je velikost Boltzmannovy konstanty k ?",
       "answers": {
         "correct": [
           "1,38*10<sup>-23</sup> J.K</sup>-1</sup>"
@@ -35,7 +35,7 @@
       }
     },
     {
-      "question": "Jaká je jednotka ln γ ?",
+      "title": "Jaká je jednotka ln γ ?",
       "answers": {
         "correct": [
           "Nemá jednotku"
@@ -43,7 +43,7 @@
       }
     },
     {
-      "question": "Co udává šířka zakázaného pásu W</sub>g</sub> ?",
+      "title": "Co udává šířka zakázaného pásu W</sub>g</sub> ?",
       "answers": {
         "correct": [
           "Rozdíl energií mezi horním okrajem valenčního pásu W<sub>v</sub> a spodním okrajem vodivostního pásu W<sub>c</sub>"
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "Jaké příměsi převažují u příměsových polovodičů typu P ?",
+      "title": "Jaké příměsi převažují u příměsových polovodičů typu P ?",
       "answers": {
         "correct": [
           "Akceptory"
@@ -59,7 +59,7 @@
       }
     },
     {
-      "question": "Uveďte obecný vztah pro výpočet konduktivity polovodiče γ.",
+      "title": "Uveďte obecný vztah pro výpočet konduktivity polovodiče γ.",
       "answers": {
         "correct": [
           "γ = n<sub>i</sub>.q.(μ<sub>n</sub> + μ<sub>p</sub>)"
@@ -67,7 +67,7 @@
       }
     },
     {
-      "question": "Jaká je jednotka 1/T ?",
+      "title": "Jaká je jednotka 1/T ?",
       "answers": {
         "correct": [
           "K<sup>-1</sup>"
@@ -75,7 +75,7 @@
       }
     },
     {
-      "question": "Jaká je velikost šířky zakázaného pásu W<sub>g</sub> u polovodičů ?",
+      "title": "Jaká je velikost šířky zakázaného pásu W<sub>g</sub> u polovodičů ?",
       "answers": {
         "correct": [
           "Menší než 3 eV"
@@ -83,7 +83,7 @@
       }
     },
     {
-      "question": "Jaká vodivost převažuje u příměsového polovodiče typu P ?",
+      "title": "Jaká vodivost převažuje u příměsového polovodiče typu P ?",
       "answers": {
         "correct": [
           "Děrová"
@@ -91,7 +91,7 @@
       }
     },
     {
-      "question": "Uveďte vztah pro výpočet šířky zakázaného pásu W<sub>g</sub>.",
+      "title": "Uveďte vztah pro výpočet šířky zakázaného pásu W<sub>g</sub>.",
       "answers": {
         "correct": [
           "W<sub>g</sub>=<b>2k</b>((lnγ<sub>1</sub>-lnγ<sub>2</sub>)/((1/<b>T<sub>2</sub></b>)-(1/<b>T<sub>1</sub></b>)))"
@@ -99,7 +99,7 @@
       }
     },
     {
-      "question": "Jaké je jednotka šířky zakázaného pásu W<sub>g</sub> ?",
+      "title": "Jaké je jednotka šířky zakázaného pásu W<sub>g</sub> ?",
       "answers": {
         "correct": [
           "eV"

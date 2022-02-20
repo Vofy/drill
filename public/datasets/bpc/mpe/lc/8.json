@@ -1,9 +1,9 @@
 {
-  "name": "Úloha 8",
+  "title": "Úloha 8",
   "description": "",
-  "questions": [
+  "tasks": [
     {
-      "question": "Co je ferit?",
+      "title": "Co je ferit?",
       "answers": {
       "correct": [
           "materiál obsahující oxidy železa (Fe) využívaný ve vysokofrekvenční a mikrovlnné technice pro výrobu jádra transformátorů, antén a v magnetických zesilovačích"
@@ -11,7 +11,7 @@
       }
     },
     {
-      "question": "Magnetické měkké ferity se vyznačují:",
+      "title": "Magnetické měkké ferity se vyznačují:",
       "answers": {
         "correct": [
             "nízkou mírou nasycení magnetizací, vysokou rezistivitou se záporným teplotním součinitelem rezistivity"
@@ -19,7 +19,7 @@
       }
     },
     {
-      "question": "Magneticky měkké ferity jsou",
+      "title": "Magneticky měkké ferity jsou",
       "answers": {
         "correct": [
             "oxidické ferimagnetika (s nevykompenzovaným antiparalelním uspořádáním magnetických momentů v doméně)"
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "Magneticky měkké ferity se používají:",
+      "title": "Magneticky měkké ferity se používají:",
       "answers": {
         "correct": [
             "pouze při teplotách pod <math><msub><mi>T</mi><mn>C</mn></msub></math> (Curieovou teplotou)"
@@ -35,7 +35,7 @@
       }
     },
     {
-      "question": "Relativní permeabilita ur:",
+      "title": "Relativní permeabilita ur:",
       "answers": {
         "correct": [
           "je závislá na teplotě a intenzitě magnetického pole"
@@ -43,7 +43,7 @@
       }
     },
     {
-      "question": "Jednotka relativní permeability ur?",
+      "title": "Jednotka relativní permeability ur?",
       "answers": {
         "correct": [
           "je bezrozměrná [-]"
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "Magnetická indukčnost cívek je:",
+      "title": "Magnetická indukčnost cívek je:",
       "answers": {
         "correct": [
           "přímo úměrná magnetické permeabilitě materiálu jádra ASI<br/><img height='200' src='https://slideplayer.cz/slide/3345366/11/images/7/Vztah+pro+v%C3%BDpo%C4%8Det+induk%C4%8Dnosti+c%C3%ADvky.jpg'/>"
@@ -59,7 +59,7 @@
       }
     },
     {
-      "question": "Jednotka intenzity magnetického pole H?",
+      "title": "Jednotka intenzity magnetického pole H?",
       "answers": {
         "correct": [
           "Ampér na metr [A * m-1]"
@@ -67,7 +67,7 @@
       }
     },
     {
-      "question": "Při překročení TC Curieovy teploty dochází:",
+      "title": "Při překročení TC Curieovy teploty dochází:",
       "answers": {
         "correct": [
           "Přechodu materiálu z ferimagnetického stavu na paramagnetický stav."
@@ -75,7 +75,7 @@
       }
     },
     {
-      "question": "Při Curiově teplotě magnetických materiálů TC dochází:",
+      "title": "Při Curiově teplotě magnetických materiálů TC dochází:",
       "answers": {
         "correct": [
           "k přechodu ze stavu ferimagnetického do stavu paramagnetického"
@@ -83,7 +83,7 @@
       }
     },
     {
-      "question": "Curieho teplotu určíte, když:",
+      "title": "Curieho teplotu určíte, když:",
       "answers": {
         "correct": [
           "počáteční permeabilita klesne na 50 % své hodnoty zjištěné při teplotě J = 20 ˚C"
@@ -91,7 +91,7 @@
       }
     },
     {
-      "question": "Hodnota permeability vakua (absolutní) je:",
+      "title": "Hodnota permeability vakua (absolutní) je:",
       "answers": {
         "correct": [
           "4pi*10^-7 Hm^-I"
@@ -99,7 +99,7 @@
       }
     },
     {
-      "question": "Co je to křivka prvotní magnetizace?",
+      "title": "Co je to křivka prvotní magnetizace?",
       "answers": {
         "correct": [
           "Závislost magnetické indukce při monoténně rostoucí intenzitě mag. pole na odmagnetovaném materiálu."
@@ -107,7 +107,7 @@
       }
     },
     {
-      "question": "Jednotka magnetické indukce B?",
+      "title": "Jednotka magnetické indukce B?",
       "answers": {
         "correct": [
           "Tesla [T]"
@@ -115,7 +115,7 @@
       }
     },
     {
-      "question": "Relativní permeabilitu jádra cívky můžeme vypočítat tak, že:",
+      "title": "Relativní permeabilitu jádra cívky můžeme vypočítat tak, že:",
       "answers": {
         "correct": [
           "Podělíme změřenou sériovou indukčnost cívky s jádrem vypočtenou geometrickou indukčností bez jádra"
@@ -123,7 +123,7 @@
       }
     },
     {
-      "question": "Po vložení feromagnetika  (ur = 1000) do vnějšího magnetického pole o konstantní intenzitě H se magnetická indukce B oproti magnetické indukci ve vakuu B0:",
+      "title": "Po vložení feromagnetika  (ur = 1000) do vnějšího magnetického pole o konstantní intenzitě H se magnetická indukce B oproti magnetické indukci ve vakuu B0:",
       "answers": {
         "correct": [
           "silně zvětší (10^3 krát)"
@@ -131,7 +131,7 @@
       }
     },
     {
-      "question": "Norma definuje na normální křivce magnetizace tyto parametry:",
+      "title": "Norma definuje na normální křivce magnetizace tyto parametry:",
       "answers": {
         "correct": [
           "počáteční permeabilitu a maximální  permeabilitu"
@@ -139,7 +139,7 @@
       }
     },
     {
-      "question": "Při měření budete používat digitální RLC-metr. Na měření které veličiny přístroj nastavíte?",
+      "title": "Při měření budete používat digitální RLC-metr. Na měření které veličiny přístroj nastavíte?",
       "answers": {
         "correct": [
           "měření indukčnosti L"
@@ -147,7 +147,7 @@
       }
     },
     {
-      "question": "V laboratorní úloze Měření teplotní závislosti počáteční permeability feritů budete měřit:",
+      "title": "V laboratorní úloze Měření teplotní závislosti počáteční permeability feritů budete měřit:",
       "answers": {
         "correct": [
           "Indukčnost L toroidních cívek"
@@ -155,7 +155,7 @@
       }
     },
     {
-      "question": "Při realizaci laboratorní úlohy Měření teplotní závislosti počáteční permeability feritů budete prakticky:",
+      "title": "Při realizaci laboratorní úlohy Měření teplotní závislosti počáteční permeability feritů budete prakticky:",
       "answers": {
         "correct": [
           "nastavovat teplotu vzorků a měřit indukčnost cívek"
@@ -163,7 +163,7 @@
       }
     },
     {
-      "question": "Při realizaci grafu ur=f(v)",
+      "title": "Při realizaci grafu ur=f(v)",
       "answers": {
         "correct": [
           "na ose x bude teplota a na ose y relativní permeabilita"
@@ -171,7 +171,7 @@
       }
     },
     {
-      "question": "Jednotka teplotního součinitele relativní permeability je:",
+      "title": "Jednotka teplotního součinitele relativní permeability je:",
       "answers": {
         "correct": [
           "K^-1"
@@ -179,7 +179,7 @@
       }
     },
     {
-      "question": "Relativní permeabilita je u fero- a ferimagnetik:",
+      "title": "Relativní permeabilita je u fero- a ferimagnetik:",
       "answers": {
         "correct": [
           "vždy větší jak 1"
@@ -187,7 +187,7 @@
       }
     },
     {
-      "question": "Relativní permeabilita ferimagnetik v oblasti pracovních teplot:",
+      "title": "Relativní permeabilita ferimagnetik v oblasti pracovních teplot:",
       "answers": {
         "correct": [
           "s teplotou lineárně roste"
@@ -195,7 +195,7 @@
       }
     },
     {
-      "question": "Počáteční permeabilita upoč je relativní permeabilita, která:",
+      "title": "Počáteční permeabilita upoč je relativní permeabilita, která:",
       "answers": {
         "correct": [
           "se vztahuje na počáteční oblast normální křivky magnetizace, kde H se blíží k nule"

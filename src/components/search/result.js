@@ -11,7 +11,7 @@ export default function Result(props) {
     return (
         <div className="card">
             <div className="card-header">
-                <div className="card-question" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(props.res.item.question)}}/>
+                <div className="card-question" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(props.res.item.title)}}/>
                 { props.res.score && <div className="card-score">Shoda: {((1 - props.res.score) * 100).toFixed(0)}%</div> }
             </div>
             <div className="card-answer-correct" style={props.res.item.answers.correct && {display: "block"}}>

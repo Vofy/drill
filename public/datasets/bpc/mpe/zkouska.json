@@ -1,9 +1,9 @@
 {
-    "name": "Zkouška 1",
+    "title": "Zkouška 1",
     "description": "Přepis z fektušky",
-    "questions": [
+    "tasks": [
         {
-            "question": "Hlavní kvantové číslo",
+            "title": "Hlavní kvantové číslo",
             "answers": {
                 "correct": [
                     "souvisí s velikostí elektronové sféry a může nabývat hodnot celých přirozených čísel."
@@ -11,7 +11,7 @@
             }
         },
         {
-            "question": "Hlavní kvantové číslo může nabývat hodnot:",
+            "title": "Hlavní kvantové číslo může nabývat hodnot:",
             "answers": {
                 "correct": [
                     "1, 2, 3, 4, 5, 6, ... (K, L, M, N, O, P, Q, ...)"
@@ -19,7 +19,7 @@
             }
         },
         {
-            "question": "Vedlejší kvantové číslo",
+            "title": "Vedlejší kvantové číslo",
             "answers": {
                 "correct": [
                     "souvisí s momentem hybnosti elektronu v atomu a charakterizuje tvar elektronové sféry a může nabývat hodnot celých čísel v intervalu 0 až hlavní kvantové číslo mínus jedna"
@@ -27,7 +27,7 @@
             }
         },
         {
-            "question": "Vedlejší kvantové číslo může nabývat hodnot:",
+            "title": "Vedlejší kvantové číslo může nabývat hodnot:",
             "answers": {
                 "correct": [
                     "0, 1, 2, 3, 4, 5, ... (s, p, d, f, g, h, ...)"
@@ -35,7 +35,7 @@
             }
         },
         {
-            "question": "Magnetické kvantové číslo",
+            "title": "Magnetické kvantové číslo",
             "answers": {
                 "correct": [
                     "souvisí s orientací nábojového oblaku a může nabývat hodnot celých čísel v intervalu záporné hodnoty vedlejšího kvantového čísla až po kladnou hodnotu vedlejšího kvantového čísla"
@@ -43,7 +43,7 @@
             }
         },
         {
-            "question": "Atomové číslo dusíku N je 7. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného dusíkového atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
+            "title": "Atomové číslo dusíku N je 7. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného dusíkového atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/model-zaplneni-elektronovych-orbit-dusiku.png'>"
@@ -51,7 +51,7 @@
             }
         },
         {
-            "question": "Atomové číslo kyslíku O je 8. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného  atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
+            "title": "Atomové číslo kyslíku O je 8. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného  atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
             "answers": {
                 "correct": [
                     "<img height='100' src='/images/model-zaplneni-elektronovych-orbit-kysliku.png'>"
@@ -59,7 +59,7 @@
             }
         },
         {
-            "question": "Atomové číslo křemíku Si je 14. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného křemíkového atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
+            "title": "Atomové číslo křemíku Si je 14. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného křemíkového atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/model-zaplneni-elektronovych-orbit-kremiku.png'>"
@@ -67,7 +67,7 @@
             }
         },
         {
-            "question": "Přetažením přiřaďte hodnoty krystalických rovin",
+            "title": "Přetažením přiřaďte hodnoty krystalických rovin",
             "answers": {
                 "correct": [
                     "<img height='300' src='/images/hodnoty-krystalickych-rovin.png'>"
@@ -75,7 +75,7 @@
             }
         },
         {
-            "question": "Přiřaďte ke krystalům typy vazeb",
+            "title": "Přiřaďte ke krystalům typy vazeb",
             "answers": {
                 "correct": [
                     "Iontové krystaly → iontová vazba",
@@ -87,7 +87,7 @@
             }
         },
         {
-            "question": "Pravidlo energetické výlučnosti (výhodnosti) říká,",
+            "title": "Pravidlo energetické výlučnosti (výhodnosti) říká,",
             "answers": {
                 "correct": [
                     "že elektrony se umisťují nejprve na elektronových vrstvách a orbitalech s nejnižší úrovní energie"
@@ -95,7 +95,7 @@
             }
         },
         {
-            "question": "Přetažením přiřaďte buňky k názvům krystalových soustav",
+            "title": "Přetažením přiřaďte buňky k názvům krystalových soustav",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/krystalove-soustavy.png'>"
@@ -103,7 +103,7 @@
             }
         },
         {
-            "question": "Pojmenujte krystalové soustavy",
+            "title": "Pojmenujte krystalové soustavy",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/krystalove-soustavy-krychlova-jednoducha.png'> Krychlová jednoduchá",
@@ -117,7 +117,7 @@
             }
         },
         {
-            "question": "Uveďte alespoň tři příklady klasifikace kovů z hlediska použití v elektrotechnice:",
+            "title": "Uveďte alespoň tři příklady klasifikace kovů z hlediska použití v elektrotechnice:",
             "answers": {
                 "correct": [
                     "1: elektrovodné kovy",
@@ -128,7 +128,7 @@
             }
         },
         {
-            "question": "Wiedemann-Franzův zákon říká, že",
+            "title": "Wiedemann-Franzův zákon říká, že",
             "answers": {
                 "correct": [
                     "Poměr tepelné vodivosti a měrné elektrické vodivosti je úměrný absolutní teplotě"
@@ -136,7 +136,7 @@
             }
         },
         {
-            "question": "Který elektrovodný materiál má nejlepší elektrickou vodivost?",
+            "title": "Který elektrovodný materiál má nejlepší elektrickou vodivost?",
             "answers": {
                 "correct": [
                     "stříbro"
@@ -149,7 +149,7 @@
             }
         },
         {
-            "question": "Vliv střídavého elektrického pole na vlastnosti dielektrika popisuje:",
+            "title": "Vliv střídavého elektrického pole na vlastnosti dielektrika popisuje:",
             "answers": {
                 "correct": [
                     "komplexní permitivita ve frekvenční závislosti"
@@ -157,7 +157,7 @@
             }
         },
         {
-            "question": "Dotekové napětí dvou kovů (materiálů) je",
+            "title": "Dotekové napětí dvou kovů (materiálů) je",
             "answers": {
                 "correct": [
                     "přímo úměrně závislé na absolutní teplotě v místě doteku dvou kovů s rozdílnou výstupní prací elektronu z kovu a různou koncentrací vodivostních elektronů"
@@ -165,7 +165,7 @@
             }
         },
         {
-            "question": "Zvolte či vepište chybějící slova:",
+            "title": "Zvolte či vepište chybějící slova:",
             "answers": {
                 "correct": [
                     "Elektrická vodivost je <u>menší</u> než u kovů a <u>větší</u> než u izolantů.",
@@ -186,7 +186,7 @@
             "comment": "Elektrická vodivost je způsobena současně přítomností <u>kladných</u> a <u>záporných</u> volných nosičů. - NENÍ OVĚŘENO, ale nejspíš to tak bude"
         },
         {
-            "question": "Diamantová krystalická mřížka se definuje jako",
+            "title": "Diamantová krystalická mřížka se definuje jako",
             "answers": {
                 "correct": [
                     "2 plošně centrované kubické mřížky posunuté o 1/4 tělesové úhlopříčky"
@@ -194,7 +194,7 @@
             }
         },
         {
-            "question": "Funkce pro výpočet hustoty stavů je",
+            "title": "Funkce pro výpočet hustoty stavů je",
             "answers": {
                 "correct": [
                     "nástroj na výpočet koncentraci možných stavů ve vodivostním a valenčním pásu. Koncentrace možných stavů je závislá na efektivní hmotnosti nosiče náboje a na odmocnině energie hladiny stavu."
@@ -202,7 +202,7 @@
             }
         },
         {
-            "question": "Koncentrace volných děr ve vlastním polovodiči je přímo úměrná efektivní hodnotě hustoty stavů",
+            "title": "Koncentrace volných děr ve vlastním polovodiči je přímo úměrná efektivní hodnotě hustoty stavů",
             "answers": {
                 "correct": [
                     "ve valenčním pásu a nepřímo úměrná exponentu převrácené hodnoty absolutní teploty"
@@ -210,7 +210,7 @@
             }
         },
         {
-            "question": "Koncentrace volných elektronů ve vlastním polovodiči je přímo úměrná efektivní hodnotě hustoty stavů",
+            "title": "Koncentrace volných elektronů ve vlastním polovodiči je přímo úměrná efektivní hodnotě hustoty stavů",
             "answers": {
                 "correct": [
                     "ve vodivostním pásu a nepřímo úměrná exponentu převrácené hodnoty absolutní teploty."
@@ -218,7 +218,7 @@
             }
         },
         {
-            "question": "Doplňte chybějící slova:",
+            "title": "Doplňte chybějící slova:",
             "answers": {
                 "correct": [
                     "<b>P typ</b> polovodiče vzniká přidáním příměsi do vlastního polovodiče, která má o jeden elektron <u>méně</u>, že je počet elektronů ve valenční konfiguraci vlastního polovodiče. Tato příměs se nazývá <u>akceptor</u>."
@@ -226,7 +226,7 @@
             }
         },
         {
-            "question": "Doplňte chybějící slova:",
+            "title": "Doplňte chybějící slova:",
             "answers": {
                 "correct": [
                     "<b>N typ</b> polovodiče vzniká přidáním příměsi do vlastního polovodiče, která má o jeden elektron <u>více</u>, že je počet elektronů ve valenční konfiguraci vlastního polovodiče. Tato příměs se nazývá <u>donor</u>."
@@ -234,7 +234,7 @@
             }
         },
         {
-            "question": "Doplňte slova tak aby jste klasifikovali: <br> Syntetické makromolekulární látky se dělí na:",
+            "title": "Doplňte slova tak aby jste klasifikovali: <br> Syntetické makromolekulární látky se dělí na:",
             "answers": {
                 "correct": [
                     "<u>Teplovzdorné plasty</u> - teplem tvarovatelné polymery - PP, PE, ...",
@@ -244,7 +244,7 @@
             }
         },
         {
-            "question": "Nábojová neutralita v polovodiči nastane, pokud",
+            "title": "Nábojová neutralita v polovodiči nastane, pokud",
             "answers": {
                 "correct": [
                     "součet volných elektronů a ionizovaných akceptorů je roven součtu volných děr a ionizovaných donorů."
@@ -252,7 +252,7 @@
             }
         },
         {
-            "question": "Při nízkých teplotách je pohyblivost nosičů",
+            "title": "Při nízkých teplotách je pohyblivost nosičů",
             "answers": {
                 "correct": [
                     "ovlivněna rozptylem na ionizovaných příměsích. S rostoucí teplotou tento vliv klesá, proto se pohyblivost zvyšuje až do bodu, kde převládne vliv mřížkového rozptylu a pohyblivost s teplotou začne klesat."
@@ -260,7 +260,7 @@
             }
         },
         {
-            "question": "Mezi teplotní závislostí nevlastních polovodičů a vlastních polovodičů",
+            "title": "Mezi teplotní závislostí nevlastních polovodičů a vlastních polovodičů",
             "answers": {
                 "correct": [
                     "je rozdíl, že při nízkých teplotách vodivost vzrůstá nárůstem počtu volných nosičů ionizací příměsí až do jejich plné ionizace, kdy se vodivost mění se změnou teploty jen v rámci změny pohyblivosti až do teploty, kdy převládne vodivost vlastních nosičů a chová se stejně jako vlastní polovodič."
@@ -268,7 +268,7 @@
             }
         },
         {
-            "question": "Přiřaďte k základní dielektrické veličině její jednotku",
+            "title": "Přiřaďte k základní dielektrické veličině její jednotku",
             "answers": {
                 "correct": [
                     "ɛ<sub>r</sub> → -",
@@ -285,7 +285,7 @@
             }
         },
         {
-            "question": "Přiřaďte k základní dielektrické veličině její pojmenování",
+            "title": "Přiřaďte k základní dielektrické veličině její pojmenování",
             "answers": {
                 "correct": [
                     "E → Intenzita elektrického pole",
@@ -303,7 +303,7 @@
             }
         },
         {
-            "question": "Přiřaďte k základní magnetické veličině její pojmenování",
+            "title": "Přiřaďte k základní magnetické veličině její pojmenování",
             "answers": {
                 "correct": [
                     "M → Vektor magnetizace",
@@ -316,7 +316,7 @@
             }
         },
         {
-            "question": "Přiřaďte k základní magnetické veličině její jednotku",
+            "title": "Přiřaďte k základní magnetické veličině její jednotku",
             "answers": {
                 "correct": [
                     "μ<sub>0</sub> → H/m - Henry na metr",
@@ -329,7 +329,7 @@
             }
         },
         {
-            "question": "Dielektrická susceptibilita k má v elektrickém poli vždy",
+            "title": "Dielektrická susceptibilita k má v elektrickém poli vždy",
             "answers": {
                 "correct": [
                     "kladnou hodnotu (k > 0). Ve vakuu je k = 0."
@@ -337,7 +337,7 @@
             }
         },
         {
-            "question": "Celkové ztráty elektrického pole v dielektrickém materiálu",
+            "title": "Celkové ztráty elektrického pole v dielektrickém materiálu",
             "answers": {
                 "correct": [
                     "jsou součtem ztrát způsobených vodivostí, polarizací a případně tzv. ionizací. Jednotka pro ztráty je W/kg."
@@ -345,7 +345,7 @@
             }
         },
         {
-            "question": "Celkové ztráty magnetického pole v materiálu",
+            "title": "Celkové ztráty magnetického pole v materiálu",
             "answers": {
                 "correct": [
                     "jsou součtem ztrát hysterezí, vířivými proudy a ztráty magnetickým zpožděním. Jednotka pro ztřáty je W/kg."
@@ -353,7 +353,7 @@
             }
         },
         {
-            "question": "Mezi pomalé polarizace (relaxační) patří",
+            "title": "Mezi pomalé polarizace (relaxační) patří",
             "answers": {
                 "correct": [
                     "dipólová a iontová-relaxační polarizace"
@@ -361,7 +361,7 @@
             }
         },
         {
-            "question": "Mezi zvláštní typy polarizace patří",
+            "title": "Mezi zvláštní typy polarizace patří",
             "answers": {
                 "correct": [
                     "mezivrstvová, samovolná (spontánní), trvalá (permanentní) a rezonanční polorizace"
@@ -369,7 +369,7 @@
             }
         },
         {
-            "question": "Dopňte slova tak aby jste klasifikovali následující Plynné izolanty:",
+            "title": "Dopňte slova tak aby jste klasifikovali následující Plynné izolanty:",
             "answers": {
                 "correct": [
                     "Obecné plyny - O2, N2, H2, ...",
@@ -379,7 +379,7 @@
             }
         },
         {
-            "question": "Přetažením veličin vytvoříte základní vztah mezi magnetickou indukcí a intenzitou magnetického pole. (pro pořadí veličin použijte vzorec: obecné konstanty, závislé konstanty, nezávislé veličiny)",
+            "title": "Přetažením veličin vytvoříte základní vztah mezi magnetickou indukcí a intenzitou magnetického pole. (pro pořadí veličin použijte vzorec: obecné konstanty, závislé konstanty, nezávislé veličiny)",
             "answers": {
                 "correct": [
                     "<img height='75' src='/images/zakladni-vztah-mezi-magnetickou-indukci-a-intenzitou-magnetickoho-pole.png'>"
@@ -387,7 +387,7 @@
             }
         },
         {
-            "question": "Přetažením veličin definujte vztahy platné pro tepelnou a driftovou rychlost volných elektronů (pro pořádí veličin použijte vzorec: obecné konstanty, závislé konstanty, nezávislé veličiny)",
+            "title": "Přetažením veličin definujte vztahy platné pro tepelnou a driftovou rychlost volných elektronů (pro pořádí veličin použijte vzorec: obecné konstanty, závislé konstanty, nezávislé veličiny)",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/vztahy-platne-pro-tepelnou-a-driftovou-rychlost-volnych-elektronu.png'>"
@@ -396,14 +396,14 @@
             "comment": "Upraveno podle skript - mělo by to být správně (jinak ve skriptech je 't' označováno jako 't<sub>n</sub>')"
         },
         {
-            "question": "Paramagnetické látky mají",
+            "title": "Paramagnetické látky mají",
             "answers": {
                 "correct": [
                     "nevykompenzované spinové i dráhové stavy."
                 ]
             }
         },{
-            "question": "Feromagnetické látky mají",
+            "title": "Feromagnetické látky mají",
             "answers": {
                 "correct": [
                     "nevykompenzované spinové momenty na některé z vnitřních vrstev elektronového obalu a vykompenzované dráhové momenty."
@@ -411,7 +411,7 @@
             }
         },
         {
-            "question": "Antiferomagnetické látky mají",
+            "title": "Antiferomagnetické látky mají",
             "answers": {
                 "correct": [
                     "nezaplněné vnitřní kvantové stavy se střídající se orientací magnetického momentu."
@@ -419,7 +419,7 @@
             }
         },
         {
-            "question": "Přiřaďte název křivky:",
+            "title": "Přiřaďte název křivky:",
             "answers": {
                 "correct": [
                     "<img height='100' src='/images/krivka-prvotni-magnetizace-feromagnetik.png'> Křivka prvotní magnetizace feromagnetik",
@@ -431,7 +431,7 @@
             }
         },
         {
-            "question": "Přiřaďte odpovídající permeability",
+            "title": "Přiřaďte odpovídající permeability",
             "answers": {
                 "correct": [
                     "<img height='300' src='/images/permeability.png'>"
@@ -439,7 +439,7 @@
             }
         },
         {
-            "question": "Kovalentní krystal se vyznačuje",
+            "title": "Kovalentní krystal se vyznačuje",
             "answers": {
                 "correct": [
                     "vysokou mechanickou pevností a tvrdostí a je nerozpustný ve vodě. Řadí se mezi izolanty případně polovodiče."
@@ -447,7 +447,7 @@
             }
         },
         {
-            "question": "Iontový krystal se vyznačuje",
+            "title": "Iontový krystal se vyznačuje",
             "answers": {
                 "correct": [
                     "vysokou mechanickou pevností, křehkostí (není možná plastická deformace), nízkou vodivostí a vyšší hodnotou relativní premitivity. Krystal je rozpustný ve vodě a vzniká elektrolyt obsahující kationty a anionty."
@@ -455,7 +455,7 @@
             }
         },
         {
-            "question": "Čím může být zrušen stav supravodivosti v látce?",
+            "title": "Čím může být zrušen stav supravodivosti v látce?",
             "answers": {
                 "correct": [
                     "zvýšením teploty, zvýšením intenzity magnetického pole, zvýšením proudové hustoty"
@@ -463,7 +463,7 @@
             }
         },
         {
-            "question": "Supravodivost je",
+            "title": "Supravodivost je",
             "answers": {
                 "correct": [
                     "způsobená Cooperovými elektronovými páry."
@@ -471,7 +471,7 @@
             }
         },
         {
-            "question": "Rezistivita kovů se phybuje v rozmezí",
+            "title": "Rezistivita kovů se phybuje v rozmezí",
             "answers": {
                 "correct": [
                     "10<sup>-8</sup> až 10<sup>-5</sup> Ωm"
@@ -479,7 +479,7 @@
             }
         },
         {
-            "question": "Rezistivita kovů v teplotě varu",
+            "title": "Rezistivita kovů v teplotě varu",
             "answers": {
                 "correct": [
                     "skokově vzrůstá"
@@ -487,7 +487,7 @@
             }
         },
         {
-            "question": "Rezistivita kovů",
+            "title": "Rezistivita kovů",
             "answers": {
                 "correct": [
                     "při velmi nízkých teplotách, avšak T>20 K, je úměrná T<sup>5</sup> a nad Debyeovou teplotou vzrůstá s teplotou lineárně."
@@ -495,7 +495,7 @@
             }
         },
         {
-            "question": "Hlavními požadavky na elektrovodné materiály jsou:",
+            "title": "Hlavními požadavky na elektrovodné materiály jsou:",
             "answers": {
                 "correct": [
                     "malá rezistivita, výhodná zpracovatelnost, postačující odolnost proti korozi, dobré mechanické vlastnosti, snadé spojování a pájení, dostupnost a cena"
@@ -503,7 +503,7 @@
             }
         },
         {
-            "question": "Termoplasty při zahřívání",
+            "title": "Termoplasty při zahřívání",
             "answers": {
                 "correct": [
                     "přecházejí do plastického stavu s vysokou viskozitou. Zahřátím nedochází ke změně chemické struktury."
@@ -511,7 +511,7 @@
             }
         },
         {
-            "question": "Termoelektrické napětí termočlánku je",
+            "title": "Termoelektrické napětí termočlánku je",
             "answers": {
                 "correct": [
                     "přímo úměrně závislé na rozdílu teplot měřicího konce a vztažného konce termočlánku vytvořených ze dvou kovů. Citlivost termočlánku je dána přirozeným logaritmem podílu koncentrace elektronů v těchto kovech."
@@ -519,7 +519,7 @@
             }
         },
         {
-            "question": "Kritérium stanovující, zda látka bude mít polovodičové vlastnosti říká, že",
+            "title": "Kritérium stanovující, zda látka bude mít polovodičové vlastnosti říká, že",
             "answers": {
                 "correct": [
                     "v látce se musí vyskytovat kovalentní vyzby"
@@ -527,7 +527,7 @@
             }
         },
         {
-            "question": "Kritérium stanovující, zda látka bude mít polovodičové vlastnosti říká, že součet počtu vazeb tvořených atomem s valencí 4 a podílu počtu všech valenčních elektronů s počtem atomů s valencí rovnou 4 musí být",
+            "title": "Kritérium stanovující, zda látka bude mít polovodičové vlastnosti říká, že součet počtu vazeb tvořených atomem s valencí 4 a podílu počtu všech valenčních elektronů s počtem atomů s valencí rovnou 4 musí být",
             "answers": {
                 "correct": [
                     "8"
@@ -535,7 +535,7 @@
             }
         },
         {
-            "question": "Polovodičové materiály tří prvkového složení (př. CuFeS<sub>2</sub>, ZnSiAs<sub>2</sub>) krystalizují v soustavě:",
+            "title": "Polovodičové materiály tří prvkového složení (př. CuFeS<sub>2</sub>, ZnSiAs<sub>2</sub>) krystalizují v soustavě:",
             "answers": {
                 "correct": [
                     "chalkopyritového typu"
@@ -543,7 +543,7 @@
             }
         },
         {
-            "question": "Přetažením vytvořte redukované pásové modely vyznačených materiálů při teplotě větší jak teplota absolutní nuly, ale při běžných pozemských podmínkách.",
+            "title": "Přetažením vytvořte redukované pásové modely vyznačených materiálů při teplotě větší jak teplota absolutní nuly, ale při běžných pozemských podmínkách.",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/redukovane-pasove-modely-vetsi-jak-teplota-absolutni-nuly-correct.png'/>"
@@ -554,7 +554,7 @@
             }
         },
         {
-            "question": "Přetažením vytvořte redukované pásové modely vyznačených materiálů při teplotě blížící se k absolutní nule.",
+            "title": "Přetažením vytvořte redukované pásové modely vyznačených materiálů při teplotě blížící se k absolutní nule.",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/redukovane-pasove-modely-correct.png'>"
@@ -565,7 +565,7 @@
             }
         },
         {
-            "question": "Vytvořte pásové modely nevlastních polovodičů při T > 0 K",
+            "title": "Vytvořte pásové modely nevlastních polovodičů při T > 0 K",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/pasove-modely-nevlastnich-polovodicu-pri-t-vetsi-nez-0k-correct.png'/>"
@@ -576,7 +576,7 @@
             }
         },
         {
-            "question": "Vytvořte pásové modely nevlastních polovodičů při T → 0 K",
+            "title": "Vytvořte pásové modely nevlastních polovodičů při T → 0 K",
             "answers": {
                 "correct": [
                     "<img height='200' src='/images/pasove-modely-nevlastnich-polovodicu-pri-t-0k-correct.png'/>"
@@ -587,7 +587,7 @@
             }
         },
         {
-            "question": "Ve vlastním polovodiči se Fermiho hladina se zvyšující se teplotou",
+            "title": "Ve vlastním polovodiči se Fermiho hladina se zvyšující se teplotou",
             "answers": {
                 "correct": [
                     "posouvá od středu zakázaného pásu v závislosti na logaritmu poměru efektivní hmotností volných děr a volných elektronů"
@@ -595,7 +595,7 @@
             }
         },
         {
-            "question": "Ve vlastním polovodiči se Fermiho hladina se označuje",
+            "title": "Ve vlastním polovodiči se Fermiho hladina se označuje",
             "answers": {
                 "correct": [
                     "jako W<sub>i</sub>, a protože ve vlastním polovodiči platí p=n a při T=0 K leží W<sub>i</sub> uprostřed zakázaného pásu."
@@ -603,7 +603,7 @@
             }
         },
         {
-            "question": "Fermiho hladina energie je hodnota energie, která vyvolá změnu stavu elektronu",
+            "title": "Fermiho hladina energie je hodnota energie, která vyvolá změnu stavu elektronu",
             "answers": {
                 "correct": [
                     "dle Fermi-Diracovy rozdělovací funkce s 50% pravděpodobností a v Maxwell - Boltzmanově rozdělovací funkci s 100% pravděpodobností."
@@ -611,7 +611,7 @@
             }
         },
         {
-            "question": "Řešení počtu majoritních nosičů pomocí rovnic termodynamické rovnováhy a nábojové neutrality ve stavu plné ionizace příměsí polovodiče vede",
+            "title": "Řešení počtu majoritních nosičů pomocí rovnic termodynamické rovnováhy a nábojové neutrality ve stavu plné ionizace příměsí polovodiče vede",
             "answers": {
                 "correct": [
                     "ke kvadratické rovnici s jedním reálným výsledkem"
@@ -619,7 +619,7 @@
             }
         },
         {
-            "question": "Difuzní složka elektronového proudu v polovodiči je rovna",
+            "title": "Difuzní složka elektronového proudu v polovodiči je rovna",
             "answers": {
                 "correct": [
                     "kladné hodnotě elektrického náboje vynásobéné difuzním koeficientem elektronů a gradientu elektrického pole."
@@ -627,7 +627,7 @@
             }
         },
         {
-            "question": "Difuzní složka v polovodiči je rovna",
+            "title": "Difuzní složka v polovodiči je rovna",
             "answers": {
                 "correct": [
                     "záporné hodnotě elektrického náboje vynásobené difuzním koeficientem děr a gradientu elektrického pole."
@@ -635,7 +635,7 @@
             }
         },
         {
-            "question": "Vodivost polovodičů je",
+            "title": "Vodivost polovodičů je",
             "answers": {
                 "correct": [
                     "dána součtem elektronového proudu a děrového. V případě nehomogenního polovodiče děrový difuzní proud působí proti celkovému proudu."
@@ -643,7 +643,7 @@
             }
         },
         {
-            "question": "Reálné dielektrikum obsahuje",
+            "title": "Reálné dielektrikum obsahuje",
             "answers": {
                 "correct": [
                     "Velké množství vázaného náboje a malé množství volného náboje."
@@ -651,7 +651,7 @@
             }
         },
         {
-            "question": "Ideální dielektrikum",
+            "title": "Ideální dielektrikum",
             "answers": {
                 "correct": [
                     "má pouze vázané náboje"
@@ -659,7 +659,7 @@
             }
         },
         {
-            "question": "Vázané náboje v dielektriku mohou být v podobě<p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)</p>",
+            "title": "Vázané náboje v dielektriku mohou být v podobě<p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)</p>",
             "answers": {
                 "correct": [
                     "kationt nebo aniont vázaný v krystalové struktuře látky",
@@ -668,7 +668,7 @@
             }
         },
         {
-            "question": "Mezi rychlé polarizace patří",
+            "title": "Mezi rychlé polarizace patří",
             "answers": {
                 "correct": [
                     "elektronová a iontová polarizace"
@@ -676,7 +676,7 @@
             }
         },
         {
-            "question": "Doplňte chybějící slova, aby jste klasifikovali:<p>Kapalné izolanty se dělí na:</p>",
+            "title": "Doplňte chybějící slova, aby jste klasifikovali:<p>Kapalné izolanty se dělí na:</p>",
             "answers": {
                 "correct": [
                     "<u>minerální</u> oleje - vyráběné z ropy",
@@ -687,7 +687,7 @@
             "comment": "Doplněno podle skript a není ověřena správnost"
         },
         {
-            "question": "Vyberte pravdivé prohlášení:",
+            "title": "Vyberte pravdivé prohlášení:",
             "answers": {
                 "correct": [
                     "Feromagnetika jsou látky s doménovými oblastmi, v nichž jsou vnitřní nevykompenzované spinové momenty atomů spontánně paralelně orientovány v důsledku působení výměnných sil mezi spinovými momenty sousedních atomů ve stejných doménách."
@@ -695,7 +695,7 @@
             }
         },
         {
-            "question": "Vyberte pravdivé prohlášení:",
+            "title": "Vyberte pravdivé prohlášení:",
             "answers": {
                 "correct": [
                     "Vložením diamagnetika do magnetického pole dojde k deformaci orbitu a k vytvořením magnetických momentů atomů. Jejich vektorovým součtem vznikne magnetizace látky, která má opačný směr než magnetické pole."
@@ -703,7 +703,7 @@
             }
         },
         {
-            "question": "Ionizační energie",
+            "title": "Ionizační energie",
             "answers": {
                 "correct": [
                     "je práce nutná k odtržení nejvolněji vázaného elektronu od atomu, resp. iontu"
@@ -711,7 +711,7 @@
             }
         },
         {
-            "question": "Doplňte chybějící slovo",
+            "title": "Doplňte chybějící slovo",
             "answers": {
                 "correct": [
                     "Je-li lineární dislokace rozmístěna ve struktuře systematicky, vzniká <u>šroubová</u> dislokace, která je vzhledem k hranové dislokaci druhým limitním připadem."
@@ -719,7 +719,7 @@
             }
         },
         {
-            "question": "Slitina železo/chrom/hliník/ (Fe-Cr-Al) se nazývá:",
+            "title": "Slitina železo/chrom/hliník/ (Fe-Cr-Al) se nazývá:",
             "answers": {
                 "correct": [
                     "Chromel"
@@ -727,7 +727,7 @@
             }
         },
         {
-            "question": "Slitina měď/cín (Cu-Sn) se nazývá:",
+            "title": "Slitina měď/cín (Cu-Sn) se nazývá:",
             "answers": {
                 "correct": [
                     "bronz"
@@ -735,7 +735,7 @@
             }
         },
         {
-            "question": "Slitina měď/zinek (Cu-Zn) se nazývá:",
+            "title": "Slitina měď/zinek (Cu-Zn) se nazývá:",
             "answers": {
                 "correct": [
                     "mosaz"
@@ -743,7 +743,7 @@
             }
         },
         {
-            "question": "Proč se nepoužívá stříbrné pokovení kontaktů i když stříbro má lepší elektrickou vodivost než zlato?",
+            "title": "Proč se nepoužívá stříbrné pokovení kontaktů i když stříbro má lepší elektrickou vodivost než zlato?",
             "answers": {
                 "correct": [
                     "stříbro koroduje a na rozdíl od zlata na jeho povrchu nevzniká pasivační vrstva, která by zabraňovala hluboké korozi"
@@ -751,7 +751,7 @@
             }
         },
         {
-            "question": "Koncentraci nosičů vlastního polovodiče (intrinsického) lze vypočítat v rámci W+ΔW",
+            "title": "Koncentraci nosičů vlastního polovodiče (intrinsického) lze vypočítat v rámci W+ΔW",
             "answers": {
                 "correct": [
                     "vynásobením hodnoty funkce hustoty stavů pravděpodobností rozdělovací funkce. Protože volné elektrony v jednom stavu mohou nabývat spinového čísla 1/2 a -1/2, celková koncentrace je dvojnásobná hodnota."
@@ -759,7 +759,7 @@
             }
         },
         {
-            "question": "Ztrátový činitel v dielektrických materiálech se označuje",
+            "title": "Ztrátový činitel v dielektrických materiálech se označuje",
             "answers": {
                 "correct": [
                     "jako tg δ a vychází z náhradního schématu reálného kondenzátoru - jeho paralelní kapacity a paralelního odporu či sériové kapacity a sériového odporu a je závislý na frekvenci"
@@ -767,7 +767,7 @@
             }
         },
         {
-            "question": "Ferimagnetické látky mají",
+            "title": "Ferimagnetické látky mají",
             "answers": {
                 "correct": [
                     "různě zaplněné vnitřní kvantové stavy se střídající se orientací silného a slabého magnetického momentu."
@@ -775,7 +775,7 @@
             }
         },
         {
-            "question": "Iontová vazba vzniká",
+            "title": "Iontová vazba vzniká",
             "answers": {
                 "correct": [
                     "při reakci prvků typu kov/nekov"
@@ -783,7 +783,7 @@
             }
         },
         {
-            "question": "Kovalentní vazba vzniká",
+            "title": "Kovalentní vazba vzniká",
             "answers": {
                 "correct": [
                     "při reakci prvků typu nekov/nekov"
@@ -791,7 +791,7 @@
             }
         },
         {
-            "question": "Kovová vazba vzniká",
+            "title": "Kovová vazba vzniká",
             "answers": {
                 "correct": [
                     "při reakci prvků typu kov/kov"
@@ -799,7 +799,7 @@
             }
         },
         {
-            "question": "Hundovo pravidlo říká,",
+            "title": "Hundovo pravidlo říká,",
             "answers": {
                 "correct": [
                     "že v orbitalech o stejné energii vznikají elektronové páry teprve po obsazení všech těchto orbitalů nespárovanými elektrony, které mají stejnou hodnotu spinu"
@@ -807,7 +807,7 @@
             }
         },
         {
-            "question": "Kritérium, které stanovuje, zda látka bude mít polovodičové vlastnosti v pozemských podmínkách říká, že energie potřebná pro rozbití valenční vazby musí být menší než",
+            "title": "Kritérium, které stanovuje, zda látka bude mít polovodičové vlastnosti v pozemských podmínkách říká, že energie potřebná pro rozbití valenční vazby musí být menší než",
             "answers": {
                 "correct": [
                     "3 eV"
@@ -815,7 +815,7 @@
             }
         },
         {
-            "question": "Polovodičové materiály čistého elementárního složení (př. C, Si, Ge, Sn) krystalizují v soustavě:",
+            "title": "Polovodičové materiály čistého elementárního složení (př. C, Si, Ge, Sn) krystalizují v soustavě:",
             "answers": {
                 "correct": [
                     "diamantového typu"
@@ -823,7 +823,7 @@
             }
         },
         {
-            "question": "Rozdělovací funkce Fermi-Diracova je",
+            "title": "Rozdělovací funkce Fermi-Diracova je",
             "answers": {
                 "correct": [
                     "vyjádření pravděpodobnosti obsazení energetické hladiny ve vodivostním pásu volným elektronem. Pro vyjádření pravděpodobnosti vzniku díry ve valenčním pásu se používá jednotkový doplněk pravděpodobnosti obsazení elektrony."
@@ -831,7 +831,7 @@
             }
         },
         {
-            "question": "Doplňte chybějící slova:",
+            "title": "Doplňte chybějící slova:",
             "answers": {
                 "correct": [
                     "Při termodynamické rovnováze v polovodičích nastává takový stav, při kterém se velikost <u>generace</u> volných nosičů rovná jejich <u>rekombinaci</u>. Velikost <u>generace</u> je v normálních prostředích závislá jen na velikosti pravděpodobnosti <u>generace</u> volných nosičů. Velikost <u>rekombinace</u> je závislá nejen na velikosti pravděpodobnosti <u>rekombinace</u> volných nosičů, ale také na koncentraci volných elektronů ve <u>vodivostním</u> pásu a děr ve <u>valenčním</u> pásu. Při termodynamické rovnováze platí, že <u>součin</u> koncentrace volných elektronů a děr je konstantní a roven <u>druhé mocnině</u> intrinsické koncentraci nosičů n<sub>i</sub>."
@@ -839,7 +839,7 @@
             }
         },
         {
-            "question": "Přiřaďte různým skupinám dielektrických materiálů charakteristické polarizační mechanismy, které se u nich vyskytují.",
+            "title": "Přiřaďte různým skupinám dielektrických materiálů charakteristické polarizační mechanismy, které se u nich vyskytují.",
             "answers": {
                 "correct": [
                     "Izolanty obsahující makroskopické nehomogenity (vzduchové dutiny) → <u>Polarizace mezivrstvová</u>",
@@ -851,7 +851,7 @@
             }
         },
         {
-            "question": "Vznik doménové struktury ve feroelektrické látce (při působení elektrického pole) je charakteristický rys pro",
+            "title": "Vznik doménové struktury ve feroelektrické látce (při působení elektrického pole) je charakteristický rys pro",
             "answers": {
                 "correct": [
                     "Spontání polarizaci"
@@ -859,7 +859,7 @@
             }
         },
         {
-            "question": "Syntetické plasty mohou být vyráběny procesem <p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)",
+            "title": "Syntetické plasty mohou být vyráběny procesem <p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)",
             "answers": {
                 "correct": [
                     "polyadice",
@@ -872,7 +872,7 @@
             }
         },
         {
-            "question": "Běžné paramagnetické látky jsou magnetickým polem:",
+            "title": "Běžné paramagnetické látky jsou magnetickým polem:",
             "answers": {
                 "correct": [
                     "slabě přitahovány dovnitř magnetického pole"
@@ -880,7 +880,7 @@
             }
         },
         {
-            "question": "Vlastnosti magneticky měkkých materiálů:",
+            "title": "Vlastnosti magneticky měkkých materiálů:",
             "answers": {
                 "correct": [
                     "- <u>malá</u> koercitivní síla",
@@ -893,7 +893,7 @@
             }
         },
         {
-            "question": "Snížit ztráty vířivými proudy lze",
+            "title": "Snížit ztráty vířivými proudy lze",
             "answers": {
                 "correct": [
                     "snížením tloušťky plechů (materiálů), zvýšením rezistivity (např. přidáním křemíku ...)"
@@ -901,7 +901,7 @@
             }
         },
         {
-            "question": "Magnetické ztráty vířivými proudy jsou:",
+            "title": "Magnetické ztráty vířivými proudy jsou:",
             "answers": {
                 "correct": [
                     "přímo úměrné druhé mocnině frekvence magnetického pole"
@@ -909,7 +909,7 @@
             }
         },
         {
-            "question": "Pravidlo maximální multiplicity říká,",
+            "title": "Pravidlo maximální multiplicity říká,",
             "answers": {
                 "correct": [
                     "že elektrony se v elektronovém obalu umisťují tak, aby počet nevykompenzovaných spinů v obsazeném orbitalu byl maximální."
@@ -917,7 +917,7 @@
             }
         },
         {
-            "question": "Koncentrace vakancí se  vzrůstající teplotou se mění",
+            "title": "Koncentrace vakancí se  vzrůstající teplotou se mění",
             "answers": {
                 "correct": [
                     "exponenciálně"
@@ -925,7 +925,7 @@
             }
         },
         {
-            "question": "Elektroafinita",
+            "title": "Elektroafinita",
             "answers": {
                 "correct": [
                     "je množství energie, které se uvolní, jestliže se připojí volný elektron k neutrálnímu atomu"
@@ -934,7 +934,7 @@
             "comment": "Elektroafinita je množství energie, které se uvolní, když neutrální atom nebo molekula získá elektron z vnějšku. - Wikipedie"
         },
         {
-            "question": "Vytvořte definici členění polovodičových materiálů",
+            "title": "Vytvořte definici členění polovodičových materiálů",
             "answers": {
                 "correct": [
                     "<img height='300' src='/images/cleneni-polovodicovych-materialu.png'>"
@@ -942,7 +942,7 @@
             }
         },
         {
-            "question": "",
+            "title": "",
             "answers": {
                 "correct": [
                     "Difuze nastává při spádu koncentrace částic, přičemž tyto částice se pohybují z místa <u>vysoké</u> koncentrace na místo s koncentrací <u>nízkou</u>"
@@ -950,7 +950,7 @@
             }
         },
         {
-            "question": "Monokrystalická látka:",
+            "title": "Monokrystalická látka:",
             "answers": {
                 "correct": [
                     "má pravidelné uspořádání částic v prostoru na velkou i malou vzdálenost. Zpravidla má v různých směrech různé vlastnosti. Má přesně určenou teplotu tání."
@@ -958,7 +958,7 @@
             }
         },
         {
-            "question": "Polykrystalická látka:",
+            "title": "Polykrystalická látka:",
             "answers": {
                 "correct": [
                     "má pravidelné uspořádání částic v prostoru na malou vzdálenost, ale na velkou vzdálenost nepravidelné. Zpravidla má v různých směrech stejné vlastnosti. Přesně určenou teplotu tání."
@@ -966,7 +966,7 @@
             }
         },
         {
-            "question": "Reaktoplasty (termosety) při zahřívání",
+            "title": "Reaktoplasty (termosety) při zahřívání",
             "answers": {
                 "correct": [
                     "dochází v první fázi k měknutí a lze je tvářet, avšak jen omezenou dobu. Během dalšího zahřívání dochýzí k chemické rakci –⁠ prostorovému zesíťování struktury."
@@ -974,7 +974,7 @@
             }
         },
         {
-            "question": "Pro dielektrické polarizační ztráty plati, že<p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)</p>",
+            "title": "Pro dielektrické polarizační ztráty plati, že<p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)</p>",
             "answers": {
                 "correct": [
                     "jsou nulové ve stejnosměrném poli",
@@ -987,7 +987,7 @@
             }
         },
         {
-            "question": "Vodivá kovová skla",
+            "title": "Vodivá kovová skla",
             "answers": {
                 "correct": [
                     "mají vodivost menší než krystalické kovy, složením lze měnit teplotní koeficient a může dosahovat záporných hodnot. Některá kovová skla mohou být supravodivá."
@@ -995,7 +995,7 @@
             }
         },
         {
-            "question": "Zvyšujeme-li tlak na kov",
+            "title": "Zvyšujeme-li tlak na kov",
             "answers": {
                 "correct": [
                     "u vetšiny kovů rezistivita klesá"
@@ -1003,7 +1003,7 @@
             }
         },
         {
-            "question": "Mezi zvláštní polarizační jevy patří",
+            "title": "Mezi zvláštní polarizační jevy patří",
             "answers": {
                 "correct": [
                     "elektrostrikce, pyroelektrický a piezoelektrický jev"
@@ -1011,7 +1011,7 @@
             }
         },
         {
-            "question": "Elektrostrikce se vyskytuje",
+            "title": "Elektrostrikce se vyskytuje",
             "answers": {
                 "correct": [
                     "u všech dielektrik a dochází ke změně geometrických rozměrů v závislosti na druhé mocnině intenzity elektrického pole E<sup>2</sup>"
@@ -1019,7 +1019,7 @@
             }
         },
         {
-            "question": "Pyroelektrický jev se vyskytuje",
+            "title": "Pyroelektrický jev se vyskytuje",
             "answers": {
                 "correct": [
                     "u přirozených elektretů a při změně teploty dochází ke změně polarizace."
@@ -1027,7 +1027,7 @@
             }
         },
         {
-            "question": "Piezoelektrický jev se vyskytuje",
+            "title": "Piezoelektrický jev se vyskytuje",
             "answers": {
                 "correct": [
                     "u krystalických anizotropních dielektrik. U obráceného jevu dochází ke změně geometrických rozměrů přímo úměrné velikosti elektrického pole E",
@@ -1036,7 +1036,7 @@
             }
         },
         {
-            "question": "Přímí piezoelektrický jev se vyskytuje",
+            "title": "Přímí piezoelektrický jev se vyskytuje",
             "answers": {
                 "correct": [
                     "u krystalických anizotropních dielektrik. U thoto jevu dochází k vyvolání elektrické polarizace mechanickou deformací."
@@ -1044,7 +1044,7 @@
             }
         },
         {
-            "question": "Obrácený piezoelektrický jev se vyskytuje",
+            "title": "Obrácený piezoelektrický jev se vyskytuje",
             "answers": {
                 "correct": [
                     "u krystalických anizotropních dielektrik. U tohoto jevu dochází ke změně geometrických rozměrů přímo úměrné velikosti přiloženého elektrického pole E."
@@ -1052,7 +1052,7 @@
             }
         },
         {
-            "question": "Pachenova křivka udává:",
+            "title": "Pachenova křivka udává:",
             "answers": {
                 "correct": [
                     "závislost zápalného napětí U<sub>z</sub> na součinu tlaku plynu p a vzdálenosti elektrod d"
@@ -1060,7 +1060,7 @@
             }
         },
         {
-            "question": "Vyberte pravdivé prohlášení:",
+            "title": "Vyberte pravdivé prohlášení:",
             "answers": {
                 "correct": [
                     "Vložením paramagnetika do magnetického pole dojde k pootočení existujících magnetických spinových i dráhových momentů. Jejich vektorovým součtem vznikne magnetizace látky, která má stejný směr jako magnetické pole."
@@ -1068,7 +1068,7 @@
             }
         },
         {
-            "question": "K jednotlivým skupinám materiálů přiřaďte typické zástupce:",
+            "title": "K jednotlivým skupinám materiálů přiřaďte typické zástupce:",
             "answers": {
                 "correct": [
                     "Syntetické makromolekulární látky → Polypropylen",
@@ -1080,7 +1080,7 @@
             }
         },
         {
-            "question": "Podstatou mezivrstvové polarizace je:",
+            "title": "Podstatou mezivrstvové polarizace je:",
             "answers": {
                 "correct": [
                     "pohyb volného náboje a jeho akumulace na hranicích nehomogenit"
@@ -1088,7 +1088,7 @@
             }
         },
         {
-            "question": "Čistě tepelný průraz v dielektriku vzniká:",
+            "title": "Čistě tepelný průraz v dielektriku vzniká:",
             "answers": {
                 "correct": [
                     "vývojem tepla působením elektrického pole a následným postupným růstem volných nosičů elektrického náboje. Jedná se o pomalý rozvoj průrazu"
@@ -1096,7 +1096,7 @@
             }
         },
         {
-            "question": "Čistě elektrický průraz v dielektriku vzniká:",
+            "title": "Čistě elektrický průraz v dielektriku vzniká:",
             "answers": {
                 "correct": [
                     "nárazovou ionizací způsobenou vysokou intenzitou elektrického pole a následným lavinovým výbojem (v plynech) nebo poručením krystalické mřítky. Jedná se o rychlý typ průrazu."
@@ -1104,7 +1104,7 @@
             }
         },
         {
-            "question": "Seřaďte jednotlivé polarizační mechanismy podle jejich rychlosti od nejpomalejší po nejrychlejší (zleva doprava, shora dolů)",
+            "title": "Seřaďte jednotlivé polarizační mechanismy podle jejich rychlosti od nejpomalejší po nejrychlejší (zleva doprava, shora dolů)",
             "answers": {
                 "correct": [
                     "<p>Mezivrstvová polarizace</p><p>Polarizace iontová – relaxační</p><p>Iontová polarizace</p><p>Elektronová polarizace</p>"
@@ -1112,7 +1112,7 @@
             }
         },
         {
-            "question": "Zvolte odpovídající slova",
+            "title": "Zvolte odpovídající slova",
             "answers": {
                 "correct": [
                     "<u>Bodové</u> poruchy",
@@ -1125,7 +1125,7 @@
             }
         },
         {
-            "question": "Největší nevýhoda elektrotechnického uhlíku je:",
+            "title": "Největší nevýhoda elektrotechnického uhlíku je:",
             "answers": {
                 "correct": [
                     "nesvařitelnost"
@@ -1133,7 +1133,7 @@
             }
         },
         {
-            "question": "Hodnota elektrické pevnosti E<sub>p</sub><p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)</p>",
+            "title": "Hodnota elektrické pevnosti E<sub>p</sub><p>(Pozor, více možných odpovědí, za špatnou odpověď je penalizace!)</p>",
             "answers": {
                 "correct": [
                     "je odlišná pro rázovou elektrickou pevnost E<sub>p</sub> nebo trvalou elektrickou pevnost E<sub>p</sub>",
@@ -1146,7 +1146,7 @@
             }
         },
         {
-            "question": "Polovodičové materiály binárních sloučenin (př. GaAs, ZnS, InSb) krystalizují v soustavě:",
+            "title": "Polovodičové materiály binárních sloučenin (př. GaAs, ZnS, InSb) krystalizují v soustavě:",
             "answers": {
                 "correct": [
                     "sfaleritového typu"
@@ -1154,7 +1154,7 @@
             }
         },
         {
-            "question": "Slitina hliník/měď/hořčík (Al–Cu–Mg) se nazývá:",
+            "title": "Slitina hliník/měď/hořčík (Al–Cu–Mg) se nazývá:",
             "answers": {
                 "correct": [
                     "dural"
@@ -1162,7 +1162,7 @@
             }
         },
         {
-            "question": "Elektrická vodivost vodičů I. třídy",
+            "title": "Elektrická vodivost vodičů I. třídy",
             "answers": {
                 "correct": [
                     "je způsobená elektronovým mechanismem vodivosti"
@@ -1170,7 +1170,7 @@
             }
         },
         {
-            "question": "Doplňte chybějicí vlastnost",
+            "title": "Doplňte chybějicí vlastnost",
             "answers": {
                 "correct": [
                     "Rezistivita kovů závisí",
@@ -1183,7 +1183,7 @@
             }
         },
         {
-            "question": "Elektronegativita:",
+            "title": "Elektronegativita:",
             "answers": {
                 "incorrect": [
                     "je množství energie, které se uvolní, jestliže se připojí volný elektron k neutrálnímu atomu - Tohle bude asi ŠPATNĚ"
@@ -1192,7 +1192,7 @@
             "comment": "Elektronegativita je míra schopnosti atomu přijímat nebo ztrácet elektrony. - Wikipedie<br>Schopnost poutat vazebné elektronové páry při vzniku chemické vazby. Čím vyšší je elektronegativita prvku, tím více k sobě přitahuje vazebné elektrony. - Wikiskripta"
         },
         {
-            "question": "Doplňte chybějící slova v textu:",
+            "title": "Doplňte chybějící slova v textu:",
             "answers": {
                 "correct": [
                     "Dielektrická polarizace",
@@ -1204,7 +1204,7 @@
             }
         },
         {
-            "question": "Elektrická vodivost vodičů II. třídy",
+            "title": "Elektrická vodivost vodičů II. třídy",
             "answers": {
                 "correct": [
                     "je způsobená iontovým mechanismem vodivosti"
@@ -1212,7 +1212,7 @@
             }
         },
         {
-            "question": "Zvolte či vepište chybějíci slova:",
+            "title": "Zvolte či vepište chybějíci slova:",
             "answers": {
                 "correct": [
                     "Definice polovodičů:",
@@ -1223,7 +1223,7 @@
             }
         },
         {
-            "question": "Paluiho princip výlučnosti říká:",
+            "title": "Paluiho princip výlučnosti říká:",
             "answers": {
                 "correct": [
                     "že v atomu nemohou existovat dva elektrony, které by měly všechny čtyři kvantová čisla stejná"
@@ -1231,7 +1231,7 @@
             }
         },
         {
-            "question": "Magnetické ztráty hysterezí jsou:",
+            "title": "Magnetické ztráty hysterezí jsou:",
             "answers": {
                 "correct": [
                     "přímo úměrné frekvenci magnetického pole"
@@ -1239,7 +1239,7 @@
             }
         },
         {
-            "question": "Běžné diamagnetické látky jsou magnetickým polem:",
+            "title": "Běžné diamagnetické látky jsou magnetickým polem:",
             "answers": {
                 "correct": [
                     "slabě vytlačovány mimo magnetické pole"
@@ -1247,7 +1247,7 @@
             }
         },
         {
-            "question": "Vepište chybjící slova<br><img height='300' src='/images/domeny-oblasti.png'/>",
+            "title": "Vepište chybjící slova<br><img height='300' src='/images/domeny-oblasti.png'/>",
             "answers": {
                 "correct": [
                     "- oblast I. Vratné posuny <u>Blochových</u> stěn mmezi doménami",

@@ -1,24 +1,24 @@
 import { shuffleArray } from "./arrays";
 
-export function quizQuestionParse(question) {
-    let questionText = "";
+export function quizQuestionParse(task) {
+    let taskTitle = "";
     let answers = [];
     var correct = [];
     var incorrect = [];
 
-    if (question) {
-        questionText = question.question;
+    if (task) {
+        taskTitle = task.title;
 
-        if (question.answers) {
-            if (question.answers.correct) {
-                correct = question.answers.correct.map(answer => ({
+        if (task.answers) {
+            if (task.answers.correct) {
+                correct = task.answers.correct.map(answer => ({
                     text: answer,
                     correct: true
                 }));
             }
 
-            if (question.answers.incorrect)  {
-                incorrect = question.answers.incorrect.map(answer => ({
+            if (task.answers.incorrect)  {
+                incorrect = task.answers.incorrect.map(answer => ({
                     text: answer,
                     correct: false
                 }));
@@ -30,7 +30,7 @@ export function quizQuestionParse(question) {
 
 
     return {
-        question: questionText,
+        title: taskTitle,
         answers: answers
     }
 }

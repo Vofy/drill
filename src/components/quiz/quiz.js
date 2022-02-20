@@ -11,9 +11,9 @@ import { useLocation } from 'react-router-dom';
 export default function Quiz(props) {
     const location = useLocation();
 
-    const [allQuestions, setAllQuestions] = useState([]);
-    const [currentQuestion, setCurrentQuestion] = useState({});
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+    const [allTasks, setAllTasks] = useState([]);
+    const [currentTask, setCurrentTask] = useState({});
+    const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
 
     const fetchDataset = async () => {   
         let dataset = await fetch(props.dataset);
@@ -23,16 +23,16 @@ export default function Quiz(props) {
     const fetchAndShuffleDataset = async () => {
         fetchDataset()
         .then((dataset) => {
-            setAllQuestions(shuffleArray(dataset.questions));
+            setAllTasks(shuffleArray(dataset.tasks));
         });
     };
 
-    const nextQuestion = (e) => {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
+    const nextTask = (e) => {
+        setCurrentTaskIndex(currentTaskIndex + 1);
     };
 
-    const previousQuestion = (e) => {
-        setCurrentQuestionIndex(currentQuestionIndex - 1);
+    const previousTask = (e) => {
+        setCurrentTaskIndex(currentTaskIndex - 1);
     };
 
     useEffect(() => {
@@ -40,27 +40,27 @@ export default function Quiz(props) {
     }, [location]);
 
     useEffect(() => {
-        if (currentQuestionIndex < 0) {
-            setCurrentQuestionIndex(allQuestions.length - 1);
-        } else if (currentQuestionIndex > allQuestions.length - 1) {
-            setCurrentQuestionIndex(0);
+        if (currentTaskIndex < 0) {
+            setCurrentTaskIndex(allTasks.length - 1);
+        } else if (currentTaskIndex > allTasks.length - 1) {
+            setCurrentTaskIndex(0);
         }
 
-        setCurrentQuestion(quizQuestionParse(allQuestions[currentQuestionIndex]));
-    }, [currentQuestionIndex, allQuestions]);
+        setCurrentTask(quizQuestionParse(allTasks[currentTaskIndex]));
+    }, [currentTaskIndex, allTasks]);
 
     return (<>
-        <div className='card' key={currentQuestionIndex}>
-            <div className='question' dangerouslySetInnerHTML={{__html: currentQuestion && currentQuestion.question && DOMPurify.sanitize(currentQuestion.question)}}>
+        <div className='card' key={currentTaskIndex}>
+            <div className='Task' dangerouslySetInnerHTML={{__html: currentTask && currentTask.title && DOMPurify.sanitize(currentTask.title)}}>
             </div>
-            { currentQuestion && currentQuestion.answers && currentQuestion.answers.map((answer, key) => {
+            { currentTask && currentTask.answers && currentTask.answers.map((answer, key) => {
                 return <Answer key={key} answer={answer}></Answer>
             })}
         </div>
 
         <div className='card flex-end flex-row'>
-            <button className="button" onClick={previousQuestion}>Předchozí otázka</button>
-            <button className="button" onClick={nextQuestion}>Další otázka</button>
+            <button className="button" onClick={previousTask}>Předchozí otázka</button>
+            <button className="button" onClick={nextTask}>Další otázka</button>
         </div>
         </>
     )

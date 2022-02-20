@@ -22,15 +22,15 @@ export default function Search(props) {
   const initFuse = () => {
     fetchDataset()
     .then(dataset => {
-      setAllQuestions(dataset.questions);
-      setFuse(new Fuse(dataset.questions, {
+      setAllQuestions(dataset.tasks);
+      setFuse(new Fuse(dataset.tasks, {
         isCaseSensitive: false,
         includeScore: true,
         minMatchCharLength: 0,
         shouldSort: true,
         findAllMatches: true,
         ignoreLocation: true,
-        keys: [{ name: 'question', weight: 2 }, 'answers.correct']
+        keys: [{ name: 'title', weight: 2 }, 'answers.correct']
       }));
     })
     
