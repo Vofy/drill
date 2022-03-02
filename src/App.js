@@ -6,8 +6,8 @@ import { modeState, searchedStringState, themeState } from './globalState'
 
 import Header from './components/layout/header'
 import SideBar from './components/layout/sidebar';
-import Quiz from './components/quiz/quiz';
-import Search from './components/search/search';
+import Quiz from './components/quiz/v1/quiz';
+import Search from './components/search/v1/search';
 import Home from './components/home';
 
 

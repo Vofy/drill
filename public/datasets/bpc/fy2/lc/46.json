@@ -1,0 +1,133 @@
+{
+    "title": "Úloha 46",
+    "description": "Přepis z fektušky",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Šíří-li se světelný paprsek z prostředí opticky hustšího do prostředí řidšího, pak při šikmém dopadu na rozhraní obou prostředí",
+            "answers": {
+                "correct": [
+                    "se paprsek láme od kolmice."
+                ],
+                "incorrect": [
+                    "nastává pouze úplný odraz paprsku.",
+                    "nelze obecně určit další směr číření paprsku.",
+                    "neplatí žádný z uvedených případů.",
+                    "se paprsek láme ke kolmici."
+                ]
+            }
+        },
+        {
+            "title": "Je-li ε<sub>r</sub> a µ<sub>r</sub> relativní permitivita a permeabilita prostředí a ε<sub>0</sub> a µ<sub>0</sub> permitivita a permeabilita vakua, pak z Maxwellových rovnic plyne pro rychlost šíření světla vztah",
+            "answers": {
+                "correct": [
+                    "v = 1 / sqrt(ε<sub>r</sub>ε<sub>0</sub>µ<sub>r</sub>µ<sub>0</sub>)"
+                ],
+                "incorrect": [
+                    "v = 1 / (ε<sub>r</sub>ε<sub>0</sub>sqrt(µ<sub>r</sub>µ<sub>0</sub>))",
+                    "v = sqrt(ε<sub>r</sub>ε<sub>0</sub>µ<sub>r</sub>µ<sub>0</sub>)",
+                    "v = (µ<sub>0</sub>ε<sub>0</sub>) / sqrt(µ<sub>r</sub>ε<sub>r</sub>)",
+                    "v = sqrt((ε<sub>0</sub>ε<sub>r</sub>) / (µ<sub>0</sub>µ<sub>r</sub>))"
+                ]
+            }
+        },
+        {
+            "title": "Jak se změní úhel mezi světelným paprskem dopadajícím na rovinné zrcadlo a paprskem odraženým od zrcadla, jestliže úhel dopadu paprsku zvětšíme o 15˚ ?",
+            "answers": {
+                "correct": [
+                    "úhel se zvětší o 30˚."
+                ],
+                "incorrect": [
+                    "úhel se nezmění.",
+                    "úhel se zvětší o 10˚.",
+                    "úhel se zmenší o 30˚.",
+                    "úhel se zmenší o 15˚."
+                ]
+            }
+        },
+        {
+            "title": "Paprsek p dopadá na rozhraní dvou prostředí o indexech lomu n<sub>1</sub> a n<sub>2</sub> (n<sub>1</sub> > n<sub>2</sub>). Kterými ze směrů 1, 2, 3, 4 může paprsek p pokračovat?<br><img src='/images/bpc/fy2/lc/46/paprsek-smery.png' height='300'>",
+            "answers": {
+                "correct": [
+                    "2 nebo 3 nebo 4."
+                ],
+                "incorrect": [
+                    "jen 1.",
+                    "jen 2 a 3.",
+                    "jen 1 a 3.",
+                    "jen 2."
+                ]
+            }
+        },
+        {
+            "title": "Projde-li světelná vlna z vakua do látkového prostředí, pak rychlost jejího šíření",
+            "answers": {
+                "correct": [
+                    "klesne."
+                ],
+                "incorrect": [
+                    "-",
+                    "nezmění se.",
+                    "vzroste.",
+                    "nelze obecně určit."
+                ]
+            }
+        },
+        {
+            "title": "Změní se vlnová délka světla a jeho frekvence při průchodu ze vzduchu do skla?",
+            "answers": {
+                "correct": [
+                    "Změní se vlnová délka, ale frekvence se nezmění"
+                ],
+                "incorrect": [
+                    "-",
+                    "Změní se vlnová délka a současně s ní i frekvence.",
+                    "Nezmění se ani jedna z těchto veličin.",
+                    "Změní se frekvence, ale vlnová délka se nezmění."
+                ]
+            }
+        },
+        {
+            "title": "Index lomu vody je 4 / 3. Velikost rychlosti šíření světla vodou je",
+            "answers": {
+                "correct": [
+                    "9 / 4 . 10<sup>8</sup> m.s<sup>-1</sup>"
+                ],
+                "incorrect": [
+                    "3 / 12 . 10<sup>5</sup> m.s<sup>-1</sup>",
+                    "12 / 3 . 10<sup>7</sup> m.s<sup>-1</sup>",
+                    "3 / 4 . 10<sup>8</sup> m.s<sup>-1</sup>",
+                    "4 / 9 . 10<sup>6</sup> m.s<sup>-1</sup>"
+                ]
+            }
+        },
+        {
+            "title": "Na optický hranol dopadá ze vzduchu světelný paprsek p. Hranolem postupuje zakresleným směrem. Na stranu BC dopadá ...<br><img src='/images/bpc/fy2/lc/46/opticky-hranol.png' width='300'>",
+            "answers": {
+                "correct": [
+                    "směrem b."
+                ],
+                "incorrect": [
+                    "směrem d.",
+                    "směrem a.",
+                    "směrem c.",
+                    "směrem e."
+                ]
+            }
+        },
+        {
+            "title": "Elipsa, jedna z Lissajousových křivek, degeneruje na úsečky, které jsou od svislého směru odkláněny střídavě napravo a ...",
+            "answers": {
+                "correct": [
+                    "celistvým násobkům π (tj. 0, ±π , ±2π , ±3π, .....)."
+                ],
+                "incorrect": [
+                    "celistvým násobkům π/4 (tj. ±π/4 , ±3π/4 , ±5π/4 , .....).",
+                    "pouze 0.",
+                    "celistvým sudým násobkům 2π (tj. ±2π , ±4π , ±6π , .....).",
+                    "celistvým násobkům π/2 (tj. ±π/2 , ±3π/2 , ±5π/2 , .....)."
+                ]
+            }
+        }
+    ]
+}
