@@ -1,5 +1,5 @@
 {
-  "name": "fektushka",
+  "name": "perfektni_drill",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "dompurify": "^2.3.4",
+    "express": "^4.17.3",
     "fuse.js": "^6.4.6",
     "list-react-files": "^0.2.0",
     "react": "^17.0.2",
@@ -16,12 +17,15 @@
     "recoil": "^0.6.1",
     "web-vitals": "^1.0.1"
   },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.5.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "serve -s build"
+    "serve": "node index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -41,11 +45,5 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "mini-css-extract-plugin": "^2.5.2"
-  }
+  "main": "index.js"
 }
