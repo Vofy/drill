@@ -1,0 +1,133 @@
+{
+    "title": "Úloha 26",
+    "description": "Přepis z fektušky",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Dopadá-li záření na těleso, těleso",
+            "answers": {
+                "correct": [
+                    "část záření odráží, část pohlcuje, část propouští"
+                ],
+                "incorrect": [
+                    "záření nepropoučtí, část záření odráží, část pohlcuje.",
+                    "záření pouze pohlcuje.",
+                    "záření pouze odráží.",
+                    "záření neodráží, část záření pohlcuje, část propouští."
+                ]
+            }
+        },
+        {
+            "title": "Svítící vlákno žárovky promítneme spojnou čočkou na stinítko. Ostrý obraz se vytvoří, je-li splněna zobrazovací rovnice čočky. Značíme-li a vzdálenost vlákna od ... čočky, mý zobrazovací rovnice tenké čočky následující tvar.",
+            "answers": {
+                "correct": [
+                    "1/a + 1/a' = 1/f"
+                ],
+                "incorrect": [
+                    "1/a = 1/a' + 1/f",
+                    "1/a' = 1/a + 1/f",
+                    "1/a - 1/a' = 1/f",
+                    "1/a' + 1/a = f"
+                ]
+            }
+        },
+        {
+            "title": "Plocha povrchu lidského těla je 2 m<sup>2</sup>, teplota povrchu kůže 306 K, pohltivost 0,9. Stefanova - Boltzmannova konstanta má hodnotu 5,67.10<sup>-8</sup> W.m<sup>-2</sup>.K<sup>-4</sup>. ...",
+            "answers": {
+                "correct": [
+                    "2,68.10<sup>4</sup> J"
+                ],
+                "incorrect": [
+                    "9,37.10<sup>-4</sup> J",
+                    "2,87.10<sup>-1</sup> J",
+                    "2,68.10<sup>6</sup> J",
+                    "8,95.10<sup>2</sup> J"
+                ]
+            }
+        },
+        {
+            "title": "Plocha povrchu lidského těla je 2 m<sup>2</sup>, teplota povrchu kůže 306 K, pohltivost 0,9. Stefanova - Boltzmannova konstanta má hodnotu 5,67.10<sup>-8</sup> W.m<sup>-2</sup>.K<sup>-4</sup>. Vypočítejte energii, kterou by vyzářil neoblečený člověk za 120 s.",
+            "answers": {
+                "correct": [
+                    "1,07.10<sup>5</sup> J"
+                ],
+                "incorrect": [
+                    "1,15 J",
+                    "8,95.10<sup>2</sup>",
+                    "3,75.10<sup>-3</sup> J",
+                    "1,07.10<sup>4</sup> J"
+                ]
+            }
+        },
+        {
+            "title": "Jednotkou zářivého toku je",
+            "answers": {
+                "correct": [
+                    "W"
+                ],
+                "incorrect": [
+                    "J.s<sup>-1</sup>.m<sup>-2</sup>",
+                    "J.s",
+                    "W.s<sup>-1</sup>",
+                    "W.s<sup>-1</sup>.m<sup>-2</sup>"
+                ]
+            }
+        },
+        {
+            "title": "Odpor (rezistance) žárovky o výkonu 120 W, ke které je přiloženo napětí 230 V je:",
+            "answers": {
+                "correct": [
+                    "4,41.10<sup>2</sup> Ω"
+                ],
+                "incorrect": [
+                    "6,26.10<sup>1</sup> Ω",
+                    "5,22.10<sup>-1</sup> Ω",
+                    "2,76.10<sup>4</sup> Ω",
+                    "1,92 Ω"
+                ]
+            }
+        },
+        {
+            "title": "Přenos (sdílení) tepla mezi předmětem a okolím probíhá pouze",
+            "answers": {
+                "correct": [
+                    "vedením, prouděním a zářením."
+                ],
+                "incorrect": [
+                    "prouděním a zářením.",
+                    "vedením a prouděním.",
+                    "vedením a sáláním.",
+                    "vedením a zářením."
+                ]
+            }
+        },
+        {
+            "title": "Na vlákno žárovky dopadá za jednu sekundu energie záření okolních těles. Její velikost je Sα<sub>1</sub>σT<sub>1</sub><sup>4</sup>",
+            "answers": {
+                "correct": [
+                    "kde S je velikost plochy povrchu vlákna, α<sub>1</sub> je pohltivost okolí, T<sub>1</sub> je teplota okolí v kelvinech."
+                ],
+                "incorrect": [
+                    "kde S je velikost plochy povrchu vlákna, α<sub>1</sub> je jeho pohltivost, T<sub>1</sub> je teplota okolí ve stupních Celsia.",
+                    "kde S je velikost plochy povrchu vlákna, α<sub>1</sub> je jeho pohltivost, T<sub>1</sub> je teplota okolí v kelvinech.",
+                    "kde S je velikost plochy povrchu vlákna, α<sub>1</sub> je pohltivost okolí, T<sub>1</sub> je teplota okolí ve stupních Celsia.",
+                    "kde S je velikost plochy povrchu vlákna, α<sub>1</sub> je pohltivost okolí, T<sub>1</sub> je teplota vlákna v kelvinech."
+                ]
+            }
+        },
+        {
+            "title": "Odpor (rezistance) žárovky o výkonu 40 W, ke které je přiloženo napětí 120 V je:",
+            "answers": {
+                "correct": [
+                    "3,60.10<sup>2</sup> Ω"
+                ],
+                "incorrect": [
+                    "3,33.10<sup>-1</sup> Ω",
+                    "1,33.10<sup>1</sup> Ω",
+                    "3,00 Ω",
+                    "4,80.10<sup>3</sup> Ω"
+                ]
+            }
+        }
+    ]
+}

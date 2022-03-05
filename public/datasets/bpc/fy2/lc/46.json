@@ -128,6 +128,20 @@
                     "celistvým násobkům π/2 (tj. ±π/2 , ±3π/2 , ±5π/2 , .....)."
                 ]
             }
+        },
+        {
+            "title": "Jaký je vztah mezi indexem lomu n, rychlostí světla c a relativní permeabilitou prostředí µ<sub>r</sub>? (ε<sub>r</sub> je relativní perme ...",
+            "answers": {
+                "correct": [
+                    "n = c / v = sqrt(ε<sub>r</sub>µ<sub>r</sub>)"
+                ],
+                "incorrect": [
+                    "c = v / n = sqrt(ε<sub>r</sub>µ<sub>r</sub>)",
+                    "n = c / v = 1 / sqrt(ε<sub>r</sub>µ<sub>r</sub>)",
+                    "c = vn = 1 / ε<sub>r</sub>µ<sub>r</sub>",
+                    "n = c / v = 1 ε<sub>r</sub>µ<sub>r</sub>"
+                ]
+            }
         }
     ]
 }
