@@ -3,7 +3,7 @@ module.exports = {
 		name: 'perfektnidrill',
 		script: 'yarn',
 		args: "start",
-		watch: ['build', 'index.js'],
+		watch: true,
 		env_development: {
 			NODE_ENV: 'development',
 			PORT: 50004

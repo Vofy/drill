@@ -1,21 +1,28 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 
 const app = express();
 
-// Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'build')));
 
-// An api endpoint that returns a short list of items
-app.get('/api/getList', (req,res) => {
-    var list = ["item1", "item2", "item3"];
-    res.json(list);
-    console.log('Sent list of items');
+app.get('/api/random-meme', (req,res) => {
+    const memeDir = __dirname + '/public/images/memes/';
+
+    fs.readdir(memeDir, (err, files) => {
+        var image = files[Math.floor(Math.random() * files.length)];
+
+        res.json({
+            image: {
+                name: path.parse(image).name,
+                path: "/images/memes/" + image 
+            }
+        });
+    })
 });
 
-// Handles any requests that don't match the ones above
 app.get('*', (req,res) =>{
-    res.sendFile(path.join(__dirname+'/build/index.html'));
+    res.sendFile(path.join(__dirname + '/build/index.html'));
 });
 
 const port = process.env.PORT || 5000;
