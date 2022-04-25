@@ -21,7 +21,7 @@ export default function Home(props) {
                 <span className="backdrop-item">perFEKTním</span>
                 <span className="backdrop-item">drillu</span>
             </h1>
-            <a href="/el2/cpp/lc"><button>EL2/CPP/LC shortcut</button></a>
+            <a href="/bpc/el2/cpp/lc"><button>EL2/CPP/LC shortcut</button></a>
             <img alt={randomMeme.name} src={randomMeme.path} style={{maxHeight: "80vh", maxWidth: "100%"}} />
         </div>
     )
