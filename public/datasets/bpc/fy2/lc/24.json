@@ -296,6 +296,34 @@
                     "pouze vakuovou nebo plynem plněnou fotonku"
                 ]
             }
+        },
+        {
+            "title": "Označte nesprávný vztah pro světelná kvanta s hybností p",
+            "answers": {
+                "correct": [
+                    "p=hλ"
+                ],
+                "incorrect": [
+                    "p=E/c",
+                    "p=h/λ",
+                    "p=E/λf",
+                    "p=hf/c"
+                ]
+            }
+        },
+        {
+            "title": "Výstupní práce elektronu z cesia je 1,93 eV. Vzpočtěte mezní vlnovou délku světla",
+            "answers": {
+                "correct": [
+                    "644 nm"
+                ],
+                "incorrect": [
+                    "112 nm",
+                    "195 nm",
+                    "450 nm" ,
+                    "240 nm"
+                ]
+            }
         }
     ]
 }

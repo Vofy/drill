@@ -1,0 +1,477 @@
+{
+    "title": "Úloha 42",
+    "description": "Přepis z fektušky",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Malusův zákon slouží k",
+            "answers": {
+                "correct": [
+                    "žádná uvedená odpověď nění správná"
+                ],
+                "incorrect": [
+                    "určení nejmenší vzdálenosti mezi maximy interference",
+                    "určení směru interference světla",
+                    "určení velikosti otvoru, kterým prochází světlo",
+                    "urční velikosti difrakce světla"
+                ]
+            }
+        },
+        {
+            "title": "K čemu sloučí analyzátor?",
+            "answers": {
+                "correct": [
+                    "k určení polarizační roviny lineárně polarizovaného světla"
+                ],
+                "incorrect": [
+                    "k určení polarizační roviny kruhově polarizovaného světla",
+                    "žádná uvedená odpověď není správná",
+                    "k určení polarizační roviny elipticky polarizovaného světla",
+                    "k určení absorpce světla"
+                ]
+            }
+        },
+        {
+            "title": "Určete úhel dopadu na skleněnou destičku o indexu lomu n = 1,503 ve vzduchu o indexu lomu n<sub>0</sub> = 1, aby odražený paprsek byl lineárně polarizovaný. Jaký je úhel lomu odpovídající tomuto paprsku?",
+            "answers": {
+                "correct": [
+                    "33,63˚"
+                ],
+                "incorrect": [
+                    "45˚",
+                    "90˚",
+                    "0˚",
+                    "21,62˚"
+                ]
+            }
+        },
+        {
+            "title": "Která složka elektrického pole se při polarizaci odrazem odrazí?",
+            "answers": {
+                "correct": [
+                    "kolmá na rovinu dopadu"
+                ],
+                "incorrect": [
+                    "rovnoběžná s rovinou odrazu",
+                    "žádná uvedená odpověď není správná",
+                    "kolmá na rozhraní",
+                    "rovnoběžná s rovinou dopadu"
+                ]
+            }
+        },
+        {
+            "title": "Paprsek nepolarizovaného světla (vlnová délka λ = 546,072 nm) dopadá na skleněnou destičku pod úhlem 58˚01’ ležící v prostředí o indexu lomu n<sub>1</sub> = 1,18. Odražený paprsek je lineárně polarizovaný v rovině destičky.",
+            "answers": {
+                "correct": [
+                    "1,88"
+                ],
+                "incorrect": [
+                    "1",
+                    "0",
+                    "1,01",
+                    "0,62"
+                ]
+            }
+        },
+        {
+            "title": "Co je to mřížková konstanta?",
+            "answers": {
+                "correct": [
+                    "vzdálenost středů dvou sousedních štěrbin"
+                ],
+                "incorrect": [
+                    "šířka štěrbiny na optické mřížce",
+                    "počet štěrbin na mřížce",
+                    "velikost (šířka) mřížky v mm",
+                    "počet vrypů připadajících na 1 cm mřížky"
+                ]
+            }
+        },
+        {
+            "title": "Který z uvedených jevů je důkazem toho, že světlo je příčné vlnění?",
+            "answers": {
+                "correct": [
+                    "polarizace"
+                ],
+                "incorrect": [
+                    "interference",
+                    "ohyb světla",
+                    "fotoelektrický jev",
+                    "nelze rozhodnout"
+                ]
+            }
+        },
+        {
+            "title": "Intenzita světla v přímém směru od jedné odkryte štěrbiny je J<sub>o</sub>. Má-li mřížka n štěrbin, je intenzita hlavního (nultého) maxima J<sub>p</sub>",
+            "answers": {
+                "correct": [
+                    "n<sup>2</sup> -krát větší než J<sub>o</sub>"
+                ],
+                "incorrect": [
+                    "n<sup>2</sup> -krát menší než J<sub>o</sub>",
+                    "sqrt(n) -krát větší než J<sub>o</sub>",
+                    "n -krát větší než J<sub>o</sub>",
+                    "sqrt(n) -krát menší než J<sub>o</sub>"
+                ]
+            }
+        },
+        {
+            "title": "Jak daleko musíme umístit stínítko za mřížku, aby vzdálenost 0. a 3. maxima na stínítku byla 21,5 cm? Na mřížku, která má 100 vrypů na 1 mm, dopadá kolmo rovnoběžný svazek červeného světla (λ = 700 nm).",
+            "answers": {
+                "correct": [
+                    "1 m"
+                ],
+                "incorrect": [
+                    "80 cm",
+                    "1,5 cm",
+                    "50 cm",
+                    "2 000 mm"
+                ]
+            }
+        },
+        {
+            "title": "Kolik měřitelných interferenčních maaxim utvoří mřížka, která má 5000 vrypů na 1 m a šířku štěrbiny 4.10<sup>-5</sup> m, dopadá-li na ni kolmo světlo vlnové délky 600 nm?",
+            "answers": {
+                "correct": [
+                    "9"
+                ],
+                "incorrect": [
+                    "5",
+                    "neomezeně",
+                    "nelze jednoznačně určit, záleží to na vzdálenosti stínítka od mřížky",
+                    "3"
+                ]
+            }
+        },
+        {
+            "title": "Na rovinnou ohybovou mřížku, která má 100 vrypů na 1 mm, dopadá kolmo rovnoběžný svazek červeného světla (λ = 700 nm). Jak daleko od sebe bude 3. maximum od nultého na stínítku, které je ve vzdálenosti 1 m od mřížky?",
+            "answers": {
+                "correct": [
+                    "21,5 cm"
+                ],
+                "incorrect": [
+                    "10 cm",
+                    "7 mm",
+                    "0,14 m",
+                    "7 cm"
+                ]
+            }
+        },
+        {
+            "title": "Při pokusech na optické mřížce, která je osvětlena červeným světlem (λ = 700 nm), vzniklo na stínítku, umístěném 1 m za mřížkou, 3. maximum ve vzdálenosti 21,5 cm od 0. maxima. Určete počet vrypů na mřížce připadajících na 1mm.",
+            "answers": {
+                "correct": [
+                    "100 vrypů na 1 mm"
+                ],
+                "incorrect": [
+                    "500 vrypů na 1 mm",
+                    "4000 vrypů na 1 mm",
+                    "400 vrypů na 1 mm",
+                    "700 vrypů na 1 mm"
+                ]
+            }
+        },
+        {
+            "title": "Ohybová mřížka je osvětlena kolmo rovnoběžným svazkem bílého světla. Určete, zda a za jakých podmínek se může některá barva ze spektra 1. řádu překrývat s některou barvou spektra 2. řádu. (Lidské oko vnímá vlnové délky světla v rozmezí 400 nm - 480 nm.)",
+            "answers": {
+                "correct": [
+                    "nemůže"
+                ],
+                "incorrect": [
+                    "může vždy",
+                    "může, pokud je mřížková konstanta dostatečně malá",
+                    "může, pokud stínítko bude velmi daleko",
+                    "může, pokud stínítko bude velmi blízko"
+                ]
+            }
+        },
+        {
+            "title": "Při interferenci světla dochází k zeslabení intenzity světla v těch místech, ve kterých je dráhový rozdíl interferujících světelných vln roven:",
+            "answers": {
+                "correct": [
+                    "lichému počtu půlvln (λ/2)"
+                ],
+                "incorrect": [
+                    "sudému počtu půlvln (λ/2)",
+                    "lichému počtu celých vln (λ)",
+                    "sudému počtu celých vln (λ)"
+                ]
+            }
+        },
+        {
+            "title": "Základní podmínkou k pozorování interference světla je",
+            "answers": {
+                "correct": [
+                    "konstantní fázový rozdíl světelného vlnění"
+                ],
+                "incorrect": [
+                    "stejná amplituda světelného vlnění",
+                    "stejná intenzita světelného vlnění"
+                ]
+            }
+        },
+        {
+            "title": "Koherentní zdroje v optice lze získat",
+            "answers": {
+                "correct": [
+                    "pouze použitím svěla jednoho zdroje"
+                ],
+                "incorrect": [
+                    "libovolnými zdroji",
+                    "vhodně upravenými dvěma reálnými zdroji"
+                ]
+            }
+        },
+        {
+            "title": "Kterou fyzikální veličinu lze určit pomocí difrakční mřížky?",
+            "answers": {
+                "correct": [
+                    "Vlnovou délku světla libovolné barvy."
+                ],
+                "incorrect": [
+                    "Index lomu skla pro světlo libovolné barvy.",
+                    "Rychlost světla ve skle.",
+                    "Rychlost světla ve vzduchu.",
+                    "Disperzi světla."
+                ]
+            }
+        },
+        {
+            "title": "Říkáme, že paprsek laseru je gaussovským svazkem, když",
+            "answers": {
+                "correct": [
+                    "hustota toku klesá exponenciálně s kvadrátem vzdálenosti od osy"
+                ],
+                "incorrect": [
+                    "je přísně homogenní",
+                    "ho lze rozšířit cylindrickou čočkou",
+                    "hustota zářivého toku lineárně klesá od středu paprsků k okrajům",
+                    "rozložení hustoty zářivého toku se změní, když ho rozšíříme"
+                ]
+            }
+        },
+        {
+            "title": "V lineárně polarizované světle (E a B jsou intenzita elektrického pole a indukce magnetického pole)",
+            "answers": {
+                "correct": [
+                    "kmitá vektor E stále v jedné rovině"
+                ],
+                "incorrect": [
+                    "kmitají vektory E a B ve stejné rovině",
+                    "je vektor E rovnoběžný se směrem šíření",
+                    "je vektor B rovnoběžný se směrem šíření"
+                ]
+            }
+        },
+        {
+            "title": "Dopadá-li bílé nepolarizované světlo na rozhraní pod Brewsterovým úhlem, pak po odrazu",
+            "answers": {
+                "correct": [
+                    "je úplně polarizováno"
+                ],
+                "incorrect": [
+                    "je částečně polarizováno",
+                    "nastane úplný odraz světla",
+                    "světelná stopa na stínítku vymizí",
+                    "dojde k rozkladu světla na barevné spektrum"
+                ]
+            }
+        },
+        {
+            "title": "Vztah pro Brewsterův úhel zní (α je úhel dopadu, n<sub>21</sub> je relativní index lomu prostředí, do kterého se světlo láme",
+            "answers": {
+                "correct": [
+                    "tg α = n<sub>21</sub>"
+                ],
+                "incorrect": [
+                    "tg α = 1/n<sub>21</sub>",
+                    "tg α = 1 + n<sub>21</sub>",
+                    "1/tg α = n<sub>21</sub>"
+                ]
+            }
+        },
+        {
+            "title": "V čem spočívá ověření platnosti Malusova zákona?",
+            "answers": {
+                "correct": [
+                    "Otevřená odpověď ..."
+                ]
+            }
+        },
+        {
+            "title": "Liší se konstrukce analyzátoru od konstrukce polarizátoru?",
+            "answers": {
+                "correct": [
+                    "Otevřená odpověď ..."
+                ]
+            }
+        },
+        {
+            "title": "Světelný paprsek dopadající na povrch skleněné desky pod úhlem π/3 rad se v důsledku odrazu úplně polarizuje. Index lomu skla, z něhož je deska vyrobena, je",
+            "answers": {
+                "correct": [
+                    "sqrt(3)"
+                ],
+                "incorrect": [
+                    "3/2",
+                    "sqrt(3) / 2",
+                    "sqrt(2) / 2",
+                    "sqrt(2)"
+                ]
+            }
+        },
+        {
+            "title": "Šíří-li se světelný paprsek z prostředí opticky hustšího, láme se při šikmém dopadu na rozhraní obou prostředí",
+            "answers": {
+                "correct": [
+                    "ke kolmici"
+                ],
+                "incorrect": [
+                    "od kolmice",
+                    "neláme se",
+                    "nastává úplný odraz"
+                ]
+            }
+        },
+        {
+            "title": "Projde-li světelná vlna z vakua do látkového prostředí, pak rychlost jejího šíření",
+            "answers": {
+                "correct": [
+                    "klesne"
+                ],
+                "incorrect": [
+                    "vzroste",
+                    "nezmění se",
+                    "nelze obecně určit"
+                ]
+            }
+        },
+        {
+            "title": "Úplný odraz světla je jev, který může nastat jen",
+            "answers": {
+                "correct": [
+                    "při přechodu světla z prostředí opticky hustšího do opticky řidšího"
+                ],
+                "incorrect": [
+                    "při kolmém dopadu světla na rozhraní dvou prostředí",
+                    "při přechodu světla z prostředí opticky řidšího do opticky hustšího",
+                    "u světla monochromatického",
+                    "při dopadu světla pod Brewsterovým úhlem"
+                ]
+            }
+        },
+        {
+            "title": "Index lomu světla pro vakuum je",
+            "answers": {
+                "correct": [
+                    "1"
+                ],
+                "incorrect": [
+                    "0",
+                    "větší než 1",
+                    "menší než 0",
+                    "nekonečno"
+                ]
+            }
+        },
+        {
+            "title": "Sklo má index lomu n<sub>s</sub> = 1,5 a voda n<sub>v</sub> = 1,3. Úhel lomu světla bude větší než úhel jeho dopadu, šíří-li se světlo",
+            "answers": {
+                "correct": [
+                    "ze skla do vody"
+                ],
+                "incorrect": [
+                    "ze vzduchu do skla",
+                    "z vody do skla",
+                    "ze vzduchu do vody",
+                    "úhel lomu nebude větší v žádném z uvedených případů"
+                ]
+            }
+        },
+        {
+            "title": "Jak je definován relativní index lomu dvou prostředí?",
+            "answers": {
+                "correct": [
+                    "Otevřená odpověď..."
+                ]
+            }
+        },
+        {
+            "title": "Světlo dopadá ze vzduchu na rozhraní o indexu lomu n pod mezním úhlem α<sub>m</sub>. Pod jakým úhlem α by mělo světlo dopadat, aby doělo k úplnému odrazu?",
+            "answers": {
+                "correct": [
+                    "a<sub>m</sub> < α < 90˚"
+                ],
+                "incorrect": [
+                    "0° < α < α<sub>m</sub>",
+                    "α = α<sub>m</sub>"
+                ]
+            }
+        },
+        {
+            "title": "Světlo prochází skleněnou destičkou o indexu lomu n<sub>s</sub> = 1,5 a lomí se do vzduchu. Jaký je mezní úhel pro toto rozhraní?",
+            "answers": {
+                "correct": [
+                    "41,8˚"
+                ],
+                "incorrect": [
+                    "56,3˚",
+                    "48,2˚",
+                    "90˚"
+                ]
+            }
+        },
+        {
+            "title": "Světlo dopadá ze vzduchu na vodní hladinu. Změní se jeho vlnová délka a frekvence ve vodě?",
+            "answers": {
+                "correct": [
+                    "Změní se vlnová délka, ale frekvence se nezmění."
+                ],
+                "incorrect": [
+                    "Změní se frekvence, ale vlnová délka se nezmění.",
+                    "Změní se vlnová délka a současně s ní i frekvence.",
+                    "Nezmění se žádná z těchto veličin."
+                ]
+            }
+        },
+        {
+            "title": "Jestliže vlnová délka monofrekvenčního světla ve vakuu je λ , pak po přechodu tohoto světla do prostředí o indexu lomu n je vlnová délka v tomto prostředí",
+            "answers": {
+                "correct": [
+                    "(1/n)λ"
+                ],
+                "incorrect": [
+                    "λ",
+                    "nλ",
+                    "(n - 1)λ"
+                ]
+            }
+        },
+        {
+            "title": "Je-li s dráha světla v prostředí o indexu lomu n , pak optická dráha l je definována vztahem",
+            "answers": {
+                "correct": [
+                    "l = ns"
+                ],
+                "incorrect": [
+                    "l = n/s",
+                    "l = s/n",
+                    "l = 1/(ns)"
+                ]
+            }
+        },
+        {
+            "title": "Vlnová délka světla se při přechodu ze vzduchu do vody změní o 25%. Z toho můžeme vyvodit, že index lomu vody vzhledem ke vzduchu je",
+            "answers": {
+                "correct": [
+                    "4/3"
+                ],
+                "incorrect": [
+                    "1,25",
+                    "0,75",
+                    "2,5"
+                ]
+            }
+        }
+    ]
+}

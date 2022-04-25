@@ -21,7 +21,7 @@ export default function Home(props) {
                 <span className="backdrop-item">perFEKTním</span>
                 <span className="backdrop-item">drillu</span>
             </h1>
-            <img alt={randomMeme.name} src={randomMeme.path} height="500" />
+            <img alt={randomMeme.name} src={randomMeme.path} style={{maxHeight: "80vh", maxWidth: "100%"}} />
         </div>
     )
 }

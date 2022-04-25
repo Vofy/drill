@@ -47,9 +47,11 @@ export default function SideBar() {
                 </Accordion>
                 <Accordion name="FY2">
                     <Accordion name="LC">
-                        <Link to="/bpc/fy2/lc/46">46</Link>
-                        <Link to="/bpc/fy2/lc/26">26</Link>
                         <Link to="/bpc/fy2/lc/24">24</Link>
+                        <Link to="/bpc/fy2/lc/26">26</Link>
+                        <Link to="/bpc/fy2/lc/28">28</Link>
+                        <Link to="/bpc/fy2/lc/42a45">42 a 45</Link>
+                        <Link to="/bpc/fy2/lc/46">46</Link>
                     </Accordion>
                 </Accordion>
             </Accordion>

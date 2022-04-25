@@ -1,0 +1,203 @@
+{
+    "title": "Úloha 24",
+    "description": "Přepis z fektušky",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Jaký proud teše při plné výchylce na rozsahu 100 mV galvanometrem, je-li jeho vnitřní odpor 100 Ω/1 mV?",
+            "answers": {
+                "correct": [
+                    "10 μA"
+                ],
+                "incorrect": [
+                    "10 mA",
+                    "1 μA",
+                    "1 mA",
+                    "100 μA"
+                ]
+            }
+        },
+        {
+            "title": "Co je to LED dioda?",
+            "answers": {
+                "correct": [
+                    "Dioda emitující světlo."
+                ],
+                "incorrect": [
+                    "Fotodioda.",
+                    "Stabilizační dioda.",
+                    "Třívrstvá polovodičová součástka.",
+                    "Dioda pohlcující světlo"
+                ]
+            }
+        },
+        {
+            "title": "Rezistivita polovodičů",
+            "answers": {
+                "correct": [
+                    "s teplotou klesá"
+                ],
+                "incorrect": [
+                    "s teplotou se nemění",
+                    "s teplotou roste",
+                    "je přímo úměrná teplotě",
+                    "s teplotou prudce roste"
+                ]
+            }
+        },
+        {
+            "title": "Šířka pásu zakázaných energií E<sub>g</sub> je pro křemík 1,12 eV a pro germanium 0,67 eV. Který z těchto výroků je pravdivý?",
+            "answers": {
+                "correct": [
+                    "Za pokojové teploty má germánium vyšší koncentraci nosičů náboje než křemík."
+                ],
+                "incorrect": [
+                    "Za pokojové teploty má germánium nišší koncentraci nosičů náboje než křemík.",
+                    "Obě látky mají vyšší koncentraci vodivostních děr než elektronů.",
+                    "Za pokojové teploty má germánium stejnou koncentraci nosičů náboje jako křemík.",
+                    "Obě látky mají vyšší koncentraci vodivostních elektronů než děr."
+                ]
+            }
+        },
+        {
+            "title": "Měrná vodivost polovodičů se zvýší:",
+            "answers": {
+                "correct": [
+                    "Zvýšením koncentrace elektronů a děr."
+                ],
+                "incorrect": [
+                    "Snižením koncentrace děr a zvýšením koncentrace elektronů u typu P",
+                    "Snížením koncentrace elektronů a děr.",
+                    "Koncentrace elektronů a děr nemá vliv na vodivost polovodičů.",
+                    "Zvýšením koncentrace děr a snižením koncentrace elektronů u typu N"
+                ]
+            }
+        },
+        {
+            "title": "Polovodiče:",
+            "answers": {
+                "correct": [
+                    "mají značně větší rezistivitu než kovy."
+                ],
+                "incorrect": [
+                    "mají kladný teplotní součinitel rezistivity.",
+                    "mají značně vyšší koncentraci nosičů elektrického náboje než kovy.",
+                    "mají stejnou rezistivitu jako kovy.",
+                    "mají značně menší rezistivitu než kovy."
+                ]
+            }
+        },
+        {
+            "title": "Jaké částice jsou majoritními nosiči náboje u polovodiče typu p a n?",
+            "answers": {
+                "correct": [
+                    "U polovodiče n-elektrony a u polovodiče p-díry"
+                ],
+                "incorrect": [
+                    "U polovodiče n-elektrony a u polovodiče p-elektrony",
+                    "Polovodič n ani p nemají žádné nosiče el. náboje.",
+                    "U polovodiče p-díry a u polobodiče n-díry",
+                    "U polobodiče p-elektrony a u polovodiče n-díry"
+                ]
+            }
+        },
+        {
+            "title": "Který z uvedených materiálů se běžně nepoužívá k výrobě polovodičů?",
+            "answers": {
+                "correct": [
+                    "měď"
+                ],
+                "incorrect": [
+                    "křemík",
+                    "arsen",
+                    "germánium",
+                    "fosfor"
+                ]
+            }
+        },
+        {
+            "title": "Při dopadu záření na fotodiodu se:",
+            "answers": {
+                "correct": [
+                    "Generuje pár elektron-díra."
+                ],
+                "incorrect": [
+                    "Rekombinuje elektron.",
+                    "Generuje elektron.",
+                    "Rekombinuje díra.",
+                    "Generuje díra."
+                ]
+            }
+        },
+        {
+            "title": "Voltampérová charakteristika luminiscenční diody popisuje :",
+            "answers": {
+                "correct": [
+                    "vztah mezi napětím na diodě a proudem, který diodou protéká."
+                ],
+                "incorrect": [
+                    "vztah mezi intenzitou záření a proudem, který diodou protéká.",
+                    "vztah mezi napětím na diodě a její frekvencí",
+                    "vztah mezi napětím na diodě a napětím a jejím teplotním proudem",
+                    "Vztah mezi napětím na diodě a intenzitou záření."
+                ]
+            }
+        },
+        {
+            "title": "Která vlastnost pevných látek nepatří mezi základní elektrické vlastnosti?",
+            "answers": {
+                "correct": [
+                    "viskozita"
+                ],
+                "incorrect": [
+                    "elektrická vodivost",
+                    "teplotní součinitel rezistivity",
+                    "rezistivita",
+                    "koncentrace nosičů elektrického náboje"
+                ]
+            }
+        },
+        {
+            "title": "Jaká energie zakázaných energií (zakázaného pásu) náleží polovodiči?",
+            "answers": {
+                "correct": [
+                    "asi 1,1eV"
+                ],
+                "incorrect": [
+                    "více jak 8 eV",
+                    "0 eV",
+                    "polovodiče nemají zakázaný pás.",
+                    "více jak 25 eV"
+                ]
+            }
+        },
+        {
+            "title": "Co je to optron?",
+            "answers": {
+                "correct": [
+                    "Kombinace luminiscenční diody a fotodiody."
+                ],
+                "incorrect": [
+                    "Kombinace tranzistoru a fotodiody.",
+                    "Kombinace fototranzistoru a fotodiody.",
+                    "Kombinace usměrňovací diody a fotodiody.",
+                    "Vícevrstvá polovodičová součástka emitující záření."
+                ]
+            }
+        },
+        {
+            "title": "Jaké částice jsou minoritními nosiči náboje u polovodiče typu p a n?",
+            "answers": {
+                "correct": [
+                    "U polovodiče n-díry a u polovodiče p-elektrony"
+                ],
+                "incorrect": [
+                    "Polovodič n ani p nemají žádné nosiče el.náboje",
+                    "U polovodiče p-díry a u polovodiče n-díry",
+                    "U polovodiče p-díry a u polovodiče n-elektrony",
+                    "U polovodiče n-elektrony a u polovodiče p-elektrony"
+                ]
+            }
+        }
+    ]
+}
