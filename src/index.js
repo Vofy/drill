@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from 'recoil';
+import { MathJaxContext } from 'better-react-mathjax';
 
 ReactDOM.render(
   <React.StrictMode>
     <RecoilRoot>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <MathJaxContext>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </MathJaxContext>
     </RecoilRoot>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,3 +1,4 @@
+import { MathJax } from "better-react-mathjax";
 import DOMPurify from "dompurify";
 import { useState } from "react";
 import "../../../css/quiz/answer.css";
@@ -15,7 +16,8 @@ export default function Answer(props) {
         : '';
 
     return (
-        <button className={"answer" + colorClass} onClick={checkIfCorrect} dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(props.answer.text)}}>
+        <button className={"answer" + colorClass} onClick={checkIfCorrect}>
+            <MathJax dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(props.answer.text)}}/>
         </button>
     )
 }
