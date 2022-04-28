@@ -6,6 +6,7 @@ import DOMPurify from 'dompurify';
 import { shuffleArray } from "../../../lib/arrays"
 import { quizQuestionParse } from '../../../lib/dataParser1.js';
 import { useLocation } from 'react-router-dom';
+import { MathJax } from 'better-react-mathjax';
 
 export default function Quiz(props) {
     const location = useLocation();
@@ -50,8 +51,7 @@ export default function Quiz(props) {
 
     return (<>
         <div className='card' key={currentTaskIndex}>
-            <div className='Task' dangerouslySetInnerHTML={{__html: currentTask && currentTask.title && DOMPurify.sanitize(currentTask.title)}}>
-            </div>
+            { currentTask && currentTask.title && <MathJax className='Task' dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(currentTask.title)}}/>}
             { currentTask && currentTask.answers && currentTask.answers.map((answer, key) => {
                 return <Answer key={key} answer={answer}></Answer>
             })}

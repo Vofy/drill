@@ -7,11 +7,11 @@
             "title": "Činitel kvality u paralelního RLC obvodu je:",
             "answers": {
                 "correct": [
-                    "Q=\\frac{\\omega_{r}C}{G}"
+                    "\\(Q=\\frac{\\omega_{r}C}{G}\\)"
                 ],
                 "incorrect": [
-                    "Q=\\frac{G}{\\omega_{r}C}",
-                    "Q=\\frac{\\omega_{r}G}{L}"
+                    "\\(Q=\\frac{G}{\\omega_{r}C}\\)",
+                    "\\(Q=\\frac{\\omega_{r}G}{L}\\)"
                 ]
             }
         },
@@ -19,11 +19,11 @@
             "title": "Činitel kvality u sériového RLC obvodu je:",
             "answers": {
                 "correct": [
-                    "Q=\\frac{\\omega_{r}L}{R}"
+                    "\\(Q=\\frac{\\omega_{r}L}{R}\\)"
                 ],
                 "incorrect": [
-                    "Q=\\frac{R}{\\omega_{r}L}",
-                    "Q=\\frac{\\omega_{r}L}{C}"
+                    "\\(Q=\\frac{R}{\\omega_{r}L}\\)",
+                    "\\(Q=\\frac{\\omega_{r}L}{C}\\)"
                 ]
             }
         },
@@ -31,11 +31,11 @@
             "title": "Činitel odrazu na konci vedení naprázdno (Z<sub>2</sub> → ∞) je:",
             "answers": {
                 "correct": [
-                    "\\rho_{2}=1"
+                    "\\(\\rho_{2}=1\\)"
                 ],
                 "incorrect": [
-                    "\\rho_{2}=-1",
-                    "\\rho_{2}=0"
+                    "\\(\\rho_{2}=-1\\)",
+                    "\\(\\rho_{2}=0\\)"
                 ]
             }
         },
@@ -43,23 +43,23 @@
             "title": "Činitel odrazu na konci zkratovaného vedení (Z<sub>2</sub> = 0) je:",
             "answers": {
                 "correct": [
-                    "\\rho_{2}=-1"
+                    "\\(\\rho_{2}=-1\\)"
                 ],
                 "incorrect": [
-                    "\\rho_{2}=0",
-                    "\\rho_{2}=1"
+                    "\\(\\rho_{2}=0\\)",
+                    "\\(\\rho_{2}=1\\)"
                 ]
             }
         },
         {
-            "title": "Činitel odrazu na konci přizpůsobeného vedení (Z<sub>2</sub> = <sub>V</sub>) je:",
+            "title": "Činitel odrazu na konci přizpůsobeného vedení (Z<sub>2</sub> = Z<sub>V</sub>) je:",
             "answers": {
                 "correct": [
-                    "\\rho_{2}=0"
+                    "\\(\\rho_{2}=0\\)"
                 ],
                 "incorrect": [
-                    "\\rho_{2}=-1",
-                    "\\rho_{2}=1"
+                    "\\(\\rho_{2}=-1\\)",
+                    "\\(\\rho_{2}=1\\)"
                 ]
             }
         },
@@ -67,11 +67,11 @@
             "title": "Činitel odrazu bezeztrátového vedení o vlnovém odporu R<sub>V</sub> a zatěžovacím odporu R<sub>Z</sub> je dán:",
             "answers": {
                 "correct": [
-                    "\\rho_{2}=\\frac{R_{2}-R_{V}}{R_{2}+R_{V}}"
+                    "\\(\\rho_{2}=\\frac{R_{2}-R_{V}}{R_{2}+R_{V}}\\)"
                 ],
                 "incorrect": [
-                    "\\rho_{2}=\\frac{R_{V}-R_{2}}{R_{V}+R_{2}}",
-                    "\\rho_{2}=\\frac{R_{2}+R_{V}}{R_{2}-R_{V}}"
+                    "\\(\\rho_{2}=\\frac{R_{V}-R_{2}}{R_{V}+R_{2}}\\)",
+                    "\\(\\rho_{2}=\\frac{R_{2}+R_{V}}{R_{2}-R_{V}}\\)"
                 ]
             }
         },
@@ -79,11 +79,11 @@
             "title": "Účiník je definován vztahem:",
             "answers": {
                 "correct": [
-                    "cos\\varphi=\\frac{P}{S}"
+                    "\\(cos\\varphi=\\frac{P}{S}\\)"
                 ],
                 "incorrect": [
-                    "cos\\varphi=\\frac{P}{Q}",
-                    "cos\\varphi=\\frac{S}{P}"
+                    "\\(cos\\varphi=\\frac{P}{Q}\\)",
+                    "\\(cos\\varphi=\\frac{S}{P}\\)"
                 ]
             }
         },
@@ -115,11 +115,11 @@
             "title": "Impedance sériového RLC obvodu je:",
             "answers": {
                 "correct": [
-                    "Z=R+j\\omega L+\\frac{1}{j\\omega C}"
+                    "\\(Z=R+j\\omega L+\\frac{1}{j\\omega C}\\)"
                 ],
                 "incorrect": [
-                    "Z=R+j\\left(\\omega L+\\frac{1}{\\omega C}\\right)",
-                    "Z=R+j\\omega L-\\frac{1}{j\\omega C}"
+                    "\\(Z=R+j\\left(\\omega L+\\frac{1}{\\omega C}\\right)\\)",
+                    "\\(Z=R+j\\omega L-\\frac{1}{j\\omega C}\\)"
                 ]
             }
         },
@@ -127,11 +127,11 @@
             "title": "Admitance paralelního RLC obvodu je:",
             "answers": {
                 "correct": [
-                    "Y=G+j\\omega C+\\frac{1}{j\\omega L}"
+                    "\\(Y=G+j\\omega C+\\frac{1}{j\\omega L}\\)"
                 ],
                 "incorrect": [
-                    "Y=G+j\\omega L+\\frac{1}{j\\omega C}",
-                    "Y=G+j\\left(\\omega C+\\frac{1}{\\omega L} \\right)"
+                    "\\(Y=G+j\\omega L+\\frac{1}{j\\omega C}\\)",
+                    "\\(Y=G+j\\left(\\omega C+\\frac{1}{\\omega L} \\right)\\)"
                 ]
             }
         },
@@ -151,11 +151,11 @@
             "title": "U souměrné trojfázové sítě mají sdružená napětí oproti odpovídajícím fázovým:",
             "answers": {
                 "correct": [
-                    "\\sqrt{3}\\times větší amplitudu a o 30° větší fázový posun"
+                    "\\(\\sqrt{3}\\times\\) větší amplitudu a o 30° větší fázový posun"
                 ],
                 "incorrect": [
-                    "\\sqrt{3}\\times větší amplitudu a o 120° větší fázový posun",
-                    "\\sqrt{2}\\times větší amplitudu a o 120° větší fázový posun"
+                    "\\(\\sqrt{3}\\times\\) větší amplitudu a o 120° větší fázový posun",
+                    "\\(\\sqrt{2}\\times\\) větší amplitudu a o 120° větší fázový posun"
                 ]
             }
         },
@@ -163,11 +163,11 @@
             "title": "Při nabíjení je napětí na kapacitoru u RC článku dáno vztahem:",
             "answers": {
                 "correct": [
-                    "u(t)=U\\left(1-e^{\\frac{-t}{\\tau}}\\right)"
+                    "\\(u(t)=U\\left(1-e^{\\frac{-t}{\\tau}}\\right)\\)"
                 ],
                 "incorrect": [
-                    "u(t)=Ue^{\frac{-t}{\tau}}",
-                    "u(t)=U\\left( e^{\\frac{-t}{\\tau}}-1\\right)"
+                    "\\(u(t)=Ue^{\frac{-t}{\tau}}\\)",
+                    "\\(u(t)=U\\left( e^{\\frac{-t}{\\tau}}-1\\right)\\)"
                 ]
             }
         },
@@ -175,11 +175,11 @@
             "title": "Při vybíjení je napětí na kapacitoru u RC článku dáno vztahem:",
             "answers": {
                 "correct": [
-                    "u(t)=Ue^{\\frac{-t}{\\tau}}"
+                    "\\(u(t)=Ue^{\\frac{-t}{\\tau}}\\)"
                 ],
                 "incorrect": [
-                    "u(t)=U\\left(1+e^{\\frac{-t}{\\tau}}\\right)",
-                    "u(t)=U\\left( 1-e^{\\frac{-t}{\\tau}}\\right)"
+                    "\\(u(t)=U\\left(1+e^{\\frac{-t}{\\tau}}\\right)\\)",
+                    "\\(u(t)=U\\left( 1-e^{\\frac{-t}{\\tau}}\\right)\\)"
                 ]
             }
         },
@@ -247,11 +247,11 @@
             "title": "Jednotlivými impedancemi trojfázové zátěže protékají fázory proudů I<sub>1</sub>, I<sub>2</sub>, I<sub>3</sub> a vytvoří na nich fázory napětí U<sub>1</sub>, U<sub>2</sub>, U<sub>3</sub>.<br>Celkový komplexní výkon zátěže je:",
             "answers": {
                 "correct": [
-                    "S=U_{1}I^{*}_{1}+U_{2}I^{*}_{2}+U_{3}I^{*}_{3}"
+                    "\\(S=U_{1}I^{*}_{1}+U_{2}I^{*}_{2}+U_{3}I^{*}_{3}\\)"
                 ],
                 "incorrect": [
-                    "S=U^{*}_{1}I_{1}+U^{*}_{2}I_{2}+U^{*}_{3}I_{3}",
-                    "S=U_{1}I_{1}+U_{2}I_{2}+U_{3}I_{3}"
+                    "\\(S=U^{*}_{1}I_{1}+U^{*}_{2}I_{2}+U^{*}_{3}I_{3}\\)",
+                    "\\(S=U_{1}I_{1}+U_{2}I_{2}+U_{3}I_{3}\\)"
                 ]
             }
         },
@@ -271,11 +271,11 @@
             "title": "Časová konstanta v RL obvodu je:",
             "answers": {
                 "correct": [
-                    "\\tau=\\frac{L}{R}"
+                    "\\tau=\\frac{L}{R}\\)"
                 ],
                 "incorrect": [
-                    "\\tau=R\\cdot L",
-                    "\\tau=\\frac{R}{L}"
+                    "\\(\\tau=R\\cdot L\\)",
+                    "\\(\\tau=\\frac{R}{L}\\)"
                 ]
             }
         },
@@ -283,11 +283,11 @@
             "title": "Konstanta útlumu u RLC obvodu je:",
             "answers": {
                 "correct": [
-                    "\\delta=\\frac{R}{2L}"
+                    "\\(\\delta=\\frac{R}{2L}\\)"
                 ],
                 "incorrect": [
-                    "\\delta=\\frac{L}{2R}",
-                    "\\delta=\\frac{R}{L}"
+                    "\\(\\delta=\\frac{L}{2R}\\)",
+                    "\\(\\delta=\\frac{R}{L}\\)"
                 ]
             }
         },
@@ -403,11 +403,11 @@
             "title": "Poměr stojatých vln na vedení je definován jako:",
             "answers": {
                 "correct": [
-                    "PSV=\\frac{1+\\left| \\rho_{2} \\right|}{1-\\left| \\rho_{2} \\right|}"
+                    "\\(PSV=\\frac{1+\\left| \\rho_{2} \\right|}{1-\\left| \\rho_{2} \\right|}\\)"
                 ],
                 "incorrect": [
-                    "PSV=\\left| \\rho_{2} \\right|-1",
-                    "PSV=\\frac{1-\\left| \\rho_{2} \\right|}{1+\\left| \\rho_{2} \\right|}"
+                    "\\(PSV=\\left| \\rho_{2} \\right|-1\\)",
+                    "\\(PSV=\\frac{1-\\left| \\rho_{2} \\right|}{1+\\left| \\rho_{2} \\right|}\\)"
                 ]
             }
         },
@@ -487,11 +487,11 @@
             "title": "Po přepojení stejných impedancí z hvězdy do trojúhelníka proudy v přívodních vodičích k zátěži:",
             "answers": {
                 "correct": [
-                    "vzrostou 3\\times"
+                    "vzrostou \\(3\\times\\)"
                 ],
                 "incorrect": [
-                    "vzrostou \\sqrt{3}\\times",
-                    "vzrostou \\sqrt{2}\\times"
+                    "vzrostou \\(\\sqrt{3}\\times\\)",
+                    "vzrostou \\(\\sqrt{2}\\times\\)"
                 ]
             }
         },
@@ -499,11 +499,11 @@
             "title": "Pro šířku propustného pásma RLC obvodu platí empirický vztah:",
             "answers": {
                 "correct": [
-                    "B=\\frac{f_{r}}{Q}"
+                    "\\(B=\\frac{f_{r}}{Q}\\)"
                 ],
                 "incorrect": [
-                    "B=\\frac{Q}{f_{r}}",
-                    "B=\\frac{f_{r}}{2Q}"
+                    "\\(B=\\frac{Q}{f_{r}}\\)",
+                    "\\(B=\\frac{f_{r}}{2Q}\\)"
                 ]
             }
         },
@@ -559,11 +559,11 @@
             "title": "Obecný zápis soustavy rovnic u metody smyčkových proudů má obvykle maticový tvar:",
             "answers": {
                 "correct": [
-                    "Z\\cdot I=U"
+                    "\\(Z\\cdot I=U\\)"
                 ],
                 "incorrect": [
-                    "Y\\cdot U=I",
-                    "I=U/Z"
+                    "\\(Y\\cdot U=I\\)",
+                    "\\(I=U/Z\\)"
                 ]
             }
         },
@@ -571,11 +571,11 @@
             "title": "Obecný zápis soustavy rovnic u metody uzlových napětí má obvykle maticový tvar:",
             "answers": {
                 "correct": [
-                    "Y\\cdot U=I"
+                    "\\(Y\\cdot U=I\\)"
                 ],
                 "incorrect": [
-                    "Y\\cdot I=U",
-                    "U\\cdot I=Y"
+                    "\\(Y\\cdot I=U\\)",
+                    "\\(U\\cdot I=Y\\)"
                 ]
             }
         },
@@ -595,11 +595,11 @@
             "title": "Napětí na induktoru v sériovém RLC obvodu napájeném z napětí <b>U</b> při rezonanci je:",
             "answers": {
                 "correct": [
-                    "U_{L}=jQU"
+                    "\\(U_{L}=jQU\\)"
                 ],
                 "incorrect": [
-                    "U_{L}=-jQU",
-                    "U_{L}=jQU^{2}"
+                    "\\(U_{L}=-jQU\\)",
+                    "\\(U_{L}=jQU^{2}\\)"
                 ]
             }
         },
@@ -691,11 +691,11 @@
             "title": "Rezonanční úhlový kmitočet RLC obvodu je určen vztahem:",
             "answers": {
                 "correct": [
-                    "\\omega_{r}=\\frac{1}{\\sqrt{LC}}"
+                    "\\(\\omega_{r}=\\frac{1}{\\sqrt{LC}}\\)"
                 ],
                 "incorrect": [
-                    "\\omega_{r}=\\frac{1}{2π\\sqrt{LC}}",
-                    "\\omega_{r}=\\sqrt{LC}"
+                    "\\(\\omega_{r}=\\frac{1}{2π\\sqrt{LC}}\\)",
+                    "\\(\\omega_{r}=\\sqrt{LC}\\)"
                 ]
             }
         },
@@ -739,11 +739,11 @@
             "title": "Komplexní výkon je určen vztahem:",
             "answers": {
                 "correct": [
-                    "S=U\\cdot I^{*}"
+                    "\\(S=U\\cdot I^{*}\\)"
                 ],
                 "incorrect": [
-                    "S=\\frac{1}{2}U\\cdot I^{*}",
-                    "S=U\\cdot I"
+                    "\\(S=\\frac{1}{2}U\\cdot I^{*}\\)",
+                    "\\(S=U\\cdot I\\)"
                 ]
             }
         },
@@ -751,11 +751,11 @@
             "title": "Přenos článku RC je:",
             "answers": {
                 "correct": [
-                    "K_{U}=\\frac{1}{1+\\omega RC}"
+                    "\\(K_{U}=\\frac{1}{1+\\omega RC}\\)"
                 ],
                 "incorrect": [
-                    "K_{U}=\\frac{j\\omega RC}{1+\\omega RC}",
-                    "K_{U}=\\frac{\\frac{1}{j\\omega RC}}{1+\\frac{1}{j\\omega RC}}"
+                    "\\(K_{U}=\\frac{j\\omega RC}{1+\\omega RC}\\)",
+                    "\\(K_{U}=\\frac{\\frac{1}{j\\omega RC}}{1+\\frac{1}{j\\omega RC}}\\)"
                 ]
             }
         },
@@ -787,11 +787,11 @@
             "title": "Konstanta šíření je definována takto:",
             "answers": {
                 "correct": [
-                    "\\gamma=\\sqrt{\\left( R_{0}+j\\omega L_{0} \\right)\\left( G_{0}+j\\omega C_{0} \\right)}"
+                    "\\(\\gamma=\\sqrt{\\left( R_{0}+j\\omega L_{0} \\right)\\left( G_{0}+j\\omega C_{0} \\right)}\\)"
                 ],
                 "incorrect": [
-                    "\\gamma=\\sqrt{\\left( R_{0}+j\\omega C_{0} \\right)\\left( G_{0}+j\\omega L_{0} \\right)}",
-                    "\\gamma=\\sqrt{\\frac{\\left( R_{0}+j\\omega L_{0} \\right)}{\\left( G_{0}+j\\omega C_{0} \\right)}}"
+                    "\\(\\gamma=\\sqrt{\\left( R_{0}+j\\omega C_{0} \\right)\\left( G_{0}+j\\omega L_{0} \\right)}\\)",
+                    "\\(\\gamma=\\sqrt{\\frac{\\left( R_{0}+j\\omega L_{0} \\right)}{\\left( G_{0}+j\\omega C_{0} \\right)}}\\)"
                 ]
             }
         },
@@ -823,7 +823,7 @@
             "title": "Mezní úhlový kmitočet setrvačného RC článku je:",
             "answers": {
                 "correct": [
-                    "\\omega=\\frac{1}{RC} při něm je modul přenosu K<sub>U</sub> = 0,707 K<sub>U max</sub> a argument \\varphi=-\\frac{\\pi}{4}"
+                    "\\(\\omega=\\frac{1}{RC} při něm je modul přenosu K<sub>U</sub> = 0,707 K<sub>U max</sub> a argument \\varphi=-\\frac{\\pi}{4}\\)"
                 ]
             },
             "comment": "Neověřeno, dopsáno do zdrojového dokumentu"
@@ -832,11 +832,11 @@
             "title": "Bodeho asymptoty se u vazebního CR článku protínají v bodě",
             "answers": {
                 "correct": [
-                    "0 db \\omega/\\omega_{r}=1"
+                    "0 db \\(\\omega/\\omega_{r}=1\\)"
                 ],
                 "incorrect": [
-                    "0 db \\omega/\\omega_{r}=1",
-                    "3 db \\omega/\\omega_{r}=0,707"
+                    "0 db \\(\\omega/\\omega_{r}=1\\)",
+                    "3 db \\(\\omega/\\omega_{r}=0,707\\)"
                 ]
             },
             "comment": "Starý test"
