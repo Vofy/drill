@@ -46,7 +46,7 @@
             "title": "Atomové číslo dusíku N je 7. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného dusíkového atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/model-zaplneni-elektronovych-orbit-dusiku.png'>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/model-zaplneni-elektronovych-orbit-dusiku.png'>"
                 ]
             }
         },
@@ -54,7 +54,7 @@
             "title": "Atomové číslo kyslíku O je 8. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného  atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
             "answers": {
                 "correct": [
-                    "<img height='100' src='/images/model-zaplneni-elektronovych-orbit-kysliku.png'>"
+                    "<img height='100' src='/images/bpc/mpe/zkouska/model-zaplneni-elektronovych-orbit-kysliku.png'>"
                 ]
             }
         },
@@ -62,7 +62,7 @@
             "title": "Atomové číslo křemíku Si je 14. Přetažením obrázku elektronů v orbitech vytvořte model, jak budou zaplněny elektronové orbity izolovaného křemíkového atomu v základním stavu. Nezapomeňte označit i prázdné orbity (i ve správné pořadí, nejnižší kvantové číslo je nejvíce vlevo)",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/model-zaplneni-elektronovych-orbit-kremiku.png'>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/model-zaplneni-elektronovych-orbit-kremiku.png'>"
                 ]
             }
         },
@@ -70,7 +70,7 @@
             "title": "Přetažením přiřaďte hodnoty krystalických rovin",
             "answers": {
                 "correct": [
-                    "<img height='300' src='/images/hodnoty-krystalickych-rovin.png'>"
+                    "<img height='300' src='/images/bpc/mpe/zkouska/hodnoty-krystalickych-rovin.png'>"
                 ]
             }
         },
@@ -98,7 +98,7 @@
             "title": "Přetažením přiřaďte buňky k názvům krystalových soustav",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/krystalove-soustavy.png'>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy.png'>"
                 ]
             }
         },
@@ -106,13 +106,13 @@
             "title": "Pojmenujte krystalové soustavy",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/krystalove-soustavy-krychlova-jednoducha.png'> Krychlová jednoduchá",
-                    "<img height='200' src='/images/krystalove-soustavy-krychlova-plosne-centrovana.png'> Krychlová plošně centrovaná",
-                    "<img height='200' src='/images/krystalove-soustavy-krychlova-prostorove-centrovana.png'> Krychlová prostorově centrovaná",
-                    "<img height='200' src='/images/krystalove-soustavy-trigonalni.png'> Trigonální",
-                    "<img height='200' src='/images/krystalove-soustavy-jednoklonna-jednoducha.png'> Jednoklonná jednoduchá",
-                    "<img height='200' src='/images/krystalove-soustavy-jednoklonna-bazalne-centrovana.png'> Jednoklonná bazálně centrovaná",
-                    "<img height='200' src='/images/krystalove-soustavy-trojklonna.png'> Trojklonná"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-krychlova-jednoducha.png'> Krychlová jednoduchá",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-krychlova-plosne-centrovana.png'> Krychlová plošně centrovaná",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-krychlova-prostorove-centrovana.png'> Krychlová prostorově centrovaná",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-trigonalni.png'> Trigonální",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-jednoklonna-jednoducha.png'> Jednoklonná jednoduchá",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-jednoklonna-bazalne-centrovana.png'> Jednoklonná bazálně centrovaná",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/krystalove-soustavy-trojklonna.png'> Trojklonná"
                 ]
             }
         },
@@ -382,7 +382,7 @@
             "title": "Přetažením veličin vytvoříte základní vztah mezi magnetickou indukcí a intenzitou magnetického pole. (pro pořadí veličin použijte vzorec: obecné konstanty, závislé konstanty, nezávislé veličiny)",
             "answers": {
                 "correct": [
-                    "<img height='75' src='/images/zakladni-vztah-mezi-magnetickou-indukci-a-intenzitou-magnetickoho-pole.png'>"
+                    "<img height='75' src='/images/bpc/mpe/zkouska/zakladni-vztah-mezi-magnetickou-indukci-a-intenzitou-magnetickoho-pole.png'>"
                 ]
             }
         },
@@ -390,7 +390,7 @@
             "title": "Přetažením veličin definujte vztahy platné pro tepelnou a driftovou rychlost volných elektronů (pro pořádí veličin použijte vzorec: obecné konstanty, závislé konstanty, nezávislé veličiny)",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/vztahy-platne-pro-tepelnou-a-driftovou-rychlost-volnych-elektronu.png'>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/vztahy-platne-pro-tepelnou-a-driftovou-rychlost-volnych-elektronu.png'>"
                 ]
             },
             "comment": "Upraveno podle skript - mělo by to být správně (jinak ve skriptech je 't' označováno jako 't<sub>n</sub>')"
@@ -422,11 +422,11 @@
             "title": "Přiřaďte název křivky:",
             "answers": {
                 "correct": [
-                    "<img height='100' src='/images/krivka-prvotni-magnetizace-feromagnetik.png'> Křivka prvotní magnetizace feromagnetik",
-                    "<img height='100' src='/images/magnetizace-paramagnetik.png'> Magnetizace paramagnetik",
-                    "<img height='100' src='/images/magnetizace-diamagnetik.png'> Magnetizace diamagnetik",
-                    "<img height='100' src='/images/hysterezni-smycka-magneticky-mekkeho-materialu.png'> Hysterézní smyčka magneticky měkkého materiálu",
-                    "<img height='100' src='/images/hysterezni-smycka-magneticky-tvrdeho-materialu.png'> Hysterézní smyčka magneticky tvrdého materiálu"
+                    "<img height='100' src='/images/bpc/mpe/zkouska/krivka-prvotni-magnetizace-feromagnetik.png'> Křivka prvotní magnetizace feromagnetik",
+                    "<img height='100' src='/images/bpc/mpe/zkouska/magnetizace-paramagnetik.png'> Magnetizace paramagnetik",
+                    "<img height='100' src='/images/bpc/mpe/zkouska/magnetizace-diamagnetik.png'> Magnetizace diamagnetik",
+                    "<img height='100' src='/images/bpc/mpe/zkouska/hysterezni-smycka-magneticky-mekkeho-materialu.png'> Hysterézní smyčka magneticky měkkého materiálu",
+                    "<img height='100' src='/images/bpc/mpe/zkouska/hysterezni-smycka-magneticky-tvrdeho-materialu.png'> Hysterézní smyčka magneticky tvrdého materiálu"
                 ]
             }
         },
@@ -434,7 +434,7 @@
             "title": "Přiřaďte odpovídající permeability",
             "answers": {
                 "correct": [
-                    "<img height='300' src='/images/permeability.png'>"
+                    "<img height='300' src='/images/bpc/mpe/zkouska/permeability.png'>"
                 ]
             }
         },
@@ -546,10 +546,10 @@
             "title": "Přetažením vytvořte redukované pásové modely vyznačených materiálů při teplotě větší jak teplota absolutní nuly, ale při běžných pozemských podmínkách.",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/redukovane-pasove-modely-vetsi-jak-teplota-absolutni-nuly-correct.png'/>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/redukovane-pasove-modely-vetsi-jak-teplota-absolutni-nuly-correct.png'/>"
                 ],
                 "incorrect": [
-                    "<img height='125' src='/images/redukovane-pasove-modely-vetsi-jak-teplota-absolutni-nuly-incorrect.png'/>"
+                    "<img height='125' src='/images/bpc/mpe/zkouska/redukovane-pasove-modely-vetsi-jak-teplota-absolutni-nuly-incorrect.png'/>"
                 ]
             }
         },
@@ -557,10 +557,10 @@
             "title": "Přetažením vytvořte redukované pásové modely vyznačených materiálů při teplotě blížící se k absolutní nule.",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/redukovane-pasove-modely-correct.png'>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/redukovane-pasove-modely-correct.png'>"
                 ],
                 "incorrect": [
-                    "<img height='125' src='/images/redukovane-pasove-modely-incorrect.png'>"
+                    "<img height='125' src='/images/bpc/mpe/zkouska/redukovane-pasove-modely-incorrect.png'>"
                 ]
             }
         },
@@ -568,10 +568,10 @@
             "title": "Vytvořte pásové modely nevlastních polovodičů při T > 0 K",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/pasove-modely-nevlastnich-polovodicu-pri-t-vetsi-nez-0k-correct.png'/>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/pasove-modely-nevlastnich-polovodicu-pri-t-vetsi-nez-0k-correct.png'/>"
                 ],
                 "incorrect": [
-                    "<img height='85' src='/images/pasove-modely-nevlastnich-polovodicu-pri-t-vetsi-nez-0k-incorrect.png'/>"
+                    "<img height='85' src='/images/bpc/mpe/zkouska/pasove-modely-nevlastnich-polovodicu-pri-t-vetsi-nez-0k-incorrect.png'/>"
                 ]
             }
         },
@@ -579,10 +579,10 @@
             "title": "Vytvořte pásové modely nevlastních polovodičů při T → 0 K",
             "answers": {
                 "correct": [
-                    "<img height='200' src='/images/pasove-modely-nevlastnich-polovodicu-pri-t-0k-correct.png'/>"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/pasove-modely-nevlastnich-polovodicu-pri-t-0k-correct.png'/>"
                 ],
                 "incorrect": [
-                    "<img height='85' src='/images/pasove-modely-nevlastnich-polovodicu-pri-t-0k-incorrect.png'/>"
+                    "<img height='85' src='/images/bpc/mpe/zkouska/pasove-modely-nevlastnich-polovodicu-pri-t-0k-incorrect.png'/>"
                 ]
             }
         },
@@ -937,7 +937,7 @@
             "title": "Vytvořte definici členění polovodičových materiálů",
             "answers": {
                 "correct": [
-                    "<img height='300' src='/images/cleneni-polovodicovych-materialu.png'>"
+                    "<img height='300' src='/images/bpc/mpe/zkouska/cleneni-polovodicovych-materialu.png'>"
                 ]
             }
         },
@@ -1116,11 +1116,11 @@
             "answers": {
                 "correct": [
                     "<u>Bodové</u> poruchy",
-                    "<img height='200' src='/images/bodove-poruchy-substitucni-atom.png'> Substituční atom",
-                    "<img height='200' src='/images/bodove-poruchy-intersticialni-atom.png'> Intersticiální atom",
-                    "<img height='200' src='/images/bodove-poruchy-vakance.png'> Vakance",
-                    "<img height='200' src='/images/bodove-poruchy-frenkelova-porucha.png'> Frenkelova porucha",
-                    "<img height='200' src='/images/bodove-poruchy-schottkyho-porucha.png'> Schottkyho porucha"
+                    "<img height='200' src='/images/bpc/mpe/zkouska/bodove-poruchy-substitucni-atom.png'> Substituční atom",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/bodove-poruchy-intersticialni-atom.png'> Intersticiální atom",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/bodove-poruchy-vakance.png'> Vakance",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/bodove-poruchy-frenkelova-porucha.png'> Frenkelova porucha",
+                    "<img height='200' src='/images/bpc/mpe/zkouska/bodove-poruchy-schottkyho-porucha.png'> Schottkyho porucha"
                 ]
             }
         },
@@ -1247,7 +1247,7 @@
             }
         },
         {
-            "title": "Vepište chybjící slova<br><img height='300' src='/images/domeny-oblasti.png'/>",
+            "title": "Vepište chybjící slova<br><img height='300' src='/images/bpc/mpe/zkouska/domeny-oblasti.png'/>",
             "answers": {
                 "correct": [
                     "- oblast I. Vratné posuny <u>Blochových</u> stěn mmezi doménami",
