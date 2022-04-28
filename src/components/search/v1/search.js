@@ -56,7 +56,7 @@ export default function Search(props) {
       };
 
       Search();
-      
+            
     }, [fuse, searchedString]);
 
     useEffect(() => {

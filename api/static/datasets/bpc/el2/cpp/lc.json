@@ -166,7 +166,7 @@
                     "\\(u(t)=U\\left(1-e^{\\frac{-t}{\\tau}}\\right)\\)"
                 ],
                 "incorrect": [
-                    "\\(u(t)=Ue^{\frac{-t}{\tau}}\\)",
+                    "\\(u(t)=Ue^{\\frac{-t}{\\tau}}\\)",
                     "\\(u(t)=U\\left( e^{\\frac{-t}{\\tau}}-1\\right)\\)"
                 ]
             }
@@ -823,7 +823,7 @@
             "title": "Mezní úhlový kmitočet setrvačného RC článku je:",
             "answers": {
                 "correct": [
-                    "\\(\\omega=\\frac{1}{RC} při něm je modul přenosu K<sub>U</sub> = 0,707 K<sub>U max</sub> a argument \\varphi=-\\frac{\\pi}{4}\\)"
+                    "\\(\\omega=\\frac{1}{RC}\\) při něm je modul přenosu K<sub>U</sub> = 0,707 K<sub>U max</sub> a argument \\(\\varphi=-\\frac{\\pi}{4}\\)"
                 ]
             },
             "comment": "Neověřeno, dopsáno do zdrojového dokumentu"

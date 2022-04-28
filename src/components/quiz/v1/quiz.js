@@ -43,6 +43,7 @@ export default function Quiz(props) {
         if (currentTaskIndex < 0) {
             setCurrentTaskIndex(allTasks.length - 1);
         } else if (currentTaskIndex > allTasks.length - 1) {
+            setAllTasks(shuffleArray(dataset.tasks));
             setCurrentTaskIndex(0);
         }
 
@@ -51,9 +52,9 @@ export default function Quiz(props) {
 
     return (<>
         <div className='card' key={currentTaskIndex}>
-            { currentTask && currentTask.title && <MathJax className='Task' dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(currentTask.title)}}/>}
+            <MathJax dynamic className='Task' dangerouslySetInnerHTML={{__html: currentTask && currentTask.title && DOMPurify.sanitize(currentTask.title)}}/>
             { currentTask && currentTask.answers && currentTask.answers.map((answer, key) => {
-                return <Answer key={key} answer={answer}></Answer>
+                return <Answer key={key} answer={answer}/>
             })}
         </div>
 

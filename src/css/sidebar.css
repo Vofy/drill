@@ -2,7 +2,7 @@
 
 .sidebar {
   background-color: var(--header-background);
-  color: var(--text);
+  color: var(--sidebar);
   position: absolute;
   left: -405px;
   top: 60px;

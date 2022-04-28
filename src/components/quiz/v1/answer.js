@@ -10,14 +10,11 @@ export default function Answer(props) {
         setAnswerClicked(true);
     };
 
-    const colorClass = 
-        answerClicked 
-        ? (props.answer.correct ? ' correct' : ' incorrect')
-        : '';
+    const colorClass = answerClicked  ? (props.answer.correct ? ' correct' : ' incorrect') : '';
 
     return (
         <button className={"answer" + colorClass} onClick={checkIfCorrect}>
-            <MathJax dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(props.answer.text)}}/>
+            <MathJax dynamic dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(props.answer.text)}}/>
         </button>
     )
 }
