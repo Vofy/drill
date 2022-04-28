@@ -271,7 +271,7 @@
             "title": "Časová konstanta v RL obvodu je:",
             "answers": {
                 "correct": [
-                    "\\tau=\\frac{L}{R}\\)"
+                    "\\(\\tau=\\frac{L}{R}\\)"
                 ],
                 "incorrect": [
                     "\\(\\tau=R\\cdot L\\)",
