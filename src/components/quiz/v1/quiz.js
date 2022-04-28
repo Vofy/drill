@@ -43,7 +43,7 @@ export default function Quiz(props) {
         if (currentTaskIndex < 0) {
             setCurrentTaskIndex(allTasks.length - 1);
         } else if (currentTaskIndex > allTasks.length - 1) {
-            setAllTasks(shuffleArray(dataset.tasks));
+            setAllTasks(shuffleArray(allTasks));
             setCurrentTaskIndex(0);
         }
 
