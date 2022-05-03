@@ -1,5 +1,7 @@
+import React, { useCallback } from 'react';
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 import { useLocation } from "react-router";
+import { debounce } from 'debounce';
 import { menuOpenedState, modeState, searchedStringState } from "../../globalState";
 import '../../css/header.css';
 
@@ -14,10 +16,9 @@ export default function Header(props) {
     setMenuOpened(menuOpened ? false : true);
   }
 
-  const handleChange = (e) => {
-    const delayDebounceFn = setTimeout(() => setSearchedString(e.target.value), 500)
-    return () => clearTimeout(delayDebounceFn);
-  }
+  const handleChange = useCallback(debounce(e => {
+    setSearchedString(e.target.value)
+  }, 1000), []);
 
   const components = {
     title: 

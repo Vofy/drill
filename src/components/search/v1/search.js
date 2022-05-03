@@ -39,33 +39,30 @@ export default function Search(props) {
     });
   }
 
-    useEffect(() => {
-  
-      const Search = async () => {
-        if (fuse && allQuestions) {
-          if (searchedString === "") {
-            let mappedArray = [];
-            allQuestions.forEach(question => mappedArray.push({ item: question }));
-            setResult(mappedArray);
-          } else {
-            setResult(fuse.search(searchedString));
-          }
-  
-          props.contentRef.current.scrollTo(0, 0);
-        }
-      };
+  let debouncer;
+  const Search = async() => {
+    clearTimeout(debouncer);
+    if (fuse && allQuestions) {
+      if (searchedString === "" ) {
+        let mappedArray = [];
+        allQuestions.forEach(question => mappedArray.push({ item: question }));
+        setResult(mappedArray);
+      } else
+        setResult(fuse.search(searchedString));
+    }
 
-      Search();
-            
-    }, [fuse, searchedString]);
+      props.contentRef.current.scrollTo(0, 0);
+  }
 
-    useEffect(() => {
-      initFuse();
-    }, [location]);
+  useEffect(() => {
+    Search();
+  }, [fuse, searchedString]);
+
+  useEffect(() => {
+    initFuse();
+  }, [location]);
     
-    return (
-        <>
-        { result && result.map((res, index) => <Result key={index} res={res}/>) }
-        </>
-    )
+  return (<>
+    { result && result.map((res, index) => <Result key={index} res={res}/>) }
+  </>)
 }
