@@ -31,7 +31,7 @@ export const modeState = atom({
 
 export const showIncorrectAnswersState = atom({
     key: 'showIncorrectAnswers',
-    default: true,
+    default: false,
     effects: [
         localStorageEffect('showIncorrectAnswers'),
     ]

@@ -40,7 +40,7 @@ export default function Header(props) {
         <i className="fas fa-bars"></i>
       </button> 
       { 
-        (location.pathname === '/' && components.title) || 
+        (location.pathname === '/' && components.title) ||
         (mode === 'quiz' && components.title) || 
         (mode === 'search' && components.search)
       }

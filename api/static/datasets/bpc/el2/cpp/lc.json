@@ -88,6 +88,18 @@
             }
         },
         {
+            "title": "U fázorového diagramu technické cívky je fázový posun mezi fázorem napětí a proudu:",
+            "answers": {
+                "correct": [
+                    "kladný, v absolutní hodnotě menší než 90°"
+                ],
+                "incorrect": [
+                    "záporný, v absolutní hodnotě menší než 90°",
+                    "vždy 90°"
+                ]
+            }
+        },
+        {
             "title": "U fázorového diagramu technického kondenzátoru je fázový posun mezi fázorem napětí a proudu:",
             "answers": {
                 "correct": [
@@ -98,6 +110,19 @@
                     "kladný, v absolutní hodnotě menší než 90°"
                 ]
             }
+        },
+        {
+            "title": "U fázorového diagramu technického kondenzátoru je fázový posun mezi fázorem napětí a proudu:",
+            "answers": {
+                "correct": [
+                    "Záporný, v absolutní hodnotě menší než 90°"
+                ],
+                "incorrect": [
+                    "Vždy menší než -π/4",
+                    "Kladný, v absolutní hodnotě menší než 90°"
+                ]
+            },
+            "comment":"Starý test, neověřeno"
         },
         {
             "title": "V případě, že je obvod složen pouze z pasivních prvků a neřízených zdrojů, je matice impedancí u metody smyčkových proudů:",
@@ -172,6 +197,19 @@
             }
         },
         {
+            "title": "Při nabíjení je napětí na kondenzátoru u RC článku dáno vztahem:",
+            "answers": {
+                "correct": [
+                    "\\(u(t)=U\\left(1-e^{\\frac{-t}{\\tau}}\\right)\\)"
+                ],
+                "incorrect": [
+                    "\\(u(t)=Ue^{\\frac{-t}{\\tau}}\\)",
+                    "\\(u(t)=U\\left( e^{\\frac{-t}{\\tau}}-1\\right)\\)"
+                ]
+            },
+            "comment": "Starý test"
+        },
+        {
             "title": "Při vybíjení je napětí na kapacitoru u RC článku dáno vztahem:",
             "answers": {
                 "correct": [
@@ -220,6 +258,19 @@
             }
         },
         {
+            "title": "Při rezonanci sériového RLC obvodu je:",
+            "answers": {
+                "correct": [
+                    "Impedance minimální a je rovna R"
+                ],
+                "incorrect": [
+                    "Impedance maximální a je rovna R",
+                    "Admitance minimální a je rovna 1/R"
+                ]
+            },
+            "comment": "Starý test"
+        },
+        {
             "title": "Při rezonanci je admitance paralelního RLC obvodu:",
             "answers": {
                 "correct": [
@@ -228,18 +279,6 @@
                 "incorrect": [
                     "maximální a je rovna 1/R",
                     "nulová"
-                ]
-            }
-        },
-        {
-            "title": "Při proudovém buzení je napětí na paralelním RLC obvodu při rezonanci:",
-            "answers": {
-                "correct": [
-                    "maximální"
-                ],
-                "incorrect": [
-                    "minimální",
-                    "nulové"
                 ]
             }
         },
@@ -266,6 +305,19 @@
                     "singulární"
                 ]
             }
+        },
+        {
+            "title": "Je-li obvod složen použe z pasivních prvků a neřízených zdrojů, platí pro MUN:",
+            "answers": {
+                "correct": [
+                    "Matice vodivostí je souměrná podle hlavní diagonály"
+                ],
+                "incorrect": [
+                    "Prvky na vedlejší diagonále matice vodivostí jsou nulové",
+                    "Matice vodivosti je souměrná podle vedlejší diagonály"
+                ]
+            },
+            "comment": "Starý test, neověřeno"
         },
         {
             "title": "Časová konstanta v RL obvodu je:",
@@ -352,18 +404,6 @@
             }
         },
         {
-            "title": "U fázorového diagramu technické cívky je fázový posun mezi fázorem napětí a proudu:",
-            "answers": {
-                "correct": [
-                    "kladný, v absolutní hodnotě menší než 90°"
-                ],
-                "incorrect": [
-                    "záporný, v absolutní hodnotě menší než 90°",
-                    "vždy 90°"
-                ]
-            }
-        },
-        {
             "title": "Impedance je:",
             "answers": {
                 "correct": [
@@ -400,6 +440,19 @@
             }
         },
         {
+            "title": "Při buzení proudem je napětí na paralelním RLC obvodu při rezonanci:",
+            "answers": {
+                "correct": [
+                    "Maximální"
+                ],
+                "incorrect": [
+                    "Minimální",
+                    "Nulové"
+                ]
+            },
+            "comment":"Starý test, neověřeno"
+        },
+        {
             "title": "Poměr stojatých vln na vedení je definován jako:",
             "answers": {
                 "correct": [
@@ -412,7 +465,7 @@
             }
         },
         {
-            "title": "Složky komplexního výkony <b>S<b> jsou:",
+            "title": "Složky komplexního výkony <b>S</b> jsou:",
             "answers": {
                 "correct": [
                     "činný výkon - reálná složka, jalový výkon - imaginární složka a zdánlivý výkon - modul"
@@ -460,7 +513,7 @@
             }
         },
         {
-            "title": " případě souhlasné orientace všech smyčkových proudů a volbě smyček shodných s oky sítě jsou v MSP všechny prvky matice Z mimo hlavní diagonálu:",
+            "title": "V případě souhlasné orientace všech smyčkových proudů a volbě smyček shodných s oky sítě jsou v MSP všechny prvky matice Z mimo hlavní diagonálu:",
             "answers": {
                 "correct": [
                     "záporné nebo nulové"
@@ -520,6 +573,19 @@
             }
         },
         {
+            "title": "Pro aplikaci metody smyčkových proudů mohou být v obvodu:",
+            "answers": {
+                "correct": [
+                    "Pouze napěťové budící zdroje"
+                ],
+                "incorrect": [
+                    "Napěťové i proudové budicí zdroje",
+                    "Pouze nezávislé proudové budicí zdroje"
+                ]
+            },
+            "comment": "Starý test"
+        },
+        {
             "title": "Pro přímou aplikaci analýzy metodou uzlových napětí mohou být v obvodu:",
             "answers": {
                 "correct": [
@@ -532,7 +598,7 @@
             }
         },
         {
-            "title": "Po průchodu signálu CR článkem s mezním kmitočtem \\omega_{m}=\\frac{1}{RC} se amplitudy harmonických složek pro kmitočty \\omega \\le \\omega_{m}:",
+            "title": "Po průchodu signálu CR článkem s mezním kmitočtem \\(\\omega_{m}=\\frac{1}{RC}\\) se amplitudy harmonických složek pro kmitočty \\(\\omega \\le \\omega_{m}:\\)",
             "answers": {
                 "correct": [
                     "zmenšují"
@@ -544,7 +610,7 @@
             }
         },
         {
-            "title": "Po průchodu signálu RC článkem s mezním kmitočtem \\omega_{m}=\\frac{1}{RC} se amplitudy harmonických složek pro kmitočty \\omega \\ge  \\omega_{m}",
+            "title": "Po průchodu signálu RC článkem s mezním kmitočtem \\(\\omega_{m}=\\frac{1}{RC}\\) se amplitudy harmonických složek pro kmitočty \\(\\omega \\ge  \\omega_{m}\\)",
             "answers": {
                 "correct": [
                     "zmenšují"
@@ -616,7 +682,7 @@
             }
         },
         {
-            "title": "Při rezonancije admitance paralelního RLC obvodu:",
+            "title": "Při rezonanci je admitance paralelního RLC obvodu:",
             "answers": {
                 "correct": [
                     "minimální a je rovna 1/R"
@@ -718,8 +784,16 @@
                     "amplitudy fázových napětí mají stejnou velikost a vzájemný fázový posuv 120°"
                 ],
                 "incorrect": [
-                    "fázová napětí mají počáteční fáze 0°“, -120° a 120°",
+                    "fázová napětí mají počáteční fáze 0°, -120° a 120°",
                     "amplitudy fázových napětí mají stejnou velikost a počáteční fázi 0°"
+                ]
+            }
+        },
+        {
+            "title": "Hodograf znázorňuje:",
+            "answers": {
+                "correct": [
+                    "Komplexní napěťový přenos K<sub>u</sub>ω"
                 ]
             }
         },
@@ -756,6 +830,18 @@
                 "incorrect": [
                     "\\(K_{U}=\\frac{j\\omega RC}{1+\\omega RC}\\)",
                     "\\(K_{U}=\\frac{\\frac{1}{j\\omega RC}}{1+\\frac{1}{j\\omega RC}}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Pro přenos setrvačného RC článku platí:",
+            "answers": {
+                "correct": [
+                    "\\(\\textbf{K}_{U}=\\frac{1}{1+\\omega RC}\\)"
+                ],
+                "incorrect": [
+                    "\\(\\textbf{K}_{U}=\\frac{1}{\\frac{R+1}{j\\omega RC}}\\)",
+                    "\\(\\textbf{K}_{U}=\\frac{\\frac{1}{j\\omega C}}{\\frac{R+1}{j\\omega RC}}\\)"
                 ]
             }
         },
@@ -823,10 +909,19 @@
             "title": "Mezní úhlový kmitočet setrvačného RC článku je:",
             "answers": {
                 "correct": [
-                    "\\(\\omega=\\frac{1}{RC}\\) při něm je modul přenosu K<sub>U</sub> = 0,707 K<sub>U max</sub> a argument \\(\\varphi=-\\frac{\\pi}{4}\\)"
+                    "\\(\\omega=\\frac{1}{RC}\\) při něm je modul přenosu K<sub>u</sub> = 0,707 K<sub>U max</sub> a argument \\(\\varphi=-\\frac{\\pi}{4}\\)"
                 ]
             },
             "comment": "Neověřeno, dopsáno do zdrojového dokumentu"
+        },
+        {
+            "title": "Mezní úhlový kmitočet CR článku je:",
+            "answers": {
+                "correct": [
+                    "\\(\\omega=\\frac{1}{RC}\\), při něm má přenos modul K<sub>u</sub> = 0,707 a argument \\(\\varphi=\\frac{\\pi}{4}\\)"
+                ]
+            },
+            "comment": "Starý test, neověřeno"
         },
         {
             "title": "Bodeho asymptoty se u vazebního CR článku protínají v bodě",
@@ -835,8 +930,85 @@
                     "0 db \\(\\omega/\\omega_{r}=1\\)"
                 ],
                 "incorrect": [
-                    "0 db \\(\\omega/\\omega_{r}=1\\)",
-                    "3 db \\(\\omega/\\omega_{r}=0,707\\)"
+                    "3 db \\(\\omega/\\omega_{r}=0,707\\)",
+                    "3 db \\(\\omega/\\omega_{r}=1\\)"
+                ]
+            },
+            "comment": "Starý test"
+        },
+        {
+            "title": "Bodeho asymptoty se u setrvačného CR článku protínají v bodě",
+            "answers": {
+                "correct": [
+                    "0 db \\(\\omega/\\omega_{r}=1\\)"
+                ],
+                "incorrect": [
+                    "-3 db \\(\\omega/\\omega_{r}=1\\)",
+                    "0 db \\(\\omega/\\omega_{r}=0,707\\)"
+                ]
+            },
+            "comment":  "Starý test"
+        },
+        {
+            "title": "Bodeho asymptoty se u setrvačného RC článku protínají v bodě",
+            "answers": {
+                "correct": [
+                    "0 db \\(\\omega/\\omega_{r}=0,707\\)"
+                ],
+                "incorrect": [
+                    "-3 db \\(\\omega/\\omega_{r}=1\\)",
+                    "0 db \\(\\omega/\\omega_{r}=1\\)"
+                ]
+            },
+            "comment": "Starý test, neověřeno"
+        },
+        {
+            "title": "Vedení λ/4 nakrátko se chová jako:",
+            "answers": {
+                "correct": [
+                    "Paralelní rezonanční obvod (<b>Z</b> → ∞)"
+                ],
+                "incorrect": [
+                    "Sériový rezonanční obvod (<b>Z</b> → 0)",
+                    "Nekonečně dlouhé vedení (<b>Z</b> → <b>Z</b><sub>v</sub>)"
+                ]
+            },
+            "comment": "Starý test, neověřeno"
+        },
+        {
+            "title": "Vedení λ/4 naprázdno se chová jako:",
+            "answers": {
+                "correct": [
+                    "Sériový rezonanční obvod (<b>Z</b> → 0)"
+                ],
+                "incorrect": [
+                    "Paralelní rezonanční obvod (<b>Z</b> → ∞)",
+                    "Nekonečně dlouhé vedení (<b>Z</b> → <b>Z</b><sub>v</sub>)"
+                ]
+            },
+            "comment": "Starý test, neověřeno"
+        },
+        {
+            "title": "Ztráty u technické cívky jsou:",
+            "answers": {
+                "correct": [
+                    "Vždy větší než u technického kondenzátoru"
+                ],
+                "incorrect": [
+                    "Vždy menší než u technického kondenzátoru",
+                    "Srovnatelné jako u technického kondenzátoru"
+                ]
+            },
+            "comment": "Starý test"
+        },
+        {
+            "title": "Článek RC je možno využít jako filtr typu:",
+            "answers": {
+                "correct": [
+                    "Dolní propusti"
+                ],
+                "incorrect": [
+                    "Horní propusti"
                 ]
             },
             "comment": "Starý test"
