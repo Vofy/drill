@@ -825,10 +825,22 @@
             "title": "Přenos článku RC je:",
             "answers": {
                 "correct": [
-                    "\\(K_{U}=\\frac{1}{1+\\omega RC}\\)"
+                    "\\(K_{U}=\\frac{1}{1+j\\omega RC}\\)"
                 ],
                 "incorrect": [
-                    "\\(K_{U}=\\frac{j\\omega RC}{1+\\omega RC}\\)",
+                    "\\(K_{U}=\\frac{j\\omega RC}{1+j\\omega RC}\\)",
+                    "\\(K_{U}=\\frac{\\frac{1}{j\\omega RC}}{1+\\frac{1}{j\\omega RC}}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Přenos vazebního RC článku je:",
+            "answers": {
+                "correct": [
+                    "\\(K_{U}=\\frac{j\\omega RC}{1+j\\omega RC}\\)"
+                ],
+                "incorrect": [
+                    "\\(K_{U}=\\frac{1}{1+j\\omega RC}\\)",
                     "\\(K_{U}=\\frac{\\frac{1}{j\\omega RC}}{1+\\frac{1}{j\\omega RC}}\\)"
                 ]
             }
@@ -1005,13 +1017,25 @@
             "title": "Článek RC je možno využít jako filtr typu:",
             "answers": {
                 "correct": [
-                    "Dolní propusti"
+                    "dolní propusti"
                 ],
                 "incorrect": [
-                    "Horní propusti"
+                    "pásmové propusti",
+                    "horní propusti"
                 ]
-            },
-            "comment": "Starý test"
+            }
+        },
+        {
+            "title": "Vazební článek CR je možno využít jako filtr typu:",
+            "answers": {
+                "correct": [
+                    "horní propusti"
+                ],
+                "incorrect": [
+                    "dolní propusti",
+                    "pásmové propusti"
+                ]
+            }
         }
     ]
 }
