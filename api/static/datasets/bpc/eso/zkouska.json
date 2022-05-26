@@ -1,0 +1,14 @@
+{
+    "title": "Zkouška",
+    "description": "Přepis z fektušky",
+    "tasks": [
+        {
+            "title": "1) a) Načrtněte uspořádání fotonásobiče. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaké jsou jeho dvě nejdůležitější vlastnosti? c) Uveďte alespoň jeden příklad jeho použití.",
+            "answers": {
+                "correct": [
+                    "a) <img src='/images/bpc/eso/zkouska/usporadani-fotonasobice.jpg'>"
+                ]
+            }
+        }
+    ]
+}
