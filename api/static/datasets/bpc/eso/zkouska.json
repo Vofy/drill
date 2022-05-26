@@ -3,7 +3,7 @@
     "description": "Přepis z fektušky",
     "tasks": [
         {
-            "title": "1) a) Načrtněte uspořádání fotonásobiče. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaké jsou jeho dvě nejdůležitější vlastnosti? d) Uveďte alespoň jeden příklad jeho použití.",
+            "title": "!!! 1) a) Načrtněte uspořádání fotonásobiče. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaké jsou jeho dvě nejdůležitější vlastnosti? d) Uveďte alespoň jeden příklad jeho použití.",
             "answers": {
                 "correct": [
                     "a) <img src='/images/bpc/eso/zkouska/usporadani-fotonasobice.jpg'>",
@@ -14,7 +14,7 @@
             }
         },
         {
-            "title": "2) a) Načrtněte uspořádání dutinového magnetronu. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaké jsou jeho dvě nejdůležitější oblasti použití. d) Jak se vzájemně liší vlastnosti magnetronu pro tyto dvě oblasti použití.",
+            "title": "!!! 2) a) Načrtněte uspořádání dutinového magnetronu. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaké jsou jeho dvě nejdůležitější oblasti použití. d) Jak se vzájemně liší vlastnosti magnetronu pro tyto dvě oblasti použití.",
             "answers": {
                 "correct": [
                     "a) <img src='/images/bpc/eso/zkouska/usporadani-dutinoveho-magnetronu.jpg'>",
@@ -25,7 +25,7 @@
             }
         },
         {
-            "title": "",
+            "title": "3) a) Načrtněte uspořádání klystronu. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaký je jeho typický rozsah parametrů (výkon/kmitočet). d) Uveďte alespoň jeden příklad jeho použití.",
             "answers": {
                 "correct": [
                     "a) ",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "title": "",
+            "title": "4) a) Načrtněte uspořádání majákové elektronky. b) Stručně (!!) vysvětlete princip její činnosti. c) Jaký je jeho typický rozsah parametrů (výkon/kmitočet). d) Uveďte alespoň jeden příklad jejího použití",
             "answers": {
                 "correct": [
                     "a) ",
@@ -47,13 +47,13 @@
             }
         },
         {
-            "title": "",
+            "title": "!!! 5) a) Uveďte alespoň tři druhy emise elektronů ve vakuu. b) U jakých spoučástek se tyto emise využívají? c) Stručně (!!) uveďte aplikace těchto součástek.",
             "answers": {
                 "correct": [
-                    "a) ",
-                    "b) ",
-                    "c) ",
-                    "d) "
+                    "a) Tepelná emise<br>- Emise elektronů uvolňovaných dodáním tepelné energie z pevných látek. Přivedením tepla získají elektrony energii dostatečnou k překonání vazebných sil na povrchu tělesa.<br>- Využití: Elektronky (akustické zesilovače) a vakuové obrazovky (zobrazovací technika), fyzikální (technologické) přístroje a zařízení",
+                    "b) Sekundární emise<br>- Elektrony či jiné částice dopadají na povrch materiálu, jejich nárazem jsou z povrchu atomů vyráženy elektrony.<br>- Využití: Násobiče sekundárních elektronů, výbojky (osvětlení), technologická zařízení",
+                    "c) Fotoemise<br>- Elektrony jsou emitovány z fotokatody, na jejíž povrch dopadá záření. Fotoemise se řídí dvěma fotoelektrickými zákony.<br>- Využití: Fotonky, fotonásobiče (citlivé detektory, elektronové mikroskopy), výbojky, technologická zařízení",
+                    "d) Emise elektrickým polem – tunelová emise<br>- Emise elektronů z povrchu pevných látek a kapalin vlivem vysoké intenzity elektrického pole na povrchu. Potenciálovou bariéru překonávají elektrony tunelovým jevem.<br>- Využití: Elektronky - Autoemisní mikroskop"
                 ]
             }
         },
