@@ -50,15 +50,15 @@
             "title": "!!! 5) a) Uveďte alespoň tři druhy emise elektronů ve vakuu. b) U jakých spoučástek se tyto emise využívají? c) Stručně (!!) uveďte aplikace těchto součástek.",
             "answers": {
                 "correct": [
-                    "a) Tepelná emise<br>- Emise elektronů uvolňovaných dodáním tepelné energie z pevných látek. Přivedením tepla získají elektrony energii dostatečnou k překonání vazebných sil na povrchu tělesa.<br>- Využití: Elektronky (akustické zesilovače) a vakuové obrazovky (zobrazovací technika), fyzikální (technologické) přístroje a zařízení",
-                    "b) Sekundární emise<br>- Elektrony či jiné částice dopadají na povrch materiálu, jejich nárazem jsou z povrchu atomů vyráženy elektrony.<br>- Využití: Násobiče sekundárních elektronů, výbojky (osvětlení), technologická zařízení",
-                    "c) Fotoemise<br>- Elektrony jsou emitovány z fotokatody, na jejíž povrch dopadá záření. Fotoemise se řídí dvěma fotoelektrickými zákony.<br>- Využití: Fotonky, fotonásobiče (citlivé detektory, elektronové mikroskopy), výbojky, technologická zařízení",
-                    "d) Emise elektrickým polem – tunelová emise<br>- Emise elektronů z povrchu pevných látek a kapalin vlivem vysoké intenzity elektrického pole na povrchu. Potenciálovou bariéru překonávají elektrony tunelovým jevem.<br>- Využití: Elektronky - Autoemisní mikroskop"
+                    "a) <b>Tepelná emise</b><br>- Emise elektronů uvolňovaných dodáním tepelné energie z pevných látek. Přivedením tepla získají elektrony energii dostatečnou k překonání vazebných sil na povrchu tělesa.<br>- Aplikace: Elektronky (akustické zesilovače) a vakuové obrazovky (zobrazovací technika), fyzikální (technologické) přístroje a zařízení",
+                    "b) <b>Sekundární emise</b><br>- Elektrony či jiné částice dopadají na povrch materiálu, jejich nárazem jsou z povrchu atomů vyráženy elektrony.<br>- Aplikace: Násobiče sekundárních elektronů, výbojky (osvětlení), technologická zařízení",
+                    "c) <b>Fotoemise</b><br>- Elektrony jsou emitovány z fotokatody, na jejíž povrch dopadá záření. Fotoemise se řídí dvěma fotoelektrickými zákony.<br>- Aplikace: Fotonky, fotonásobiče (citlivé detektory, elektronové mikroskopy), výbojky, technologická zařízení",
+                    "d) <b>Emise elektrickým polem – tunelová emise</b><br>- Emise elektronů z povrchu pevných látek a kapalin vlivem vysoké intenzity elektrického pole na povrchu. Potenciálovou bariéru překonávají elektrony tunelovým jevem.<br>- Aplikace: Elektronky - Autoemisní mikroskop"
                 ]
             }
         },
         {
-            "title": "",
+            "title": "6) a) Vyjmenujte druhy emise elektronů ve vakuu. b) U každého druhu emise uveďte typickou součástku a oblast jejího použití.",
             "answers": {
                 "correct": [
                     "a) ",
