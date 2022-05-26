@@ -12,6 +12,105 @@
                     "d) Detekce a měření velmi malých optických signálů, elektronové mikroskopy"
                 ]
             }
+        },
+        {
+            "title": "2) a) Načrtněte uspořádání dutinového magnetronu. b) Stručně (!!) vysvětlete princip jeho činnosti. c) Jaké jsou jeho dvě nejdůležitější oblasti použití. d) Jak se vzájemně liší vlastnosti magnetronu pro tyto dvě oblasti použití.",
+            "answers": {
+                "correct": [
+                    "a) <img src='/images/bpc/eso/zkouska/usporadani-dutinoveho-magnetronu.jpg'>",
+                    "b) Katoda emituje elektrony, které jsou přitahovány směrem k anodě – silné magnetické pole (které vyváří magnetický prstenec) mění jejich dráhu na kruhovou. Proud elektronů indukuje v rezonančních komorách vysokofrekvenční kmity, které jsou odváděny vlnovodem. V  mikrovlnné troubě je použit jako zdroj elektromagnetických vln, které zahřívají potraviny.",
+                    "c) Magnetrony se vyrábějí k použití zejména v komunikačních a radiolokačních zařízení a k mikrovlnnému ohřevu.",
+                    "d) Konstrukce radiokomunikačních magnetronů umožňuje možnost přeladitelnosti (ačkoliv je velice malá)a provoz o vyšších výkonech (v impulzním provozu dosahují až 10MW). Běžná mirovnlnná trouba určená pro ohřev má výkon okolo 1kW a není konstruovának k ladění kmitočtu (není potřeba)."
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
         }
     ]
 }
