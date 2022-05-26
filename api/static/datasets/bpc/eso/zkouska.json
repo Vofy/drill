@@ -50,15 +50,26 @@
             "title": "!!! 5) a) Uveďte alespoň tři druhy emise elektronů ve vakuu. b) U jakých spoučástek se tyto emise využívají? c) Stručně (!!) uveďte aplikace těchto součástek.",
             "answers": {
                 "correct": [
-                    "a) <b>Tepelná emise</b><br>- Emise elektronů uvolňovaných dodáním tepelné energie z pevných látek. Přivedením tepla získají elektrony energii dostatečnou k překonání vazebných sil na povrchu tělesa.<br>- Aplikace: Elektronky (akustické zesilovače) a vakuové obrazovky (zobrazovací technika), fyzikální (technologické) přístroje a zařízení",
-                    "b) <b>Sekundární emise</b><br>- Elektrony či jiné částice dopadají na povrch materiálu, jejich nárazem jsou z povrchu atomů vyráženy elektrony.<br>- Aplikace: Násobiče sekundárních elektronů, výbojky (osvětlení), technologická zařízení",
-                    "c) <b>Fotoemise</b><br>- Elektrony jsou emitovány z fotokatody, na jejíž povrch dopadá záření. Fotoemise se řídí dvěma fotoelektrickými zákony.<br>- Aplikace: Fotonky, fotonásobiče (citlivé detektory, elektronové mikroskopy), výbojky, technologická zařízení",
-                    "d) <b>Emise elektrickým polem – tunelová emise</b><br>- Emise elektronů z povrchu pevných látek a kapalin vlivem vysoké intenzity elektrického pole na povrchu. Potenciálovou bariéru překonávají elektrony tunelovým jevem.<br>- Aplikace: Elektronky - Autoemisní mikroskop"
+                    "<b>Tepelná emise</b><br>- Emise elektronů uvolňovaných dodáním tepelné energie z pevných látek. Přivedením tepla získají elektrony energii dostatečnou k překonání vazebných sil na povrchu tělesa.<br>- Aplikace: Elektronky (akustické zesilovače) a vakuové obrazovky (zobrazovací technika), fyzikální (technologické) přístroje a zařízení",
+                    "<b>Sekundární emise</b><br>- Elektrony či jiné částice dopadají na povrch materiálu, jejich nárazem jsou z povrchu atomů vyráženy elektrony.<br>- Aplikace: Násobiče sekundárních elektronů, výbojky (osvětlení), technologická zařízení",
+                    "<b>Fotoemise</b><br>- Elektrony jsou emitovány z fotokatody, na jejíž povrch dopadá záření. Fotoemise se řídí dvěma fotoelektrickými zákony.<br>- Aplikace: Fotonky, fotonásobiče (citlivé detektory, elektronové mikroskopy), výbojky, technologická zařízení",
+                    "<b>Emise elektrickým polem – tunelová emise</b><br>- Emise elektronů z povrchu pevných látek a kapalin vlivem vysoké intenzity elektrického pole na povrchu. Potenciálovou bariéru překonávají elektrony tunelovým jevem.<br>- Aplikace: Elektronky - Autoemisní mikroskop"
                 ]
             }
         },
         {
-            "title": "6) a) Vyjmenujte druhy emise elektronů ve vakuu. b) U každého druhu emise uveďte typickou součástku a oblast jejího použití.",
+            "title": "!!! 6) a) Vyjmenujte druhy emise elektronů ve vakuu. b) U každého druhu emise uveďte typickou součástku a oblast jejího použití.",
+            "answers": {
+                "correct": [
+                    "<b>Tepelná emise</b><br>- Emise elektronů uvolňovaných dodáním tepelné energie z pevných látek. Přivedením tepla získají elektrony energii dostatečnou k překonání vazebných sil na povrchu tělesa.<br>- Aplikace: Elektronky (akustické zesilovače) a vakuové obrazovky (zobrazovací technika), fyzikální (technologické) přístroje a zařízení",
+                    "<b>Sekundární emise</b><br>- Elektrony či jiné částice dopadají na povrch materiálu, jejich nárazem jsou z povrchu atomů vyráženy elektrony.<br>- Aplikace: Násobiče sekundárních elektronů, výbojky (osvětlení), technologická zařízení",
+                    "<b>Fotoemise</b><br>- Elektrony jsou emitovány z fotokatody, na jejíž povrch dopadá záření. Fotoemise se řídí dvěma fotoelektrickými zákony.<br>- Aplikace: Fotonky, fotonásobiče (citlivé detektory, elektronové mikroskopy), výbojky, technologická zařízení",
+                    "<b>Emise elektrickým polem – tunelová emise</b><br>- Emise elektronů z povrchu pevných látek a kapalin vlivem vysoké intenzity elektrického pole na povrchu. Potenciálovou bariéru překonávají elektrony tunelovým jevem.<br>- Aplikace: Elektronky - Autoemisní mikroskop"
+                ]
+            }
+        },
+        {
+            "title": "7) a) Načrtněte uspořádání triody. b) Stručně (!!) vysvětlete princip její činnosti. c) Jaké je typický rozsah parametrů (výkon/kmitočet). d) Uveďte alespoň jeden příklad jejího použití.",
             "answers": {
                 "correct": [
                     "a) ",
@@ -69,13 +80,77 @@
             }
         },
         {
-            "title": "",
+            "title": "8) a) Načrtněte uspořádání pentody. b) Stručně (!!) vysvětlete funkci třetí mřížky pentody. c) Uveďte alespoň jeden příklad použití pentody",
             "answers": {
                 "correct": [
                     "a) ",
                     "b) ",
                     "c) ",
                     "d) "
+                ]
+            }
+        },
+        {
+            "title": "1) a) Čím je způsobena vlastní indukčnost vrstvových rezistorů. b) Jaké je provedení a vlastnosti bezindukčních rezistorů?",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "2) Porovnejte přesnost nastavení, výkonovou zatížitelnost, teplotní stabilitu a vysokofrekvenční vlastnosti u následujících typů rezistorů: <br>a) Vrstvový rezistor s vybroušenou drážkou, b) Drátový rezistor. c) Rezistor typu CERMET",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "3) a)Vysvětlete princip víceotáčkového drátového potenciometru. b) Posuďte jeho vlastnosti, z hlediska jeho teplotní stability a přesnosti nastavení ? c) Uveďte alespoň jeden příklad použití.",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "!!! 4) a) Co tvoří dielektrikum u keramického kondenzátoru? b) Jaké jsou přednosti a nedostatky,  keramického kondenzátoru vzhledem k ostatním kondenzátorům? c) Jaké vlastnosti je třeba zohlednit při jeho použití?",
+            "answers": {
+                "correct": [
+                    "a) Dielektrikum je ze speciální keramiky s velkou permitivitou a malými dielektrickými ztrátami.",
+                    "b) Přednosti: <br>- Teplotně odolné, veliká permitivita, malý ztrátový činitel, mohou být použity při velkém rozsahu frekvencí<br>Nedostatky:<br>- Jsou velké, mají parazitní indukčnost.",
+                    "c) Závislost kapacity a ztrátového úhlu na kmitočtu a na teplotě"
+                ]
+            }
+        },
+        {
+            "title": "5) a) Co tvoří dielektrikum u svitkového kondenzátoru? b) Jaké jsou přednosti a nedostatky svitkového kondenzátoru vzhledem k ostatním kondenzátorům? c) Jakým způsobem se u svitkového kondenzátoru potlačuje vlastní indukčnost?",
+            "answers": {
+                "correct": [
+                    "a) ",
+                    "b) ",
+                    "c) ",
+                    "d) "
+                ]
+            }
+        },
+        {
+            "title": "!!! 6) a) Stručně (!!) vysvětlete princip elektrolytického kondenzátoru. b) Uveďte typický rozsah kapacity. c) Uveďte alespoň dva příklady použití.",
+            "answers": {
+                "correct": [
+                    "a) Jedna katoda je tvořena elektrolytem, který je potřebný k vytvoření oxidové vrstvy jako dielektrika při průchodu proudu.",
+                    "b) Rozsah kapacity od 1μF do 1F.",
+                    "c) Použití: spínací zdroje, filtry"
                 ]
             }
         },
