@@ -1,0 +1,233 @@
+{
+    "title": "MVE - LC - Test 1 - Osciloskopy",
+    "description": "MVE - LC - Test 1 - Osciloskopy. Přepsáno z fektušky (úlohy pod číslem 3 - osciloskopy).",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "K jakému účelu slouží dvojí časová základna u analogových osciloskopů?",
+            "answers": {
+                "correct": [
+                    "K detailnímu prohlížení zobrazovaného průběhu v čase"
+                ],
+                "incorrect": [
+                    "K zobrazení dvou časových siglnálů v jednom časovém úseku",
+                    "K zobrazení dvou časových signálů",
+                    "Ke kompenzaci vstupní napěťové sondy"
+                ]
+            }
+        },
+        {
+            "title": "Určete kmitočet tohoto průvěhu, zobrazeného na osciloskopu s vertikální citlivostí 5 voltů na dílek a měřítkem časové zíkladny po 0,2 milisekundy na dílek:<br><img height='200' src='/images/bpc/mve/lc/1/kmitocet-prubehu.jpg'>",
+            "answers": {
+                "correct": [
+                    "1000 Hz"
+                ],
+                "incorrect": [
+                    "25 Hz",
+                    "1 Hz",
+                    "1 ms",
+                    "100 Hz"
+                ]
+            }
+        },
+        {
+            "title": "V jakých jednotkých se vyjadřuje rychlost vzorkování A/D převodníku?",
+            "answers": {
+                "correct": [
+                    "MS/s"
+                ],
+                "incorrect": [
+                    "s/ MS",
+                    "MS/rok",
+                    "S/s",
+                    "MS/hod"
+                ]
+            },
+            "comment": "S/s - částečně správná"
+        },
+        {
+            "title": "Jaké je dělení osciloskopů podle způsobu zpracování měřeného signálu?",
+            "answers": {
+                "correct": [
+                    "Analogobé a číslicové"
+                ],
+                "incorrect": [
+                    "S jednou a se dvojí časovou základnou.",
+                    "Střídavé a stejnosměrné",
+                    "Jednokanálové a vícekanálové"
+                ]
+            }
+        },
+        {
+            "title": "Jaké jsou základní části číslicového osciloskopu?",
+            "answers": {
+                "correct": [
+                    "Zobrazovač, paměť, procesor, A/D převodník"
+                ],
+                "incorrect": [
+                    "Krystalem řízení oscilátor, dělič, bistabilní klopný obvod, čítač, paměť, zobrazovač",
+                    "Zobrazovač, krystalem řízený oscilátor, paměť, A/D převodník",
+                    "Zobrazovač, vstupní kanýly, vstupní dělič, časová základna, předzesilvače",
+                    "Zobrazovač, čítač, časová základna, A/D převodník"
+                ]
+            }
+        },
+        {
+            "title": "K čemu slouží pasivní vstupní sonda?",
+            "answers": {
+                "correct": [
+                    "K zeslabení vstupního signálu a k potlačení vlivu parazitních kapacit na měřený průběh napětí."
+                ],
+                "incorrect": [
+                    "K zeslabení vstupního signálu 10 x.",
+                    "K zesílení vstupního signálu 10 x.",
+                    "K zesílení vstupního signálu a k potlačení vlivu parazitních kapacit na měřený průběh napětí.",
+                    "Ke zvýšení vstupního odporu osciloskopu.",
+                    "K odstranění zašumění vstupního signálu."
+                ]
+            }
+        },
+        {
+            "title": "Jaké je náhradní schéma vstupní sondy osciloskopu?",
+            "answers": {
+                "correct": [
+                    "Paralelní spojení rezistoru a kodenzátoru"
+                ],
+                "incorrect": [
+                    "Pouze rezistor",
+                    "Pouze kondenzátor",
+                    "Sériové spojení rezistoru a cívky",
+                    "Sériové spojení rezistoru a kondenzátoru"
+                ]
+            }
+        },
+        {
+            "title": "Jakou hodnotu odporu má standardní vstup osciloskopu?",
+            "answers": {
+                "correct": [
+                    "1 MOhm"
+                ],
+                "incorrect": [
+                    "100 MOhm",
+                    "100 Ohm",
+                    "1 Ohm",
+                    "1 kOhm"
+                ]
+            }
+        },
+        {
+            "title": "Určete hodnotu doby náběžné hrany, kdy na obrazovce osciloskopu je v rastru zobrazen následující průběh. Na ose y jsou zobrazeny procenta z rosahu signálu.<br><img height='200' src='/images/bpc/mve/lc/1/doba-nabezne-hrany.png'>",
+            "answers": {
+                "correct": [
+                    "6 ms"
+                ],
+                "incorrect": [
+                    "12 ms",
+                    "8 ms",
+                    "10 ms"
+                ]
+            }
+        },
+        {
+            "title": "Určete hodnotu doby sestupné hrany, kdy na obrazovce osciloskopu je v rastru zobrazen následující průběh. Na ose y jsou zobrazeny procenta z rosahu signálu.<br><img height='200' src='/images/bpc/mve/lc/1/doba-sestupne-hrany.jpg'>",
+            "answers": {
+                "correct": [
+                    "0,6 ms"
+                ],
+                "incorrect": [
+                    "0,3 ms",
+                    "0,4 ms",
+                    "0,5 ms"
+                ]
+            }
+        },
+        {
+            "title": "Pro jaké typy signálů lze použít srovnávací metodu měření frekvence pomocí osciloskopu?",
+            "answers": {
+                "correct": [
+                    "Pro harmonické i neharmonické signály"
+                ],
+                "incorrect": [
+                    "Pouze pro obdélníkový průběh signálu",
+                    "Pouze pro harmonické signály",
+                    "Pouze pro neharmonické signály",
+                    "Pouze pro stejnosměrné signály"
+                ]
+            }
+        },
+        {
+            "title": "Jaký průběh má obvykle kalibrační napětí osciloskopu?",
+            "answers": {
+                "correct": [
+                    "Obdélníkový průběh se zvlášť strmými hranami."
+                ],
+                "incorrect": [
+                    "Sinusový průběh",
+                    "Pilovitý průběh",
+                    "Obdélníkový průběh se zaoblenými hranami.",
+                    "Trojúhelníkový průběh"
+                ]
+            }
+        },
+        {
+            "title": "Jaké jsou typy vzorkování u číslicových osciloskopů?",
+            "answers": {
+                "correct": [
+                    "V reálném čase a periodické"
+                ],
+                "incorrect": [
+                    "V reálném čase a normální",
+                    "Periodické a sekvenční",
+                    "Periodické a normální",
+                    "Zpožděné a periodické"
+                ]
+            }
+        },
+        {
+            "title": "O jaký typ kompenzace u sondy se jedná, když je zachycen tento průběh?<br><img height='200' src='/images/bpc/mve/lc/1/nedokompenzovana-sonda.png'>",
+            "answers": {
+                "correct": [
+                    "Sonda je nedokompenzovaná."
+                ],
+                "incorrect": [
+                    "Sonda je překompenzovaná",
+                    "Sonda je kompenzovaná"
+                ]
+            }
+        },
+        {
+            "title": "Pro jaké typy signálů lze použít metodu měření frekvence pomocí Lissajousových obrazců?",
+            "answers": {
+                "correct": [
+                    "Pouze pro harmonické signály"
+                ],
+                "incorrect": [
+                    "Pouze pro obdélnkový průběh signálu",
+                    "Pouze pro stejnosměrné signály",
+                    "Pro harmonické i neharmonické signály",
+                    "Pouze pro neharmonické signály"
+                ]
+            }
+        },
+        {
+            "title": "Na osciloskopu byl zachycen průběh signálu (viz níže uvedený obrázek). Stanovte dobu trvání sestupné hrany.<br><img height='200' src='/images/bpc/mve/lc/1/trvani-sestupne-hrany.jpg'>",
+            "answers": {
+                "correct": [
+                    "0,06 ms"
+                ],
+                "incorrect": [
+                    "0,2 ms",
+                    "0,1 ms"
+                ]
+            }
+        },
+        {
+            "title": "Doplňte",
+            "answers": {
+                "correct": [
+                    "Pasivní napěťová sonda osciloskopu se skládá z [odporu a kondenzátoru]. Společně se vstupnim odporem a vstupní kapacitou osciloskopu sonda vytváří [kompenzovaný dělič napětí]. Pomocí změny [kapacitního trimru sondy] se před měřením nastaví nezkreslený přenos napětí ze droje kalibračního napětí, který je součástí osciloskopu. Kalibrační napětí má [obdélníkový průběh se strmými náběhovými hranami]"
+                ]
+            }
+        }
+    ]
+}

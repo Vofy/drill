@@ -57,9 +57,20 @@ export default function SideBar() {
                         <Link to="/bpc/fy2/lc/46">46</Link>
                     </Accordion>
                 </Accordion>
+                <Accordion name="EL1">
+                    <Accordion name="CPP">
+                        <Link to="/bpc/el1/cpp/50-4">§4 50/1978 Sb.</Link>
+                    </Accordion>
+                </Accordion>
                 <Accordion name="EL2">
                     <Accordion name="CPP">
                         <Link to="/bpc/el2/cpp/lc">LC</Link>
+                    </Accordion>
+                </Accordion>
+                <Accordion name="MVE">
+                    <Accordion name="LC">
+                        <Link to="/bpc/mve/lc/1">1</Link>
+                        <Link to="/bpc/mve/lc/3">3</Link>
                     </Accordion>
                 </Accordion>
             </Accordion>
