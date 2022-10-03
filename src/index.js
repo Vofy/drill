@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from 'recoil';
 import { MathJaxContext } from 'better-react-mathjax';
+import { MantineProvider } from '@mantine/core';
 
 const mathJaxConfig = {
   dynamic: true
@@ -16,7 +17,14 @@ ReactDOM.render(
     <RecoilRoot>
       <MathJaxContext>
         <BrowserRouter>
-          <App />
+        <MantineProvider
+          theme={{
+            // Override any other properties from default theme
+            fontFamily: 'Open Sans, sans serif',
+            spacing: { xs: 15, sm: 20, md: 25, lg: 30, xl: 40 },
+          }}>
+            <App />
+          </MantineProvider>
         </BrowserRouter>
       </MathJaxContext>
     </RecoilRoot>

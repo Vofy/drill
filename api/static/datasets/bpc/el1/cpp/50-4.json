@@ -88,30 +88,6 @@
             }
         },
         {
-            "title": "Obecná charakteristika prostorů nebezpečných říká, že:",
-            "answers": {
-                "correct": [
-                    "Vlivem prostředí je zde stálé nebo přechodné nebezpečí úrazu elektrickým proudem"
-                ],
-                "incorrect": [
-                    "Živé části jsou volně přístupné laikům",
-                    "Jsou zde tabulky zákazu a výstrahy"
-                ]
-            }
-        },
-        {
-            "title": "Z hlediska možného zvýšení rizika úrazu elektrickým proudem působením vnějších vlivů se prostory člení na:",
-            "answers": {
-                "correct": [
-                    "normální, nebezpečné a zvlášť nebezpečné"
-                ],
-                "incorrect": [
-                    "normální a nebezpečné",
-                    "bezpečné a nebezpečné"
-                ]
-            }
-        },
-        {
             "title": "Barva bezpečnostních tabulek výstrahy je:",
             "answers": {
                 "correct": [
@@ -208,14 +184,26 @@
             }
         },
         {
-            "title": "Doplňkovou ochranu proudovým chráničem lze realizovat:",
+            "title": "Pro automatické odpojení od zdroje v síti TT 230 V AC, zajišťující ochranu před nepřímým dotykem koncového obvodu do 32 A, musí ochranný prvek vypnout v čase do:",
             "answers": {
                 "correct": [
-                    "chráničem se jmenovitým rozdílovým proudem nejvýše 30 mA"
+                    "0.2 s"
                 ],
                 "incorrect": [
-                    "chráničem s napětím nejvýše 230V",
-                    "chráničem se jmenovitým rozdílovým proudem nejvýše 10 mA"
+                    "1 s",
+                    "2 s"
+                ]
+            }
+        },
+        {
+            "title": "Pro automatické odpojení od zdroje v síti TN 230 V AC, zajišťující ochranu před nepřímým dotykem koncového obvodu do 32 A, musí ochranný prvek vypnout v čase do:",
+            "answers": {
+                "correct": [
+                    "0.4 s"
+                ],
+                "incorrect": [
+                    "0.2 s",
+                    "1 s"
                 ]
             }
         },
@@ -264,6 +252,18 @@
                 "incorrect": [
                     "V umístění živých částí do prostorů přístupným pouze pracovníků znalých",
                     "V umístění živých částí více než 2,5 m od sebe"
+                ]
+            }
+        },
+        {
+            "title": "Doplňkovou ochranu proudovým chráničem lze realizovat:",
+            "answers": {
+                "correct": [
+                    "chráničem se jmenovitým rozdílovým proudem nejvýše 30 mA"
+                ],
+                "incorrect": [
+                    "chráničem s napětím nejvýše 230V",
+                    "chráničem se jmenovitým rozdílovým proudem nejvýše 10 mA"
                 ]
             }
         },
@@ -580,38 +580,38 @@
             }
         },
         {
-            "title": "§4 Vyhlášky 50/1978 Sb. stanovuje požadavky pro kvalifikaci:",
+            "title": "§4 NV 194/2022 Sb. stanovuje požadavky pro kvalifikaci:",
             "answers": {
                 "correct": [
-                    "Pracovníků poučených"
+                    "osob poučených"
                 ],
                 "incorrect": [
-                    "Pracovníků znalých",
-                    "Pracovníků pro samostatnou činnost"
+                    "osob znalých",
+                    "osob znalých pro samostatnou činnost"
                 ]
             }
         },
         {
-            "title": "§5 Vyhlášky 50/1978 Sb. stanovuje požadavky pro kvalifikaci:",
+            "title": "§6 NV 194/2022 Sb. stanovuje požadavky pro kvalifikaci:",
             "answers": {
                 "correct": [
-                    "Pracovníků znalých"
+                    "osob znalých pro samostatnou činnost"
                 ],
                 "incorrect": [
-                    "Pracovníků poučených",
-                    "Pracovníků pro samostatnou činnost"
+                    "osob znalých",
+                    "osob poučených"
                 ]
             }
         },
         {
-            "title": "Pracovníci poučení mohou na EZ pracovat:",
+            "title": "Osoby poučené mohou na EZ pracovat:",
             "answers": {
                 "correct": [
-                    "V blízkosti nekrytých částí EZ nn pod napětím ve vzdálenosti větší než 20 cm s dohledem"
+                    "s dohledem osoby znalé v blízkosti nekrytých živých částí elektrických zařízení nízkého napětí pod napětím, v bezpečné vzdálenosti od nich, nebo až na dotyk s izolačním krytem chránícím před nahodilým dotykem s živou částí"
                 ],
                 "incorrect": [
-                    "V blízkosti nekrytých částí EZ nn pod napětím ve vzdálenosti větší než 20 cm pod dozorem",
-                    "V blízkosti nekrytých částí EZ nn pod napětím ve vzdálenosti větší než 80 cm s dohledem"
+                    "",
+                    ""
                 ]
             }
         },
@@ -660,30 +660,6 @@
                 "incorrect": [
                     "Méně než 1,5 m",
                     "Méně než 2 m"
-                ]
-            }
-        },
-        {
-            "title": "Pracovními pomůckami jsou například:",
-            "answers": {
-                "correct": [
-                    "Měřicí přístroje, zkoušečky napětí a další předměty potřebné k práci či obsluze EZ"
-                ],
-                "incorrect": [
-                    "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod.",
-                    "Suché oblečení"
-                ]
-            }
-        },
-        {
-            "title": "Ochrannými pomůckami jsou například:",
-            "answers": {
-                "correct": [
-                    "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod."
-                ],
-                "incorrect": [
-                    "Měřicí přístroje, zkoušečky napětí a další předměty potřebné k práci či obsluze EZ",
-                    "Náhradní pojistky"
                 ]
             }
         },
@@ -748,6 +724,30 @@
             }
         },
         {
+            "title": "Poměr stlačení srdce a umělého dýchání při resuscitaci má být:",
+            "answers": {
+                "correct": [
+                    "30 stlačení a 2 vdechy"
+                ],
+                "incorrect": [
+                    "30 stlačení a 3 vdechy",
+                    "20 stlačení a 2 vdechy"
+                ]
+            }
+        },
+        {
+            "title": "Automatický externí defibrilátor použijeme v případě:",
+            "answers": {
+                "correct": [
+                    "Zástavy dechu postiženého"
+                ],
+                "incorrect": [
+                    "Když postižený neodpovídá",
+                    "Omdlení postiženého"
+                ]
+            }
+        },
+        {
             "title": "Pokud postižený po úrazu elektrickým proudem dýchá a má hmatný tep, zůstává při vědomí a není viditelně zraněn:",
             "answers": {
                 "correct": [
@@ -760,7 +760,7 @@
             }
         },
         {
-            "title": "Záchrannou lékařskou službu je možné přivolat tísňovým telefonním číslem:",
+            "title": "Zdravotnickou záchrannou službu je možné přivolat tísňovým telefonním číslem:",
             "answers": {
                 "correct": [
                     "155"
@@ -796,40 +796,155 @@
             }
         },
         {
-            "title": "Poměr stlačení srdce a umělého dýchání při resuscitaci má být:",
+            "title": "Kontrola krevního oběhu se provádí u laické první pomoci:",
             "answers": {
                 "correct": [
-                    "30 stlačení a 2 vdechy"
+                    "kontrolou dýchání"
                 ],
                 "incorrect": [
-                    "30 stlačení a 3 vdechy",
-                    "20 stlačení a 2 vdechy"
+                    "",
+                    ""
                 ]
             }
         },
         {
-            "title": "Pro automatické odpojení od zdroje v síti TT 230 V AC, zajišťující ochranu před nepřímým dotykem koncového obvodu do 32 A, musí ochranný prvek vypnout v čase do:",
+            "title": "Mezi základní životní funkce patří:",
             "answers": {
                 "correct": [
-                    "0.2 s"
+                    "vědomí, spontánní dýchání a spontánní srdeční aktivita"
                 ],
                 "incorrect": [
-                    "1 s",
-                    "2 s"
+                    "",
+                    ""
                 ]
             }
         },
         {
-            "title": "Pro automatické odpojení od zdroje v síti TN 230 V AC, zajišťující ochranu před nepřímým dotykem koncového obvodu do 32 A, musí ochranný prvek vypnout v čase do:",
+            "title": "Pokud postižený nedýchá, ihned zahájíme:",
             "answers": {
                 "correct": [
-                    "0.4 s"
+                    "kardiopulmonální resuscitaci, laik nemusí v počátku provádět umělé dýchání"
                 ],
                 "incorrect": [
-                    "0.2 s",
-                    "1 s"
+                    "",
+                    ""
                 ]
             }
+        },
+        {
+            "title": "Resuscitace se smí ukončit pouze:",
+            "answers": {
+                "correct": [
+                    "po obnovení základních životních funkcí, po předání postiženého do péče záchranářů, nebo po vyčerpání zachránce"
+                ],
+                "incorrect": [
+                    "",
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "Vnitřní krvácení při laické první pomoci",
+            "answers": {
+                "correct": [
+                    "nelze zastavit, je třeba zabránit rozvoji šoku a zavolat rychlou zdravotnickou pomoc"
+                ],
+                "incorrect": [
+                    "",
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "Obecná charakteristika prostorů nebezpečných říká, že:",
+            "answers": {
+                "correct": [
+                    "Vlivem prostředí je zde stálé nebo přechodné nebezpečí úrazu elektrickým proudem"
+                ],
+                "incorrect": [
+                    "Živé části jsou volně přístupné laikům",
+                    "Jsou zde tabulky zákazu a výstrahy"
+                ]
+            },
+            "comment": "Stará vyhláška"
+        },
+        {
+            "title": "Z hlediska možného zvýšení rizika úrazu elektrickým proudem působením vnějších vlivů se prostory člení na:",
+            "answers": {
+                "correct": [
+                    "normální, nebezpečné a zvlášť nebezpečné"
+                ],
+                "incorrect": [
+                    "normální a nebezpečné",
+                    "bezpečné a nebezpečné"
+                ]
+            },
+            "comment": "Stará vyhláška"
+        },
+        {
+            "title": "§4 Vyhlášky 50/1978 Sb. stanovuje požadavky pro kvalifikaci:",
+            "answers": {
+                "correct": [
+                    "Pracovníků poučených"
+                ],
+                "incorrect": [
+                    "Pracovníků znalých",
+                    "Pracovníků pro samostatnou činnost"
+                ]
+            },
+            "comment": "Stará vyhláška"
+        },
+        {
+            "title": "§5 Vyhlášky 50/1978 Sb. stanovuje požadavky pro kvalifikaci:",
+            "answers": {
+                "correct": [
+                    "Pracovníků znalých"
+                ],
+                "incorrect": [
+                    "Pracovníků poučených",
+                    "Pracovníků pro samostatnou činnost"
+                ]
+            },
+            "comment": "Stará vyhláška"
+        },
+        {
+            "title": "Pracovníci poučení mohou na EZ pracovat:",
+            "answers": {
+                "correct": [
+                    "V blízkosti nekrytých částí EZ nn pod napětím ve vzdálenosti větší než 20 cm s dohledem"
+                ],
+                "incorrect": [
+                    "V blízkosti nekrytých částí EZ nn pod napětím ve vzdálenosti větší než 20 cm pod dozorem",
+                    "V blízkosti nekrytých částí EZ nn pod napětím ve vzdálenosti větší než 80 cm s dohledem"
+                ]
+            },
+            "comment": "Stará vyhláška"
+        },
+        {
+            "title": "Pracovními pomůckami jsou například:",
+            "answers": {
+                "correct": [
+                    "Měřicí přístroje, zkoušečky napětí a další předměty potřebné k práci či obsluze EZ"
+                ],
+                "incorrect": [
+                    "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod.",
+                    "Suché oblečení"
+                ]
+            },
+            "comment": "Stará vyhláška"
+        },
+        {
+            "title": "Ochrannými pomůckami jsou například:",
+            "answers": {
+                "correct": [
+                    "Ochranné izolační rukavice, izolační koberce a plošiny, ochranné brýle apod."
+                ],
+                "incorrect": [
+                    "Měřicí přístroje, zkoušečky napětí a další předměty potřebné k práci či obsluze EZ",
+                    "Náhradní pojistky"
+                ]
+            },
+            "comment": "Stará vyhláška"
         },
         {
             "title": "Proudové chrániče s rozdílovým proudem do 30 mA se musí požít na:",
@@ -841,19 +956,21 @@
                     "Zásuvky se jmenovitým proudem do 64 A, které jsou používány laiky",
                     "Zásuvky se jmenovitým proudem do 16 A, které jsou používány laiky"
                 ]
-            }
+            },
+            "comment": "Stará vyhláška"
         },
         {
-            "title": "Automatický externí defibrilátor použijeme v případě:",
+            "title": "Záchrannou lékařskou službu je možné přivolat tísňovým telefonním číslem:",
             "answers": {
                 "correct": [
-                    "Zástavy dechu postiženého"
+                    "155"
                 ],
                 "incorrect": [
-                    "Když postižený neodpovídá",
-                    "Omdlení postiženého"
+                    "150",
+                    "158"
                 ]
-            }
+            },
+            "comment": "Stará vyhláška"
         }
     ]
 }
