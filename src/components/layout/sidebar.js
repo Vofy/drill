@@ -70,6 +70,7 @@ export default function SideBar() {
                 <Accordion name="MVE">
                     <Accordion name="LC">
                         <Link to="/bpc/mve/lc/1">1</Link>
+                        <Link to="/bpc/mve/lc/2">2</Link>
                         <Link to="/bpc/mve/lc/3">3</Link>
                     </Accordion>
                 </Accordion>

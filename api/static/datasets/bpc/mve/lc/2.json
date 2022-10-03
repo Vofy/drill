@@ -1,0 +1,213 @@
+{
+    "title": "MVE - LC - Test 2 - Měření napětí - stejnosměrné a střídavé voltmetry",
+    "description": "MVE - LC - Test 2- Měření napětí - stejnosměrné a střídavé voltmetry. Přepsáno z fektušky.",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Stejnosměrné napětí 20 V je měřené číslicovým voltmetrem s rozlišením 3 1/2 digitů. Přístroj má přesnost ±0,6% +1 digit na rozsahu 200 V. Jaká je relativní chyba údaje tohoto přístroje?",
+            "answers": {
+                "correct": [
+                    "1,1 %"
+                ],
+                "incorrect": [
+                    "0,13 %",
+                    "0,13 V",
+                    "1,1 V",
+                    "1,2 %"
+                ]
+            }
+        },
+        {
+            "title": "V jakých jednotkých se udává činitel potlačení sériového rušení?",
+            "answers": {
+                "correct": [
+                    "dB"
+                ],
+                "incorrect": [
+                    "bez jednotky",
+                    "V",
+                    "%",
+                    "VA",
+                    "A"
+                ]
+            }
+        },
+        {
+            "title": "Co znamená označení „trueRMS“?",
+            "answers": {
+                "correct": [
+                    "Je měřena správně efektivní hodnota harmonických i neharmonických periodických signálů."
+                ],
+                "incorrect": [
+                    "Je měřena správně efektivní hodnota šumu.",
+                    "Je měřena správně efektivní hodnota pouze neharmonických signálů.",
+                    "Je měřena správně efektivní hodnota pouze harmonických signálů.",
+                    "Je měřena správně efektivní hodnota pouze harmonických periodických signálů."
+                ]
+            }
+        },
+        {
+            "title": "Jaké A/D převodníky se nejčastěji používají u digitálních voltmetrů?",
+            "answers": {
+                "correct": [
+                    "S dvojí nebo trojí integrací nebo kompenzační převodníky s postupnou integrací"
+                ],
+                "incorrect": [
+                    "Derivační",
+                    "Sigma-delta převodník",
+                    "S dvojí nebo trojí defivací"
+                ]
+            }
+        },
+        {
+            "title": "Jaká je absolutní chyba číslicového měřicího přístroje při měření napětí 5 V (zobrazena hodnota 5,000 V) na rozsahu 10 V, pokud výrobce uvádí chybu měřícího přístroje: +/- (0,2 % ze čtené hodnoty + 1 digit)?",
+            "answers": {
+                "correct": [
+                    "0,011V"
+                ],
+                "incorrect": [
+                    "0,021V",
+                    "0,01V",
+                    "0,02 %",
+                    "0,02V"
+                ]
+            }
+        },
+        {
+            "title": "Jaká je absolutní chyba číslicového měřicího přístroje při měření napětí 5 V na rozsahu 10 V, pokud výrobce uvádí chybu měřícího přístroje: +/- (0,20% ze čtené hodnoty + 0,05% z rozsahu)?",
+            "answers": {
+                "correct": [
+                    "0,015 V"
+                ],
+                "incorrect": [
+                    "0,01 V",
+                    "0,25 %",
+                    "0,005 V"
+                ]
+            }
+        },
+        {
+            "title": "Jaká je chyba z rozsahu při měření hodnoty 5 V na rozsahu 10 V, pokud výrobce udává chybu číslicového přístroje: +/- (0,20% ze čtené hodnoty + 0,05% z rozsahu)?",
+            "answers": {
+                "correct": [
+                    "0,005 V"
+                ],
+                "incorrect": [
+                    "0,015V",
+                    "0,01V"
+                ]
+            }
+        },
+        {
+            "title": "Jak je definována třída přesnosti u analogového přístroje?",
+            "answers": {
+                "correct": [
+                    "Třída přesnosti je definována jako maximální dovolená poměrá chyba měřicího přístroje vyjádřená v % z největší hodnoty měřicího rozsahu při dodržení referenčních podmínek. Je udávána v hodnotě z definované řady tříd přesnosti."
+                ],
+                "incorrect": [
+                    "Reprezentuje přesnost měření digitálního měřicího přístroje a představuje největší možnou chybu údaje přístroje.",
+                    "U analogových měřicích přístrojů se třída přesnosti neudává. Používá se pouze u číslicových měřicích přístrojů.",
+                    "Třída přesnosti je dána součtem dvou složek a to chyby z měřené hodnoty a chyby z rozsahu. Je udávána v %."
+                ]
+            }
+        },
+        {
+            "title": "Jaký maximální údaj se zobrazí na měřicím přístroji s počtem zobrazovaných míst 3 ½?",
+            "answers": {
+                "correct": [
+                    "1999"
+                ],
+                "incorrect": [
+                    "199",
+                    "300.5",
+                    "999",
+                    "399"
+                ]
+            }
+        },
+        {
+            "title": "Jaký maximální údaj se zobrazí na měřicím přístroji s počtem zobrazovaných míst 3 ¾?",
+            "answers": {
+                "correct": [
+                    "3999"
+                ],
+                "incorrect": [
+                    "300.75",
+                    "3750",
+                    "375",
+                    "999.75",
+                    "1999",
+                    "3340"
+                ]
+            }
+        },
+        {
+            "title": "Jaký maximální údaj se zobrazí na měřicím přístroji s počtem zobrazovaných míst 4 ½?",
+            "answers": {
+                "correct": [
+                    "19999"
+                ],
+                "incorrect": [
+                    "4150",
+                    "4500",
+                    "4000,5",
+                    "39999",
+                    "49999",
+                    "99999,5"
+                ]
+            }
+        },
+        {
+            "title": "Z jakých složek se skládá základní chyba číslicového měřicího přístroje?",
+            "answers": {
+                "correct": [
+                    "Je dána součtem dvou složek a to chyby z měřené hodnoty a chyby z rozsahu."
+                ],
+                "incorrect": [
+                    "Je dána chybou z měřené hodnoty, chybou z rozsahu a třídou přesnosti.",
+                    "Je dána pouze absolutní chybou údaje číslicového měřicího přístroje.",
+                    "Je dána rozdílem dvou složek a to chyby z měřené hodnoty a chyby z rozsahu."
+                ]
+            }
+        },
+        {
+            "title": "Jakými způsoby je možné zjistit hodnotu vstupního odporu stejnosměrného elektrického voltmetru?",
+            "answers": {
+                "correct": [
+                    "Výpočtem z hodnot napěťového děliče při známé hodnotě předřadného odporu nebo metodou polovičního napětí."
+                ],
+                "incorrect": [
+                    "Hodnotu vstupního odporu stejnosměrného elektrického voltmetru nelze zjistit. Je možné ji pouze odečíst z dokumentace.",
+                    "Ohmovou metodou",
+                    "Pomocí Thomsonova můstku nebo metodou tří napětí."
+                ]
+            }
+        },
+        {
+            "title": "Jak se měří elektrický prou protékající testovaným zařízením pomocí ampérmetru nebo digitálního multimetru umožňujícího měření proudu?",
+            "answers": {
+                "correct": [
+                    "Ampérmetr se přípojí k testovanému zařízení sériově."
+                ],
+                "incorrect": [
+                    "Ampérmetr se přípojí k testovanému zařízení a ke kladnému pólu napájecího napětí.",
+                    "Ampérmetr se přípojí k testovanému zařízení paralelně.",
+                    "Ampérmetr se přípojí k testovanému zařízení a k zemi."
+                ]
+            }
+        },
+        {
+            "title": "Pro měření vstupního odporu volmetru byla pužita metoda polovičního napětí. Jaká je hodnota vstupního odporu volmetru, když odpor odporové dekády byl nastaven na hodnotu 1 MΩ a při napájecím napětí 10 V zobrazoval volmetr hodnotu napětí 5 V?",
+            "answers": {
+                "correct": [
+                    "1 MΩ"
+                ],
+                "incorrect": [
+                    "2 MΩ",
+                    "0,5 MΩ",
+                    "10 MΩ"
+                ]
+            }
+        }
+    ]
+}
