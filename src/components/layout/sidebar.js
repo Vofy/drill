@@ -59,7 +59,7 @@ export default function SideBar() {
                 </Accordion>
                 <Accordion name="EL1">
                     <Accordion name="CPP">
-                        <Link to="/bpc/el1/cpp/50-4">§4 NV 194/2022 Sb.</Link>
+                        <Link to="/bpc/el1/cpp/194">NV 194/2022 Sb.</Link>
                     </Accordion>
                 </Accordion>
                 <Accordion name="EL2">
