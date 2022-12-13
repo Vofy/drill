@@ -1,0 +1,130 @@
+{
+    "title": "MVE - LC - Test 5 - Měření kmitočtu, časového intervalu a fáze",
+    "description": "MVE - LC - Test 5 - Měření kmitočtu, časového intervalu a fáze. Přepsáno z fektušky (úlohy pod číslem 4 - nesprávně zařazeno).",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Jaká je základní jednotka frekvence signálu?",
+            "answers": {
+                "correct": [
+                    "Hz"
+                ],
+                "incorrect": [
+                    "sekunda",
+                    "MHz",
+                    "bezrozměrná veličina"
+                ]
+            },
+            "comment": "Pravděpodobně z jiného testu"
+        },
+        {
+            "title": "Jaké jsou metody měření fázového posuvu?",
+            "answers": {
+                "correct": [
+                    "Měření fázového rozdílu měření napětí, pomocí fázového detektoru, osciloskopické metody."
+                ],
+                "incorrect": [
+                    "Osciloskopické metody, srovnávací metoda, nepřímá metoda.",
+                    "Přímé a nepřímé.",
+                    "Měření fázového rozdílu pmocí měření časového intervalu.",
+                    "Měření pmocí čítače"
+                ]
+            },
+            "comment": "Pravděpodobně z jiného testu"
+        },
+        {
+            "title": "U číslicového měření časového intervalu s frekvencí oscilátoru f = 100 kHz byl zaznamenán počet impulsů při otevření hradla po dobu měřeného časového intervalu N = 10<sup>5</sup>. Jak dlouhý byl měřený časový interval?",
+            "answers": {
+                "correct": [
+                    "1 s"
+                ],
+                "incorrect": [
+                    "10 s",
+                    "0,1 s",
+                    "1 ms"
+                ]
+            },
+            "comment": "Pravděpodobně z jiného testu"
+        },
+        {
+            "title": "Jak se odvozují start a stop impulsy pi měření časového intervalu pomocí číslicového čítače?",
+            "answers": {
+                "correct": [
+                    "Impulsy start a stop se odvozují od náběžných a sestupných hran měřeného průběhu."
+                ],
+                "incorrect": [
+                    "Impulsy start a stop jsou pevněě nadefinovány v univerzálním číslicovém čítači.",
+                    "Impulsy start a stop se odvozují vždy pouze od náběžných hran měřeného průběhu.",
+                    "Impulsy start a stop se odvozují vždy pouze od sestupných hran měřeného průběhu"
+                ]
+            },
+            "comment": "Pravděpodobně z jiného testu"
+        },
+        {
+            "title": "Co umožňje měřit číslicový čítač?",
+            "answers": {
+                "correct": [
+                    "Měření časoých intervalů, periody, kmitočtu signálu."
+                ],
+                "incorrect": [
+                    "Měření časových intervalů a zkreslení signálu.",
+                    "Měření amplitudy, efektivní hodnoty a střední hodnoty signálu.",
+                    "Měření amplitudy, fáze a zkreslení signálu.",
+                    "Měření časových intervalů a překmitů signálu."
+                ]
+            }
+        },
+        {
+            "title": "Z jakých údajů se určí délka časového intervalu měřená číslicovým čítačem?",
+            "answers": {
+                "correct": [
+                    "Z počtu načtených impulsů referenčního signálu mezi start a stop impulsem a z jejich periody."
+                ],
+                "incorrect": [
+                    "Z rozdílu času mezi náběžnou a časovou hranou měřeného signálu.",
+                    "Z rozdílu času mezi start a stop impulzem.",
+                    "Z počtu načtených impulsů referenčního signálu mezi start a stop impulsem a z jejich amplitudy."
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ],
+                "incorrect": [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ],
+                "incorrect": [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ],
+                "incorrect": [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        }
+    ]
+}

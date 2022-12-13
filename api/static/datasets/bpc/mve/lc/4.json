@@ -1,0 +1,122 @@
+{
+    "title": "MVE - LC - Test 4 - Osciloskopy II.",
+    "description": "MVE - LC - Test 4 - Osciloskopy II. Přepsáno z fektušky (úlohy pod číslem 4).",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Co umožňuje funkce pretrigger?",
+            "answers": {
+                "correct": [
+                    "Umožňuje zobrazit sledovaný průběh před začátkem synchronizace."
+                ],
+                "incorrect": [
+                    "Umožňuje zobrazit sledovaný průběh bez požadavku na synchronizaci.",
+                    "Umožňuje zobrazit sledovaný průběh po začátku synchronizace.",
+                    "Umožňuje zobrazit sledovaný průběh po ukončení synchronizace."
+                ]
+            }
+        },
+        {
+            "title": "Čím je udávána přesnost, neboli rozlišovací schopnost osciloskopu?",
+            "answers": {
+                "correct": [
+                    "Počtem bitů na jeden získaný vzorek"
+                ],
+                "incorrect": [
+                    "Velikostí napětí na vstupu osciloskopu",
+                    "Maximální vzorkovací frekvencí osciloskopu"
+                ]
+            }
+        },
+        {
+            "title": "K čemu dojde při nedodržení vzorkovacího teoremu?",
+            "answers": {
+                "correct": [
+                    "k aliasing chybě"
+                ],
+                "incorrect": [
+                    "ke změně amplitudy rekonstruovaného signálu oproti původnímu signálu",
+                    "nenastana žádná změna v rekonstruovaném signálu, jenom je delěí zpracování osciloskopem"
+                ]
+            }
+        },
+        {
+            "title": "Pro jaký účel slouží u digitálního osciloskopu měření s maskou?",
+            "answers": {
+                "correct": [
+                    "Slouží pro ověření správného průchodu měřeného signálu maskou, což je oblast v okolí definovaného signálu určená limity od uživatele."
+                ],
+                "incorrect": [
+                    "Slouží pro kontrolu, zda se signál vždy nachází mimo vyznačnou oblast definovanou maskou signálu.",
+                    "Slouží pro měření velikosti signálu."
+                ]
+            }
+        },
+        {
+            "title": "Pro zobrazení jakých signálů je vhodné použít funkci Hold-off pro zpoždění spouštěcího pulsu?",
+            "answers": {
+                "correct": [
+                    "pro signály tvořené opakujícími se skupinami nepravidelně rozložených pulsů, které obsahují řadu potenciálních okamžiků spouštění"
+                ],
+                "incorrect": [
+                    "pro signály harmonické",
+                    "pro obdélníkové a pilové průběhy signálu",
+                    "pro zachycení jednorázového děje"
+                ]
+            }
+        },
+        {
+            "title": "Od čeho může být odvozen spouštěcí signál u číslicového osciloskopu?",
+            "answers": {
+                "correct": [
+                    "Od měřeného signálu i od externího signálu"
+                ],
+                "incorrect": [
+                    "Pouze od externího signálu",
+                    "Pouze od měřeného signálu"
+                ]
+            }
+        },
+        {
+            "title": "Který typ vzorkování u číslicových osciloskopů neumožňuje pretriggering?",
+            "answers": {
+                "correct": [
+                    "sekvenční vzorkování"
+                ],
+                "incorrect": [
+                    "náhodné vzorkování",
+                    "vzorkování v reálném čase"
+                ]
+            }
+        },
+        {
+            "title": "Jak vypadá Lissajousův obrazec pro signály se stejnou fází a stejnou frekvencí?",
+            "answers": {
+                "correct": [
+                    "Úsečka"
+                ],
+                "incorrect": [
+                    "Položená osmička",
+                    "Kruh",
+                    "Elipsa"
+                ]
+            },
+            "comment": "Pravděpodobně z testu 1"
+        },
+        {
+            "title": "Jaké typy signálů lze měřit pomocí Lissajousových obrazců?",
+            "answers": {
+                "correct": [
+                    "Pouze pro harmonické signály"
+                ],
+                "incorrect": [
+                    "Pouze pro obdélníkový průběh signálu",
+                    "Pouze pro neharmonické signály",
+                    "Pro harmonické i neharmonické signály",
+                    "Pouze pro stejnosměrné signály"
+                ]
+            },
+            "comment": "Pravděpodobně z testu 1"
+        }
+    ]
+}

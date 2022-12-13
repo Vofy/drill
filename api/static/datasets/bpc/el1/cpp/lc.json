@@ -1,0 +1,549 @@
+{
+    "title": "Elektrotechnika 1 - Test LC",
+    "description": "Přeparsovaný soubor z minulého roku",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Podle Nortonovy věty je proud ekvivalentního zdroje proudu určen",
+            "answers": {
+                "correct": [
+                    "proudem analyzovanou větví nakrátko"
+                ],
+                "incorrect": [
+                    "proudem analyzovanou větví, jsou-li všechny zdroje nahrazeny vnitřním odporem",
+                    "proudem rezistoru v analyzované větvi"
+                ]
+            }
+        },
+        {
+            "title": "Podle Nortonovy věty je vodivost ekvivalentního zdroje proudu určena",
+            "answers": {
+                "correct": [
+                    "vodivostí mezi svorkami analyzované větve naprázdno, jsou-li všechny zdroje obvodu nahrazeny jejich vnitřními vodivostmi"
+                ],
+                "incorrect": [
+                    "vodivostí mezi svorkami analyzované větve naprázdno, při spojení všech zdrojů obvodu nakrátko",
+                    "odporem mezi svorkami analyzované větve naprázdno"
+                ]
+            }
+        },
+        {
+            "title": "Podle Nortonovy věty je možno vnitřní vodivost ekvivalentního zdroje napětí určit",
+            "answers": {
+                "correct": [
+                    "jako podíl proudu analyzovanou větví nakrátko a napětí mezi svorkami analyzované větve naprázdno"
+                ],
+                "incorrect": [
+                    "jako podíl napětí mezi svorkami analyzované větve naprázdno a proudu analyzovanou větví",
+                    "jako podíl proudu analyzovanou větví a napětí mezi svorkami analyzované větve"
+                ]
+            }
+        },
+        {
+            "title": "Podle Théveninovy věty je napětí ekvivalentního zdroje napětí určeno",
+            "answers": {
+                "correct": [
+                    "napětím naprázdno na svorkách analyzované větve"
+                ],
+                "incorrect": [
+                    "napětím nakrátko na svorkách analyzované větve",
+                    "napětím na rezistoru v analyzované větvi"
+                ]
+            }
+        },
+        {
+            "title": "Podle Théveninovy věty je vnitřní odpor ekvivalentního zdroje napětí určen",
+            "answers": {
+                "correct": [
+                    "odporem mezi svorkami analyzované větve naprázdno, jsou-li všechny zdroje obvodu nahrazeny jejich vnitřními odpory"
+                ],
+                "incorrect": [
+                    "odporem na svorkách analyzované větve při rozpojení všech zdrojů obvodu",
+                    "odporem analyzované větve"
+                ]
+            }
+        },
+        {
+            "title": "Podle Théveninovy věty je možno vnitřní odpor ekvivalentního zdroje napětí určit",
+            "answers": {
+                "correct": [
+                    "jako podíl napětí mezi svorkami analyzované větve naprázdno a proudu analyzovanou větví nakrátko"
+                ],
+                "incorrect": [
+                    "jako podíl proudu analyzovanou větví a napětí mezi svorkami analyzované větve naprázdno",
+                    "jako podíl napětí mezi svorkami analyzované větve a proudu analyzovanou větví"
+                ]
+            }
+        },
+        {
+            "title": "Metoda analýzy pomocí uzlových napětí (MUN) je založena na aplikaci",
+            "answers": {
+                "correct": [
+                    "prvního (proudového) Kirchhoffova zákona a principu superpozice"
+                ],
+                "incorrect": [
+                    "prvního a druhého Kirchhoffova zákona",
+                    "druhého (napěťového) Kirchhoffova zákona"
+                ]
+            }
+        },
+        {
+            "title": "Nelineární obvod je takový, který obsahuje",
+            "answers": {
+                "correct": [
+                    "alespoň jeden nelineární prvek"
+                ],
+                "incorrect": [
+                    "neharmonický napájecí zdroj",
+                    "alespoň jeden řízený zdroj"
+                ]
+            }
+        },
+        {
+            "title": "Modelu reálného zdroje napětí s parametry: U<sub>i</sub>=20V a R<sub>i</sub>=10Ω je ekvivalentní proudový zdroj s parametry",
+            "answers": {
+                "correct": [
+                    "I<sub>i</sub> = 2 A a G<sub>i</sub> = 0,1 S"
+                ],
+                "incorrect": [
+                    "I<sub>i</sub> = 0,5 A a G<sub>i</sub> = 0,1 S",
+                    "I<sub>i</sub> = 2 A a G<sub>i</sub> = 0,5 S"
+                ]
+            },
+            "comment": "\\(I_{i} = \\frac{U_{i}}{R_{i}}, G_{i} = \\frac{1}{R_{i}}\\)"
+        },
+        {
+            "title": "Pro přímou aplikaci metody uzlových napětí mohou být v analyzovaném obvodu",
+            "answers": {
+                "correct": [
+                    "výhradně proudové zdroje, nezávislé i řízené"
+                ],
+                "incorrect": [
+                    "proudové i napěťové zdroje",
+                    "výhradně nezávislé proudové zdroje"
+                ]
+            }
+        },
+        {
+            "title": "Linearizovaný model nelineárního rezistoru tvoří",
+            "answers": {
+                "correct": [
+                    "sériová kombinace lineárního rezistoru a zdroje napětí"
+                ],
+                "incorrect": [
+                    "sériová kombinace lineárního rezistoru a zdroje proudu",
+                    "paralelní kombinace lineárního rezistoru a zdroje napětí"
+                ]
+            }
+        },
+        {
+            "title": "Hopkinsův zákon vyjadřuje vztah",
+            "answers": {
+                "correct": [
+                    "mezi magnetickým napětím U<sub>m</sub> a magnetickým indukčním tokem Φ, \\(U_{m} = R_{m} \\cdot Φ\\)"
+                ],
+                "incorrect": [
+                    "mezi magnetickou indukcí B a magnetickým indukčním tokem Φ, \\(Φ = B \\cdot S\\)",
+                    "mezi magnetickou induckí B a intenzitou magnetického pole H, \\(B = μ \\cdot H\\)"
+                ]
+            }
+        },
+        {
+            "title": "V případě aplikace Nortonovy věty nahrazujeme celý lineární obvod (mimo zkoumanou větev)",
+            "answers": {
+                "correct": [
+                    "paralelním spojením ideálního zdroje proudu a vnitřní vodivosti"
+                ],
+                "incorrect": [
+                    "paralelním spojením ideálního zdroje napětí a vnitřního odporu",
+                    "seriovým spojením ideálního zdroje napětí a vnitřního odporu"
+                ]
+            }
+        },
+        {
+            "title": "V případě obvodů složených pouze z pasivních prvků a neřízených zdrojů mohou být u metody smyčkových proudů na hlavní diagonále odporové matice R",
+            "answers": {
+                "correct": [
+                    "pouze kladné hodnoty"
+                ],
+                "incorrect": [
+                    "pouze kladné nebo nulové hodnoty",
+                    "kladné i záporné hodnoty"
+
+                ]
+            }
+        },
+        {
+            "title": "Záladními parametry modelu reálného zdroje proudu jsou",
+            "answers": {
+                "correct": [
+                    "vnitřní proud a vnitřní elektrická vodivost"
+                ],
+                "incorrect": [
+
+                ]
+            }
+        },
+        {
+            "title": "Princip superpozice se používá k analýze takových obvodů, kde",
+            "answers": {
+                "correct": [
+                    "působí více budících zdrojů současně"
+                ],
+                "incorrect": [
+                    "působí výhradně napěťové budicí zdroje",
+                    "působí jen více řízených zdrojů"
+                ]
+            }
+        },
+        {
+            "title": "U metody smyčkových proudů",
+            "answers": {
+                "correct": [
+                    "může být volena libovolná orientace smyčkových proudů"
+                ],
+                "incorrect": [
+                    "musí být volena pravotočivá orientace smyčkových proudů",
+                    "musí být volena orientace smyčkových shodně s proudy napájecích zdrojů"
+                ]
+            }
+        },
+        {
+            "title": "Při výkonovém přizpůsobení zdroje a zátěže je účinnost přenosu výkonu",
+            "answers": {
+                "correct": [
+                    "50 %"
+                ],
+                "incorrect": [
+                    "100 %",
+                    "dána poměrem vnitřního odporu zdroje R<sub>i</sub> a odporu zátěže R<sub>Z</sub>"
+                ]
+            }
+        },
+        {
+            "title": "U metody uzlových napětí jsou u obvodů složených z pasivních prvků a nezávislých zdrojů",
+            "answers": {
+                "correct": [
+                    "všechny prvky matice G mimo hlavní diagonálu záporné nebo nulové"
+                ],
+                "incorrect": [
+                    "všechny prvky na vedlejší diagonále matice G záporné",
+                    "věechny prvky matice G mimo hlavní diagonálu kladné nebo nulové"
+                ]
+            }
+        },
+        {
+            "title": "Svorkové napětí U<sub>Z</sub> reálného zdroje s vnitřním odporem R<sub>i</sub> a a npětím naprázdno U<sub>i</sub> se mění s odebíraným proudem I<sub>Z</sub> na hodnotu",
+            "answers": {
+                "correct": [
+                    "\\(U_{Z} = U_{i} - R_{i} \\cdot I_{Z}\\)"
+                ],
+                "incorrect": [
+                    "\\(U_{Z} = U_{i} + R_{i} \\cdot I_{Z}\\)",
+                    "\\(U_{Z} = R_{i} \\cdot I_{Z} - U_{i}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Dynamický odpor lze určit podle vztahu",
+            "answers": {
+                "correct": [
+                    "\\(R_{d} = \\frac{du}{di}\\)"
+                ],
+                "incorrect": [
+                    "\\(R_{d} = \\frac{u}{i}\\)",
+                    "\\(R_{d} = \\frac{di}{du}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Při výkonovém přizpůsobení zdroje a zátěže je výkon dodávaný do zátěže",
+            "answers": {
+                "correct": [
+                    "\\(\\frac{U_{i}^{2}}{4 \\cdot R_{i}}\\)"
+                ],
+                "incorrect": [
+                    "\\(\\frac{U_{i}^{2}}{R_{i}}\\)",
+                    "\\(\\frac{U_{i}^{2}}{2 \\cdot R_{i}}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Kirchhoffovy zákony platí",
+            "answers": {
+                "correct": [
+                    "v lineárních i nelineárních obvodech"
+                ],
+                "incorrect": [
+                    "pouze v lineárních obvodech",
+                    "v lineárních obvodech, v nelineárních obvodech platí pouze 1. K.z."
+                ]
+            }
+        },
+        {
+            "title": "Princip superpozice platí",
+            "answers": {
+                "correct": [
+                    "pouze v lineárních obvodech"
+                ],
+                "incorrect": [
+                    "pouze v lineárních a nelineárních obvodech s pasivními prvky a zdroji",
+                    "jen v lineárních i nelineárních obvodech s jediným zdrojem"
+                ]
+            }
+        },
+        {
+            "title": "Soustavu výchozích rovnic obvodu analyzovaného metodou smyčkových proudů zapisujeme v maticovém tvaru:",
+            "answers": {
+                "correct": [
+                    "\\(R \\cdot I = U\\)"
+                ],
+                "incorrect": [
+                    "\\(G \\cdot U = I\\)",
+                    "\\(I = U / R\\)"
+                ]
+            }
+        },
+        {
+            "title": "V případě aplikace Théveninovy věty nahrazujeme celý obvod (mimo zkoumanou větev)",
+            "answers": {
+                "correct": [
+                    "sériovým spojením ideálního zdroje napětí a vnitřního odporu"
+                ],
+                "incorrect": [
+                    "paralelním spojením ideálního zdroje proudu a vnitřní vodivosti",
+                    "paralelním spojením ideálního zdroje napětí a vnitřního odporu"
+                ]
+            }
+        },
+        {
+            "title": "Maximum výkonu ze zdroje o vnitřním odporu R<sub>i</sub> se do zátěže o odporu R<sub>Z</sub> přenáší při podmínce",
+            "answers": {
+                "correct": [
+                    "\\(R_{Z}=R_{i}\\)"
+                ],
+                "incorrect": [
+                    "\\(R_{Z}=2R_{i}\\)",
+                    "\\(R_{Z}=-R_{i}\\)"
+                ]
+            }
+        },
+        {
+            "title": "U lineárního rezistoru platí pro statický odpor R<sub>s</sub> a dynamický odpor R<sub>d</sub>:",
+            "answers": {
+                "correct": [
+                    "\\(R_{d} = R_{s}\\)"
+                ],
+                "incorrect": [
+                    "\\(R_{d} = 0\\)",
+                    "\\(R_{d} < R_{s}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Analýza obvodů metodou postupného zjednodušování je vhodná jen pro řešení:",
+            "answers": {
+                "correct": [
+                    "lineárních a nelineárních obvodů s jedním zdrojem"
+                ],
+                "incorrect": [
+                    "lineárních obvodů s jedním nebo více zdroji",
+                    "jednoduchých obvodů jen s napěťovými zdroji"
+                ]
+            }
+        },
+        {
+            "title": "Při popisu obvodu pomocí MUN jsou prvky matice G mimo hlavní diagonálu tvořeny",
+            "answers": {
+                "correct": [
+                    "záporně vzatým součtem všech vodivostí připojených přímou cestou mezi příslušné uzly"
+                ],
+                "incorrect": [
+                    "součtem všech vodivostí připojených k příslušnému uzlu",
+                    "rozdílem všech vodivostí připojených mezi příslušné uzly"
+                ]
+            }
+        },
+        {
+            "title": "Magnetizační křivka udává závislost",
+            "answers": {
+                "correct": [
+                    "magnetické indukce B na intenzitě magnetického pole H, tj. B = f(H)"
+                ],
+                "incorrect": [
+                    "magnetického napětí U<sub>m</sub> na magnetickém toku Φ, tj. U<sub>m</sub> = f(Φ)",
+                    "intenzity magnetického pole H, tj. H = f(B)"
+                ]
+            }
+        },
+        {
+            "title": "Pro přímou aplikaci metody smyčkových proudů mohou být v analyzovaném obvodu",
+            "answers": {
+                "correct": [
+                    "výhradně napěťové zdroje, nezávislé i řízené"
+                ],
+                "incorrect": [
+                    "proudové i napěťové zdroje",
+                    "výhradně nezávislé napěťové zdroje"
+                ]
+            }
+        },
+        {
+            "title": "Na nelineárním prvku bylo při proudu 0,1 A naměřen úbytek napětí 0,5 V a při 0,6 A úbytek 0,6 V. Jaký je dynamický odpor platný pro okolí těchto bodů?",
+            "answers": {
+                "correct": [
+                    "0,2 Ω"
+                ],
+                "incorrect": [
+                    "1 Ω",
+                    "5 Ω"
+                ]
+            }
+        },
+        {
+            "title": "Při aplikaci napěťového Kirchhoffova zákona platí pro uzavřenou smyčku, že",
+            "answers": {
+                "correct": [
+                    "cesta uzavřené smyčky nemusí být celá vodivě (galvanicky) propojena"
+                    
+                ],
+                "incorrect": [
+                    "cesta uzavřené smyčky musí být shodná se smyčkovým proudem",
+                    "cesta uzavřené smyčky musí být celá vodivě (galvanicky) propojena"
+                ]
+            }
+        },
+        {
+            "title": "Magnetický R<sub>m</sub> odpor lze modelovat",
+            "answers": {
+                "correct": [
+                    "jako nelineární u feromagnetik a lineární u vzduchové mezery"
+                ],
+                "incorrect": [
+                    "jako lineární u feromagnetik i u vzduchové mezery",
+                    "jako nelineární u feromagnetik i u vzduchové mezery"
+                ]
+            }
+        },
+        {
+            "title": "Metoda analýzy pomocí smyčkových proudů (MSP) je založena na aplikaci",
+            "answers": {
+                "correct": [
+                    "druhého (napěťového) Kirchhoffova zákona a principu superpozice"
+                ],
+                "incorrect": [
+                    "prvního a druhého Kirchhoffova zákona",
+                    "prvního (proudového) Kirchhoffova zákona"
+                ]
+            }
+        },
+        {
+            "title": "Závislost magnetického odporu na délce siločáry L, průřezu S a permeabilitě materiálu μ je dána vztahem",
+            "answers": {
+                "correct": [
+                    "\\(R_{m} = \\frac{L}{μ \\cdot S}\\)"
+                ],
+                "incorrect": [
+                    "\\(R_{m} = \\frac{μ}{S \\cdot L}\\)",
+                    "\\(R_{m} = \\frac{S}{μ \\cdot L}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Ideální zdroje mají vnitřní odpor/vodivost",
+            "answers": {
+                "correct": [
+                    "zdroj napětí R<sub>i</sub> = 0 a zdroj proudu G<sub>i</sub> = 0"
+                ],
+                "incorrect": [
+                    "zdroj napětí R<sub>i</sub> = ∞ a zdroj proudu G<sub>i</sub> = ∞",
+                    "zdroj napětí R<sub>i</sub> = 0 a zdroj proudu G<sub>i</sub> = ∞"
+                ]
+            }
+        },
+        {
+            "title": "Základními parametry modelu reálného zdroje proudu jsou",
+            "answers": {
+                "correct": [
+                    "vnitřní proud a vnitřní elektrická vodivost"
+                ],
+                "incorrect": [
+                    "vnitřní proud a proud nakrátko",
+                    "svorkový proud a vnitřní elektrická vodivost"
+                ]
+            }
+        },
+        {
+            "title": "Soustavu výchozích rovnic obvodu analyzovaného metodou uzlových napětí zapisujeme v maticovém tvaru",
+            "answers": {
+                "correct": [
+                    "\\(G \\cdot U = I\\)"
+                ],
+                "incorrect": [
+                    "\\(U / R = I\\)",
+                    "\\(R \\cdot I = U\\)"
+                ]
+            }
+        },
+        {
+            "title": "Základními parametry modelu reálného zdroje napětí jsou",
+            "answers": {
+                "correct": [
+                    "vnitřní napětí a vnitřní elektrický odpor"
+                ],
+                "incorrect": [
+                    "svorkové napětí a proud nakrátko",
+                    "svorkové napětí a vnitřní elektrický odpor"
+                ]
+            }
+        },
+        {
+            "title": "Zatěžovací charakteristika zdroje napětí je závislost",
+            "answers": {
+                "correct": [
+                    "výstupního napětí na zatěžovacím proudu"
+                ],
+                "incorrect": [
+                    "výstupního proudu na zatěžovacím odporu",
+                    "výstupního napětí na zatěžovacím odporu"
+                ]
+            }
+        },
+        {
+            "title": "Relativní odchylka δ<sub>X</sub> hodnoty měřené od teoretické se určí",
+            "answers": {
+                "correct": [
+                    "\\(δ_{X} = \\frac{X_{mer.} - X_{teor.}}{X_{teor.}} \\cdot 100\\)"
+                ],
+                "incorrect": [
+                    "\\(δ_{X} = \\frac{X_{mer.} - X_{teor.}}{X_{teor. \\cdot 100}}\\)",
+                    "\\(δ_{X} = \\frac{X_{mer.}}{X_{teor.}} \\cdot 100\\)"
+                ]
+            }
+        },
+        {
+            "title": "Hodnota měřené veličiny se u analogového přístroje uřcí jako",
+            "answers": {
+                "correct": [
+                    "Součin výchylky a konstanty přístroje \\(X_{m} = α \\cdot k\\)"
+                ],
+                "incorrect": [
+                    "Podíl výchylky a počtu dílků stupnice \\(X_{m} = \\frac{α}{α_{max}}\\)",
+                    "Podíl výchylky a konstanty přístroje \\(X_{m} = \\frac{α}{k}\\)"
+                ]
+            }
+        },
+        {
+            "title": "Hallova sonda slouží k měření",
+            "answers": {
+                "correct": [
+                    "magnetická indukce B"
+                ],
+                "incorrect": [
+                    "magnetického indukčního toku Φ",
+                    "magnetického odporu R<sub>m</sub>"
+                ]
+            }
+        }
+    ]
+}

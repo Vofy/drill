@@ -1,0 +1,209 @@
+{
+    "title": "EMV1 - Testy - 1",
+    "description": "Zpracované otázky k testu 1",
+    "parser_version": 1,
+    "tasks": [
+        {
+            "title": "Popište čtyři kvantová čísla a pravidla podle kterých se obsazuje atomový obal elektrony.",
+            "answers": {
+                "correct": [
+                    "<ul><li>Hlavní kvantové číslo (n)<ul><li>Udává velikost vrstvy (slupky)</li><li>S rostoucím n se zvětšuje vzdálenost od jádra</li><li>Nabývá hodnot n = K, L, M, N, O, P, Q</li></ul> </li><li>Vedlejší kvantové číslo (l)<ul><li>Udává tvar orbitalu a společně s hlavním kvant. číslem určuje</li><li>energii elektronu na dané hladině</li><li>V rámci slupky tvoří podslupku</li><li>Nabývá hodnot l = 0,1,...(n-1)</li></ul></li><li>Magnetické kvantové číslo (m)<ul><li>Vyjadřuje orientaci orbitalů v prostoru souřadného systému (x,y,z)</li><li>Nabývá hodnot (-l,...,0,...,+l)</li></ul></li><li>Spinové kvantové číslo (s)<ul><li>Vyjadřuje spinový magnetický moment elektronu na daném orbitalu</li><li>Souvisí se směrem rotace elektronu kolem osy v prostoru</li><li>Elektron má spin s = +- 1/2</li><li>Nepopisuje dráhu, ale přímo elektron</li></ul></li></ul><ul><li>Pravidlo energetické výhodnosti<ul><li>Elektrony se umísťují nejprve na orbitalech s nejnižší úrovní energie</li></ul></li><li>Madelungovo pravidlo<ul><li>Ze dvou elektronů má větší energii elektron v podslupce s větším součtem n + l, pokud je tento součet stejný, má nižší energii elektron v podslupce s menší hodnotou čísla n</li></ul></li><li>Pauliho princip výlučnosti<ul><li>V atomu nemohou existovat dva elektrony se stejným souborem všech kvantových čísel n, l, m, s</li><li>Každý orbital může být zaplněn max. 2 elektrony s opačným spinem</li></ul></li><li>Hundovo pravidlo maximální multiplicity<ul><li>Elektrony se v elektronovém obalu umísťují tak, aby počet nevykompenzovaných spinů v obsazeném orbitalu byl maximální</li></ul></li></ul>"
+                ]
+            }
+        },
+        {
+            "title": "Popište tři základní typy vazeb, která veličina má rozhodující vliv na povahu vazby?",
+            "answers": {
+                "correct": [
+                    "<ul><li>Vazba kovová – kov-kov</li><li>Vazba iontová – kov-nekov</li><li>Vazba kovalentní – nekov-nekov</li></ul>"
+                ]
+            }
+        },
+        {
+            "title": "Vysvětlete pojmy - ionizační energie, elektronová afinita a elektronegativita.",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "Vysvětlete proč molekula složená z prvků se silnou iontovou či kovalentní polární vazbou (např. molekula plynu fluoridu sírového - SF6) může být navenek nepolární.",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "Co je to polarizace? Popište čtyři vybrané typy polarizačních mechanismů a seřaďte je podle jejich rychlosti.",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "Jaké veličiny popisují dielektrické materiály a jaké mají jednotky?",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+
+
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        },
+        {
+            "title": "",
+            "answers": {
+                "correct": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

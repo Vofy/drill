@@ -60,6 +60,7 @@ export default function SideBar() {
                 <Accordion name="EL1">
                     <Accordion name="CPP">
                         <Link to="/bpc/el1/cpp/194">NV 194/2022 Sb.</Link>
+                        <Link to="/bpc/el1/cpp/lc">LC</Link>
                     </Accordion>
                 </Accordion>
                 <Accordion name="EL2">
@@ -72,6 +73,15 @@ export default function SideBar() {
                         <Link to="/bpc/mve/lc/1">1</Link>
                         <Link to="/bpc/mve/lc/2">2</Link>
                         <Link to="/bpc/mve/lc/3">3</Link>
+                        <Link to="/bpc/mve/lc/4">4</Link>
+                        <Link to="/bpc/mve/lc/5">5</Link>
+                        <Link to="/bpc/mve/lc/6">?</Link>
+                    </Accordion>
+                </Accordion>
+                <Accordion name="EMV1">
+                    <Accordion name="Testy">
+                        <Link to="/bpc/emv1/testy/1">1</Link>
+                        <Link to="/bpc/emv1/testy/2">2</Link>
                     </Accordion>
                 </Accordion>
             </Accordion>
