@@ -1,6 +1,6 @@
 module.exports = {
 	apps: [{
-		name: 'perfektnidrill',
+		name: 'drill',
 		script: 'yarn',
 		args: "start",
 		watch: true,
