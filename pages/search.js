@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Result from './result.js';
+import Result from 'components/search/result.js';
 import Fuse from 'fuse.js';
 import { useRecoilValue } from 'recoil';
-import { searchedStringState } from '../../../globalState.js';
-import { useLocation } from 'react-router-dom';
+import { searchedStringState } from 'pages/_state.js';
 
 export default function Search(props) {
-  const location = useLocation();
 
   const searchedString = useRecoilValue(searchedStringState);
 
@@ -60,7 +58,7 @@ export default function Search(props) {
 
   useEffect(() => {
     initFuse();
-  }, [location]);
+  }, []);
     
   return (<>
     { result && result.map((res, index) => <Result key={index} res={res}/>) }

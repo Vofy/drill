@@ -1,0 +1,56 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Quiz {
+  id    Int    @id @default(autoincrement())
+  tasks Task[]
+}
+
+model Task {
+  id          Int          @id @default(autoincrement())
+  quiz        Quiz         @relation(fields: [quizId], references: [id])
+  quizId      Int
+  title       String?
+  choice      Choice?
+  dragAndDrop DragAndDrop?
+}
+
+model Choice {
+  id      Int            @id @default(autoincrement())
+  task    Task           @relation(fields: [taskId], references: [id])
+  taskId  Int            @unique
+  options ChoiceOption[]
+}
+
+model ChoiceOption {
+  id      Int     @id @default(autoincrement())
+  task    Choice  @relation(fields: [taskId], references: [id])
+  taskId  Int
+  image   String
+  text    String
+  correct Boolean
+}
+
+model DragAndDrop {
+  id      Int                 @id @default(autoincrement())
+  task    Task                @relation(fields: [taskId], references: [id])
+  taskId  Int                 @unique
+  options DragAndDropOption[]
+}
+
+model DragAndDropOption {
+  id     Int         @id @default(autoincrement())
+  task   DragAndDrop @relation(fields: [taskId], references: [id])
+  taskId Int
+  image  String
+  text   String
+}
