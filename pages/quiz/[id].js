@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Answer from 'components/quiz/answer.js';
 import DOMPurify from 'dompurify';
-import { shuffleArray } from "../lib/arrays"
-import { quizQuestionParse } from '../lib/dataParser1.js';
+import { shuffleArray } from "lib/arrays"
+import { quizQuestionParse } from 'lib/dataParser1';
 import { MathJax } from 'better-react-mathjax';
 
 export default function Quiz(props) {

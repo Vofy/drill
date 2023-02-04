@@ -8,8 +8,6 @@ import "styles/card.css";
 import "styles/quiz/quiz.css";
 import 'styles/card.css';
 
-import React, { Component } from 'react';
-
 import Header from 'components/layout/header'
 import SideBar from 'components/layout/sidebar';
 
@@ -33,11 +31,11 @@ function App({ Component, pageProps }) {
             fontFamily: 'Open Sans, sans serif',
             spacing: { xs: 15, sm: 20, md: 25, lg: 30, xl: 40 },
           }}>
-          <div className="App">
-            <SideBar/>
-            <Header/>
-            <Component {...pageProps} />
-          </div>
+            <div>
+              <SideBar/>
+              <Header/>
+              <Component {...pageProps} />
+            </div>
         </MantineProvider>
       </MathJaxContext>
     </RecoilRoot>);
