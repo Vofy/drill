@@ -1,14 +1,10 @@
-import { Link } from "react-router-dom";
-import '../../css/sidebar.css';
+import { Link } from "next/link";
 import Accordion from '../accordion';
 import { useRecoilState } from "recoil";
-import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "../../globalState";
-import { useLocation } from "react-router";
+import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "pages/_state";
 import { useEffect } from "react";
 
 export default function SideBar() {
-    const location = useLocation();
-
     const [showIncorrectAnswers, setShowIncorrectAnswers] = useRecoilState(showIncorrectAnswersState);
     const [menuOpened, setMenuOpened] = useRecoilState(menuOpenedState);
     const [theme, setTheme] = useRecoilState(themeState);
@@ -20,7 +16,7 @@ export default function SideBar() {
 
     useEffect(() => {
         setMenuOpened(false);
-    }, [location, showIncorrectAnswers, theme, mode])
+    }, [showIncorrectAnswers, theme, mode])
 
     const colorThemes = [
         {name: "Moodle (light)", value: ""},

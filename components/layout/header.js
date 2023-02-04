@@ -1,13 +1,9 @@
 import React, { useCallback } from 'react';
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
-import { useLocation } from "react-router";
 import { debounce } from 'debounce';
-import { menuOpenedState, modeState, searchedStringState } from "../../globalState";
-import '../../css/header.css';
+import { menuOpenedState, modeState, searchedStringState } from "pages/_state";
 
 export default function Header(props) {
-  const location = useLocation();
-
   const mode = useRecoilValue(modeState);
   const setSearchedString = useSetRecoilState(searchedStringState);
   const [menuOpened, setMenuOpened] = useRecoilState(menuOpenedState);
@@ -41,9 +37,9 @@ export default function Header(props) {
         <i className="fas fa-bars"></i>
       </button> 
       { 
-        (location.pathname === '/' && components.title) ||
-        (mode === 'quiz' && components.title) || 
-        (mode === 'search' && components.search)
+        (components.title) ||
+        (mode === 'quiz') || 
+        (mode === 'search')
       }
       </header>
   )
