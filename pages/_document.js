@@ -12,13 +12,6 @@ export default function Document() {
             <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GTYB84KXB"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments)}
-              gtag('js', new Date());
-
-              gtag('config', 'G-4GTYB84KXB');
-            </script>
         </Head>
       <body>
         <Main />

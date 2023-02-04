@@ -1,5 +1,4 @@
 import 'styles/App.css';
-import 'pages/index.css';
 import 'styles/accordion.css';
 import 'styles/header.css';
 import 'styles/sidebar.css';
@@ -23,7 +22,6 @@ function App({ Component, pageProps }) {
   };
 
   return (
-    <RecoilRoot>
       <MathJaxContext>
         <MantineProvider
           theme={{
@@ -37,8 +35,7 @@ function App({ Component, pageProps }) {
               <Component {...pageProps} />
             </div>
         </MantineProvider>
-      </MathJaxContext>
-    </RecoilRoot>);
+      </MathJaxContext>);
 }
 
 export default App;

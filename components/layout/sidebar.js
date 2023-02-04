@@ -1,7 +1,7 @@
 import Accordion from 'components/accordion';
 import { useRecoilState } from "recoil";
-import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "pages/_state";
-import { useEffect } from "react";
+import { menuOpenedState, themeState, modeState, showIncorrectAnswersState } from "state/state";
+import React, { useEffect } from "react";
 import Link from 'next/link';
 
 export default function SideBar() {

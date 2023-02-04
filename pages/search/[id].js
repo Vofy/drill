@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Result from 'components/search/result.js';
 import Fuse from 'fuse.js';
 import { useRecoilValue } from 'recoil';
-import { searchedStringState } from 'pages/_state.js';
+import { searchedStringState } from 'state/state';
 
 export default function Search(props) {
 

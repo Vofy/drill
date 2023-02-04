@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 import { debounce } from 'debounce';
-import { menuOpenedState, modeState, searchedStringState } from "pages/_state";
+import { menuOpenedState, modeState, searchedStringState } from "state/state";
 
 export default function Header(props) {
   const mode = useRecoilValue(modeState);

@@ -2,7 +2,7 @@ import React from 'react';
 import DOMPurify from 'dompurify';
 import { useRecoilValue } from 'recoil';
 
-import { showIncorrectAnswersState } from 'pages/_state';
+import { showIncorrectAnswersState } from 'state/state';
 import { MathJax } from 'better-react-mathjax';
 
 export default function Result(props) {
