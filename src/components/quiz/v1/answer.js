@@ -1,6 +1,7 @@
 import { MathJax } from "better-react-mathjax";
 import DOMPurify from "dompurify";
 import { useState } from "react";
+import "../../../css/quiz/answer.css";
 
 export default function Answer(props) {
     const [answerClicked, setAnswerClicked] = useState(false);

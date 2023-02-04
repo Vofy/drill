@@ -1,8 +1,9 @@
 import React from 'react';
 import DOMPurify from 'dompurify';
+import '../../../css/card.css';
 import { useRecoilValue } from 'recoil';
 
-import { showIncorrectAnswersState } from 'pages/_state';
+import { showIncorrectAnswersState } from '../../../globalState';
 import { MathJax } from 'better-react-mathjax';
 
 export default function Result(props) {

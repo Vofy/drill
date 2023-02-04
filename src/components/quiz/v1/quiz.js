@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import Answer from 'components/quiz/answer.js';
+import Answer from './answer.js';
+import "../../../css/card.css";
+import "../../../css/quiz/quiz.css";
 import DOMPurify from 'dompurify';
-import { shuffleArray } from "../lib/arrays"
-import { quizQuestionParse } from '../lib/dataParser1.js';
+import { shuffleArray } from "../../../lib/arrays"
+import { quizQuestionParse } from '../../../lib/dataParser1.js';
+import { useLocation } from 'react-router-dom';
 import { MathJax } from 'better-react-mathjax';
 
 export default function Quiz(props) {
+    const location = useLocation();
 
     const [allTasks, setAllTasks] = useState([]);
     const [currentTask, setCurrentTask] = useState({});
@@ -33,7 +37,7 @@ export default function Quiz(props) {
 
     useEffect(() => {
         fetchAndShuffleDataset();
-    }, []);
+    }, [location]);
 
     useEffect(() => {
         if (currentTaskIndex < 0) {
