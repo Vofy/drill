@@ -935,6 +935,19 @@
                "ihned po spojení dvou terminalů"
             ]
          }
+      },
+      {
+         "title":"SIP označuje",
+         "answers":{
+            "correct":[
+               "Session Initiation Protocol"
+            ],
+            "incorrect":[
+               "Signaling Indication Protocol",
+               "Source Identificator Protocol",
+               "Signaling Initiation Protocol"
+            ]
+         }
       }
    ]
 }
