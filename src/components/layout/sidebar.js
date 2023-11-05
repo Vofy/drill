@@ -86,7 +86,7 @@ export default function SideBar() {
                 </Accordion>
                 <Accordion name="MDS">
                     <Accordion name="LC">
-                        <Link to="/bpc/mds/test">Test</Link>
+                        <Link to="/bpc/mds/lc/test">Test</Link>
                     </Accordion>
                 </Accordion>
             </Accordion>
