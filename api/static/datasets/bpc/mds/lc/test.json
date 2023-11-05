@@ -216,12 +216,12 @@
          "title":"Datový tok RTP obvykle spotřebuje",
          "answers":{
             "correct":[
-               "95% z celkového toku pro multimedialni data"
+               "95% z celkového toku pro multimediální data"
             ],
             "incorrect":[
                "80% z celkového toku pro multimediální data",
                "celou šířku pásma",
-               "90% z celkového toku pro multimedialni data",
+               "90% z celkového toku pro multimediální data",
                "85% z celkového toku pro multimediainl data"
             ]
          }
@@ -431,7 +431,7 @@
                "je signalizační protokol"
             ],
             "incorrect":[
-               "je protokol pro pfenosmultimedialnich dat",
+               "je protokol pro pfenosmultimediálních dat",
                "je starší název pro VoIP",
                "je zkratka pro Strušný Informační Protokol"
             ]
@@ -500,7 +500,7 @@
             "incorrect":[
                "signalizuje, ktery z terminálů je zapnuty a ktery vypnutý",
                "signalizuje schopnosti jednotlivych terminalů",
-               "přenaší multimedialní data",
+               "přenaší multimediální data",
                "stará se o nalezení gatekeeperu v síti"
             ]
          }
@@ -804,12 +804,12 @@
          "title":"SSRC u RTP identifikuje",
          "answers":{
             "correct":[
-               "zdroj vysilani multimedialniho toku"
+               "zdroj vysilani multimediálního toku"
             ],
             "incorrect":[
                "pořadí paketů v multimediálním toku",
-               "přispívající zdroj vysílání do multimedialního toku o více účastnících",
-               "čas pro přehrávání multimedialního toku"
+               "přispívající zdroj vysílání do multimediálního toku o více účastnících",
+               "čas pro přehrávání multimediálního toku"
             ]
          }
       },
