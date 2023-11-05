@@ -26,7 +26,7 @@
                "znamenají chybu na straně klienta",
                "neznamenají nic",
                "znamenájí chybu na straně serveru",
-               "znamenájí pokyn k přesměrovaní",
+               "znamenájí pokyn k přesměrování",
                "jsou odpověďmi pouze na žádost INVITE"
             ]
          }
@@ -46,15 +46,15 @@
          }
       },
       {
-         "title":"SSRC v RTP hlavicce",
+         "title":"SSRC v RTP hlavičce",
          "answers":{
             "correct":[
-               "identifikuje zdroj vysílani"
+               "identifikuje zdroj vysílaní"
             ],
             "incorrect":[
                "je přiřazeno klientovi vzdaleným serverem",
-               "identifikuje příspívajícízdroj v mixovaném RTP streamu",
-               "slouzi k časové synchronizaci streamu"
+               "identifikuje příspívající zdroj v mixovaném RTP streamu",
+               "slouží k časové synchronizaci streamu"
             ]
          }
       },
@@ -101,7 +101,7 @@
          "comment":"Na Fektušce je - URL adresu zdroje"
       },
       {
-         "title":"O směrovani se v TCP/IP stará vrstva",
+         "title":"O směrování se v TCP/IP stará vrstva",
          "answers":{
             "correct":[
                "síťová"
@@ -174,7 +174,7 @@
          "title":"Pro přenos HLS playlistu je využíván protokol",
          "answers":{
             "correct":[
-               "HTTP/HTTPS (Hyypertext Transfer Protocol/Secure)"
+               "HTTP/HTTPS (Hypertext Transfer Protocol/Secure)"
             ],
             "incorrect":[
                "Využívá proprietární protokol",
@@ -287,7 +287,7 @@
             ],
             "incorrect":[
                "znamenají chybu na straně serveru",
-               "znamenají přesměrovani",
+               "znamenají přesměrování",
                "znamenají úspěch"
             ]
          }
@@ -430,7 +430,7 @@
                "je signalizační protokol"
             ],
             "incorrect":[
-               "je protokol pro pfenosmultimediálních dat",
+               "je protokol pro přenos multimediálních dat",
                "je starší název pro VoIP",
                "je zkratka pro Strušný Informační Protokol"
             ]
@@ -445,7 +445,7 @@
             "incorrect":[
                "stanovuje maximálně strávený čas paketu v jednom směrovači (v sekundách)",
                "stanovuje dobu výskytu paketu v sekundách",
-               "stanovuje minimální počet přeskoků v siti"
+               "stanovuje minimální počet přeskoků v síti"
             ]
          }
       },
@@ -463,10 +463,10 @@
          }
       },
       {
-         "title":"Hlavička IP datagramu nenese informací o",
+         "title":"Hlavička IP datagramu nenese informaci o",
          "answers":{
             "correct":[
-               "zdrojovém a cilovém portu"
+               "zdrojovém a cílovém portu"
             ],
             "incorrect":[
                "cilové adrese",
@@ -498,7 +498,6 @@
             ],
             "incorrect":[
                "signalizuje, který z terminálů je zapnuty a který vypnutý",
-               "signalizuje schopnosti jednotlivých terminalů",
                "přenaší multimediální data",
                "stará se o nalezení gatekeeperu v síti"
             ]
@@ -534,7 +533,7 @@
          "title":"Při vysílání na multicastovou adresu",
          "answers":{
             "correct":[
-               "data budou pfijimat pouze stanice, které jsou přihlášení do multicastové skupiny"
+               "data budou přijímat pouze stanice, které jsou přihlášení do multicastové skupiny"
             ],
             "incorrect":[
                "použiji adresu v rozsahu 192.168.1.0 — 255",
@@ -766,7 +765,7 @@
                "znamenají chybu na straně serveru"
             ],
             "incorrect":[
-               "znamenají přesměrovaní",
+               "znamenají přesměrování",
                "znamenají úspěch",
                "znamenají chybu na straně klienta"
             ]
