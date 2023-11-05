@@ -1,0 +1,174 @@
+{
+    "title": "Zápočtový test",
+    "description": "Přepis z fektušky",
+    "tasks": [
+        {
+            "title": "V jakém formatu je soubor MPD?",
+            "answers": {
+                "correct": [
+                    "XML (Extensible Markup Language)",
+                ],
+                "incorrect": [
+                    "HTML (Hypertext Markup Language)",
+                    "JSON (JavaScript Object Notation)",
+                    "M3U (MP3 URL - Moving Picture Experts Group Audio Layer 3 Uniform Resource Locator)",
+                    "YAML (YAML Ain't Markup Language)",
+                ]
+            }
+        },
+        {
+            "title": "Odpovědi SIP s číslem 2XX",
+            "answers": {
+                "correct": [
+                    "znamenaji kladné potvrzení",
+                ],
+                "incorrect": [
+                    "znamenají chybu na straně klienta",
+                    "neznamenají nic",
+                    "znamenájí chybu na strané serveru",
+                    "znamenájí pokyn k přesměrovaní",
+                    "jsou odpověďmi pouze na žádost INVITE",
+                ]
+            }
+        },
+        {
+            "title": "Pro zrušení dialogu SIP slouží zpráva (ještě před sestavenim spojeni)",
+            "answers": {
+                "correct": [
+                    "CANCEL",
+                ],
+                "incorrect": [
+                    "GOOD-BYE",
+                    "BYE",
+                    "DESTROY",
+                    "BUY",
+                ]
+            }
+        },
+        {
+            "title": "SSRC v RTP hlavicce",
+            "answers": {
+                "correct": [
+                    "identifikuje zdroj vysílani",
+                ],
+                "incorrect": [
+                    "je přiřazeno klientovi vzdaleným serverem",
+                    "identifikuje pfispivajici zdroj v mixovaném RTP streamu",
+                    "slouzi k časové synchronizaci streamu",
+                ]
+            }
+        },
+        {
+            "title": "Vyberte správné tvrzení:",
+            "answers": {
+                "correct": [
+                    "Manifest MPEG-DASH je jeden soubor obsahující všechny informace o dostupnych profilech",
+                ],
+                "incorrect": [
+                    "Manifest HLS je jeden soubor obsahující všechny informace o dostupných profilech",
+                    "Manifest HLS odkazuje na další soubory obsahující informace o daném profilu",
+                    "Manifest MPEG-DASH odkazuje na další soubory obsahující informace o daném profilu",
+                    "Playlist MPEG-DASH je jeden soubor obsahující všechny informace o dostupných profilech",
+                ]
+            }
+        },
+        {
+            "title": "Který protokol neslouží k signalizaci?",
+            "answers": {
+                "correct": [
+                    "RTP",
+                ],
+                "incorrect": [
+                    "H.245",
+                    "SIP",
+                    "H.225",
+                ]
+            }
+        },
+        {
+            "title": "Jakou informaci manifest (MPD) neobsahuje?",
+            "answers": {
+                "correct": [
+                    "zabezpečení",
+                ],
+                "incorrect": [
+                    "časování",
+                    "rozliseni",
+                    "typ média",
+                    "URL adresu zdroje",
+                ]
+            }
+        },
+        {
+            "title": "O směrovani se v TCP/IP stará vrstva",
+            "answers": {
+                "correct": [
+                    "síťová",
+                ],
+                "incorrect": [
+                    "spojová",
+                    "transportní",
+                    "směrová",
+                    "žádná z uvedenych",
+                ]
+            }
+        },
+        {
+            "title": "Odpovědi SIP s číslem 3XX",
+            "answers": {
+                "correct": [
+                    "znamenají přesměrování",
+                ],
+                "incorrect": [
+                    "znamenají chybu na strané serveru",
+                    "znamenají úspěch",
+                    "jsou odpovědi pouze na zadost REDIRECT",
+                    "znamenají chybu na strané klienta",
+                ]
+            }
+        },
+        {
+            "title": "Payload type v RTP",
+            "answers": {
+                "correct": [
+                    "určuje, jaké kódování je pro data, přenášená v paketu, použito",
+                ],
+                "incorrect": [
+                    "obsahuje adresu zařízení, ke kterému ma byt paket RTP doručen",
+                    "má 6 bitů",
+                    "má 8 bitů",
+                    "má 5 bitů",
+                    "obsahuje sekvenční číslo paketu",
+                ]
+            },
+            "comment": "Má 7 bitů",
+        },
+        {
+            "title": "SIP protokol je v modelu TCP/IP definován na vrstvě",
+            "answers": {
+                "correct": [
+                    "Aplikační",
+                ],
+                "incorrect": [
+                    "Transportní",
+                    "Relační",
+                    "Síťové",
+                ]
+            }
+        },
+        {
+            "title": "Jaký protokol se používá k přenosu informací o UA v SIPu?",
+            "answers": {
+                "correct": [
+                    "SDP",
+                ],
+                "icorrect": [
+                    "SAP",
+                    "SMTP",
+                    "RTSP",
+                ]
+            },
+            "comment": "Metoda INVITE",
+        },
+    ]
+}
