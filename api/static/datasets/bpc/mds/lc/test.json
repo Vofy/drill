@@ -709,7 +709,7 @@
          "title":"K čemu slouží metoda (zpráva) REGISTER v SIP?",
          "answers":{
             "correct":[
-               "vyuziva se k registraci klientů na registrar server"
+               "využívá se k registraci klientů na registrar server"
             ],
             "incorrect":[
                "používá se pro dotazani na schopností serveru",
