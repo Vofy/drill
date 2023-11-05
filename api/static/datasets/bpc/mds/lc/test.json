@@ -721,7 +721,7 @@
          "title":"Real-time Transport Protocol (RTP)",
          "answers":{
             "correct":[
-               "pracuje na aplikační vrstvé TCP/IP"
+               "pracuje na aplikační vrstvě TCP/IP"
             ],
             "incorrect":[
                "pracuje na relační vrstvě TCP/IP",
@@ -859,12 +859,12 @@
          "title":"Kolik zpráv SIP proběhne během registrace mezi telefonem a proxy serverem?",
          "answers":{
             "correct":[
-               "3 zprávy"
+               "4 zprávy"
             ],
             "incorrect":[
-               "4 zprávy",
                "1 zprávy",
-               "2 zprávy"
+               "2 zprávy",
+               "3 zprávy"
             ]
          }
       },
@@ -971,6 +971,468 @@
                "250",
                "554",
                "640"
+            ]
+         }
+      },
+      {
+         "title":"U protokolu RTP",
+         "answers":{
+            "correct":[
+               "Může nést více jak jeden datový tok, k rozlišení jednotlivých uživatelů využívá SSRC"
+            ],
+            "incorrect":[
+               "Sequence number slouží k inter a intra media synchronizaci.",
+               "Každý vyvinutý A/V kodek má svůj předem definovaný identifikátor Payload Type, který je součástí RFC 2550.",
+               "Pole SSRC je jednoznačný identifikátor, který je generován na straně serveru, ke kterému je uživatel přípojen"
+            ]
+         }
+      },
+      {
+         "title":"Protokol RTSP (Real Time Streaming Protocol) (3 správné)",
+         "answers":{
+            "correct":[
+               "Mezi povinné metody protokolu patří metoda TEARDOWN",
+               "Využívá port 554",
+               "Přenáší signalizační data - jedná se o signalizační protokol"
+            ],
+            "incorrect":[
+               "Přenáší muultimediální data - A/V obsah",
+               "Mezi nepovinné metody protokolu patří metoda PLAY"
+            ]
+         }
+      },
+      {
+         "title":"Multicast ASM (Any Source Multicast) (2 správné)",
+         "answers":{
+            "correct":[
+               "Nerozlišuje jednotlivé zdroje vysílání",
+               "Používá Rendezvous point"
+            ],
+            "incorrect":[
+               "Rozlišuje jednotlivé zdroje vysílání",
+               "Neoužívá Rendezvous point",
+               "Ke směrování v síti může použít protokol PIM-DM",
+               "Ke směrování v síti může použít protokol PIM-SM"
+            ]
+         }
+      },
+      {
+         "title":"U kvality zážitků QoE (Quality of Experience) platí tvrzení (3 správné)",
+         "answers":{
+            "correct":[
+               "QoE můžeme měřit metodou ACR",
+               "QoE můžeme měřit metodou DCR",
+               "QoE je ovlivněna faktory: obsah, uživatel, prostředí, systém"
+            ],
+            "incorrect":[
+               "QoE můžeme měřit metodou PSNR",
+               "U QoE měříme ztrátovost, propustnost a zpždění paketů"
+            ]
+         }
+      },
+      {
+         "title":"Protokol SIP (3 správné)",
+         "answers":{
+            "correct":[
+               "V doporučení SIP jsou definované kodeky, které mohou být při komuikaci použity.",
+               "Informace o kodecích jsou nejčastěji přenáčeny ve zprávě INVITE a v odpovědi 200 OK",
+               "K vyjednávání kodeků může být použit protokol SDP"
+            ],
+            "incorrect":[
+               "Zpráva CANCEL posílá uživatel k ukončení probíhajícího dialogu",
+               "Vyjednávání kodeků ke komunikaci probíhá až po navázání spojení"
+            ]
+         }
+      },
+      {
+         "title":"U H.323 platí",
+         "answers":{
+            "correct":[
+               "Terminál při přihlašování se ke Gatekeeperu může být Gatekeeperem odmítnut"
+            ],
+            "incorrect":[
+               "Při signalizaci řízené gatekeeperem jsou mezi Gatekeeperem a terminály vyměněny pouze H.225-RAS, ostatní komunikace je přímo mezi terminály bez využití Gatekeeperu",
+               "Pri konfiguraci terminálu je zapotřebí vždy znát adresu Gatekeeperu",
+               "Jednotka MCU obsahuje jedinou komponentu - Vícebodová procesor"
+            ]
+         }
+      },
+      {
+         "title":"V síťovém modelu TCP/IP nenajdu vrstvu (3 správné)",
+         "answers":{
+            "correct":[
+               "Spojová",
+               "Prezentační",
+               "Relační"
+            ],
+            "incorrect":[
+               "Aplikační",
+               "Síťová",
+               "Transportní"
+            ]
+         }
+      },
+      {
+         "title":"Adaptivní streamování (4 správné)",
+         "answers":{
+            "correct":[
+               "Přenáší se části videa (chunky), které jsou přehrávány v přehrávači - video se neukládá na lokální disk.",
+               "Umožňuje dynamicky měnit kvalitu videa podle kapacity sítě, procesoru apod.",
+               "Umožňuje zahájit přehrávání dříve, než je stažen celý obsah.",
+               "Pro adaptivní streaming se pužívá MPEG-DASH."
+            ],
+            "incorrect":[
+               "Obsah je nejprve stažen a uložen na lokálním uložišti, následně je přehrán.",
+               "Pro adaptivní streaming se nepoužívá Apple HLS."
+            ]
+         }
+      },
+      {
+         "title":"Vyberte správná tvrzení",
+         "answers":{
+            "correct":[
+               "YUY je formát 4:2:0"
+            ],
+            "incorrect":[
+               "Při kompresích obrazu využíváme nejčastěji model RGB, jehož složky jsou postupně kódovány bez transformace do jiného prostoru",
+               "Minimální snímková frekvence pro plynulý pohyb ve videu je 55 snímků za sekundu",
+               "Formát CIF má rozlišení 640x480 px",
+               "Full HD má poměr 1920x1200 px"
+            ]
+         }
+      },
+      {
+         "title":"JPEG (2 správné)",
+         "answers":{
+            "correct":[
+               "Kvantizace je hlavním zdrojem informace a řídíme s ní výslednou kvalitu obrazu",
+               "Používá kvantizační tabulka je součástí komprimovaných dat"
+            ],
+            "incorrect":[
+               "Použitá transformace zajistí uspořádání dat tak, že v levém dolním rohu bloku je stejnosměrná složka",
+               "Dělí obraz na bloky o velikosti 16x16 pixelů",
+               "Využívá 2D-DWT"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte nesprávná tvrzení (3 správné)",
+         "answers":{
+            "correct":[
+               "Zpoždění u A/V videokonference by nemělo přesáhnout 1500ms, poté dochází ke zhoršení QoS",
+               "B2BUA u SIP protokolu je určený k přesměrování a používá odpovědi 301",
+               "Videokonference nelze používat v cloudu"
+            ],
+            "incorrect":[
+               "Při přenosu A/V dat při videokonferenci nesmí docházet k žádné ztrátě paketů nesoucí A/V obsah, jinak se hovor rozpadne",
+               "Focus je u H.323 určený k signalizaci během konference"
+            ]
+         }
+      },
+      {
+         "title":"Pro transportní vrstvu modelu TCP/IP modelu platí tvrení",
+         "answers":{
+            "correct":[
+               "UDP protokol je nespolehlivá protokol"
+            ],
+            "incorrect":[
+               "UDP i TCP je možné použít pro broadcastová přenos",
+               "V TCP i UDP se přenáší zdrojová i cílová IP adresa",
+               "Při komunikaci prostřednictvím TCP je nejprve sesstaveno spojení váměnou čtyřech zpráv mezi oběma účastníky dvoubodového spojení"
+            ]
+         }
+      },
+      {
+         "title":"U konference platí tvrzení",
+         "answers":{
+            "correct":[
+               "Gatekeeper není součástí architektury SIP"
+            ],
+            "incorrect":[
+               "MCU jednotka nastavuje mimo jiné rozvržení \"Layouty\" připojených uživatelů na  displeji",
+               "Architektura H.323 může ke komunikaci a kompresi A/V dat použít libovolné protokoly",
+               "U Teleprezenčních systémů je vždy použito jako koncové zařízení telefon",
+               "Maximální počet připojených bodů do konference typu Voice Activated je vždy větší než u Continuous Presence při stejném vytížená hardware"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte platná tvrzení (adaptivní stream)",
+         "answers":{
+            "correct":[
+               "Trvání segmentu je v HLS definováno značkou EXTINF"
+            ],
+            "incorrect":[
+               "CDN se používá pouze při přenosu více streamů různé kvality stejného obsahu",
+               "HLS nepřenáší Playlist",
+               "HLS je vyvíjen a využíván produkty společnosti Microsoft",
+               "MPEG-DASH je používán v digitální televizi DVB-T2"
+            ]
+         }
+      },
+      {
+         "title":"U H.323 a SIP platí (3 správné)",
+         "answers":{
+            "correct":[
+               "Před sestavením H.323 je mezi uživateli nejprve sestaveno TCP spojení",
+               "Při \"rychlém\" připojení u H.323 postačí výměna 3 zpráv mezi volajícím a volaným",
+               "Gatekeeper zajišťuje překlad H.323 ID na IP adresy terminálů"
+            ],
+            "incorrect":[
+               "Před sestavením hovoru SIP je mezi uživateli nejprve sestaveno TCP spojení",
+               "Gatekeeper obsluhuje 1 nebo více zón současně"
+            ]
+         }
+      },
+      {
+         "title":"MPEG-DASH (3 správné)",
+         "answers":{
+            "correct":[
+               "Přenášené médium je děleno do segmentů",
+               "MPD obsahuje jeden nebo více intervalů určitého programu",
+               "Každá perioda obsahuje adaptační množinu (AS)"
+            ],
+            "incorrect":[
+               "Každý segment obsahuje minimálně pět přístupobých bodů SAP",
+               "Neumožňuje přepínat mezi streamy různé kvality"
+            ]
+         }
+      },
+      {
+         "title":"Registrace SIP (3 správné)",
+         "answers":{
+            "correct":[
+               "Při registraci s autentizací se v jedné ze zpráv posílá heslo k účtu SIP v čitelné podobě",
+               "Při registraci s autentizací se využívá algoritmus MD5",
+               "Při registraci s autentizací se v jedné ze zpráv posílá uživatelské jméno k účtu SIP v čitelné podobě"
+            ],
+            "incorrect":[
+               "Při registraci s autentizací si dva koncové body mezi sebou vymění 3 zprávy",
+               "Registracee probíhá vždy přes B2BUA"
+            ]
+         }
+      },
+      {
+         "title":"Protokol RTP (2 správné)",
+         "answers":{
+            "correct":[
+               "Je protokol pro přenos signalizačních informací mezi uživateli",
+               "Je protokol aplikační vrstvy TCP/IP modelu"
+            ],
+            "incorrect":[
+               "Je protokol, který nese informaci o A/V kodeku přenášených dat",
+               "Definuje výpočet zpoždění a kolísání zpoždění u multimediálních přenosů",
+               "Je protokol transportní vrstvy TCP/IP modelu",
+               "Je protokol, který umožní synchronizaci příchozích multimediálních dat"
+            ]
+         }
+      },
+      {
+         "title":"Multicast SSM (Source Specific Multicast) (2 správné)",
+         "answers":{
+            "correct":[
+               "Rozlišuje jednotlivé zdroje vysílání",
+               "Nepoužívá Rendezvous point"
+            ],
+            "incorrect":[
+               "Používá Rendezvous point",
+               "Nerozlišuje jednotlivé zdroje vysílání",
+               "Ke směrování v síti může použít protokol PIM-SM",
+               "Ke směrování v síti může použít protokol PIM-DM"
+            ]
+         }
+      },
+      {
+         "title":"Protokol SIP",
+         "answers":{
+            "correct":[
+               "Dvoubodové spojení je navázáno po výměně zpráv INVITE - 200 OK - ACK"
+            ],
+            "incorrect":[
+               "TRANSAKCE je definována jako výměna jedné žádosti a jedné libovolné odpovědi",
+               "TRANSAKCE obsahuje více dialogů",
+               "Dvoubodové spojení je navázáno po výměně zpráv UNVITE - 200 OK",
+               "Pro popis spojení se používá protokol SAP"
+            ]
+         }
+      },
+      {
+         "title":"Protokol SIP",
+         "answers":{
+            "correct":[
+               "DIALOG je identifikován pomocí Call ID, tagem volajícího a tagem volaného"
+            ],
+            "incorrect":[
+               "DIALOG obsahuje minimálně 2 TRANSAKCE",
+               "SIP využívá primárně port 554",
+               "SIP slouží k přenosu multimediálních dat",
+               "DIALOG je identifikován pomocí Call ID, tagem volajícího a tagem volaného, sekvenčním číslem a parametrem via-branch"
+            ]
+         }
+      },
+      {
+         "title":"JPEG",
+         "answers":{
+            "correct":[
+               "Rozšířený mód může kódovat až 12 bitové vzorky"
+            ],
+            "incorrect":[
+               "Jasová a chrominační složky jsou kódovány shodně a používají se pro ně stejné kvantizační tabulky",
+               "Blokový artefakt je kladnou stránkou komprese JPEG, diky němu je obrázek kvalitnější",
+               "Pokud v bloku 8x8 po kvantizaci zůstane nenulová pouze složka DC, poté můžeme konstatovat, že výsledný obraz po dekompresi ude mít maximální kvalitu",
+               "U progresivního kódování JPEG je přenáčen postupně blok po bloku"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte správná tvrzení",
+         "answers":{
+            "correct":[
+               "H.323 definuje ve své architektuře jednotku MCU"
+            ],
+            "incorrect":[
+               "U H.323 můžu použít kodek pro kompresi videa MPEG-2",
+               "SIP definuje ve své architektuře terminál",
+               "Gatekeeper zajišťuje kompresi a dekompresi A/V dat",
+               "Jednotka MCU musí být u dvoubodové multimediální komunikace součástí komunikačního žetězce"
+            ]
+         }
+      },
+      {
+         "title":"Protokol IGMP",
+         "answers":{
+            "correct":[
+               "Verze 2 nelze použít v multicastu typu SSM",
+               "Slouží k připojení koncových stanic k multicastové skupině"
+            ],
+            "incorrect":[
+               "Jedná se o směrovací protokol v multicastové skupině",
+               "Ve verzi 3 se používá v multicastu typu ASM"
+            ]
+         }
+      },
+      {
+         "title":"Komprese videa",
+         "answers":{
+            "correct":[
+               "Snímek B u MPEG-2 není referenční"
+            ],
+            "incorrect":[
+               "Chyba predikce je rozdíl mezi dvěma po sobě jdoucími snímky ve videosekvenci",
+               "Pro odhad pohybu u kodéru MPEG-2 se využívají bloky",
+               "Při použití GOP ve variantě \"IPPP\" je pořadí  snímání jednotlivých snímků shodné s pořadím kódování",
+               "Makroblok 4:2:0 obsahuje 4 bloky"
+            ]
+         }
+      },
+      {
+         "title":"Protokol SIP (3 správné)",
+         "answers":{
+            "correct":[
+               "Tag volaného je vždy znám při odesílání zprávy INVITE volajícím",
+               "Pole Contact je povinnou součástí žádosti INVITE",
+               "Pole Call ID se v rámci dialogu nemění"
+            ],
+            "incorrect":[
+               "Pole CSeq ve zprávě SIP slouží k synchronizaci přenášených médií",
+               "Protokol SIP je protokolem transportní vrstvy"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte správná tvrzení",
+         "answers":{
+            "correct":[
+               "Pro videokonference a telepresence se využívají standardy H.323 a SIP"
+            ],
+            "incorrect":[
+               "Webcast poskytuje obousměrné komunikační prostředí",
+               "Součástí H.323 je Proxy server",
+               "Videokonference nemá žádné odličnosti od telepresence, jedná se o synonyma",
+               "Při webmináři můtu přenášet pouze zvuk a text"
+            ]
+         }
+      },
+      {
+         "title":"TTL v protokolu IPv4",
+         "answers":{
+            "correct":[
+               "Je maximální velikosti 255",
+               "Sníží se o jedna při průchodu přes směrovač",
+               "Znamená Time To Live"
+            ],
+            "incorrect":[
+               "Identifikuje typ služby",
+               "Znamená Total Time Live"
+            ]
+         }
+      },
+      {
+         "title":"Protokol SDP (4 správné)",
+         "answers":{
+            "correct":[
+               "Je vždy sestaven z částí popisující relaci, čas a média",
+               "Slouží k popisu datového (multimediálního) toku",
+               "Obsahuje mimo jiné informace o IP adrese odesílatele",
+               "Povinná pole jsou pouze \"v, o, s, t, m\""
+            ],
+            "incorrect":[
+               "Slouží k přenosu multimediálních dat",
+            ]
+         }
+      },
+      {
+         "title":"Vyberte správná tvrzení (3 správné)",
+         "answers":{
+            "correct":[
+               "Model 4:2:0 obsahuje čtyři jasové a dva chrominační bloky",
+               "Barevná hloubka udává, kolik barevných odstínů je v daném obraze použito",
+               "Barevná paleta stanovuje počet možných barevných odstínů"
+            ],
+            "incorrect":[
+               "Y, Cb, Cr složky jsou steně důležité a je s nimi v kompresních algoritmech zacházeno stejně",
+               "Při transformaci RGB na YCbCr nedochází k žádné ztrátě informace"
+            ]
+         }
+      },
+      {
+         "title":"Hlavička protokolu IPv4",
+         "answers":{
+            "correct":[
+               "Můze obsahovat multicastovou adresu",
+               "Obsahuje cílovou adresu",
+               "Obsahuje informaci o životnosti paketu"
+            ],
+            "incorrect":[
+               "Obsahuje zdrojový port"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte správná tvrzení (2 správné)",
+         "answers":{
+            "correct":[
+               "Redukci redundance provedu prediktivním kódováním",
+               "Redukce irelevance je ztrátový proces"
+            ],
+            "incorrect":[
+               "Redukci redundance provedu kvantizací",
+               "VLC kódování používané pri kompresi obrazu a videa je ztrátové",
+               "Citlivost lidského oka je omezená na přibližně 34 odstínů šedé barvy"
+            ]
+         }
+      },
+      {
+         "title":"Kvalita služeb (QoS - Quality Of Service)",
+         "answers":{
+            "correct":[
+               "IntServ zajišťuje garantovanou službu"
+            ],
+            "incorrect":[
+               "Pro kategorizaci paketu u IntServ využívá kód DSCP",
+               "Využívá u architektury DiffServ protokol RSVP",
+               "Při použití architektury IntServ nelze zaručit garantovanou službu",
+               "Při použití architektury DiffServ jsou nejprve mezi uživatelem a poskytovatelem dohodnuty parametry pro přenos SLA (Service Level Agreement)"
             ]
          }
       }
