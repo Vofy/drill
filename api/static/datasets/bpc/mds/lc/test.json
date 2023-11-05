@@ -714,7 +714,7 @@
             ],
             "incorrect":[
                "používá se pro dotazani na schopností serveru",
-               "slouží k zahajení spojení s volajícím",
+               "slouží k zahájení spojení s volajícím",
                "slouží pro odpověď ze strany serveru"
             ]
          }
