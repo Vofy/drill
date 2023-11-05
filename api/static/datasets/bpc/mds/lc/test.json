@@ -599,7 +599,7 @@
          }
       },
       {
-         "title":"Kolik SDP se standardné vymění mezi dvěma uživateli při SIP volání",
+         "title":"Kolik SDP se standardně vymění mezi dvěma uživateli při SIP volání",
          "answers":{
             "correct":[
                "2"
