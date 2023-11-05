@@ -168,8 +168,7 @@
                "SMTP",
                "RTSP"
             ]
-         },
-         "comment":"Metoda INVITE"
+         }
       },
       {
          "title":"Pro přenos HLS playlistu je využíván protokol",
