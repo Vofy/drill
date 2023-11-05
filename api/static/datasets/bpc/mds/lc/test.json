@@ -668,7 +668,7 @@
          }
       },
       {
-         "title":"Ve které metodě SIP zpráv se posilaji informace o schopnostech VolP telefonů?",
+         "title":"Ve které metodě SIP zpráv se posílají informace o schopnostech VolP telefonů?",
          "answers":{
             "correct":[
                "INVITE"
