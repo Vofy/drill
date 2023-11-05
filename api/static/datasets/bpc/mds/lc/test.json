@@ -445,7 +445,7 @@
             ],
             "incorrect":[
                "stanovuje maximálně strávený čas paketu v jednom směrovači (v sekundách)",
-               "stanovuje doba výskytu paketu v sekundách",
+               "stanovuje dobu výskytu paketu v sekundách",
                "stanovuje minimální počet přeskoků v siti"
             ]
          }
