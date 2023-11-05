@@ -1,941 +1,941 @@
 {
-    "title": "Zápočtový test",
-    "description": "Přepis z fektušky",
-    "tasks": [
-        {
-            "title": "V jakém formatu je soubor MPD?",
-            "answers": {
-                "correct": [
-                    "XML (Extensible Markup Language)",
-                ],
-                "incorrect": [
-                    "HTML (Hypertext Markup Language)",
-                    "JSON (JavaScript Object Notation)",
-                    "M3U (MP3 URL - Moving Picture Experts Group Audio Layer 3 Uniform Resource Locator)",
-                    "YAML (YAML Ain't Markup Language)",
-                ]
-            }
-        },
-        {
-            "title": "Odpovědi SIP s číslem 2XX",
-            "answers": {
-                "correct": [
-                    "znamenaji kladné potvrzení",
-                ],
-                "incorrect": [
-                    "znamenají chybu na straně klienta",
-                    "neznamenají nic",
-                    "znamenájí chybu na strané serveru",
-                    "znamenájí pokyn k přesměrovaní",
-                    "jsou odpověďmi pouze na žádost INVITE",
-                ]
-            }
-        },
-        {
-            "title": "Pro zrušení dialogu SIP slouží zpráva (ještě před sestavenim spojeni)",
-            "answers": {
-                "correct": [
-                    "CANCEL",
-                ],
-                "incorrect": [
-                    "GOOD-BYE",
-                    "BYE",
-                    "DESTROY",
-                    "BUY",
-                ]
-            }
-        },
-        {
-            "title": "SSRC v RTP hlavicce",
-            "answers": {
-                "correct": [
-                    "identifikuje zdroj vysílani",
-                ],
-                "incorrect": [
-                    "je přiřazeno klientovi vzdaleným serverem",
-                    "identifikuje pfispivajici zdroj v mixovaném RTP streamu",
-                    "slouzi k časové synchronizaci streamu",
-                ]
-            }
-        },
-        {
-            "title": "Vyberte správné tvrzení:",
-            "answers": {
-                "correct": [
-                    "Manifest MPEG-DASH je jeden soubor obsahující všechny informace o dostupnych profilech",
-                ],
-                "incorrect": [
-                    "Manifest HLS je jeden soubor obsahující všechny informace o dostupných profilech",
-                    "Manifest HLS odkazuje na další soubory obsahující informace o daném profilu",
-                    "Manifest MPEG-DASH odkazuje na další soubory obsahující informace o daném profilu",
-                    "Playlist MPEG-DASH je jeden soubor obsahující všechny informace o dostupných profilech",
-                ]
-            }
-        },
-        {
-            "title": "Který protokol neslouží k signalizaci?",
-            "answers": {
-                "correct": [
-                    "RTP",
-                ],
-                "incorrect": [
-                    "H.245",
-                    "SIP",
-                    "H.225",
-                ]
-            }
-        },
-        {
-            "title": "Jakou informaci manifest (MPD) neobsahuje?",
-            "answers": {
-                "correct": [
-                    "zabezpečení",
-                ],
-                "incorrect": [
-                    "časování",
-                    "rozliseni",
-                    "typ média",
-                    "URL adresu zdroje",
-                ]
-            },
-            "comment": "Na Fektušce je - URL adresu zdroje",
-        },
-        {
-            "title": "O směrovani se v TCP/IP stará vrstva",
-            "answers": {
-                "correct": [
-                    "síťová",
-                ],
-                "incorrect": [
-                    "spojová",
-                    "transportní",
-                    "směrová",
-                    "žádná z uvedenych",
-                ]
-            }
-        },
-        {
-            "title": "Odpovědi SIP s číslem 3XX",
-            "answers": {
-                "correct": [
-                    "znamenají přesměrování",
-                ],
-                "incorrect": [
-                    "znamenají chybu na strané serveru",
-                    "znamenají úspěch",
-                    "jsou odpovědi pouze na zadost REDIRECT",
-                    "znamenají chybu na strané klienta",
-                ]
-            }
-        },
-        {
-            "title": "Payload type v RTP",
-            "answers": {
-                "correct": [
-                    "určuje, jaké kódování je pro data, přenášená v paketu, použito",
-                ],
-                "incorrect": [
-                    "obsahuje adresu zařízení, ke kterému ma byt paket RTP doručen",
-                    "má 6 bitů",
-                    "má 8 bitů",
-                    "má 5 bitů",
-                    "obsahuje sekvenční číslo paketu",
-                ]
-            },
-            "comment": "Má 7 bitů",
-        },
-        {
-            "title": "SIP protokol je v modelu TCP/IP definován na vrstvě",
-            "answers": {
-                "correct": [
-                    "Aplikační",
-                ],
-                "incorrect": [
-                    "Transportní",
-                    "Relační",
-                    "Síťové",
-                ]
-            }
-        },
-        {
-            "title": "Jaký protokol se používá k přenosu informací o UA v SIPu?",
-            "answers": {
-                "correct": [
-                    "SDP",
-                ],
-                "icorrect": [
-                    "SAP",
-                    "SMTP",
-                    "RTSP",
-                ]
-            },
-            "comment": "Metoda INVITE",
-        },
-        {
-            "title": "Pro přenos HLS playlistu je využíván protokol",
-            "answers": {
-                "correct": [
-                    "HTTP/HTTPS (Hyypertext Transfer Protocol/Secure)",
-                ],
-                "icorrect": [
-                    "Využívá proprietární protokol",
-                    "FTP (File Transfer Protokol)",
-                    "NFS (Network File System)",
-                    "UDP (User Datagram Protocol)",
-                ]
-            },
-        },
-        {
-            "title": "Co znamená zratka MPD?",
-            "answers": {
-                "correct": [
-                    "Media Presentation Description",
-                ],
-                "icorrect": [
-                    "Multimedia Protocol Description",
-                    "Media Protocol Description",
-                    "Media Presentation Demonstration",
-                    "Multimedia Presentation Description",
-                ]
-            },
-        },
-        {
-            "title": "Délka IP hlavičky musí byt násobkem",
-            "answers": {
-                "correct": [
-                    "32 bitů",
-                ],
-                "icorrect": [
-                    "16 bitů",
-                    "24 bitů",
-                    "8 bitů",
-                ]
-            },
-        },
-        {
-            "title": "Datový tok RTP obvykle spotřebuje",
-            "answers": {
-                "correct": [
-                    "95% z celkového toku pro multimedialni data",
-                ],
-                "icorrect": [
-                    "80% z celkového toku pro multimediální data",
-                    "celou šířku pásma",
-                    "90% z celkového toku pro multimedialni data",
-                    "85% z celkového toku pro multimediainl data",
-                ]
-            },
-        },
-        {
-            "title": "SDP nenajdu v",
-            "answers": {
-                "correct": [
-                    "SIP odpovédi 180 Ringing",
-                ],
-                "icorrect": [
-                    "SIP odpovědi 200OK",
-                    "SIP žádosti INVITE",
-                    "SIP žádosti ACK",
-                ]
-            },
-        },
-        {
-            "title": "Pole CSRC v RTP",
-            "answers": {
-                "correct": [
-                    "identifikuje prispivajici zdroj",
-                ],
-                "icorrect": [
-                    "obsahuje pocet piispivajich zdrojů v rozsifené hlavičce",
-                    "identifikuje vysilaci zdroje",
-                    "popisuje prispivaijici zdroje",
-                ]
-            },
-        },
-        {
-            "title": "Který z následujících doporučení slouží ke kompresi videa?",
-            "answers": {
-                "correct": [
-                    "H.264",
-                ],
-                "icorrect": [
-                    "RTSP",
-                    "Q.931",
-                    "MPEG-7",
-                    "H323",
-                ]
-            },
-        },
-        {
-            "title": "Bitová rychlost řečového kodéru G.711 v kb/s je",
-            "answers": {
-                "correct": [
-                    "64",
-                ],
-                "icorrect": [
-                    "32",
-                    "8",
-                    "16",
-                    "96",
-                ]
-            },
-        },
-        {
-            "title": "Odpovědi SIP s číslem 4XX",
-            "answers": {
-                "correct": [
-                    "znamenají chybu na straně klienta",
-                ],
-                "icorrect": [
-                    "znamenají chybu na straně serveru",
-                    "znamenají přesměrovani",
-                    "znamenají úspěch",
-                ]
-            },
-        },
-        {
-            "title": "Rozdíl časů D(I) dvou po sobě jdoucích paketů přijatých přijímačem a odeslanych vysílačem, kde S(I) je časové razitko RTP paketu a R(I) je čas příchodu RTP paketu můžeme vypočítat vztahem",
-            "answers": {
-                "correct": [
-                    "ani jedna není zpravná",
-                ],
-                "icorrect": [
-                    "D(I) = (R(I)-R(I-1))/(S(I)-S(I-1))",
-                    "D(I) = (R(I)-R(I-1))-(S(I)+S(I-1))",
-                    "D(I) = (R(I)+R(I-1))-(S(I)-S(I-1))",
-                    "D(I) = (R(I)+R(I-1))-(S(I)+S(I-1))",
-                ]
-            },
-        },
-        {
-            "title": "V SIP zprávě se nepřenáší",
-            "answers": {
-                "correct": [
-                    "multimedidlni data",
-                ],
-                "icorrect": [
-                    "informace o moznostech jednotlivych klientů",
-                    "textové zpravy v pfipadé Instant Messagingu",
-                    "informace o uživatelích",
-                ]
-            },
-        },
-        {
-            "title": "MCU u H.323 je",
-            "answers": {
-                "correct": [
-                    "Multipoint Control Unit",
-                ],
-                "icorrect": [
-                    "Multicast Control Unit",
-                    "Multimedia Control Unit",
-                    "Multizone Control Unit",
-                ]
-            },
-        },
-        {
-            "title": "Standardní hlavička protokolu RTP obsahuje",
-            "answers": {
-                "correct": [
-                    "12 oktetů",
-                ],
-                "icorrect": [
-                    "24 oktetů",
-                    "20 oktetů",
-                    "16 oktetů",
-                ]
-            },
-        },
-        {
-            "title": "RTSP neobsahuje zprávu (metodu)",
-            "answers": {
-                "correct": [
-                    "INVITE",
-                ],
-                "icorrect": [
-                    "OPTION",
-                    "SETUP",
-                    "DESCRIBE",
-                ]
-            },
-        },
-        {
-            "title": "Která metoda SIP zpráv slouží k přeposlání hovoru k jinému účastníkovi?",
-            "answers": {
-                "correct": [
-                    "REFER",
-                ],
-                "icorrect": [
-                    "CANCEL",
-                    "DESCRIBE",
-                    "INVITE",
-                ]
-            },
-        },
-        {
-            "title": "Na kterou adresu se dovolám?",
-            "answers": {
-                "correct": [
-                    "sip:152@147.223.69.54",
-                ],
-                "icorrect": [
-                    "sip_marek@147.223.69.54",
-                    "sip://152@147.223.69.54",
-                    "sip/147.223.69.54",
-                ]
-            },
-        },
-        {
-            "title": "Mezi základní parametry QoS nepatří",
-            "answers": {
-                "correct": [
-                    "kvalita hovorové signalizace u VolP",
-                ],
-                "icorrect": [
-                    "zpoždění",
-                    "ztráta paketů",
-                    "jitter",
-                ]
-            },
-        },
-        {
-            "title": "Jakou odpověď posílá klient v případě, že hovor zamítnete?",
-            "answers": {
-                "correct": [
-                    "BYE",
-                ],
-                "icorrect": [
-                    "CANCEL",
-                    "DISCONNECT",
-                    "ENDCONNECT",
-                ]
-            },
-        },
-        {
-            "title": "Která z metod je určena k transferu hovorů?",
-            "answers": {
-                "correct": [
-                    "REFER",
-                ],
-                "icorrect": [
-                    "TRANSFER",
-                    "TRANSFER NOW",
-                    "RECONNECT",
-                ]
-            },
-        },
-        {
-            "title": "SIP",
-            "answers": {
-                "correct": [
-                    "je signalizační protokol",
-                ],
-                "icorrect": [
-                    "je protokol pro pfenosmultimedialnich dat",
-                    "je starší název pro VoIP",
-                    "je zkratka pro Strušný Informační Protokol",
-                ]
-            },
-        },
-        {
-            "title": "TTL (Time to Live) v IP datagramu",
-            "answers": {
-                "correct": [
-                    "stanovuje maximální počet přeskoků v síti",
-                ],
-                "icorrect": [
-                    "stanovuje maximálně strávený čas paketu v jednom směrovači (v sekundách)",
-                    "stanovuje doba výskytu paketu v sekundách",
-                    "stanovuje minimální počet přeskoků v siti",
-                ]
-            },
-        },
-        {
-            "title": "Zpráva H.225-RAS Gatekeeper Reguest",
-            "answers": {
-                "correct": [
-                    "slouží k nalezení gatekeeperu",
-                ],
-                "icorrect": [
-                    "slouží k řízení přístupu",
-                    "slouží k rozvázání komunikace mezi dvěma terminaly",
-                    "slouži k ukončení komunikace s gatekeeperem",
-                ]
-            },
-        },
-        {
-            "title": "Hlavička IP datagramu nenese informací o",
-            "answers": {
-                "correct": [
-                    "zdrojovém a cilovém portu",
-                ],
-                "icorrect": [
-                    "cilové adrese",
-                    "fragmentu",
-                    "typu sluZby (ToS)",
-                    "zdrojové adrese",
-                ]
-            },
-        },
-        {
-            "title": "Jaké zprávy musí být vyměněny pro úspěšné navázání hovoru v SIP?",
-            "answers": {
-                "correct": [
-                    "INVITE, 200OK, ACK",
-                ],
-                "icorrect": [
-                    "INVITE, 300OK, ACK",
-                    "INVITE, 200OK",
-                    "INVITE, 300OK",
-                    "INVITE, 180 Ringing, 200 OK",
-                ]
-            },
-        },
-        {
-            "title": "Protokol H.245 u H.323",
-            "answers": {
-                "correct": [
-                    "signalizuje schopnosti jednotlivych terminald",
-                ],
-                "icorrect": [
-                    "signalizuje, ktery z terminálů je zapnuty a ktery vypnutý",
-                    "signalizuje schopnosti jednotlivych terminalů",
-                    "přenaší multimedialní data",
-                    "stará se o nalezení gatekeeperu v síti",
-                ]
-            },
-        },
-        {
-            "title": "Při sestavování SIP relace",
-            "answers": {
-                "correct": [
-                    "je jako první posilana metoda INVITE",
-                ],
-                "icorrect": [
-                    "je jako první posilana metoda REGISTER",
-                    "je jako první posilana metoda START",
-                    "je jako první posilana metoda REFER",
-                ]
-            },
-        },
-        {
-            "title": "Metoda ACK potvrzuje",
-            "answers": {
-                "correct": [
-                    "metodu INVITE",
-                ],
-                "icorrect": [
-                    "metodu REFFER",
-                    "metodu CANCEL",
-                    "metodu REINVITE",
-                ]
-            },
-        },
-        {
-            "title": "Při vysílání na multicastovou adresu",
-            "answers": {
-                "correct": [
-                    "data budou pfijimat pouze stanice, které jsou přihlášení do multicastové skupiny",
-                ],
-                "icorrect": [
-                    "použiji adresu v rozsahu 192.168.1.0 — 255",
-                    "koncové stanice mohou ovládat moje vysilani",
-                    "určuje vysilaci server, komu data pošle",
-                ]
-            },
-        },
-        {
-            "title": "Socket je",
-            "answers": {
-                "correct": [
-                    "IP adresa + port",
-                ],
-                "icorrect": [
-                    "IP adresa + maska sítě",
-                    "IP adresa + port + maska sítě",
-                    "fyzická adresa + port",
-                    "žádná odpověď není správná",
-                ]
-            },
-        },
-        {
-            "title": "RTCP zahrnuje zprávy",
-            "answers": {
-                "correct": [
-                    "Sender Report SR a Receiver Report RR",
-                ],
-                "icorrect": [
-                    "pouze Receiver Report RR",
-                    "Receiver Describtion RDES",
-                    "pouze Source Describtion SDES",
-                    "Application Specific APP a Receiver Describtion RDES",
-                ]
-            },
-        },
-        {
-            "title": "H.323 - při komunikaci terminálů s MCU jednotkou řídí komunikaci",
-            "answers": {
-                "correct": [
-                    "vždy MCU jednotka",
-                ],
-                "icorrect": [
-                    "terminal, ktery inicioval spojeni",
-                    "terminal nebo MCU jednotka v zavislosti na vygenerovaném Cisle ve zpravé MasterSlaveDetermination",
-                    "terminal v zavislosti na vygenerovaném cisle ve zpravé MasterSlaveDetermination",
-                ]
-            },
-        },
-        {
-            "title": "Jaký port je standardně využíván zprávami SIP?",
-            "answers": {
-                "correct": [
-                    "5060",
-                ],
-                "icorrect": [
-                    "1060",
-                    "1080",
-                    "5080",
-                    "5065",
-                ]
-            },
-        },
-        {
-            "title": "Kolik SDP se standardné vymění mezi dvěma uživateli při SIP volání",
-            "answers": {
-                "correct": [
-                    "2",
-                ],
-                "icorrect": [
-                    "4",
-                    "3",
-                    "1",
-                ]
-            },
-        },
-        {
-            "title": "Co znamená zkratka DISA?",
-            "answers": {
-                "correct": [
-                    "Direct Inward System Access",
-                ],
-                "icorrect": [
-                    "Digital System Announcement",
-                    "Digital SAmple",
-                    "Diskrétni Invariabilni Systémový Automat",
-                ]
-            },
-        },
-        {
-            "title": "U H.323 se jednotlivé zařízení domlouvají o typu použitého kodeku pro komunikaci",
-            "answers": {
-                "correct": [
-                    "po spojení",
-                ],
-                "icorrect": [
-                    "před vlastním spojením",
-                    "po prvním vyslaném RTP paketu",
-                    "SDP protokolem",
-                ]
-            },
-        },
-        {
-            "title": "Platná multicastová adresa je",
-            "answers": {
-                "correct": [
-                    "239.255.1.1",
-                ],
-                "icorrect": [
-                    "221.255.1.1",
-                    "147.229.148.48",
-                    "192.168.1.16",
-                    "147.229.148.0",
-                ]
-            },
-            "comment": "Rozsah multicastových IP adres je 224.0.0.0 - 239.255.255.255", 
-        },
-        {
-            "title": "Hlavička UDP neobsahuje",
-            "answers": {
-                "correct": [
-                    "zdrojovou a cilovou adresu",
-                ],
-                "icorrect": [
-                    "délku paketu",
-                    "cílový port",
-                    "zdrojový port",
-                    "kontrolní součet",
-                ]
-            },
-        },
-        {
-            "title": "Ve které metodě SIP zpráv se posilaji informace o schopnostech VolP telefonů?",
-            "answers": {
-                "correct": [
-                    "INVITE",
-                ],
-                "icorrect": [
-                    "DESCRIBE",
-                    "CANCEL",
-                    "CONNECT",
-                ]
-            },
-        },
-        {
-            "title": "Počet oktetů v záhlaví RTP (bez CSRC identifikátorů) je",
-            "answers": {
-                "correct": [
-                    "12",
-                ],
-                "icorrect": [
-                    "8",
-                    "20",
-                    "16",
-                ]
-            },
-        },
-        {
-            "title": "Standardní port pro vysílání RTSP zprávje",
-            "answers": {
-                "correct": [
-                    "554",
-                ],
-                "icorrect": [
-                    "5060",
-                    "1720",
-                    "8080",
-                ]
-            },
-        },
-        {
-            "title": "K čemu slouží metoda (zpráva) REGISTER v SIP?",
-            "answers": {
-                "correct": [
-                    "vyuziva se k registraci klientů na registrar server",
-                ],
-                "icorrect": [
-                    "používá se pro dotazani na schopností serveru",
-                    "slouží k zahajení spojení s volajícím",
-                    "slouží pro odpověď ze strany serveru",
-                ]
-            },
-        },
-        {
-            "title": "Real-time Transport Protocol (RTP)",
-            "answers": {
-                "correct": [
-                    "pracuje na aplikační vrstvé TCP/IP",
-                ],
-                "icorrect": [
-                    "pracuje na relační vrstvě TCP/IP",
-                    "pracuje na síťové vrstvě TCP/IP",
-                    "pracuje na fyzické vrstě TCP/IP",
-                ]
-            },
-        },
-        {
-            "title": "K řídící signalizaci u H.323 neslouží",
-            "answers": {
-                "correct": [
-                    "H.263",
-                ],
-                "icorrect": [
-                    "H.245",
-                    "H.450",
-                    "H.235",
-                ]
-            },
-        },
-        {
-            "title": "Pro zajištění rekomprese dat vysílaných od více účastníků do jedné konference vytvořené pomocí H323 slouží",
-            "answers": {
-                "correct": [
-                    "MCU",
-                ],
-                "icorrect": [
-                    "MPU",
-                    "MCX",
-                    "Gatekeeper",
-                    "UMC",
-                    "Brána",
-                ]
-            },
-        },
-        {
-            "title": "Odpovědi SIP s číslem 5XX",
-            "answers": {
-                "correct": [
-                    "znamenají chybu na straně serveru",
-                ],
-                "icorrect": [
-                    "znamenají přesměrovaní",
-                    "znamenají úspěch",
-                    "znamenají chybu na strané klienta",
-                ]
-            },
-        },
-        {
-            "title": "Informace SDP protokolu mohou být přenášeny v SIP žádosti",
-            "answers": {
-                "correct": [
-                    "INVITE",
-                ],
-                "icorrect": [
-                    "TRYING",
-                    "BYE",
-                    "RINGING",
-                    "CALL PROCEEDING",
-                ]
-            },
-        },
-        {
-            "title": "SDP se neposílá s metodou",
-            "answers": {
-                "correct": [
-                    "TRYING",
-                ],
-                "icorrect": [
-                    "OK",
-                    "INVITE",
-                    "ACK",
-                ]
-            },
-        },
-        {
-            "title": "SSRC u RTP identifikuje",
-            "answers": {
-                "correct": [
-                    "zdroj vysilani multimedialniho toku",
-                ],
-                "icorrect": [
-                    "pořadí paketů v multimediálním toku",
-                    "přispívající zdroj vysílání do multimedialního toku o více účastnících",
-                    "čas pro přehrávání multimedialního toku",
-                ]
-            },
-        },
-        {
-            "title": "Broadcastová adresa",
-            "answers": {
-                "correct": [
-                    "data jsou vysílána všemi směry",
-                ],
-                "icorrect": [
-                    "je 127.0.0.1",
-                    "data jsou vysílána vybrané skupině uživatelů",
-                    "umožní posílat pakety vybrané skupině uživatelů",
-                    "data jsou vysílana k cílové koncové stanici určené IP adresou",
-                    "je 255.255.255.0",
-                    "je 192.168.1.0",
-                ]
-            },
-        },
-        {
-            "title": "Real-time Transport Protocol (RTP)",
-            "answers": {
-                "correct": [
-                    "slouží k přenosu multimediálních dat",
-                ],
-                "icorrect": [
-                    "slouží k přenosu dat informujících o QoS sítě",
-                    "slouží pro přenosu souborů",
-                    "slouží pro automatickou konfiguraci počítačů přípojených do sítě",
-                    "slouží pro přenosu zpráv",
-                ]
-            },
-        },
-        {
-            "title": "Sender Report je vysílán protokolem",
-            "answers": {
-                "correct": [
-                    "RTCP",
-                ],
-                "icorrect": [
-                    "SIP",
-                    "SAP",
-                    "RTP",
-                    "RTSP",
-                ]
-            },
-        },
-        {
-            "title": "Kolik zpráv SIP proběhne během registrace mezi telefonem a proxy serverem?",
-            "answers": {
-                "correct": [
-                    "3 zprávy",
-                ],
-                "icorrect": [
-                    "4 zprávy",
-                    "1 zprávy",
-                    "2 zprávy",
-                ]
-            },
-        },
-        {
-            "title": "Standardní hlavička protokolu RTP obsahuje",
-            "answers": {
-                "correct": [
-                    "sekvenční číslo paketu a CSRC identifikator",
-                ],
-                "icorrect": [
-                    "IP adresu cilové stanice",
-                    "TTL a kontrolní součet hlavičky",
-                    "IP adresu zdrojové stanice",
-                ]
-            },
-        },
-        {
-            "title": "Mějme dvoubodovou audiokonferenci dle standardu H.323. Kolik logických kanálů je během sestavení spojení otevřeno?",
-            "answers": {
-                "correct": [
-                    "2",
-                ],
-                "icorrect": [
-                    "1",
-                    "3",
-                    "4",
-                    "0",
-                ]
-            },
-        },
-        {
-            "title": "Real Time Streaming Protocol (RTSP)",
-            "answers": {
-                "correct": [
-                    "slouží k ovládání multimediálního toku (např. pro video na vyžádání)",
-                ],
-                "icorrect": [
-                    "slouží k označení paketů s malým zpožděním",
-                    "slouží pro přenos multimediálních dat",
-                    "slouží ke kontrole zpoždění paketů",
-                ]
-            },
-        },
-        {
-            "title": "Popis multimediálních dat m= u SDP ma vždy tvar",
-            "answers": {
-                "correct": [
-                    "m=medium port protokol formát",
-                ],
-                "icorrect": [
-                    "m=medium protokol port formát",
-                    "m=medium formát protokol port",
-                    "m=medium formát port protokol",
-                    "ani jedna neni zpravna",
-                ]
-            },
-        },
-        {
-            "title": "H.323: Ověření schopností jednotlivých terminálů Terminal Capability Set proběhne",
-            "answers": {
-                "correct": [
-                    "po vyjednání spojení a zprávě CONNECT",
-                ],
-                "icorrect": [
-                    "ihned po registraci terminálů ke gatekeeperu",
-                    "ihned po zprávě CALL PROCEEDING",
-                    "ihned po spojení dvou terminalů",
-                ]
-            },
-        },
-    ]
+   "title":"Zápočtový test",
+   "description":"Přepis z fektušky",
+   "tasks":[
+      {
+         "title":"V jakém formatu je soubor MPD?",
+         "answers":{
+            "correct":[
+               "XML (Extensible Markup Language)"
+            ],
+            "incorrect":[
+               "HTML (Hypertext Markup Language)",
+               "JSON (JavaScript Object Notation)",
+               "M3U (MP3 URL - Moving Picture Experts Group Audio Layer 3 Uniform Resource Locator)",
+               "YAML (YAML Ain't Markup Language)"
+            ]
+         }
+      },
+      {
+         "title":"Odpovědi SIP s číslem 2XX",
+         "answers":{
+            "correct":[
+               "znamenaji kladné potvrzení"
+            ],
+            "incorrect":[
+               "znamenají chybu na straně klienta",
+               "neznamenají nic",
+               "znamenájí chybu na strané serveru",
+               "znamenájí pokyn k přesměrovaní",
+               "jsou odpověďmi pouze na žádost INVITE"
+            ]
+         }
+      },
+      {
+         "title":"Pro zrušení dialogu SIP slouží zpráva (ještě před sestavenim spojeni)",
+         "answers":{
+            "correct":[
+               "CANCEL"
+            ],
+            "incorrect":[
+               "GOOD-BYE",
+               "BYE",
+               "DESTROY",
+               "BUY"
+            ]
+         }
+      },
+      {
+         "title":"SSRC v RTP hlavicce",
+         "answers":{
+            "correct":[
+               "identifikuje zdroj vysílani"
+            ],
+            "incorrect":[
+               "je přiřazeno klientovi vzdaleným serverem",
+               "identifikuje pfispivajici zdroj v mixovaném RTP streamu",
+               "slouzi k časové synchronizaci streamu"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte správné tvrzení:",
+         "answers":{
+            "correct":[
+               "Manifest MPEG-DASH je jeden soubor obsahující všechny informace o dostupnych profilech"
+            ],
+            "incorrect":[
+               "Manifest HLS je jeden soubor obsahující všechny informace o dostupných profilech",
+               "Manifest HLS odkazuje na další soubory obsahující informace o daném profilu",
+               "Manifest MPEG-DASH odkazuje na další soubory obsahující informace o daném profilu",
+               "Playlist MPEG-DASH je jeden soubor obsahující všechny informace o dostupných profilech"
+            ]
+         }
+      },
+      {
+         "title":"Který protokol neslouží k signalizaci?",
+         "answers":{
+            "correct":[
+               "RTP"
+            ],
+            "incorrect":[
+               "H.245",
+               "SIP",
+               "H.225"
+            ]
+         }
+      },
+      {
+         "title":"Jakou informaci manifest (MPD) neobsahuje?",
+         "answers":{
+            "correct":[
+               "zabezpečení"
+            ],
+            "incorrect":[
+               "časování",
+               "rozliseni",
+               "typ média",
+               "URL adresu zdroje"
+            ]
+         },
+         "comment":"Na Fektušce je - URL adresu zdroje"
+      },
+      {
+         "title":"O směrovani se v TCP/IP stará vrstva",
+         "answers":{
+            "correct":[
+               "síťová"
+            ],
+            "incorrect":[
+               "spojová",
+               "transportní",
+               "směrová",
+               "žádná z uvedenych"
+            ]
+         }
+      },
+      {
+         "title":"Odpovědi SIP s číslem 3XX",
+         "answers":{
+            "correct":[
+               "znamenají přesměrování"
+            ],
+            "incorrect":[
+               "znamenají chybu na strané serveru",
+               "znamenají úspěch",
+               "jsou odpovědi pouze na zadost REDIRECT",
+               "znamenají chybu na strané klienta"
+            ]
+         }
+      },
+      {
+         "title":"Payload type v RTP",
+         "answers":{
+            "correct":[
+               "určuje, jaké kódování je pro data, přenášená v paketu, použito"
+            ],
+            "incorrect":[
+               "obsahuje adresu zařízení, ke kterému ma byt paket RTP doručen",
+               "má 6 bitů",
+               "má 8 bitů",
+               "má 5 bitů",
+               "obsahuje sekvenční číslo paketu"
+            ]
+         },
+         "comment":"Má 7 bitů"
+      },
+      {
+         "title":"SIP protokol je v modelu TCP/IP definován na vrstvě",
+         "answers":{
+            "correct":[
+               "Aplikační"
+            ],
+            "incorrect":[
+               "Transportní",
+               "Relační",
+               "Síťové"
+            ]
+         }
+      },
+      {
+         "title":"Jaký protokol se používá k přenosu informací o UA v SIPu?",
+         "answers":{
+            "correct":[
+               "SDP"
+            ],
+            "icorrect":[
+               "SAP",
+               "SMTP",
+               "RTSP"
+            ]
+         },
+         "comment":"Metoda INVITE"
+      },
+      {
+         "title":"Pro přenos HLS playlistu je využíván protokol",
+         "answers":{
+            "correct":[
+               "HTTP/HTTPS (Hyypertext Transfer Protocol/Secure)"
+            ],
+            "icorrect":[
+               "Využívá proprietární protokol",
+               "FTP (File Transfer Protokol)",
+               "NFS (Network File System)",
+               "UDP (User Datagram Protocol)"
+            ]
+         }
+      },
+      {
+         "title":"Co znamená zratka MPD?",
+         "answers":{
+            "correct":[
+               "Media Presentation Description"
+            ],
+            "icorrect":[
+               "Multimedia Protocol Description",
+               "Media Protocol Description",
+               "Media Presentation Demonstration",
+               "Multimedia Presentation Description"
+            ]
+         }
+      },
+      {
+         "title":"Délka IP hlavičky musí byt násobkem",
+         "answers":{
+            "correct":[
+               "32 bitů"
+            ],
+            "icorrect":[
+               "16 bitů",
+               "24 bitů",
+               "8 bitů"
+            ]
+         }
+      },
+      {
+         "title":"Datový tok RTP obvykle spotřebuje",
+         "answers":{
+            "correct":[
+               "95% z celkového toku pro multimedialni data"
+            ],
+            "icorrect":[
+               "80% z celkového toku pro multimediální data",
+               "celou šířku pásma",
+               "90% z celkového toku pro multimedialni data",
+               "85% z celkového toku pro multimediainl data"
+            ]
+         }
+      },
+      {
+         "title":"SDP nenajdu v",
+         "answers":{
+            "correct":[
+               "SIP odpovédi 180 Ringing"
+            ],
+            "icorrect":[
+               "SIP odpovědi 200OK",
+               "SIP žádosti INVITE",
+               "SIP žádosti ACK"
+            ]
+         }
+      },
+      {
+         "title":"Pole CSRC v RTP",
+         "answers":{
+            "correct":[
+               "identifikuje prispivajici zdroj"
+            ],
+            "icorrect":[
+               "obsahuje pocet piispivajich zdrojů v rozsifené hlavičce",
+               "identifikuje vysilaci zdroje",
+               "popisuje prispivaijici zdroje"
+            ]
+         }
+      },
+      {
+         "title":"Který z následujících doporučení slouží ke kompresi videa?",
+         "answers":{
+            "correct":[
+               "H.264"
+            ],
+            "icorrect":[
+               "RTSP",
+               "Q.931",
+               "MPEG-7",
+               "H323"
+            ]
+         }
+      },
+      {
+         "title":"Bitová rychlost řečového kodéru G.711 v kb/s je",
+         "answers":{
+            "correct":[
+               "64"
+            ],
+            "icorrect":[
+               "32",
+               "8",
+               "16",
+               "96"
+            ]
+         }
+      },
+      {
+         "title":"Odpovědi SIP s číslem 4XX",
+         "answers":{
+            "correct":[
+               "znamenají chybu na straně klienta"
+            ],
+            "icorrect":[
+               "znamenají chybu na straně serveru",
+               "znamenají přesměrovani",
+               "znamenají úspěch"
+            ]
+         }
+      },
+      {
+         "title":"Rozdíl časů D(I) dvou po sobě jdoucích paketů přijatých přijímačem a odeslanych vysílačem, kde S(I) je časové razitko RTP paketu a R(I) je čas příchodu RTP paketu můžeme vypočítat vztahem",
+         "answers":{
+            "correct":[
+               "ani jedna není zpravná"
+            ],
+            "icorrect":[
+               "D(I) = (R(I)-R(I-1))/(S(I)-S(I-1))",
+               "D(I) = (R(I)-R(I-1))-(S(I)+S(I-1))",
+               "D(I) = (R(I)+R(I-1))-(S(I)-S(I-1))",
+               "D(I) = (R(I)+R(I-1))-(S(I)+S(I-1))"
+            ]
+         }
+      },
+      {
+         "title":"V SIP zprávě se nepřenáší",
+         "answers":{
+            "correct":[
+               "multimedidlni data"
+            ],
+            "icorrect":[
+               "informace o moznostech jednotlivych klientů",
+               "textové zpravy v pfipadé Instant Messagingu",
+               "informace o uživatelích"
+            ]
+         }
+      },
+      {
+         "title":"MCU u H.323 je",
+         "answers":{
+            "correct":[
+               "Multipoint Control Unit"
+            ],
+            "icorrect":[
+               "Multicast Control Unit",
+               "Multimedia Control Unit",
+               "Multizone Control Unit"
+            ]
+         }
+      },
+      {
+         "title":"Standardní hlavička protokolu RTP obsahuje",
+         "answers":{
+            "correct":[
+               "12 oktetů"
+            ],
+            "icorrect":[
+               "24 oktetů",
+               "20 oktetů",
+               "16 oktetů"
+            ]
+         }
+      },
+      {
+         "title":"RTSP neobsahuje zprávu (metodu)",
+         "answers":{
+            "correct":[
+               "INVITE"
+            ],
+            "icorrect":[
+               "OPTION",
+               "SETUP",
+               "DESCRIBE"
+            ]
+         }
+      },
+      {
+         "title":"Která metoda SIP zpráv slouží k přeposlání hovoru k jinému účastníkovi?",
+         "answers":{
+            "correct":[
+               "REFER"
+            ],
+            "icorrect":[
+               "CANCEL",
+               "DESCRIBE",
+               "INVITE"
+            ]
+         }
+      },
+      {
+         "title":"Na kterou adresu se dovolám?",
+         "answers":{
+            "correct":[
+               "sip:152@147.223.69.54"
+            ],
+            "icorrect":[
+               "sip_marek@147.223.69.54",
+               "sip://152@147.223.69.54",
+               "sip/147.223.69.54"
+            ]
+         }
+      },
+      {
+         "title":"Mezi základní parametry QoS nepatří",
+         "answers":{
+            "correct":[
+               "kvalita hovorové signalizace u VolP"
+            ],
+            "icorrect":[
+               "zpoždění",
+               "ztráta paketů",
+               "jitter"
+            ]
+         }
+      },
+      {
+         "title":"Jakou odpověď posílá klient v případě, že hovor zamítnete?",
+         "answers":{
+            "correct":[
+               "BYE"
+            ],
+            "icorrect":[
+               "CANCEL",
+               "DISCONNECT",
+               "ENDCONNECT"
+            ]
+         }
+      },
+      {
+         "title":"Která z metod je určena k transferu hovorů?",
+         "answers":{
+            "correct":[
+               "REFER"
+            ],
+            "icorrect":[
+               "TRANSFER",
+               "TRANSFER NOW",
+               "RECONNECT"
+            ]
+         }
+      },
+      {
+         "title":"SIP",
+         "answers":{
+            "correct":[
+               "je signalizační protokol"
+            ],
+            "icorrect":[
+               "je protokol pro pfenosmultimedialnich dat",
+               "je starší název pro VoIP",
+               "je zkratka pro Strušný Informační Protokol"
+            ]
+         }
+      },
+      {
+         "title":"TTL (Time to Live) v IP datagramu",
+         "answers":{
+            "correct":[
+               "stanovuje maximální počet přeskoků v síti"
+            ],
+            "icorrect":[
+               "stanovuje maximálně strávený čas paketu v jednom směrovači (v sekundách)",
+               "stanovuje doba výskytu paketu v sekundách",
+               "stanovuje minimální počet přeskoků v siti"
+            ]
+         }
+      },
+      {
+         "title":"Zpráva H.225-RAS Gatekeeper Reguest",
+         "answers":{
+            "correct":[
+               "slouží k nalezení gatekeeperu"
+            ],
+            "icorrect":[
+               "slouží k řízení přístupu",
+               "slouží k rozvázání komunikace mezi dvěma terminaly",
+               "slouži k ukončení komunikace s gatekeeperem"
+            ]
+         }
+      },
+      {
+         "title":"Hlavička IP datagramu nenese informací o",
+         "answers":{
+            "correct":[
+               "zdrojovém a cilovém portu"
+            ],
+            "icorrect":[
+               "cilové adrese",
+               "fragmentu",
+               "typu sluZby (ToS)",
+               "zdrojové adrese"
+            ]
+         }
+      },
+      {
+         "title":"Jaké zprávy musí být vyměněny pro úspěšné navázání hovoru v SIP?",
+         "answers":{
+            "correct":[
+               "INVITE, 200OK, ACK"
+            ],
+            "icorrect":[
+               "INVITE, 300OK, ACK",
+               "INVITE, 200OK",
+               "INVITE, 300OK",
+               "INVITE, 180 Ringing, 200 OK"
+            ]
+         }
+      },
+      {
+         "title":"Protokol H.245 u H.323",
+         "answers":{
+            "correct":[
+               "signalizuje schopnosti jednotlivych terminald"
+            ],
+            "icorrect":[
+               "signalizuje, ktery z terminálů je zapnuty a ktery vypnutý",
+               "signalizuje schopnosti jednotlivych terminalů",
+               "přenaší multimedialní data",
+               "stará se o nalezení gatekeeperu v síti"
+            ]
+         }
+      },
+      {
+         "title":"Při sestavování SIP relace",
+         "answers":{
+            "correct":[
+               "je jako první posilana metoda INVITE"
+            ],
+            "icorrect":[
+               "je jako první posilana metoda REGISTER",
+               "je jako první posilana metoda START",
+               "je jako první posilana metoda REFER"
+            ]
+         }
+      },
+      {
+         "title":"Metoda ACK potvrzuje",
+         "answers":{
+            "correct":[
+               "metodu INVITE"
+            ],
+            "icorrect":[
+               "metodu REFFER",
+               "metodu CANCEL",
+               "metodu REINVITE"
+            ]
+         }
+      },
+      {
+         "title":"Při vysílání na multicastovou adresu",
+         "answers":{
+            "correct":[
+               "data budou pfijimat pouze stanice, které jsou přihlášení do multicastové skupiny"
+            ],
+            "icorrect":[
+               "použiji adresu v rozsahu 192.168.1.0 — 255",
+               "koncové stanice mohou ovládat moje vysilani",
+               "určuje vysilaci server, komu data pošle"
+            ]
+         }
+      },
+      {
+         "title":"Socket je",
+         "answers":{
+            "correct":[
+               "IP adresa + port"
+            ],
+            "icorrect":[
+               "IP adresa + maska sítě",
+               "IP adresa + port + maska sítě",
+               "fyzická adresa + port",
+               "žádná odpověď není správná"
+            ]
+         }
+      },
+      {
+         "title":"RTCP zahrnuje zprávy",
+         "answers":{
+            "correct":[
+               "Sender Report SR a Receiver Report RR"
+            ],
+            "icorrect":[
+               "pouze Receiver Report RR",
+               "Receiver Describtion RDES",
+               "pouze Source Describtion SDES",
+               "Application Specific APP a Receiver Describtion RDES"
+            ]
+         }
+      },
+      {
+         "title":"H.323 - při komunikaci terminálů s MCU jednotkou řídí komunikaci",
+         "answers":{
+            "correct":[
+               "vždy MCU jednotka"
+            ],
+            "icorrect":[
+               "terminal, ktery inicioval spojeni",
+               "terminal nebo MCU jednotka v zavislosti na vygenerovaném Cisle ve zpravé MasterSlaveDetermination",
+               "terminal v zavislosti na vygenerovaném cisle ve zpravé MasterSlaveDetermination"
+            ]
+         }
+      },
+      {
+         "title":"Jaký port je standardně využíván zprávami SIP?",
+         "answers":{
+            "correct":[
+               "5060"
+            ],
+            "icorrect":[
+               "1060",
+               "1080",
+               "5080",
+               "5065"
+            ]
+         }
+      },
+      {
+         "title":"Kolik SDP se standardné vymění mezi dvěma uživateli při SIP volání",
+         "answers":{
+            "correct":[
+               "2"
+            ],
+            "icorrect":[
+               "4",
+               "3",
+               "1"
+            ]
+         }
+      },
+      {
+         "title":"Co znamená zkratka DISA?",
+         "answers":{
+            "correct":[
+               "Direct Inward System Access"
+            ],
+            "icorrect":[
+               "Digital System Announcement",
+               "Digital SAmple",
+               "Diskrétni Invariabilni Systémový Automat"
+            ]
+         }
+      },
+      {
+         "title":"U H.323 se jednotlivé zařízení domlouvají o typu použitého kodeku pro komunikaci",
+         "answers":{
+            "correct":[
+               "po spojení"
+            ],
+            "icorrect":[
+               "před vlastním spojením",
+               "po prvním vyslaném RTP paketu",
+               "SDP protokolem"
+            ]
+         }
+      },
+      {
+         "title":"Platná multicastová adresa je",
+         "answers":{
+            "correct":[
+               "239.255.1.1"
+            ],
+            "icorrect":[
+               "221.255.1.1",
+               "147.229.148.48",
+               "192.168.1.16",
+               "147.229.148.0"
+            ]
+         },
+         "comment":"Rozsah multicastových IP adres je 224.0.0.0 - 239.255.255.255"
+      },
+      {
+         "title":"Hlavička UDP neobsahuje",
+         "answers":{
+            "correct":[
+               "zdrojovou a cilovou adresu"
+            ],
+            "icorrect":[
+               "délku paketu",
+               "cílový port",
+               "zdrojový port",
+               "kontrolní součet"
+            ]
+         }
+      },
+      {
+         "title":"Ve které metodě SIP zpráv se posilaji informace o schopnostech VolP telefonů?",
+         "answers":{
+            "correct":[
+               "INVITE"
+            ],
+            "icorrect":[
+               "DESCRIBE",
+               "CANCEL",
+               "CONNECT"
+            ]
+         }
+      },
+      {
+         "title":"Počet oktetů v záhlaví RTP (bez CSRC identifikátorů) je",
+         "answers":{
+            "correct":[
+               "12"
+            ],
+            "icorrect":[
+               "8",
+               "20",
+               "16"
+            ]
+         }
+      },
+      {
+         "title":"Standardní port pro vysílání RTSP zprávje",
+         "answers":{
+            "correct":[
+               "554"
+            ],
+            "icorrect":[
+               "5060",
+               "1720",
+               "8080"
+            ]
+         }
+      },
+      {
+         "title":"K čemu slouží metoda (zpráva) REGISTER v SIP?",
+         "answers":{
+            "correct":[
+               "vyuziva se k registraci klientů na registrar server"
+            ],
+            "icorrect":[
+               "používá se pro dotazani na schopností serveru",
+               "slouží k zahajení spojení s volajícím",
+               "slouží pro odpověď ze strany serveru"
+            ]
+         }
+      },
+      {
+         "title":"Real-time Transport Protocol (RTP)",
+         "answers":{
+            "correct":[
+               "pracuje na aplikační vrstvé TCP/IP"
+            ],
+            "icorrect":[
+               "pracuje na relační vrstvě TCP/IP",
+               "pracuje na síťové vrstvě TCP/IP",
+               "pracuje na fyzické vrstě TCP/IP"
+            ]
+         }
+      },
+      {
+         "title":"K řídící signalizaci u H.323 neslouží",
+         "answers":{
+            "correct":[
+               "H.263"
+            ],
+            "icorrect":[
+               "H.245",
+               "H.450",
+               "H.235"
+            ]
+         }
+      },
+      {
+         "title":"Pro zajištění rekomprese dat vysílaných od více účastníků do jedné konference vytvořené pomocí H323 slouží",
+         "answers":{
+            "correct":[
+               "MCU"
+            ],
+            "icorrect":[
+               "MPU",
+               "MCX",
+               "Gatekeeper",
+               "UMC",
+               "Brána"
+            ]
+         }
+      },
+      {
+         "title":"Odpovědi SIP s číslem 5XX",
+         "answers":{
+            "correct":[
+               "znamenají chybu na straně serveru"
+            ],
+            "icorrect":[
+               "znamenají přesměrovaní",
+               "znamenají úspěch",
+               "znamenají chybu na strané klienta"
+            ]
+         }
+      },
+      {
+         "title":"Informace SDP protokolu mohou být přenášeny v SIP žádosti",
+         "answers":{
+            "correct":[
+               "INVITE"
+            ],
+            "icorrect":[
+               "TRYING",
+               "BYE",
+               "RINGING",
+               "CALL PROCEEDING"
+            ]
+         }
+      },
+      {
+         "title":"SDP se neposílá s metodou",
+         "answers":{
+            "correct":[
+               "TRYING"
+            ],
+            "icorrect":[
+               "OK",
+               "INVITE",
+               "ACK"
+            ]
+         }
+      },
+      {
+         "title":"SSRC u RTP identifikuje",
+         "answers":{
+            "correct":[
+               "zdroj vysilani multimedialniho toku"
+            ],
+            "icorrect":[
+               "pořadí paketů v multimediálním toku",
+               "přispívající zdroj vysílání do multimedialního toku o více účastnících",
+               "čas pro přehrávání multimedialního toku"
+            ]
+         }
+      },
+      {
+         "title":"Broadcastová adresa",
+         "answers":{
+            "correct":[
+               "data jsou vysílána všemi směry"
+            ],
+            "icorrect":[
+               "je 127.0.0.1",
+               "data jsou vysílána vybrané skupině uživatelů",
+               "umožní posílat pakety vybrané skupině uživatelů",
+               "data jsou vysílana k cílové koncové stanici určené IP adresou",
+               "je 255.255.255.0",
+               "je 192.168.1.0"
+            ]
+         }
+      },
+      {
+         "title":"Real-time Transport Protocol (RTP)",
+         "answers":{
+            "correct":[
+               "slouží k přenosu multimediálních dat"
+            ],
+            "icorrect":[
+               "slouží k přenosu dat informujících o QoS sítě",
+               "slouží pro přenosu souborů",
+               "slouží pro automatickou konfiguraci počítačů přípojených do sítě",
+               "slouží pro přenosu zpráv"
+            ]
+         }
+      },
+      {
+         "title":"Sender Report je vysílán protokolem",
+         "answers":{
+            "correct":[
+               "RTCP"
+            ],
+            "icorrect":[
+               "SIP",
+               "SAP",
+               "RTP",
+               "RTSP"
+            ]
+         }
+      },
+      {
+         "title":"Kolik zpráv SIP proběhne během registrace mezi telefonem a proxy serverem?",
+         "answers":{
+            "correct":[
+               "3 zprávy"
+            ],
+            "icorrect":[
+               "4 zprávy",
+               "1 zprávy",
+               "2 zprávy"
+            ]
+         }
+      },
+      {
+         "title":"Standardní hlavička protokolu RTP obsahuje",
+         "answers":{
+            "correct":[
+               "sekvenční číslo paketu a CSRC identifikator"
+            ],
+            "icorrect":[
+               "IP adresu cilové stanice",
+               "TTL a kontrolní součet hlavičky",
+               "IP adresu zdrojové stanice"
+            ]
+         }
+      },
+      {
+         "title":"Mějme dvoubodovou audiokonferenci dle standardu H.323. Kolik logických kanálů je během sestavení spojení otevřeno?",
+         "answers":{
+            "correct":[
+               "2"
+            ],
+            "icorrect":[
+               "1",
+               "3",
+               "4",
+               "0"
+            ]
+         }
+      },
+      {
+         "title":"Real Time Streaming Protocol (RTSP)",
+         "answers":{
+            "correct":[
+               "slouží k ovládání multimediálního toku (např. pro video na vyžádání)"
+            ],
+            "icorrect":[
+               "slouží k označení paketů s malým zpožděním",
+               "slouží pro přenos multimediálních dat",
+               "slouží ke kontrole zpoždění paketů"
+            ]
+         }
+      },
+      {
+         "title":"Popis multimediálních dat m= u SDP ma vždy tvar",
+         "answers":{
+            "correct":[
+               "m=medium port protokol formát"
+            ],
+            "icorrect":[
+               "m=medium protokol port formát",
+               "m=medium formát protokol port",
+               "m=medium formát port protokol",
+               "ani jedna neni zpravna"
+            ]
+         }
+      },
+      {
+         "title":"H.323: Ověření schopností jednotlivých terminálů Terminal Capability Set proběhne",
+         "answers":{
+            "correct":[
+               "po vyjednání spojení a zprávě CONNECT"
+            ],
+            "icorrect":[
+               "ihned po registraci terminálů ke gatekeeperu",
+               "ihned po zprávě CALL PROCEEDING",
+               "ihned po spojení dvou terminalů"
+            ]
+         }
+      }
+   ]
 }
