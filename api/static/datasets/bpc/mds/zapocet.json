@@ -170,5 +170,33 @@
             },
             "comment": "Metoda INVITE",
         },
+        {
+            "title": "Pro přenos HLS playlistu je využíván protokol",
+            "answers": {
+                "correct": [
+                    "HTTP/HTTPS (Hyypertext Transfer Protocol/Secure)",
+                ],
+                "icorrect": [
+                    "Využívá proprietární protokol",
+                    "FTP (File Transfer Protokol)",
+                    "NFS (Network File System)",
+                    "UDP (User Datagram Protocol)",
+                ]
+            },
+        },
+        {
+            "title": "Co znamená zratka MPD?",
+            "answers": {
+                "correct": [
+                    "Media Presentation Description",
+                ],
+                "icorrect": [
+                    "Multimedia Protocol Description",
+                    "Media Protocol Description",
+                    "Media Presentation Demonstration",
+                    "Multimedia Presentation Description",
+                ]
+            },
+        },
     ]
 }
