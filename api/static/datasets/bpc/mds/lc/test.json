@@ -948,6 +948,19 @@
                "Signaling Initiation Protocol"
             ]
          }
+      },
+      {
+         "title":"Standardní hlavička protokolu RTP obsahuje",
+         "answers":{
+            "correct":[
+               "sekvenční číslo paketu a CSRC identifikátor"
+            ],
+            "incorrect":[
+               "IP adresu cílové stanice",
+               "TTL a kontrolní součet hlavičky",
+               "IP adresu zdrojové stanice"
+            ]
+         }
       }
    ]
 }
