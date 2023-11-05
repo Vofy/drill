@@ -135,7 +135,7 @@
                "určuje, jaké kódování je pro data, přenášená v paketu, použito"
             ],
             "incorrect":[
-               "obsahuje adresu zařízení, ke kterému ma byt paket RTP doručen",
+               "obsahuje adresu zařízení, ke kterému má být paket RTP doručen",
                "má 6 bitů",
                "má 8 bitů",
                "má 5 bitů",
@@ -200,7 +200,7 @@
          }
       },
       {
-         "title":"Délka IP hlavičky musí byt násobkem",
+         "title":"Délka IP hlavičky musí být násobkem",
          "answers":{
             "correct":[
                "32 bitů"
@@ -495,7 +495,7 @@
          "title":"Protokol H.245 u H.323",
          "answers":{
             "correct":[
-               "signalizuje schopnosti jednotlivych terminald"
+               "signalizuje schopnosti jednotlivych terminálů"
             ],
             "incorrect":[
                "signalizuje, který z terminálů je zapnuty a který vypnutý",
