@@ -538,7 +538,7 @@
             ],
             "incorrect":[
                "použiji adresu v rozsahu 192.168.1.0 — 255",
-               "koncové stanice mohou ovládat moje vysilani",
+               "koncové stanice mohou ovládat moje vysílání",
                "určuje vysílací server, komu data pošle"
             ]
          }
@@ -803,7 +803,7 @@
          "title":"SSRC u RTP identifikuje",
          "answers":{
             "correct":[
-               "zdroj vysilani multimediálního toku"
+               "zdroj vysílání multimediálního toku"
             ],
             "incorrect":[
                "pořadí paketů v multimediálním toku",
