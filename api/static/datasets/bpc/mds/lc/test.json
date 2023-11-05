@@ -25,7 +25,7 @@
             "incorrect":[
                "znamenají chybu na straně klienta",
                "neznamenají nic",
-               "znamenájí chybu na strané serveru",
+               "znamenájí chybu na straně serveru",
                "znamenájí pokyn k přesměrovaní",
                "jsou odpověďmi pouze na žádost INVITE"
             ]
@@ -121,10 +121,10 @@
                "znamenají přesměrování"
             ],
             "incorrect":[
-               "znamenají chybu na strané serveru",
+               "znamenají chybu na straně serveru",
                "znamenají úspěch",
                "jsou odpovědi pouze na zadost REDIRECT",
-               "znamenají chybu na strané klienta"
+               "znamenají chybu na straně klienta"
             ]
          }
       },
@@ -769,7 +769,7 @@
             "incorrect":[
                "znamenají přesměrovaní",
                "znamenají úspěch",
-               "znamenají chybu na strané klienta"
+               "znamenají chybu na straně klienta"
             ]
          }
       },
