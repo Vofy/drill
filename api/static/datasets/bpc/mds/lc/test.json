@@ -961,6 +961,19 @@
                "IP adresu zdrojové stanice"
             ]
          }
+      },
+      {
+         "title":"Pro registraci terminálu ke Gatekeeperu u H.323 se využívá port",
+         "answers":{
+            "correct":[
+               "1720"
+            ],
+            "incorrect":[
+               "250",
+               "554",
+               "640"
+            ]
+         }
       }
    ]
 }
