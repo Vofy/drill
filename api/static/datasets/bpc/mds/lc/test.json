@@ -657,7 +657,7 @@
          "title":"Hlavička UDP neobsahuje",
          "answers":{
             "correct":[
-               "zdrojovou a cilovou adresu"
+               "zdrojovou a cílovou adresu"
             ],
             "incorrect":[
                "délku paketu",
