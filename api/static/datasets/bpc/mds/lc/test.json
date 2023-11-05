@@ -243,12 +243,12 @@
          "title":"Pole CSRC v RTP",
          "answers":{
             "correct":[
-               "identifikuje prispivajici zdroj"
+               "identifikuje přispívající zdroj"
             ],
             "incorrect":[
-               "obsahuje pocet piispivajich zdrojů v rozsifené hlavičce",
-               "identifikuje vysilaci zdroje",
-               "popisuje prispivaijici zdroje"
+               "obsahuje počet přispívajícíh zdrojů v rozšířené hlavičce",
+               "identifikuje vysílací zdroje",
+               "popisuje přispívající zdroje"
             ]
          }
       },
@@ -540,7 +540,7 @@
             "incorrect":[
                "použiji adresu v rozsahu 192.168.1.0 — 255",
                "koncové stanice mohou ovládat moje vysilani",
-               "určuje vysilaci server, komu data pošle"
+               "určuje vysílací server, komu data pošle"
             ]
          }
       },
