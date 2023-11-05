@@ -296,7 +296,7 @@
          "title":"Rozdíl časů D(I) dvou po sobě jdoucích paketů přijatých přijímačem a odeslanych vysílačem, kde S(I) je časové razitko RTP paketu a R(I) je čas příchodu RTP paketu můžeme vypočítat vztahem",
          "answers":{
             "correct":[
-               "ani jedna není zpravná"
+               "ani jedna není správná"
             ],
             "incorrect":[
                "D(I) = (R(I)-R(I-1))/(S(I)-S(I-1))",
@@ -313,8 +313,8 @@
                "multimediální data"
             ],
             "incorrect":[
-               "informace o moznostech jednotlivých klientů",
-               "textové zpravy v pfipadé Instant Messagingu",
+               "informace o možnostech jednotlivých klientů",
+               "textové zpravy v případě Instant Messagingu",
                "informace o uživatelích"
             ]
          }
@@ -507,12 +507,12 @@
          "title":"Při sestavování SIP relace",
          "answers":{
             "correct":[
-               "je jako první posilana metoda INVITE"
+               "je jako první posílána metoda INVITE"
             ],
             "incorrect":[
-               "je jako první posilana metoda REGISTER",
-               "je jako první posilana metoda START",
-               "je jako první posilana metoda REFER"
+               "je jako první posílána metoda REGISTER",
+               "je jako první posílána metoda START",
+               "je jako první posílána metoda REFER"
             ]
          }
       },
