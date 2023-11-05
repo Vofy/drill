@@ -53,7 +53,7 @@
             ],
             "incorrect":[
                "je přiřazeno klientovi vzdaleným serverem",
-               "identifikuje pfispivajici zdroj v mixovaném RTP streamu",
+               "identifikuje příspívajícízdroj v mixovaném RTP streamu",
                "slouzi k časové synchronizaci streamu"
             ]
          }
