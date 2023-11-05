@@ -62,7 +62,7 @@
          "title":"Vyberte správné tvrzení:",
          "answers":{
             "correct":[
-               "Manifest MPEG-DASH je jeden soubor obsahující všechny informace o dostupnych profilech"
+               "Manifest MPEG-DASH je jeden soubor obsahující všechny informace o dostupných profilech"
             ],
             "incorrect":[
                "Manifest HLS je jeden soubor obsahující všechny informace o dostupných profilech",
