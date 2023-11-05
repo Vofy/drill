@@ -163,7 +163,7 @@
             "correct":[
                "SDP"
             ],
-            "icorrect":[
+            "incorrect":[
                "SAP",
                "SMTP",
                "RTSP"
@@ -177,7 +177,7 @@
             "correct":[
                "HTTP/HTTPS (Hyypertext Transfer Protocol/Secure)"
             ],
-            "icorrect":[
+            "incorrect":[
                "Využívá proprietární protokol",
                "FTP (File Transfer Protokol)",
                "NFS (Network File System)",
@@ -191,7 +191,7 @@
             "correct":[
                "Media Presentation Description"
             ],
-            "icorrect":[
+            "incorrect":[
                "Multimedia Protocol Description",
                "Media Protocol Description",
                "Media Presentation Demonstration",
@@ -205,7 +205,7 @@
             "correct":[
                "32 bitů"
             ],
-            "icorrect":[
+            "incorrect":[
                "16 bitů",
                "24 bitů",
                "8 bitů"
@@ -218,7 +218,7 @@
             "correct":[
                "95% z celkového toku pro multimedialni data"
             ],
-            "icorrect":[
+            "incorrect":[
                "80% z celkového toku pro multimediální data",
                "celou šířku pásma",
                "90% z celkového toku pro multimedialni data",
@@ -232,7 +232,7 @@
             "correct":[
                "SIP odpovédi 180 Ringing"
             ],
-            "icorrect":[
+            "incorrect":[
                "SIP odpovědi 200OK",
                "SIP žádosti INVITE",
                "SIP žádosti ACK"
@@ -245,7 +245,7 @@
             "correct":[
                "identifikuje prispivajici zdroj"
             ],
-            "icorrect":[
+            "incorrect":[
                "obsahuje pocet piispivajich zdrojů v rozsifené hlavičce",
                "identifikuje vysilaci zdroje",
                "popisuje prispivaijici zdroje"
@@ -258,7 +258,7 @@
             "correct":[
                "H.264"
             ],
-            "icorrect":[
+            "incorrect":[
                "RTSP",
                "Q.931",
                "MPEG-7",
@@ -272,7 +272,7 @@
             "correct":[
                "64"
             ],
-            "icorrect":[
+            "incorrect":[
                "32",
                "8",
                "16",
@@ -286,7 +286,7 @@
             "correct":[
                "znamenají chybu na straně klienta"
             ],
-            "icorrect":[
+            "incorrect":[
                "znamenají chybu na straně serveru",
                "znamenají přesměrovani",
                "znamenají úspěch"
@@ -299,7 +299,7 @@
             "correct":[
                "ani jedna není zpravná"
             ],
-            "icorrect":[
+            "incorrect":[
                "D(I) = (R(I)-R(I-1))/(S(I)-S(I-1))",
                "D(I) = (R(I)-R(I-1))-(S(I)+S(I-1))",
                "D(I) = (R(I)+R(I-1))-(S(I)-S(I-1))",
@@ -313,7 +313,7 @@
             "correct":[
                "multimedidlni data"
             ],
-            "icorrect":[
+            "incorrect":[
                "informace o moznostech jednotlivych klientů",
                "textové zpravy v pfipadé Instant Messagingu",
                "informace o uživatelích"
@@ -326,7 +326,7 @@
             "correct":[
                "Multipoint Control Unit"
             ],
-            "icorrect":[
+            "incorrect":[
                "Multicast Control Unit",
                "Multimedia Control Unit",
                "Multizone Control Unit"
@@ -339,7 +339,7 @@
             "correct":[
                "12 oktetů"
             ],
-            "icorrect":[
+            "incorrect":[
                "24 oktetů",
                "20 oktetů",
                "16 oktetů"
@@ -352,7 +352,7 @@
             "correct":[
                "INVITE"
             ],
-            "icorrect":[
+            "incorrect":[
                "OPTION",
                "SETUP",
                "DESCRIBE"
@@ -365,7 +365,7 @@
             "correct":[
                "REFER"
             ],
-            "icorrect":[
+            "incorrect":[
                "CANCEL",
                "DESCRIBE",
                "INVITE"
@@ -378,7 +378,7 @@
             "correct":[
                "sip:152@147.223.69.54"
             ],
-            "icorrect":[
+            "incorrect":[
                "sip_marek@147.223.69.54",
                "sip://152@147.223.69.54",
                "sip/147.223.69.54"
@@ -391,7 +391,7 @@
             "correct":[
                "kvalita hovorové signalizace u VolP"
             ],
-            "icorrect":[
+            "incorrect":[
                "zpoždění",
                "ztráta paketů",
                "jitter"
@@ -404,7 +404,7 @@
             "correct":[
                "BYE"
             ],
-            "icorrect":[
+            "incorrect":[
                "CANCEL",
                "DISCONNECT",
                "ENDCONNECT"
@@ -417,7 +417,7 @@
             "correct":[
                "REFER"
             ],
-            "icorrect":[
+            "incorrect":[
                "TRANSFER",
                "TRANSFER NOW",
                "RECONNECT"
@@ -430,7 +430,7 @@
             "correct":[
                "je signalizační protokol"
             ],
-            "icorrect":[
+            "incorrect":[
                "je protokol pro pfenosmultimedialnich dat",
                "je starší název pro VoIP",
                "je zkratka pro Strušný Informační Protokol"
@@ -443,7 +443,7 @@
             "correct":[
                "stanovuje maximální počet přeskoků v síti"
             ],
-            "icorrect":[
+            "incorrect":[
                "stanovuje maximálně strávený čas paketu v jednom směrovači (v sekundách)",
                "stanovuje doba výskytu paketu v sekundách",
                "stanovuje minimální počet přeskoků v siti"
@@ -456,7 +456,7 @@
             "correct":[
                "slouží k nalezení gatekeeperu"
             ],
-            "icorrect":[
+            "incorrect":[
                "slouží k řízení přístupu",
                "slouží k rozvázání komunikace mezi dvěma terminaly",
                "slouži k ukončení komunikace s gatekeeperem"
@@ -469,7 +469,7 @@
             "correct":[
                "zdrojovém a cilovém portu"
             ],
-            "icorrect":[
+            "incorrect":[
                "cilové adrese",
                "fragmentu",
                "typu sluZby (ToS)",
@@ -483,7 +483,7 @@
             "correct":[
                "INVITE, 200OK, ACK"
             ],
-            "icorrect":[
+            "incorrect":[
                "INVITE, 300OK, ACK",
                "INVITE, 200OK",
                "INVITE, 300OK",
@@ -497,7 +497,7 @@
             "correct":[
                "signalizuje schopnosti jednotlivych terminald"
             ],
-            "icorrect":[
+            "incorrect":[
                "signalizuje, ktery z terminálů je zapnuty a ktery vypnutý",
                "signalizuje schopnosti jednotlivych terminalů",
                "přenaší multimedialní data",
@@ -511,7 +511,7 @@
             "correct":[
                "je jako první posilana metoda INVITE"
             ],
-            "icorrect":[
+            "incorrect":[
                "je jako první posilana metoda REGISTER",
                "je jako první posilana metoda START",
                "je jako první posilana metoda REFER"
@@ -524,7 +524,7 @@
             "correct":[
                "metodu INVITE"
             ],
-            "icorrect":[
+            "incorrect":[
                "metodu REFFER",
                "metodu CANCEL",
                "metodu REINVITE"
@@ -537,7 +537,7 @@
             "correct":[
                "data budou pfijimat pouze stanice, které jsou přihlášení do multicastové skupiny"
             ],
-            "icorrect":[
+            "incorrect":[
                "použiji adresu v rozsahu 192.168.1.0 — 255",
                "koncové stanice mohou ovládat moje vysilani",
                "určuje vysilaci server, komu data pošle"
@@ -550,7 +550,7 @@
             "correct":[
                "IP adresa + port"
             ],
-            "icorrect":[
+            "incorrect":[
                "IP adresa + maska sítě",
                "IP adresa + port + maska sítě",
                "fyzická adresa + port",
@@ -564,7 +564,7 @@
             "correct":[
                "Sender Report SR a Receiver Report RR"
             ],
-            "icorrect":[
+            "incorrect":[
                "pouze Receiver Report RR",
                "Receiver Describtion RDES",
                "pouze Source Describtion SDES",
@@ -578,7 +578,7 @@
             "correct":[
                "vždy MCU jednotka"
             ],
-            "icorrect":[
+            "incorrect":[
                "terminal, ktery inicioval spojeni",
                "terminal nebo MCU jednotka v zavislosti na vygenerovaném Cisle ve zpravé MasterSlaveDetermination",
                "terminal v zavislosti na vygenerovaném cisle ve zpravé MasterSlaveDetermination"
@@ -591,7 +591,7 @@
             "correct":[
                "5060"
             ],
-            "icorrect":[
+            "incorrect":[
                "1060",
                "1080",
                "5080",
@@ -605,7 +605,7 @@
             "correct":[
                "2"
             ],
-            "icorrect":[
+            "incorrect":[
                "4",
                "3",
                "1"
@@ -618,7 +618,7 @@
             "correct":[
                "Direct Inward System Access"
             ],
-            "icorrect":[
+            "incorrect":[
                "Digital System Announcement",
                "Digital SAmple",
                "Diskrétni Invariabilni Systémový Automat"
@@ -631,7 +631,7 @@
             "correct":[
                "po spojení"
             ],
-            "icorrect":[
+            "incorrect":[
                "před vlastním spojením",
                "po prvním vyslaném RTP paketu",
                "SDP protokolem"
@@ -644,7 +644,7 @@
             "correct":[
                "239.255.1.1"
             ],
-            "icorrect":[
+            "incorrect":[
                "221.255.1.1",
                "147.229.148.48",
                "192.168.1.16",
@@ -659,7 +659,7 @@
             "correct":[
                "zdrojovou a cilovou adresu"
             ],
-            "icorrect":[
+            "incorrect":[
                "délku paketu",
                "cílový port",
                "zdrojový port",
@@ -673,7 +673,7 @@
             "correct":[
                "INVITE"
             ],
-            "icorrect":[
+            "incorrect":[
                "DESCRIBE",
                "CANCEL",
                "CONNECT"
@@ -686,7 +686,7 @@
             "correct":[
                "12"
             ],
-            "icorrect":[
+            "incorrect":[
                "8",
                "20",
                "16"
@@ -699,7 +699,7 @@
             "correct":[
                "554"
             ],
-            "icorrect":[
+            "incorrect":[
                "5060",
                "1720",
                "8080"
@@ -712,7 +712,7 @@
             "correct":[
                "vyuziva se k registraci klientů na registrar server"
             ],
-            "icorrect":[
+            "incorrect":[
                "používá se pro dotazani na schopností serveru",
                "slouží k zahajení spojení s volajícím",
                "slouží pro odpověď ze strany serveru"
@@ -725,7 +725,7 @@
             "correct":[
                "pracuje na aplikační vrstvé TCP/IP"
             ],
-            "icorrect":[
+            "incorrect":[
                "pracuje na relační vrstvě TCP/IP",
                "pracuje na síťové vrstvě TCP/IP",
                "pracuje na fyzické vrstě TCP/IP"
@@ -738,7 +738,7 @@
             "correct":[
                "H.263"
             ],
-            "icorrect":[
+            "incorrect":[
                "H.245",
                "H.450",
                "H.235"
@@ -751,7 +751,7 @@
             "correct":[
                "MCU"
             ],
-            "icorrect":[
+            "incorrect":[
                "MPU",
                "MCX",
                "Gatekeeper",
@@ -766,7 +766,7 @@
             "correct":[
                "znamenají chybu na straně serveru"
             ],
-            "icorrect":[
+            "incorrect":[
                "znamenají přesměrovaní",
                "znamenají úspěch",
                "znamenají chybu na strané klienta"
@@ -779,7 +779,7 @@
             "correct":[
                "INVITE"
             ],
-            "icorrect":[
+            "incorrect":[
                "TRYING",
                "BYE",
                "RINGING",
@@ -793,7 +793,7 @@
             "correct":[
                "TRYING"
             ],
-            "icorrect":[
+            "incorrect":[
                "OK",
                "INVITE",
                "ACK"
@@ -806,7 +806,7 @@
             "correct":[
                "zdroj vysilani multimedialniho toku"
             ],
-            "icorrect":[
+            "incorrect":[
                "pořadí paketů v multimediálním toku",
                "přispívající zdroj vysílání do multimedialního toku o více účastnících",
                "čas pro přehrávání multimedialního toku"
@@ -819,7 +819,7 @@
             "correct":[
                "data jsou vysílána všemi směry"
             ],
-            "icorrect":[
+            "incorrect":[
                "je 127.0.0.1",
                "data jsou vysílána vybrané skupině uživatelů",
                "umožní posílat pakety vybrané skupině uživatelů",
@@ -835,7 +835,7 @@
             "correct":[
                "slouží k přenosu multimediálních dat"
             ],
-            "icorrect":[
+            "incorrect":[
                "slouží k přenosu dat informujících o QoS sítě",
                "slouží pro přenosu souborů",
                "slouží pro automatickou konfiguraci počítačů přípojených do sítě",
@@ -849,7 +849,7 @@
             "correct":[
                "RTCP"
             ],
-            "icorrect":[
+            "incorrect":[
                "SIP",
                "SAP",
                "RTP",
@@ -863,7 +863,7 @@
             "correct":[
                "3 zprávy"
             ],
-            "icorrect":[
+            "incorrect":[
                "4 zprávy",
                "1 zprávy",
                "2 zprávy"
@@ -876,7 +876,7 @@
             "correct":[
                "sekvenční číslo paketu a CSRC identifikator"
             ],
-            "icorrect":[
+            "incorrect":[
                "IP adresu cilové stanice",
                "TTL a kontrolní součet hlavičky",
                "IP adresu zdrojové stanice"
@@ -889,7 +889,7 @@
             "correct":[
                "2"
             ],
-            "icorrect":[
+            "incorrect":[
                "1",
                "3",
                "4",
@@ -903,7 +903,7 @@
             "correct":[
                "slouží k ovládání multimediálního toku (např. pro video na vyžádání)"
             ],
-            "icorrect":[
+            "incorrect":[
                "slouží k označení paketů s malým zpožděním",
                "slouží pro přenos multimediálních dat",
                "slouží ke kontrole zpoždění paketů"
@@ -916,7 +916,7 @@
             "correct":[
                "m=medium port protokol formát"
             ],
-            "icorrect":[
+            "incorrect":[
                "m=medium protokol port formát",
                "m=medium formát protokol port",
                "m=medium formát port protokol",
@@ -930,7 +930,7 @@
             "correct":[
                "po vyjednání spojení a zprávě CONNECT"
             ],
-            "icorrect":[
+            "incorrect":[
                "ihned po registraci terminálů ke gatekeeperu",
                "ihned po zprávě CALL PROCEEDING",
                "ihned po spojení dvou terminalů"
