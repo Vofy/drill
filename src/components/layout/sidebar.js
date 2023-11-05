@@ -84,6 +84,11 @@ export default function SideBar() {
                         <Link to="/bpc/emv1/testy/2">2</Link>
                     </Accordion>
                 </Accordion>
+                <Accordion name="MDS">
+                    <Accordion name="LC">
+                        <Link to="/bpc/mds/test">Test</Link>
+                    </Accordion>
+                </Accordion>
             </Accordion>
             <div className="sidebar-bottom">
                 <div>
