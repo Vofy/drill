@@ -314,7 +314,7 @@
                "multimedidlni data"
             ],
             "incorrect":[
-               "informace o moznostech jednotlivych klientů",
+               "informace o moznostech jednotlivých klientů",
                "textové zpravy v pfipadé Instant Messagingu",
                "informace o uživatelích"
             ]
@@ -495,11 +495,11 @@
          "title":"Protokol H.245 u H.323",
          "answers":{
             "correct":[
-               "signalizuje schopnosti jednotlivych terminálů"
+               "signalizuje schopnosti jednotlivých terminálů"
             ],
             "incorrect":[
                "signalizuje, který z terminálů je zapnuty a který vypnutý",
-               "signalizuje schopnosti jednotlivych terminalů",
+               "signalizuje schopnosti jednotlivých terminalů",
                "přenaší multimediální data",
                "stará se o nalezení gatekeeperu v síti"
             ]
