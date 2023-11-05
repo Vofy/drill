@@ -1039,7 +1039,7 @@
                "K vyjednávání kodeků může být použit protokol SDP"
             ],
             "incorrect":[
-               "Zpráva CANCEL posílá uživatel k ukončení probíhajícího dialogu",
+               "Zpráva CANCEL posílá uživatel k ukončení probíhajícího dialogu",
                "Vyjednávání kodeků ke komunikaci probíhá až po navázání spojení"
             ]
          }
@@ -1096,7 +1096,7 @@
             "incorrect":[
                "Při kompresích obrazu využíváme nejčastěji model RGB, jehož složky jsou postupně kódovány bez transformace do jiného prostoru",
                "Minimální snímková frekvence pro plynulý pohyb ve videu je 55 snímků za sekundu",
-               "Formát CIF má rozlišení 640x480 px",
+               "Formát CIF má rozlišení 640x480 px",
                "Full HD má poměr 1920x1200 px"
             ]
          }
@@ -1136,8 +1136,8 @@
                "UDP protokol je nespolehlivá protokol"
             ],
             "incorrect":[
-               "UDP i TCP je možné použít pro broadcastová přenos",
-               "V TCP i UDP se přenáší zdrojová i cílová IP adresa",
+               "UDP i TCP je možné použít pro broadcastová přenos",
+               "V TCP i UDP se přenáší zdrojová i cílová IP adresa",
                "Při komunikaci prostřednictvím TCP je nejprve sesstaveno spojení váměnou čtyřech zpráv mezi oběma účastníky dvoubodového spojení"
             ]
          }
@@ -1377,7 +1377,7 @@
                "Povinná pole jsou pouze \"v, o, s, t, m\""
             ],
             "incorrect":[
-               "Slouží k přenosu multimediálních dat",
+               "Slouží k přenosu multimediálních dat"
             ]
          }
       },
