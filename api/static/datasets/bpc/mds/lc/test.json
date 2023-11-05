@@ -498,7 +498,7 @@
                "signalizuje schopnosti jednotlivych terminald"
             ],
             "incorrect":[
-               "signalizuje, ktery z terminálů je zapnuty a ktery vypnutý",
+               "signalizuje, který z terminálů je zapnuty a který vypnutý",
                "signalizuje schopnosti jednotlivych terminalů",
                "přenaší multimediální data",
                "stará se o nalezení gatekeeperu v síti"
@@ -579,7 +579,7 @@
                "vždy MCU jednotka"
             ],
             "incorrect":[
-               "terminal, ktery inicioval spojeni",
+               "terminal, který inicioval spojeni",
                "terminal nebo MCU jednotka v zavislosti na vygenerovaném Cisle ve zpravé MasterSlaveDetermination",
                "terminal v zavislosti na vygenerovaném cisle ve zpravé MasterSlaveDetermination"
             ]
