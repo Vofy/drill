@@ -1396,7 +1396,7 @@
          }
       },
       {
-         "title":"Hlavička protokolu IPv4",
+         "title":"Hlavička protokolu IPv4 (3 správné)",
          "answers":{
             "correct":[
                "Můze obsahovat multicastovou adresu",
