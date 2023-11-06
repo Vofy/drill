@@ -1106,7 +1106,7 @@
          "answers":{
             "correct":[
                "Kvantizace je hlavním zdrojem informace a řídíme s ní výslednou kvalitu obrazu",
-               "Používá kvantizační tabulka je součástí komprimovaných dat"
+               "Použitá kvantizační tabulka je součástí komprimovaných dat"
             ],
             "incorrect":[
                "Použitá transformace zajistí uspořádání dat tak, že v levém dolním rohu bloku je stejnosměrná složka",
