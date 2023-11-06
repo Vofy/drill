@@ -89,13 +89,13 @@
          "title":"Jakou informaci manifest (MPD) neobsahuje?",
          "answers":{
             "correct":[
-               "zabezpečení"
+               "URL adresu zdroje"
             ],
             "incorrect":[
                "časování",
                "rozlišení",
                "typ média",
-               "URL adresu zdroje"
+               "zabezpečení"
             ]
          },
          "comment":"Na Fektušce je - URL adresu zdroje"
