@@ -1133,7 +1133,7 @@
          "title":"Pro transportní vrstvu modelu TCP/IP modelu platí tvrení",
          "answers":{
             "correct":[
-               "UDP protokol je nespolehlivá protokol"
+               "UDP protokol je nespolehlivý protokol"
             ],
             "incorrect":[
                "UDP i TCP je možné použít pro broadcastový přenos",
