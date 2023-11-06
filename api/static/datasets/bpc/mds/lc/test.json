@@ -1354,7 +1354,7 @@
          }
       },
       {
-         "title":"TTL v protokolu IPv4",
+         "title":"TTL v protokolu IPv4 (3 správné)",
          "answers":{
             "correct":[
                "Je maximální velikosti 255",
