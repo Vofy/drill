@@ -1136,7 +1136,7 @@
                "UDP protokol je nespolehlivá protokol"
             ],
             "incorrect":[
-               "UDP i TCP je možné použít pro broadcastová přenos",
+               "UDP i TCP je možné použít pro broadcastový přenos",
                "V TCP i UDP se přenáší zdrojová i cílová IP adresa",
                "Při komunikaci prostřednictvím TCP je nejprve sesstaveno spojení váměnou čtyřech zpráv mezi oběma účastníky dvoubodového spojení"
             ]
