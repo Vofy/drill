@@ -1216,10 +1216,10 @@
          "title":"Protokol RTP (2 správné)",
          "answers":{
             "correct":[
-               "Je protokol pro přenos signalizačních informací mezi uživateli",
                "Je protokol aplikační vrstvy TCP/IP modelu"
             ],
             "incorrect":[
+               "Je protokol pro přenos signalizačních informací mezi uživateli",
                "Je protokol, který nese informaci o A/V kodeku přenášených dat",
                "Definuje výpočet zpoždění a kolísání zpoždění u multimediálních přenosů",
                "Je protokol transportní vrstvy TCP/IP modelu",
