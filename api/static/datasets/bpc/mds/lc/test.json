@@ -1213,7 +1213,7 @@
          }
       },
       {
-         "title":"Protokol RTP (2 správné)",
+         "title":"Protokol RTP",
          "answers":{
             "correct":[
                "Je protokol aplikační vrstvy TCP/IP modelu"
