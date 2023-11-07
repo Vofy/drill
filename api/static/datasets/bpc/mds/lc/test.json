@@ -1034,7 +1034,7 @@
          "title":"Protokol SIP (3 správné)",
          "answers":{
             "correct":[
-               "V doporučení SIP jsou definované kodeky, které mohou být při komuikaci použity.",
+               "V doporučení SIP jsou definované kodeky, které mohou být při komunikaci použity.",
                "Informace o kodecích jsou nejčastěji přenáčeny ve zprávě INVITE a v odpovědi 200 OK",
                "K vyjednávání kodeků může být použit protokol SDP"
             ],
