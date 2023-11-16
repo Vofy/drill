@@ -159,15 +159,16 @@
          "comment":"S opakovačem si nejsem jistý."
       },
       {
-         "title":"",
+         "title":"Kolik kroků je potřeba pro ukončení spojení při použití transportního protokolu TCP (Transmission Control Protocol)?",
          "answers":{
             "correct":[
-               ""
+               "4 kroky (tzv. four-way handshake)"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "2 kroky (tzv. two-way handshake)",
+               "1,5 kroků (tzv. one-and-half-way handshake)",
+               "0 kroků (no handshake)",
+               "2,5 kroků (tzv. two-and-half-way handshake)"
             ]
          }
       },
