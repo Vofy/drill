@@ -49,111 +49,120 @@
          "title":"Jaké příznaky používá pro navazování a ukončování spojení transportní protokol UDP (User Datagram Protocol)",
          "answers":{
             "correct":[
-               ""
+               "Protokol UDP nenavazuje a neukončuje spojení (není spojově orientovaný)"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "ARQ a FIN",
+               "SYN a FIN",
+               "PSH a ACK"
             ]
          }
+      },
+      {
+         "title":"O směrovacích tabulkách lze říct:",
+         "answers":{
+            "correct":[
+               "Statické vytvoření směrovací tabulky provádí administrátor ručně",
+               "Podle záznamu ve směrovací tabulce se směrovač rozhodne, kterým rozhraním paket odešle",
+               "Vytváření směrovací tabulky může být statické nebo dynamické"
+            ],
+            "incorrect":[
+               "Dynamické vytváření směrovací tabulky není závislé na použitém směrovacím protokolu"
+            ]
+         }
+      },
+      {
+         "title":"Úloha síťové vrstvy s IP protokolem z pohledu zpracovatele paketu (směrovače) je: (2 správné)",
+         "answers":{
+            "correct":[
+               "Zjištění IP adresy cíle paketu ze záhlaví paketu",
+               "Vytvoření nového záhlaví paketu"
+            ],
+            "incorrect":[
+               "Defragmentace jednotlivých částí přijatého paketu",
+               "Vyhledání logické a fyzické adresy dalšího skoku směrem k příjemci paketu",
+               "Nalezení DNS jména příjemce paketu"
+            ]
+         },
+         "comment": "Není ověřeno, pokusím se najít ve skriptech"
+      },
+      {
+         "title":"Deterministické přístupové metody spojové vrstvy jsou",
+         "answers":{
+            "correct":[
+               "Vhodné tam, kde je velké riziko kolizí vysílání na sdíleném přenosovém médiu",
+               "Založeny na vysokém stupni kontroly toho, co se na přenosovém mědiu odehrává z hlediska vysílání rámců",
+            ],
+            "incorrect":[
+               "Vhodné především pro sítě s přímým a vyhrazeným přenosovým kanálem pro každý komunikující uzel",
+               "Založeny na principu, že pakety není nutné doručit",
+               "Založeny na nízkém stupni kontroly toho, co se na přenosovém médiu odehrává z hlediska vysílání rámců"
+            ]
+         }
+      },
+      {
+         "title":"Rámce spojové vrstvy založené na časové synchronizaci",
+         "answers":{
+            "correct":[
+               "Mají typicky fixní délku"
+            ],
+            "incorrect":[
+               "Mohou být přenášeny pouze přes opitcké přenosové trasy",
+               "Nevyžadují žádnou synchronizaci v systému komunikace",
+               "Nelze použít pro přenos paketů síťové vrstvy",
+               "Jsou vhodné pro přenos na velmi malé vzdálenosti"
+            ]
+         }
+      },
+      {
+         "title":"Adresa 172.0.0.0 obecně spadá do:",
+         "answers":{
+            "correct":[
+               "Třídy B"
+            ],
+            "incorrect":[
+               "Třídy A",
+               "Třídy C",
+               "Třídy D",
+               "Třídy E"
+            ]
+         }
+      },
+      {
+         "title":"Šířka pásma v počítačových sítích (2 správné)",
+         "answers":{
+            "correct":[
+               "Souvisí typicky s technickými parametry dané technologie",
+               "Udává kolik bitů za sekundu je daná technologie schopna přenést v ideálních podmínkách za jednotku času"
+            ],
+            "incorrect":[
+               "Má návasznost na transportní protokoly TCP a UDP",
+               "Udává způsob komutace přenášených jednotek v dané síti",
+               "Lze ji přímo vypočítat z hodnoty RTT (Round Trip Time)"
+            ]
+         }
+      },
+      {
+         "title":"Mezi propojující (mezilehlé) síťové prvky počítačových sítí patří",
+         "answers":{
+            "correct":[
+               "Přepínač",
+               "Směrovač",
+               "Opakovač"
+               
+            ],
+            "incorrect":[
+               "WiFi",
+               "Ethernet"
+            ]
+         },
+         "comment":"S opakovačem si nejsem jistý."
       },
       {
          "title":"",
          "answers":{
             "correct":[
                ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               ""
-            ],
-            "incorrect":[
-               "",
-               "",
-               ""
-            ]
-         }
-      },
-      {
-         "title":"",
-         "answers":{
-            "correct":[
-               "Ano"
             ],
             "incorrect":[
                "",
