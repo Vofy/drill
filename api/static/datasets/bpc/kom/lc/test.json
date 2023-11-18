@@ -173,7 +173,7 @@
          }
       },
       {
-         "title":"Protokol UDP (User Datagram Protocol)",
+         "title":"Protokol UDP (User Datagram Protocol) (3 správné)",
          "answers":{
             "correct":[
                "Je vhodný pro přenos multimediálních dat",
@@ -187,7 +187,7 @@
          }
       },
       {
-         "title":"Pro zabezpečený přenos webové stránky bychom měli použít protokol:",
+         "title":"Pro zabezpečený přenos webové stránky bychom měli použít protokol: (2 správné)",
          "answers":{
             "correct":[
                "QUIC (Quick UDP Internet Connections)",
@@ -231,7 +231,7 @@
          }
       },
       {
-         "title":"O technice Stop-and-Wait ARQ (Automatic Repeat Request) platí:",
+         "title":"O technice Stop-and-Wait ARQ (Automatic Repeat Request) platí: (2 správné)",
          "answers":{
             "correct":[
                "Rámce musí být číslovány",
@@ -246,10 +246,166 @@
          "comment":"Rámce musí být číslovány, ale stačí pouze dvě sekvenční čísla: 0 a 1"
       },
       {
+         "title":"Součástí standardního IPv4 záhlaví není (2 správné)",
+         "answers":{
+            "correct":[
+               "Adresa portu odesílatele",
+               "Adresa portu příjemce"
+            ],
+            "incorrect":[
+               "Adresa IP příjemce",
+               "Adresa IP odesílatele",
+               "Hodnota TTL (Time To Live)"
+            ]
+         }
+      },
+      {
+         "title":"Prezentační vrstva ISO/OSI se stará o (3 správné)",
+         "answers":{
+            "correct":[
+               "Kompresi přenášených dat",
+               "Šifrování přenášených dat",
+               "Kódování (prezentaci) přenášených apliačních dat"
+            ],
+            "incorrect":[
+               "Navázání koncového spojení čtvrté vrstvy před přenosem dat",
+               "Překlad adres u přenášených dat"
+            ]
+         }
+      },
+      {
+         "title":"K čemu slouží technika klouzavého okna? (2 správné)",
+         "answers":{
+            "correct":[
+               "k efektivnějšímu využití přenosového kanálu",
+               "umožňuje vysílači odeslat omezený počet rámců hned za sebou"
+            ],
+            "incorrect":[
+               "k rezervaci komunikačního pásma",
+               "umožňuje detekovat rámce přijaté s bitovou chybou",
+               "slouží ke stanovení počtu bitových chyb v komunikačním kanálu"
+            ]
+         }
+      },
+      {
+         "title":"Jakým způsobem se dá zapisovat maska sítě v případě IPv4 (3 správné)",
+         "answers":{
+            "correct":[
+               "V binární podobě",
+               "Pomocí délky prefixu",
+               "V dekadické podobě"
+            ],
+            "incorrect":[
+               "V desetiné podobě",
+               "Maska sítě se u adres IPv4 nepoužívá"
+            ]
+         }
+      },
+      {
+         "title":"ICMP (Internet Control Message Protocol) slouží k oznamování chyb na",
+         "answers":{
+            "correct":[
+               "síťové vrstvě"
+            ],
+            "incorrect":[
+               "transportní vrstvě",
+               "aplikační vrstvě",
+               "fyzické vrstvě",
+               "spojové vrstvě"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte pravdivé tvrzení o kořenových serverech DNS (Domain Name System) (2 správné)",
+         "answers":{
+            "correct":[
+               "Odkazují dotazující se rekurzivní DNS servery na další doménové servery",
+               "Jsou nezbytnou součástí hiearchie DNS serverů"
+            ],
+            "incorrect":[
+               "Obsahují ve své databázi DNS záznamy všech domén v Internetu",
+               "Jsou umístěny v každé lokální počítačové síti",
+               "Jejich použití je volitelné"
+            ]
+         }
+      },
+      {
+         "title":"Překlad adres - NAT (Network Address Translation) v kombinaci s PAT (Port Address Translation) se používá (2 správné)",
+         "answers":{
+            "correct":[
+               "Ke změně adres síťové a transportní vrstvy v předávaných paketech",
+               "K překladu privátních IP adres na veřejné IP a opačně"
+            ],
+            "incorrect":[
+               "Pouze k překladu adres portů v paketech",
+               "Ke kontrole portů a IP adres v paketech",
+               "K podsíťování adresních rozsahů u tzv. major networks"
+            ]
+         },
+         "comment": "Major network je síť, která vznikla sloučením více podsítí. Sloučení více major networks vznikne supernet."
+      },
+      {
+         "title":"V jakém přenosovém prsotředí je ve většině případů nejmenší bitová chybovost BER (Bit Error Rate)?",
+         "answers":{
+            "correct":[
+               "V optickém vlákně"
+            ],
+            "incorrect":[
+               "Na přenosovém prostředí nezáleží",
+               "V bezdrátovém prostředí",
+               "U všech přenosových médií je chybovost vždy stejná",
+               "V metalickém vodiči"
+            ]
+         }
+      },
+      {
+         "title":"Pomocí protokolů VoIP (Voice over Internet Protocol) lze mezi dvěma účastníky realizovat hovor (4 správné)",
+         "answers":{
+            "correct":[
+               "v rámci lokální sítě",
+               "přes internetovou síť",
+               "v rámci jednoho zařízení, např. počítače",
+               "pomocí chytrého mobilního telefonu se SIP klientem"
+               
+            ],
+            "incorrect":[
+               "ze zařízení bez IP adresy"
+            ]
+         }
+      },
+      {
+         "title":"Router (směrovač): (2 správné)",
+         "answers":{
+            "correct":[
+               "Směrování probíhá pouze na úrovni síťové vrstvy",
+               "Směruje pakety na základě IP adresy",
+            ],
+            "incorrect":[
+               "Směruje pakety na základě MAC adresy",
+               "Pracuje na úrovni aplikační vrstvy",
+               "Automaticky směřuje pakety do všech výstupních portů směrovače"
+            ]
+         }
+      },
+      {
+         "title":"Čím je charakteristický časový multiplex?",
+         "answers":{
+            "correct":[
+               "Rychlé střídání provozů v čase."
+            ],
+            "incorrect":[
+               "Odlišnou vlnovou délkou provozů.",
+               "Více plně časově souběžných paralelních provozů v jednom vedení.",
+               "Každý z provozů opoužívá jinou část kmitočtového pásma.",
+               "Různé provozy využívají různé frekvence."
+            ]
+         }
+      },
+      {
          "title":"",
          "answers":{
             "correct":[
-               "Ano"
+               ""
             ],
             "incorrect":[
                "",
