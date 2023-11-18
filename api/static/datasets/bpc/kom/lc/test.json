@@ -402,6 +402,91 @@
          }
       },
       {
+         "title":"Které z následujících metod přenosu dat rezervuje prostředky a kapacity komunikace po celou dobu sestaveného spojení i když se neposílají žádná data?",
+         "answers":{
+            "correct":[
+               "Komutace okruhů"
+            ],
+            "incorrect":[
+               "Komutace buňek",
+               "Komutace zpráv",
+               "Komutace paketů",
+               "Komutace cest"
+            ]
+         }
+      },
+      {
+         "title":"Rámce spojové vrstvy založené na časové synchronizaci",
+         "answers":{
+            "correct":[
+               "Nelze použít pro přenos paketů síťové vrstvy",
+               "Mají typycky fixní délku"
+            ],
+            "incorrect":[
+               "Nevyžadují žádnou synchronizaci v systému komunikace",
+               "Mohou být přenášeny pouze přes optické přenosové trasy",
+               "Jsou vhodné pro přenos na velmi malé vzdálenosti"
+            ]
+         },
+         "comment":"Nejsem si jistý"
+      },
+      {
+         "title":"Vyberte pravdivé tvrzení o spojové vrstvě",
+         "answers":{
+            "correct":[
+               "Pracuje s rámci či buňkami",
+               "Může pracovat s různými přístupovými metodami ke sdílenému médiu",
+               "Koriguje často chyby, které případně vzniknou na fyzické vrstvě"
+            ],
+            "incorrect":[
+               "Může se starat o řízení spoje v rámci dané síťě (technologie)",
+               "Používá maximálně 65536 portů"
+            ]
+         }
+      },
+      {
+         "title":"Vyberte nepravdivé tvrzení",
+         "answers":{
+            "correct":[
+               "Opakovač pracuje na první vrstvě ISO/OSI",
+               "Přepínač pracuje na druhé vrstvě ISO/OSI",
+               "Směrovač pracuje na třetí vrstvě ISO/OSI"
+            ],
+            "incorrect":[
+               "Opakovač a rozbočovač pracují na různých vrstvách modelu ISO/OSI",
+               "Směrovač a router jsou funkčně shodná zařízení pracujících na různých vrstvách"
+            ]
+         }
+      },
+      {
+         "title":"Mezi zprávy DHCP (Dynamic Host Configuration Protocol) protokolu nepatří",
+         "answers":{
+            "correct":[
+               "DHCP Selective Reject"
+            ],
+            "incorrect":[
+               "DHCP Discover",
+               "DHCP Offer",
+               "DHCP Request",
+               "DHCP ACK"
+            ]
+         }
+      },
+      {
+         "title":"Jaké adresy jsou používány pro zpracování (obdoba technik přepínání, směrování) jednotek na úrovni fyzické vrstvy ISO/OSI. (2 správné)",
+         "answers":{
+            "correct":[
+               "Ani jedna z těchto možností není správná",
+               "Žádná adresace na této vrstvě není"
+            ],
+            "incorrect":[
+               "Čísla portů",
+               "IP adresy",
+               "MAC adresy"
+            ]
+         }
+      },
+      {
          "title":"",
          "answers":{
             "correct":[
