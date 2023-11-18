@@ -474,10 +474,10 @@
          "title":"Jaké adresy jsou používány pro zpracování (obdoba technik přepínání, směrování) jednotek na úrovni fyzické vrstvy ISO/OSI. (2 správné)",
          "answers":{
             "correct":[
-               "Ani jedna z těchto možností není správná",
                "Žádná adresace na této vrstvě není"
             ],
             "incorrect":[
+               "Ani jedna z těchto možností není správná",
                "Čísla portů",
                "IP adresy",
                "MAC adresy"
