@@ -27,7 +27,7 @@
                "data - port - MAC adresa -IP"
             ]
          },
-         "comment": "Na discordu byla správná odpověď \"data - MAC adresa - port - IP adresa\". Vzledem k tomu, že postupujeme od aplikační vrstvy po vrstvu fyzického rozhraní, tak nejdříve máme samotná data aplikace, poté k nim přidáme v transportní vrstvě porty, poté v síťové přidáme IP adresu a na vrstvě síťového rozhraní přidáme MAC adresu."
+         "comment":"Na discordu byla správná odpověď \"data - MAC adresa - port - IP adresa\". Vzledem k tomu, že postupujeme od aplikační vrstvy po vrstvu fyzického rozhraní, tak nejdříve máme samotná data aplikace, poté k nim přidáme v transportní vrstvě porty, poté v síťové přidáme IP adresu a na vrstvě síťového rozhraní přidáme MAC adresu."
       },
       {
          "title":"Při použití filtru \"ip.addr==192.168.0.1\" v programu Wireshark se",
@@ -43,7 +43,7 @@
                "zobrazí se pouze pakety, u nichž je cílová IP adresa 192.168.0.1"
             ]
          },
-         "comment": "Jednosměrný provoz filtrujeme pomocí filtrů ip.src a ip.dst."
+         "comment":"Jednosměrný provoz filtrujeme pomocí filtrů ip.src a ip.dst."
       },
       {
          "title":"Jaké příznaky používá pro navazování a ukončování spojení transportní protokol UDP (User Datagram Protocol)",
@@ -84,14 +84,14 @@
                "Nalezení DNS jména příjemce paketu"
             ]
          },
-         "comment": "Není ověřeno, pokusím se najít ve skriptech"
+         "comment":"Není ověřeno, pokusím se najít ve skriptech"
       },
       {
          "title":"Deterministické přístupové metody spojové vrstvy jsou",
          "answers":{
             "correct":[
                "Vhodné tam, kde je velké riziko kolizí vysílání na sdíleném přenosovém médiu",
-               "Založeny na vysokém stupni kontroly toho, co se na přenosovém mědiu odehrává z hlediska vysílání rámců",
+               "Založeny na vysokém stupni kontroly toho, co se na přenosovém mědiu odehrává z hlediska vysílání rámců"
             ],
             "incorrect":[
                "Vhodné především pro sítě s přímým a vyhrazeným přenosovým kanálem pro každý komunikující uzel",
@@ -149,7 +149,6 @@
                "Přepínač",
                "Směrovač",
                "Opakovač"
-               
             ],
             "incorrect":[
                "WiFi",
@@ -342,7 +341,7 @@
                "K podsíťování adresních rozsahů u tzv. major networks"
             ]
          },
-         "comment": "Major network je síť, která vznikla sloučením více podsítí. Sloučení více major networks vznikne supernet."
+         "comment":"Major network je síť, která vznikla sloučením více podsítí. Sloučení více major networks vznikne supernet."
       },
       {
          "title":"V jakém přenosovém prsotředí je ve většině případů nejmenší bitová chybovost BER (Bit Error Rate)?",
@@ -366,7 +365,6 @@
                "přes internetovou síť",
                "v rámci jednoho zařízení, např. počítače",
                "pomocí chytrého mobilního telefonu se SIP klientem"
-               
             ],
             "incorrect":[
                "ze zařízení bez IP adresy"
@@ -378,7 +376,7 @@
          "answers":{
             "correct":[
                "Směrování probíhá pouze na úrovni síťové vrstvy",
-               "Směruje pakety na základě IP adresy",
+               "Směruje pakety na základě IP adresy"
             ],
             "incorrect":[
                "Směruje pakety na základě MAC adresy",
