@@ -201,15 +201,18 @@
          }
       },
       {
-         "title":"",
+         "title":"Které/které vrstva/vrstvy nepatří do síťového modelu ISO/OSI?",
          "answers":{
             "correct":[
-               ""
+               "Relativní",
+               "Fyzikální",
+               "Aplikovaná"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Transportní",
+               "Síťová",
+               "Spojová",
+               "Prezentační"
             ]
          }
       },
