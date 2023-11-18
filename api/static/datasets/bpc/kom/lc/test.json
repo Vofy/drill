@@ -485,41 +485,73 @@
          }
       },
       {
-         "title":"",
+         "title":"Dynamické distribuované směrování",
          "answers":{
             "correct":[
-               ""
+               "Je považováno za dynamickou směrovací strategii",
+               "Umožňuje změnu využívaných tras v síti v závislosti na aktuální situaci, např. výpadcích linek",
+               "Vyžaduje směrovací protokoly interního nebo externího typu",
+               "Je v praxi velmi časté"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Není možné pužít v případě IPv6 sítí"
+            ]
+         },
+         "comment":"Nejsem si jistý"
+      },
+      {
+         "title":"O fragmentaci IPv4 paketů na síťové vrstvě platí",
+         "answers":{
+            "correct":[
+               "Může k ní dojít při přenosu paketu přes směrovače v případě, že hodnota MTU (Maximum Transmission Unit) následující linky je menší, než velikost přenáčeného paketu",
+               "Může být zakázána odesílatelem paketu"
+            ],
+            "incorrect":[
+               "Fragmentaci nelze použít, je-li využit transportní protokol UDP",
+               "Fragmentace snižuje zatížení procesoru směrovače",
+               "Z jednotlivých fragmentů lze poskládat původní paket pouze tehdy, dorazí-li jednotlivé fragmenty v původním pořadí, v jakém byly vyslány při fragmentaci"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Protokolová sada TCP/IP nebo její část je typicky implementována alespoň částečně v",
          "answers":{
             "correct":[
-               ""
+               "Operačním systému koncového zařízení",
+               "V mezilehlých síťových prvcích",
+               "V koncových aplikacích"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Jako součást každého standardu globálních sítí, např. SDH",
+               "Jako součást každého standardu lokálních sítí, např. Ethernetu"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Vyberte nepravdivé tvrzení o výchozí bráně sítě",
          "answers":{
             "correct":[
-               ""
+               "Jedná se o zařízení pracující na druhé vrstvě ISO/OSI",
+               "Toto zařízení nemusí mít IP adresu"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Toto zařízení slouží pro propojení lokální sítě s ostatními sítěmi",
+               "Toto zařízení je funkcně směrovač třetí vrstvy ISO/OSI",
+               "Toto zařízení funguje jako zprostředkovatel IP komunikace ze sítě ven a i dovnitř"
+            ]
+         }
+      },
+      {
+         "title":"Stejnosměrnou složku z principu fungování odstraňuje linkový kód",
+         "answers":{
+            "correct":[
+               "Rozdílový Manchester",
+               "Non-Return to Zero Inverted"
+            ],
+            "incorrect":[
+               "Bipolární Return to Zero (RZ)",
+               "Unipolární Return to Zero (RZ)",
+               "Stop and Zero (SZ)"
             ]
          }
       }
