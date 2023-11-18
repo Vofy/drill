@@ -173,28 +173,30 @@
          }
       },
       {
-         "title":"",
+         "title":"Protokol UDP (User Datagram Protocol)",
          "answers":{
             "correct":[
-               ""
+               "Je vhodný pro přenos multimediálních dat",
+               "Je jednodušší a má menší záhlaví než protokol TCP (Transmission Control Protocol)",
+               "Nezajišťuje spolehlivý přenos dat"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Zajišťuje, že data budou na přijímací straně poskládána do správného pořadí, v jakém byla vyslána",
+               "Slouží pro dojednání kodeků a šifrování před prenosem hlasové aplikace"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Pro zabezpečený přenos webové stránky bychom měli použít protokol:",
          "answers":{
             "correct":[
-               ""
+               "QUIC (Quick UDP Internet Connections)",
+               "TLS (Transport Layer Securtiy) + TCP (Transmission Control Protocol)"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "TCP (Transmission Control Protocol)",
+               "UDP (User Datagram Protocol)",
+               "FTP (File Transfer Protocol)"
             ]
          }
       },
