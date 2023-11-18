@@ -217,30 +217,33 @@
          }
       },
       {
-         "title":"",
+         "title":"Které z následujících tvrzení je pravdivé?",
          "answers":{
             "correct":[
-               ""
+               "Šířka pásma závisí na fyzikálních vlastnostech daného přenosového média"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Útlum představuje postupné zesilování amplitudy signálu na přenosovém médiu",
+               "Analogový signál je výtvorem člověka a je nespojitý v čase",
+               "Digitální signál je výtvorem člověka a je spojitý v čase",
+               "AMI kód (Alternate Mark Inversion) je unipolární kód"
             ]
          }
       },
       {
-         "title":"",
+         "title":"O technice Stop-and-Wait ARQ (Automatic Repeat Request) platí:",
          "answers":{
             "correct":[
-               ""
+               "Rámce musí být číslovány",
+               "Systém je schopen vyřešit případnou ztrátu rámce při přenosu od vysílače k přijímači"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Příjemce nemusí každý rámec samostatně potvrdit",
+               "Vysílač může vyslad hned za sebou jakékoliv množství rámců (více než 2) bez potvrzení",
+               "Vysílač může odeslat hned za sebou vždy poouze dva rámce"
             ]
-         }
+         },
+         "comment":"Rámce musí být číslovány, ale stačí pouze dvě sekvenční čísla: 0 a 1"
       },
       {
          "title":"",
