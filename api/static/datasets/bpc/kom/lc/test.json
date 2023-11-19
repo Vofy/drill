@@ -3,7 +3,7 @@
    "description":"Přepis z fektušky",
    "tasks":[
       {
-         "title":"Bude přenos 8 kB dat pomocí komutace buněk (buňka velikosti 140 B) časově náročnější než přenos pomocí komutace paketů?",
+         "title":"Bude přenos 8 kB dat pomocí komutace buněk (buňka velikosti 140 B) časově náročnější než přenos pomocí komutace paketů?",
          "answers":{
             "correct":[
                "Ano"
@@ -828,7 +828,7 @@
          "title":"Při kterém ze základních způsobů přenosu informace se vytváří fyzické spojení mezi koncovými účastníky komunikace?",
          "answers":{
             "correct":[
-               "Komutace okruhů",
+               "Komutace okruhů"
             ],
             "incorrect":[
                "Komutace buněk",
