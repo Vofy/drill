@@ -811,7 +811,7 @@
          }
       },
       {
-         "title":"Úprava hodnoty TTL (Time to live) se při použiží s ICMP (Internet Control Message Protocol) může použít pro",
+         "title":"Úprava hodnoty TTL (Time to live) se při použiží s ICMP (Internet Control Message Protocol) může použít pro (2 správné)",
          "answers":{
             "correct":[
                "Zjištění směrovačů přítomných na trase k adresátovi paketu",
@@ -821,6 +821,158 @@
                "Stanovení minimálního počtu skoků, které daný paket bude schopen absolvovat",
                "Stanovení minimálního času (doby ve vteřinách) života paketu, který bude paket existovat v síti",
                "Stanovení maximálního času (doby ve vteřinách) života paketu, který bude paket existovat v síti"
+            ]
+         }
+      },
+      {
+         "title":"Při kterém ze základních způsobů přenosu informace se vytváří fyzické spojení mezi koncovými účastníky komunikace?",
+         "answers":{
+            "correct":[
+               "Komutace okruhů",
+            ],
+            "incorrect":[
+               "Komutace buněk",
+               "Komutace zpráv",
+               "Komutace paketů"
+            ]
+         }
+      },
+      {
+         "title":"Kombinace fázového a amplitudováho klíčování",
+         "answers":{
+            "correct":[
+               "Zvyšuje počet bitů, které je možné přenést pomocí jendnoho symbolu"
+            ],
+            "incorrect":[
+               "Není možná",
+               "Je možná, ale nepoužívá se",
+               "Představuje kombinovanou změnu kmitočtu a amplitudy signálu"
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               "",
+               ""
+            ],
+            "incorrect":[
+               "",
+               "",
+               ""
             ]
          }
       }
