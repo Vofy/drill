@@ -851,128 +851,119 @@
          }
       },
       {
-         "title":"",
+         "title":"Jakým způsobem není možné zvýšit celkovou přenosovou kapacitu konkrétního kanálu (vedení)?",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Čistě časovým dělením"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Čistě kmitočtovým dělením",
+               "Čistě vlnovým dělením",
+               "Čistě frekvenčním dělením"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Co je hlavní úlohou spojové vrstvy?",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Mění prostý tok bitů na spolehlivou cestu přenosu datových bloků - rámců"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Spojuje vzájemně fyzickou a transportní vrstvu",
+               "Spojuje fyzické vrstvy adresáta a odesílatele",
+               "Spojuje koncové procesy (aplikace), které jsou rozptýleny po internetu"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Mezi metody zabezpečení proti chybám při přenosu na linkové vrstvě nepatří",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Návěští"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Cyklické redundantní kontroly",
+               "Paritní bity",
+               "Kontrolní součty"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Délka prefixu podsítě /17 odpovídá masce sítě",
          "answers":{
             "correct":[
-               "",
-               ""
+               "255.255.128.0"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "255.255.0.0",
+               "255.255.255.0",
+               "255.255.255.255"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Který z následujících výroků o logických adresách síťové vrstvy je pravdivý?",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Slouží ke globální identifikaci daného uzlu"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Může jich být nekonečně mnoho",
+               "Jsou označované i jako MAC adresy",
+               "Definují koncové aplikace dané komunikace"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Co není pravda o tzv. lavinovém směrování?",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Tento způsob směrování zatěžuje síť minimálně."
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Je to takový způsob sm+rování, kdy každý paket v každém uzlu je nakopírován a odeslán všemi linkami kromě příchozí.",
+               "Je to systém dobře odolný vůči poruchám linek.",
+               "Tento způsob směrování není hojně využíván v internetu"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Které z následujících tvrzení o protokolu TCP není pravdivé:",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Přenesená data (bajty) se nepotvrzují"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Komunikace má koncový charakter",
+               "TCP vytváří dojem propojení komunikujících procesů okruhem, kterým je možné přenášet proud bajtů",
+               "Strany mohou komunikovat oběma směry zároveň"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jaký je hlavní důvod vytvoření IPv6 protokolu?",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Rozšíření adresního prostoru vzhledem k IPv4."
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Zvýšení stability fungování internetové sítě",
+               "Podpora moderních 64 bitových procesorů",
+               "Zrušení rozlišování síťových rozhraní připojených k počítačové síti"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Ozačte pravdivé tvrzení o protokolu FTP (File Transfer Protokol).",
          "answers":{
             "correct":[
-               "",
-               ""
+               "Protokol využívá pro přenos dvě transportní spojení"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Je to protokol transportní vrstvy",
+               "Protokol žádnám způsobem nerozlišuje komunikující strany",
+               "Protokol nevyužívá pro řízení přenosu předem definovaných příkaů a odpovědí"
             ]
          }
       }
