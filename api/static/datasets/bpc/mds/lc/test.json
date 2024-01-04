@@ -1022,10 +1022,10 @@
             "correct":[
                "QoE můžeme měřit metodou ACR",
                "QoE můžeme měřit metodou DCR",
+               "QoE můžeme měřit metodou PSNR",
                "QoE je ovlivněna faktory: obsah, uživatel, prostředí, systém"
             ],
             "incorrect":[
-               "QoE můžeme měřit metodou PSNR",
                "U QoE měříme ztrátovost, propustnost a zpždění paketů"
             ]
          }
