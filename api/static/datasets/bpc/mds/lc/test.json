@@ -859,11 +859,11 @@
          "title":"Kolik zpráv SIP proběhne během registrace mezi telefonem a proxy serverem?",
          "answers":{
             "correct":[
-               "4 zprávy"
+               "2 zprávy"
             ],
             "incorrect":[
                "1 zprávy",
-               "2 zprávy",
+               "4 zprávy",
                "3 zprávy"
             ]
          }
