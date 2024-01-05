@@ -1315,12 +1315,12 @@
          "title":"Komprese videa",
          "answers":{
             "correct":[
-               "Snímek B u MPEG-2 není referenční"
+               "Snímek B u MPEG-2 není referenční",
+               "Při použití GOP ve variantě \"IPPP\" je pořadí  snímání jednotlivých snímků shodné s pořadím kódování"
             ],
             "incorrect":[
                "Chyba predikce je rozdíl mezi dvěma po sobě jdoucími snímky ve videosekvenci",
                "Pro odhad pohybu u kodéru MPEG-2 se využívají bloky",
-               "Při použití GOP ve variantě \"IPPP\" je pořadí  snímání jednotlivých snímků shodné s pořadím kódování",
                "Makroblok 4:2:0 obsahuje 4 bloky"
             ]
          }
