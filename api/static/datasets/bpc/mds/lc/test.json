@@ -1146,13 +1146,13 @@
          "title":"U konference platí tvrzení",
          "answers":{
             "correct":[
-               "Gatekeeper není součástí architektury SIP"
+               "Gatekeeper není součástí architektury SIP",
+               "MCU jednotka nastavuje mimo jiné rozvržení \"Layouty\" připojených uživatelů na  displeji",
+               "Maximální počet připojených bodů do konference typu Voice Activated je vždy větší než u Continuous Presence při stejném vytížená hardware"
             ],
             "incorrect":[
-               "MCU jednotka nastavuje mimo jiné rozvržení \"Layouty\" připojených uživatelů na  displeji",
                "Architektura H.323 může ke komunikaci a kompresi A/V dat použít libovolné protokoly",
-               "U Teleprezenčních systémů je vždy použito jako koncové zařízení telefon",
-               "Maximální počet připojených bodů do konference typu Voice Activated je vždy větší než u Continuous Presence při stejném vytížená hardware"
+               "U Teleprezenčních systémů je vždy použito jako koncové zařízení telefon"
             ]
          }
       },
