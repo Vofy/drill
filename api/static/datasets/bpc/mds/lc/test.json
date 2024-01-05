@@ -1216,14 +1216,14 @@
          "title":"Protokol RTP",
          "answers":{
             "correct":[
-               "Je protokol aplikační vrstvy TCP/IP modelu"
+               "Je protokol aplikační vrstvy TCP/IP modelu",
+               "Je protokol, který nese informaci o A/V kodeku přenášených dat",
+               "Je protokol, který umožní synchronizaci příchozích multimediálních dat"
             ],
             "incorrect":[
                "Je protokol pro přenos signalizačních informací mezi uživateli",
-               "Je protokol, který nese informaci o A/V kodeku přenášených dat",
                "Definuje výpočet zpoždění a kolísání zpoždění u multimediálních přenosů",
-               "Je protokol transportní vrstvy TCP/IP modelu",
-               "Je protokol, který umožní synchronizaci příchozích multimediálních dat"
+               "Je protokol transportní vrstvy TCP/IP modelu"
             ]
          }
       },
