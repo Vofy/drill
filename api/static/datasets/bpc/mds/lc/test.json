@@ -1121,11 +1121,11 @@
             "correct":[
                "Zpoždění u A/V videokonference by nemělo přesáhnout 1500ms, poté dochází ke zhoršení QoS",
                "B2BUA u SIP protokolu je určený k přesměrování a používá odpovědi 301",
-               "Videokonference nelze používat v cloudu"
-            ],
-            "incorrect":[
+               "Videokonference nelze používat v cloudu",
                "Při přenosu A/V dat při videokonferenci nesmí docházet k žádné ztrátě paketů nesoucí A/V obsah, jinak se hovor rozpadne",
                "Focus je u H.323 určený k signalizaci během konference"
+            ],
+            "incorrect":[
             ]
          }
       },
