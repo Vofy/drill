@@ -1426,13 +1426,14 @@
          "title":"Kvalita služeb (QoS - Quality Of Service)",
          "answers":{
             "correct":[
-               "IntServ zajišťuje garantovanou službu"
+               "IntServ zajišťuje garantovanou službu",
+               "Při použití architektury DiffServ nelze zaručit garantovanou službu",
+               "Při použití architektury DiffServ jsou nejprve mezi uživatelem a poskytovatelem dohodnuty parametry pro přenos SLA (Service Level Agreement)"
             ],
             "incorrect":[
                "Pro kategorizaci paketu u IntServ využívá kód DSCP",
                "Využívá u architektury DiffServ protokol RSVP",
-               "Při použití architektury IntServ nelze zaručit garantovanou službu",
-               "Při použití architektury DiffServ jsou nejprve mezi uživatelem a poskytovatelem dohodnuty parametry pro přenos SLA (Service Level Agreement)"
+               "Při použití architektury IntServ nelze zaručit garantovanou službu"
             ]
          }
       }
