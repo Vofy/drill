@@ -1213,7 +1213,7 @@
          }
       },
       {
-         "title":"Multicast ASM (Any Source Multicast) (2 správné)",
+         "title":"Multicast ASM (Any Source Multicast) (4 správné)",
          "answers":{
             "correct":[
                "Nerozlišuje jednotlivé zdroje vysílání",
@@ -1228,7 +1228,7 @@
          }
       },
       {
-         "title":"Multicast SSM (Source Specific Multicast) (2 správné)",
+         "title":"Multicast SSM (Source Specific Multicast) (4 správné)",
          "answers":{
             "correct":[
                "Rozlišuje jednotlivé zdroje vysílání",
@@ -1434,6 +1434,19 @@
                "Pro kategorizaci paketu u IntServ využívá kód DSCP",
                "Využívá u architektury DiffServ protokol RSVP",
                "Při použití architektury IntServ nelze zaručit garantovanou službu"
+            ]
+         }
+      },
+      {
+         "title":"Protokol RTCP (3 správné)",
+         "answers":{
+            "correct":[
+               "Přenáší zprávy Sender Report a Receiver Report",
+               "Slouží zejména k měření kvality služeb probíhajícího spojení",
+               "Je periodicky posílán mezi účastníky multimediálního spojení zajištěného protokolem RTP"
+            ],
+            "incorrect":[
+               "Šířka pásma pro RTCP nesmí překročit 10 procent z celkové šířky párma daného vysílání"
             ]
          }
       }
