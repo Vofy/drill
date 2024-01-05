@@ -1017,7 +1017,7 @@
          }
       },
       {
-         "title":"U kvality zážitků QoE (Quality of Experience) platí tvrzení (3 správné)",
+         "title":"U kvality zážitků QoE (Quality of Experience) platí tvrzení (4 správné)",
          "answers":{
             "correct":[
                "QoE můžeme měřit metodou ACR",
@@ -1116,7 +1116,7 @@
          }
       },
       {
-         "title":"Vyberte nesprávná tvrzení (3 správné)",
+         "title":"Vyberte nesprávná tvrzení (5 správných)",
          "answers":{
             "correct":[
                "Zpoždění u A/V videokonference by nemělo přesáhnout 1500ms, poté dochází ke zhoršení QoS",
@@ -1143,7 +1143,7 @@
          }
       },
       {
-         "title":"U konference platí tvrzení",
+         "title":"U konference platí tvrzení (3 správné)",
          "answers":{
             "correct":[
                "Gatekeeper není součástí architektury SIP",
@@ -1213,7 +1213,7 @@
          }
       },
       {
-         "title":"Protokol RTP",
+         "title":"Protokol RTP (3 správné)",
          "answers":{
             "correct":[
                "Je protokol aplikační vrstvy TCP/IP modelu",
@@ -1299,7 +1299,7 @@
          }
       },
       {
-         "title":"Protokol IGMP",
+         "title":"Protokol IGMP (2 správné)",
          "answers":{
             "correct":[
                "Verze 2 nelze použít v multicastu typu SSM",
@@ -1423,7 +1423,7 @@
          }
       },
       {
-         "title":"Kvalita služeb (QoS - Quality Of Service)",
+         "title":"Kvalita služeb (QoS - Quality Of Service) (3 správné)",
          "answers":{
             "correct":[
                "IntServ zajišťuje garantovanou službu",
