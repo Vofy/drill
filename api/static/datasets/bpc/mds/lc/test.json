@@ -1002,21 +1002,6 @@
          }
       },
       {
-         "title":"Multicast ASM (Any Source Multicast) (2 správné)",
-         "answers":{
-            "correct":[
-               "Nerozlišuje jednotlivé zdroje vysílání",
-               "Používá Rendezvous point"
-            ],
-            "incorrect":[
-               "Rozlišuje jednotlivé zdroje vysílání",
-               "Neoužívá Rendezvous point",
-               "Ke směrování v síti může použít protokol PIM-DM",
-               "Ke směrování v síti může použít protokol PIM-SM"
-            ]
-         }
-      },
-      {
          "title":"U kvality zážitků QoE (Quality of Experience) platí tvrzení (4 správné)",
          "answers":{
             "correct":[
@@ -1228,17 +1213,32 @@
          }
       },
       {
+         "title":"Multicast ASM (Any Source Multicast) (2 správné)",
+         "answers":{
+            "correct":[
+               "Nerozlišuje jednotlivé zdroje vysílání",
+               "Používá Rendezvous point",
+               "Ke směrování v síti může použít protokol PIM-DM",
+               "Ke směrování v síti může použít protokol PIM-SM"
+            ],
+            "incorrect":[
+               "Rozlišuje jednotlivé zdroje vysílání",
+               "Neoužívá Rendezvous point"
+            ]
+         }
+      },
+      {
          "title":"Multicast SSM (Source Specific Multicast) (2 správné)",
          "answers":{
             "correct":[
                "Rozlišuje jednotlivé zdroje vysílání",
-               "Nepoužívá Rendezvous point"
+               "Nepoužívá Rendezvous point",
+               "Ke směrování v síti může použít protokol PIM-SM",
+               "Ke směrování v síti může použít protokol PIM-DM"
             ],
             "incorrect":[
                "Používá Rendezvous point",
-               "Nerozlišuje jednotlivé zdroje vysílání",
-               "Ke směrování v síti může použít protokol PIM-SM",
-               "Ke směrování v síti může použít protokol PIM-DM"
+               "Nerozlišuje jednotlivé zdroje vysílání"
             ]
          }
       },
