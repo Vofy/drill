@@ -1091,7 +1091,7 @@
          "title":"Vyberte správná tvrzení",
          "answers":{
             "correct":[
-               "YUY je formát 4:2:0"
+               "YUV je formát 4:2:0"
             ],
             "incorrect":[
                "Při kompresích obrazu využíváme nejčastěji model RGB, jehož složky jsou postupně kódovány bez transformace do jiného prostoru",
