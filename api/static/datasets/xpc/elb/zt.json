@@ -1177,6 +1177,19 @@
                "ze základní izolace a doplňkové izolace."
             ]
          }
+      },
+      {
+         "title":"Distribuční síť 230/400 V, 50 Hz, IT obsahuje vodiče:",
+         "answers":{
+            "correct":[
+               "L1, L2, L3, N."
+            ],
+            "incorrect":[
+               "L1, L2, L3, PE",
+               "L1, L2, L3, N, PE"
+            ]
+         },
+         "comment":"Doplněno pro úplnost, nebylo na F-webu."
       }
    ]
 }
