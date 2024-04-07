@@ -723,7 +723,7 @@
          }
       },
       {
-         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem musí být v síti TN 230VAC splněna podmínka:",
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem, musí být v síti TN 230VAC splněna podmínka:",
          "answers":{
             "correct":[
                "Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>"
