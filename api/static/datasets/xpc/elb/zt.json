@@ -717,8 +717,116 @@
                "L1, L2, L3, PEN."
             ],
             "incorrect":[
-               "L1, L2, L3, PE",
-               "L1, L2, L3, N"
+               "L1, L2, L3, PE.",
+               "L1, L2, L3, N."
+            ]
+         }
+      },
+      {
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem musí být v síti TN 230VAC splněna podmínka:",
+         "answers":{
+            "correct":[
+               "Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>"
+            ],
+            "incorrect":[
+               "R<sub>a</sub> × I<sub>a</sub> ≤ U<sub>0</sub>",
+               "Z<sub>s</sub> × I<sub>a</sub> ≤ 50"
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
             ]
          }
       }
