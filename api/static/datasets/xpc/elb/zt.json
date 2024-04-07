@@ -711,7 +711,7 @@
          }
       },
       {
-         "title":"Distribuční síť 230/400 V, 50 Hz, TN-C obsahuje vodiče.",
+         "title":"Distribuční síť 230/400 V, 50 Hz, TN-C obsahuje vodiče:",
          "answers":{
             "correct":[
                "L1, L2, L3, PEN."
@@ -963,122 +963,218 @@
          }
       },
       {
-         "title":"",
+         "title":"Ochrana před úrazem elektrickým proudem u zařízení třídy ochrany I je zajištěna:",
          "answers":{
             "correct":[
-               ""
+               "základní izolací zařízení a připojením neživých částí k uzemnění sítě."
             ],
             "incorrect":[
-               "",
-               ""
+               "dvojitou izolací.",
+               "připojením neživých částí k pospojování na vyrovnání potenciálu."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jako ochrana před vznikem požáru slouží:",
          "answers":{
             "correct":[
-               ""
+               "proudový chránič s rozdílovým proudem do 300 mA."
             ],
             "incorrect":[
-               "",
-               ""
+               "proudový chránič s rozdílovým proudem minimálně 30 mA.",
+               "proudový chránič s rozdílovým proudem do 500 mA."
             ]
          }
       },
       {
-         "title":"",
+         "title":"S hlavní ochrannou svorkou nebo přípojnicí se musí spojovat:",
          "answers":{
             "correct":[
-               ""
+               "vodiče ochranného pospojování, uzemňovací přívody, ochranné vodiče a uzemňovací přívody pracovního uzemnění."
             ],
             "incorrect":[
-               "",
-               ""
+               "všechny vodiče pevného rozvodu.",
+               "vodiče ochranného pospojování, uzemňovací přívody, ochranné vodiče, uzemŇovací přívody pracovního uzemnění a stínění datových kabelů vnitřní instalace."
             ]
          }
       },
       {
-         "title":"",
+         "title":"V rozvaděči musí být umožněno:",
          "answers":{
             "correct":[
-               ""
+               "identifikovat jednotlivé obvody a k nim příslušející prvky."
             ],
             "incorrect":[
-               "",
-               ""
+               "uzamknout vnitřní kryt rozvaděče",
+               "dostat se k jednotlivým spojům bez použití nástroje."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Pokud se použijí proudové chrániče jako doplňková ochrana pro případ selhání základní ochrany nebo selhání ochrany při poruše, jejich jmenovitý vybavovací reziduální proud nesmí překročit hodnotu:",
          "answers":{
             "correct":[
-               ""
+               "30 mA."
             ],
             "incorrect":[
-               "",
-               ""
+               "100 mA.",
+               "10 mA."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Kdy nesmí být uplatněno ochranné opatření dvojitou nebo zesílenou izolací jako jediné ochranné opatření v instalaci?",
          "answers":{
             "correct":[
-               ""
+               "Jestliže není možné zajistit, aby nebyla provedena žádná změna, která by mohla narušit účinnost tohoto ochranného opatření."
             ],
             "incorrect":[
-               "",
-               ""
+               "Ochranné opatření dvojitou nebo zesílenou izolací se smí použít výhradně na spotřebiče.",
+               "Pokud je možné předpokládat narušení ochranné funkce zvýšenou vlhkostí prostředí."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jaké úrazy může svým působením vyvolat elektrická energie:",
          "answers":{
             "correct":[
-               ""
+               "fibrilaci komor srdce průchodem elektrického proudu tělem, popálení od elektrického oblouku, pády způsobené úlekem při dotyku s napětím."
             ],
             "incorrect":[
-               "",
-               ""
+               "popáleniny od výbuchu plynových lahví, zástavu srdce v důsledku dotyku napětí nad 100V.",
+               "defibrilaci komor v důsledku dotyku s napětím, popálení v důsledku dotyku potenciálu a pády způsobené zemními proudy."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Základní ochrana je:",
          "answers":{
             "correct":[
-               ""
+               "ochrana před úrazem elektrickým proudem v normálním tj. bezporuchovém stavu."
             ],
             "incorrect":[
-               "",
-               ""
+               "ochrana před úrazem elektrickým proudem zařízení třídy II.",
+               "ochrana pro zajištění provozního stavu."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jak výkonnými zdroji smí být osazována žárovková svítidla?",
          "answers":{
             "correct":[
-               ""
+               "Jen tak silnými, jaké pro dovolenou porvrchovou teplotu krytů a skel připouští výrobce."
             ],
             "incorrect":[
-               "",
-               ""
+               "Tak velkými, aby zdroj bylo možno opatřit ochranným sklem.",
+               "Libovolně velkými, protože maximum je omezeno velikostí závitu."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Rozdělení EZ podle napětí mezi vodiči v uzemněné střídavé soustavě je:",
          "answers":{
             "correct":[
-               ""
+               "mn do 50 V; nn do 1000 V; vn do 52 kV."
             ],
             "incorrect":[
-               "",
-               ""
+               "mn do 50 V; nn do 1000 V; vn do 30 kV.",
+               "mn do 50 V; nn do 500 V; vn do 35 kV."
+            ]
+         }
+      },
+      {
+         "title":"Při srdeční masáži opakovaně stlačujeme:",
+         "answers":{
+            "correct":[
+               "hrudní koš."
+            ],
+            "incorrect":[
+               "krk v okolí tepen.",
+               "krajinu břišní."
+            ]
+         }
+      },
+      {
+         "title":"Při použití ochrany kryty nebo přepážkami musí být části uvnitř krytů nebo za přepážkami, které zajišťují krytí:",
+         "answers":{
+            "correct":[
+               "alespoň IP XXB nebo IP 2X."
+            ],
+            "incorrect":[
+               "alespoň IP XXC nebo IP 3X.",
+               "alespoň IP XXD nebo IP 4X."
+            ]
+         }
+      },
+      {
+         "title":"Mohou být živé části elektricky odděleného obvodu spojeny s jiným ovbodem nebo se zemí?",
+         "answers":{
+            "correct":[
+               "Ne."
+            ],
+            "incorrect":[
+               "Ano.",
+               "Jen pokud je to třeba z funkčních důvodů."
+            ]
+         }
+      },
+      {
+         "title":"Nulový vodič střídavé soustavy se označuje:",
+         "answers":{
+            "correct":[
+               "N."
+            ],
+            "incorrect":[
+               "M.",
+               "PE."
+            ]
+         }
+      },
+      {
+         "title":"Jaký ochranný přístroj má větší jmenovitou zkratovou schopnost:",
+         "answers":{
+            "correct":[
+               "pojistka."
+            ],
+            "incorrect":[
+               "proudový chránič.",
+               "modulární jistič."
+            ]
+         }
+      },
+      {
+         "title":"Distribuční síť 230/400 V, 50 Hz, TT obsahuje vodiče:",
+         "answers":{
+            "correct":[
+               "L1, L2, L3, N."
+            ],
+            "incorrect":[
+               "L1, L2, L3, PE",
+               "L1, L2, L3, N, PE"
+            ]
+         }
+      },
+      {
+         "title":"Kdo je při práci na elektrickém zařízení vedoucí práce?",
+         "answers":{
+            "correct":[
+               "Vedoucí pracovní skupiny, která má práce povádět."
+            ],
+            "incorrect":[
+               "Osoba odborně způsobilá.",
+               "Osoba odpovědná za elektrické zařízení."
+            ]
+         }
+      },
+      {
+         "title":"Dvojitá izolace se skládá:",
+         "answers":{
+            "correct":[
+               "ze základní izolace a přídavné izolace."
+            ],
+            "incorrect":[
+               "z přídavné izolace a doplňkové izolace.",
+               "ze základní izolace a doplňkové izolace."
             ]
          }
       }
