@@ -301,6 +301,426 @@
                "nepředstavuje žádné nebezpečí při jakémkoliv užívání."
             ]
          }
+      },
+      {
+         "title":"Ohřívač teplé užitkové vody může být umístěn v koupelně v zóně 1 za předpokladu minimálního krytí",
+         "answers":{
+            "correct":[
+               "IP X4."
+            ],
+            "incorrect":[
+               "IP X3.",
+               "IP X2."
+            ]
+         }
+      },
+      {
+         "title":"Nepřenosné spotřebiče jsou revidovány",
+         "answers":{
+            "correct":[
+               "spolu s elektrickou instalací."
+            ],
+            "incorrect":[
+               "ve stejných lhůtách jako přenosné spotřebiče.",
+               "ve lhůtách stanovených místním technickým předpisem."
+            ]
+         }
+      },
+      {
+         "title":"Osoba prokazatelně poučená osobami znalými, což jí umožňuje vyvarovat se nebezpečí, které elektřina může vytvořit je",
+         "answers":{
+            "correct":[
+               "osoba poučená."
+            ],
+            "incorrect":[
+               "osoba seznámená.",
+               "osoba znalá."
+            ]
+         }
+      },
+      {
+         "title":"Proudové chrániče s rozdílovým proudem do 30 mA (bez zpoždění nebo s dobou nepůsobení min. 10 ms) se musí použít na:",
+         "answers":{
+            "correct":[
+               "zásuvky se jmenovitým proudem do 32 A, které jsou používány laiky."
+            ],
+            "incorrect":[
+               "obvody, které jsou používány.",
+               "zásuvky se jmenovitým proudem do 16 A, které jsou používány laiky."
+            ]
+         }
+      },
+      {
+         "title":"Ochranné opatření SELV má jako ochranu při poruše",
+         "answers":{
+            "correct":[
+               "ochranné oddělení obvodů jiných než SELV."
+            ],
+            "incorrect":[
+               "přídavnou izolaci.",
+               "ochranné oddělení obvodů jiných než ELV."
+            ]
+         }
+      },
+      {
+         "title":"Ochrana před úrazem elektrickým proudem u zařízení třídy ochrany III je zajištěna:",
+         "answers":{
+            "correct":[
+               "napájením bezpečně malým napětím."
+            ],
+            "incorrect":[
+               "dvojitou izolací zařízení a zesílenou izolací přívodní šňůry.",
+               "vyloučením kovových krytů."
+            ]
+         }
+      },
+      {
+         "title":"Pro automatické odpojení od zdroje, zajišǔjící ochranu před nebezpečným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>, kde U<sub>0</sub> je:",
+         "answers":{
+            "correct":[
+               "efektivní hodnota jmenovitého střídavého napětí proti zemi."
+            ],
+            "incorrect":[
+               "vrcholová hodnota jmenovitého střídavého napětí proti zemi.",
+               "efektivní hodnota nejvyššího pracovního střídavého napětí proti zemi."
+            ]
+         }
+      },
+      {
+         "title":"Pro každé elektrické zařízení musí být:",
+         "answers":{
+            "correct":[
+               "určena osoba odpovědná za elektrické zařízení."
+            ],
+            "incorrect":[
+               "smluvně zajištěn revizní technik.",
+               "určen pracvník, který zajišťuje náhradní díly pro bezpečnost provozu."
+            ]
+         }
+      },
+      {
+         "title":"§ 4 vyhlášky č.50/1978 Sb. stanovuje požadavky pro získání kvalifikace:",
+         "answers":{
+            "correct":[
+               "pracovníků poučených."
+            ],
+            "incorrect":[
+               "pracovníků znalých.",
+               "pracovníků seznámených."
+            ]
+         }
+      },
+      {
+         "title":"Ochrana před úrazem elektrickým proudem u zařízení třídy ochrany II je zajištěna:",
+         "answers":{
+            "correct":[
+               "izolací dvojitou nebo zesílenou."
+            ],
+            "incorrect":[
+               "izolací pracovní a izolačním krytem.",
+               "izolací základní spolu s izolací pracovní."
+            ]
+         }
+      },
+      {
+         "title":"Ochrana před nebezpečným dotykem neživých částí za podmínek jedné poruchy se nazývá:",
+         "answers":{
+            "correct":[
+               "ochrana při poruše."
+            ],
+            "incorrect":[
+               "ochrana živých částí.",
+               "ochrana neživých částí."
+            ]
+         }
+      },
+      {
+         "title":"Doplňující pospojování v koupelně se dělá proto, aby v případě poruchy:",
+         "answers":{
+            "correct":[
+               "všechny neživé části a všechny cizí vodivé části byly uvedeny na stejný potenciál."
+            ],
+            "incorrect":[
+               "fungovala ochrana automatickým odpojením od zdroje.",
+               "byl poruchový proud odveden do země."
+            ]
+         }
+      },
+      {
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpešným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub>, kde Z<sub>s</sub> je:",
+         "answers":{
+            "correct":[
+               "impedance poruchové smyčky zahrnující zdroj, pracovní vodič k místu poruchy a ochranný vodič mezi místem poruchy a zdrojem."
+            ],
+            "incorrect":[
+               "impedance poruchové smyčky zahrnující pracovní vodič k místu poruchy a ochranný vodič mezi místem poruchy a zdrojem.",
+               "impedance poruchové smyčky zahrnující zdroj, pracovní vodič k místu poruchy, ochranný vodič a zemnič."
+            ]
+         }
+      },
+      {
+         "title":"Z hlediska velikosti nebezpečí úrazu el. proudem s ohledem na vnější vlivy a působení se prostory člení na:",
+         "answers":{
+            "correct":[
+               "prostory normální, nebezpečné a zvlášť nebezpečné."
+            ],
+            "incorrect":[
+               "prostory bezpečné, nebezpečné a zvlášť nebezpečné.",
+               "prostory bezpečné a nebezpečné"
+            ]
+         }
+      },
+      {
+         "title":"V bytovém domě musí být:",
+         "answers":{
+            "correct":[
+               "každý byt vybaven autonomním hlásičem kouře nebo požáru v části vedoucí k východu z bytu."
+            ],
+            "incorrect":[
+               "na chodbě na každých 100 m<sup>2</sup> započaté plochy jeden autonomní hlásič kouře nebo požáru.",
+               "usmístěn autonomní hlásič kouře nebo požáru na schodišti v nejvyšším patře."
+            ]
+         }
+      },
+      {
+         "title":"Distribuční síť 230/400 V, 50 Hz, TN-S obsahuje vodiče:",
+         "answers":{
+            "correct":[
+               "L1, L2, L3, N, PE."
+            ],
+            "incorrect":[
+               "L1, L2, L3, N.",
+               "L1, L2, L3, PEN."
+            ]
+         }
+      },
+      {
+         "title":"Při ochraně automatickým odpojením od zdroje musejí být neživé části EZ třídy I:",
+         "answers":{
+            "correct":[
+               "připojeny k ochrannému vodiči."
+            ],
+            "incorrect":[
+               "připojeny ke střednímu vodiči v síti TT.",
+               "připojeny ke střednímu vodiči v síti TN-S."
+            ]
+         }
+      },
+      {
+         "title":"V síti TN musí být všechny neživé části:",
+         "answers":{
+            "correct":[
+               "spojeny s uzemněným bodem prostřednictvím ochranných vodičů."
+            ],
+            "incorrect":[
+               "pospojovány prostřednictvím ochranných vodičů na stejný potenciál.",
+               "pospojovány prostřednictvím ochranných vodičů s cizími vodivými částmi."
+            ]
+         }
+      },
+      {
+         "title":"Mezi základní životní funkce patří:",
+         "answers":{
+            "correct":[
+               "vědomí, spontánní dýchání a spontánním srdeční aktivita."
+            ],
+            "incorrect":[
+               "zrak, sluch a čich.",
+               "krevní oběh, činnost nervů a dýchání."
+            ]
+         }
+      },
+      {
+         "title":"Zábrany jsou určeny k tomu, aby zabránily:",
+         "answers":{
+            "correct":[
+               "nahodilému dotyku živých částí."
+            ],
+            "incorrect":[
+               "úmyslnému dotyku živých částí.",
+               "jakémukoliv dotyku živých částí."
+            ]
+         }
+      },
+      {
+         "title":"Kontrola krevního oběhu se provádí u laické první pomoci:",
+         "answers":{
+            "correct":[
+               "kontrolou dýchání."
+            ],
+            "incorrect":[
+               "kontrolou tepu na paži, pokud není zraněná.",
+               "kontrolou tepu na krkavici."
+            ]
+         }
+      },
+      {
+         "title":"Pokud se tím zajistí ochrana před úrazem el. proudem ve stejné míře, jako zajišťuje dvojitá izolace, lze místo dvojité izolace použít:",
+         "answers":{
+            "correct":[
+               "zesílené izolace."
+            ],
+            "incorrect":[
+               "pracovní izolace.",
+               "základní izolace."
+            ]
+         }
+      },
+      {
+         "title":"Jako zdroje pro ochranu SELV lze použít např.:",
+         "answers":{
+            "correct":[
+               "bezpečnostní ochranný transformátor, akumulátor."
+            ],
+            "incorrect":[
+               "autotranformátor, usměrňovač.",
+               "oddělovací transformátor pro síť IT."
+            ]
+         }
+      },
+      {
+         "title":"Zachováním funkčnosti elektrického zařízení při požáru se rozumí:",
+         "answers":{
+            "correct":[
+               "časově omezené elektrické napájení zařízení budovy, které je důležité pro bezpečnou evakuaci osob a provedení hasebního zásahu."
+            ],
+            "incorrect":[
+               "časově omezené elektrické napájení zařízení únikových cest pro evakuaci osob.",
+               "časově omezené elektrické napájení požární signalizace a zařízení únikových cest pro evakuaci osob."
+            ]
+         }
+      },
+      {
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem, musí být v síti TT 230VAC splněna podmínka:",
+         "answers":{
+            "correct":[
+               "R<sub>a</sub> × I<sub>Δn</sub> ≤ 50"
+            ],
+            "incorrect":[
+               "R<sub>a</sub> × I<sub>Δn</sub> ≤ U<sub>0</sub>",
+               "Z<sub>s</sub> × I<sub>Δn</sub> ≤ 50"
+            ]
+         }
+      },
+      {
+         "title":"Při ochranném opatření „automatické odpojení od zdroje“ v síti TN 230VAC je stanovena maximální doba odpojení 0,4 s:",
+         "answers":{
+            "correct":[
+               "pro všechny koncové obvody, které nepřekračují jmenovitý proud 32 A, v připadě, že obsahují zásuvku do 63 A."
+            ],
+            "incorrect":[
+               "pro všechny koncové obvody, které nepřekračují jmenovitý proud 20 A.",
+               "pouze pro zásuvkové obvody se jmenovitým proudem nepřekračujícím 32 A, včetně zásuvek trojfázových."
+            ]
+         }
+      },
+      {
+         "title":"Při ochranném opatření „automatické odpojení od zdroje“ je ochrana při poruče zajištěna:",
+         "answers":{
+            "correct":[
+               "ochranným pospojováním + automatickým odpojením."
+            ],
+            "incorrect":[
+               "jističem nebo proudovým chráničem.",
+               "jističem + proudovým chráničem."
+            ]
+         }
+      },
+      {
+         "title":"Jednofázový pohyblivý prodlužovací přívod pro obecné použití se provede jako:",
+         "answers":{
+            "correct":[
+               "třížilový, přičemž ochranný vodič je veden samostatně a nesmí být spojen s nulovým vodičem."
+            ],
+            "incorrect":[
+               "třížilový, přičemž v pohyblivé zásuvce se provede propojení ochranného kolíku a pravé dutinky.",
+               "dvoužilový, přičemž v pohyblivé zásuvce se provede propojení ochranného kolíku a pravé dutinky."
+            ]
+         }
+      },
+      {
+         "title":"Jestliže není možno dosáhnout automatického odpojení s dodržením předepsané doby odpojení:",
+         "answers":{
+            "correct":[
+               "musí být provedeno dpolňující pospojování."
+            ],
+            "incorrect":[
+               "je nutno zařízení vybavit výstražnými tabulkami.",
+               "není nutno provádět žádná další opatření."
+            ]
+         }
+      },
+      {
+         "title":"Ochranu zábranou v prostorech volně přístupných laikům:",
+         "answers":{
+            "correct":[
+               "nelze použít."
+            ],
+            "incorrect":[
+               "lze realizovat pouze uzamykatelným nebo neodnímatelným ohrazením.",
+               "lze realizovat odnímatelnm ohrazením dostatečně vysokým a pevným."
+            ]
+         }
+      },
+      {
+         "title":"Při použití ochrany kryty nebo přepážkami musí vodorovný horní povrch krytů nebo přepážek, které jsou snadno přístupné, zajišťovat stupeň krytí alespoň:",
+         "answers":{
+            "correct":[
+               "IP XXD nebo IP 4X"
+            ],
+            "incorrect":[
+               "IP XXC nebo IP 3X",
+               "IP XXB nebo IP 2X"
+            ]
+         }
+      },
+      {
+         "title":"Prostředky zvýšené ochrany (před dotykem s nebezpečnou živou částí i neživou částí) EZ zajišťují ochranu:",
+         "answers":{
+            "correct":[
+               "základní i při poruše."
+            ],
+            "incorrect":[
+               "jen v případě poruchy.",
+               "při normálním provozu ve ztížených podmínkách."
+            ]
+         }
+      },
+      {
+         "title":"Při ochraně elektrickým oddělením nesmí napětí zdroje přesahovat:",
+         "answers":{
+            "correct":[
+               "500 V."
+            ],
+            "incorrect":[
+               "230 V.",
+               "1000 V."
+            ]
+         }
+      },
+      {
+         "title":"Nulový pracovní vodič (střední vodič):",
+         "answers":{
+            "correct":[
+               "se nesmí vypnout dříve, než fázové vodiče."
+            ],
+            "incorrect":[
+               "lze vypínat samostatně bez ohledu na fázové vodiče.",
+               "se nesmí nikdy vypínat."
+            ]
+         }
+      },
+      {
+         "title":"Distribuční síť 230/400 V, 50 Hz, TN-C obsahuje vodiče.",
+         "answers":{
+            "correct":[
+               "L1, L2, L3, PEN."
+            ],
+            "incorrect":[
+               "L1, L2, L3, PE",
+               "L1, L2, L3, N"
+            ]
+         }
       }
    ]
 }
