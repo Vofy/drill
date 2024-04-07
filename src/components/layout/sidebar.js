@@ -95,6 +95,11 @@ export default function SideBar() {
                     </Accordion>
                 </Accordion>
             </Accordion>
+            <Accordion name="XPC">
+                <Accordion name="ELB">
+                    <Link to="/xpc/elb/zt">Závěrečný test</Link>
+                </Accordion>
+            </Accordion>
             <div className="sidebar-bottom">
                 <div>
                     <input type="checkbox" id="showIncorrectAnswers" name="showIncorrectAnswers" 
