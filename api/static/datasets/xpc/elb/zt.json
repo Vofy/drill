@@ -447,7 +447,7 @@
          }
       },
       {
-         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub>, kde Z<sub>s</sub> je:",
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>, kde Z<sub>s</sub> je:",
          "answers":{
             "correct":[
                "impedance poruchové smyčky zahrnující zdroj, pracovní vodič k místu poruchy a ochranný vodič mezi místem poruchy a zdrojem."
@@ -719,6 +719,270 @@
             "incorrect":[
                "L1, L2, L3, PE.",
                "L1, L2, L3, N."
+            ]
+         }
+      },
+      {
+         "title":"Osoby vykonávající práci na EZ musejí:",
+         "answers":{
+            "correct":[
+               "nosit oděv vhodný pro místo a podmínky, kde pracují."
+            ],
+            "incorrect":[
+               "nosit výhradně oděv modré barvy.",
+               "používat izolační rukavice po celou dobu práce, a to i při práci bez napětí."
+            ]
+         }
+      },
+      {
+         "title":"Proudový chránič nelze běžně použít:",
+         "answers":{
+            "correct":[
+               "v síti TN-C."
+            ],
+            "incorrect":[
+               "v síti TT.",
+               "v síti TN-S."
+            ]
+         }
+      },
+      {
+         "title":"Jak je zajištěna základní ochrana a ochrana při poruše u ochranného opatření elektrickým oddělením?",
+         "answers":{
+            "correct":[
+               "Základní izolace, přepážky a kryty."
+            ],
+            "incorrect":[
+               "Dvojitou nebo základní izolací.",
+               "Neživé části odděleného obvodu musí být navzájem neuzemněně pospojovány."
+            ]
+         }
+      },
+      {
+         "title":"Která jsou vyhrazená technická zařízení ve smyslu zákona č. 174/1968 Sb.?",
+         "answers":{
+            "correct":[
+               "Technická zařízení tlaková, zdvihací, elektrická a plynová."
+            ],
+            "incorrect":[
+               "Technická zařízení elektrická a plynová.",
+               "Technická zařízení tlaková a elektrická."
+            ]
+         }
+      },
+      {
+         "title":"Co se rozumí ve smyslu vyhláčky č. 73/2010 Sb. vyhrazeným elektrickým zařízením?",
+         "answers":{
+            "correct":[
+               "Zařízení pro výrobu, přeměnu, přenos, rozvod a odběr elektrické energie a elektrické instalace a zařízení určená k ochraně před účinky atmosférické nebo statické elektřiny."
+            ],
+            "incorrect":[
+               "Zařízení pro výrobu, přeměnu, přenos, rozvod a odběr elektrické energie a elektrické instalace.",
+               "Zařízení určená k ochraně před účinky atmosférické nebo statické elektřiny."
+            ]
+         }
+      },
+      {
+         "title":"V síti TT musí být všechny neživé části společně chráněné stejným ochranným prvkem:",
+         "answers":{
+            "correct":[
+               "připojeny ochrannými vodiči k společnému zemniči."
+            ],
+            "incorrect":[
+               "pospojovány prostřednictvím ochranných vodičů s cizími vodivými částmi.",
+               "pospojovány prostřednictvím ochranných vodičů na stejný potenciál."
+            ]
+         }
+      },
+      {
+         "title":"Jaké části může obsahovat jímací soustava?",
+         "answers":{
+            "correct":[
+               "Tyče, závěsná lana a mřížové vodiče."
+            ],
+            "incorrect":[
+               "Tyče a svody.",
+               "Tyče, anténní stožáry, závěsná lana a mřížové vodiče"
+            ]
+         }
+      },
+      {
+         "title":"Vnitřní krvácení při laické první pomoci:",
+         "answers":{
+            "correct":[
+               "nelze zastavit, je třeba zabránit rozvoji šoku a zavolat rychlou zdravotnickou pomoc."
+            ],
+            "incorrect":[
+               "nelze zastavit a můžeme jen zavolat rychlou zdravotnickou pomoc.",
+               "lze zastavit výběrem vhodné polohy a chlazením určitého místa a zavolat rychlou zdravotnickou pomoc."
+            ]
+         }
+      },
+      {
+         "title":"Pro vypínací ovládače nesmí být použita barva:",
+         "answers":{
+            "correct":[
+               "zelená."
+            ],
+            "incorrect":[
+               "černá.",
+               "červená."
+            ]
+         }
+      },
+      {
+         "title":"Elektrické zařízení třídy ochrany I:",
+         "answers":{
+            "correct":[
+               "má základní izolaci a svorku k připojení neživých částí k ochrannému vodiči."
+            ],
+            "incorrect":[
+               "musí mít zesílenou izolaci a svorku k připojení neživých částí k ochrannému vodiči.",
+               "může mít pouze pracovní izolaci a svorku k připojení neživých částí k ochrannému vodiči."
+            ]
+         }
+      },
+      {
+         "title":"Resuscitaci smím ukončit pouze:",
+         "answers":{
+            "correct":[
+               "po obnovení základních životních funkcí, po předání postiženého do péče záchranářů, nebo po vyčerpání zachránce."
+            ],
+            "incorrect":[
+               "po obnovení základních životních funkcí, na základě doporučení záchranáře na místě nebo po telefonu, nebo po vyčerpání zachránce.",
+               "po obnovení základních životních funkcí, po předání postiženého do péče záchranářů, nebo přiložení elektrod Automatického externího defibrilátoru."
+            ]
+         }
+      },
+      {
+         "title":"Proudovými chrániči se v prostoru s vanou:",
+         "answers":{
+            "correct":[
+               "musí použít pro všechny obvody, neplatí pro SELV, PELV a pevně uložený ohřívač vody."
+            ],
+            "incorrect":[
+               "musí použít pro všechny zásuvkové obvody, neplatí pro SELV, PELV.",
+               "musí použít pro všechny zásuvkové obvody a pevně připojená EZ s krytím nižším než IP 44."
+            ]
+         }
+      },
+      {
+         "title":"Výchozí revize se provádí:",
+         "answers":{
+            "correct":[
+               "před uvedením nové elektrické instalace do provozu a po opravách."
+            ],
+            "incorrect":[
+               "pouze před uvedením nového zařízení do provozu.",
+               "po provedené údržbě."
+            ]
+         }
+      },
+      {
+         "title":"Osoba poučená může pracovat na EZ nn v blízkosti částí pod napětím:",
+         "answers":{
+            "correct":[
+               "pod dozorem ve vzdálenosti větší než 20 cm od nekrytých částí."
+            ],
+            "incorrect":[
+               "pod dozorem ve vzdálenosti větší než 50 cm od nekrytých částí.",
+               "pod dozorem ve vzdálenosti větší než 10 cm od nekrytých částí."
+            ]
+         }
+      },
+      {
+         "title":"Ochranná přepážka je:",
+         "answers":{
+            "correct":[
+               "část zajišťující ochranu před dotykem živé části člověkem nebo zvířetem z jakéhokoliv směru přístupu."
+            ],
+            "incorrect":[
+               "elektrický kryt obsahující vnitřní části zařízení, který brání přístupu živé části z jakéhokoliv směru.",
+               "chrání před neúmyslným dotykem živé části člověkem nebo hospodářským zvířetem."
+            ]
+         }
+      },
+      {
+         "title":"Kryty a přepážky musí zajistit minimální krytí:",
+         "answers":{
+            "correct":[
+               "IP 2X a na vodorovných horních plochách IP 4X."
+            ],
+            "incorrect":[
+               "IP 3X.",
+               "IP 4X."
+            ]
+         }
+      },
+      {
+         "title":"Předepsané doby odpojení v případě ochranného opatření automatickým odpojením od zdroje není třeba dodržet, pokud:",
+         "answers":{
+            "correct":[
+               "napětí mezi částmi současně přístupnými dotyku nepřekročí 50 V AC nebo 120 V DC."
+            ],
+            "incorrect":[
+               "napětí mezi částmi současně přístupnými dotyku nepřekročí 25 V AC nebo 60 V DC.",
+               "napětí mezi neživými částmi nepřekročí 12 V AC nebo 30 V DC."
+            ]
+         }
+      },
+      {
+         "title":"Předpokládané dotykové napětí v síti TN 230/400 V, 50 Hz je",
+         "answers":{
+            "correct":[
+               "90 V."
+            ],
+            "incorrect":[
+               "70 V.",
+               "115 V."
+            ]
+         }
+      },
+      {
+         "title":"Elektrické instalace ohrožující život nebo zdraví",
+         "answers":{
+            "correct":[
+               "musí být bez zbytečného odkladu odpojeny a zajištěny"
+            ],
+            "incorrect":[
+               "mohou být po nezbytně nutnou dobu provozovány, avšak obsluhován pouze kvalifikovanou osobou schopnou vyhodnotit možná rizika.",
+               "mohou být po nezbytně nutnou dobu provozovány, avšak vybaveny výstražnými tabulkami."
+            ]
+         }
+      },
+      {
+         "title":"Práce podle pokynů je práce",
+         "answers":{
+            "correct":[
+               "pro kterou jsou dány nejnutnější pokyny."
+            ],
+            "incorrect":[
+               "která se provádí podle podrobných pokynů.",
+               "pro kterou je nutno zadat pokyny písemnou formou."
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
+            ]
+         }
+      },
+      {
+         "title":"",
+         "answers":{
+            "correct":[
+               ""
+            ],
+            "incorrect":[
+               "",
+               ""
             ]
          }
       },
