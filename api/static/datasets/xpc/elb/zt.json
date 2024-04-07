@@ -1,0 +1,306 @@
+{
+   "title":"Závěrečný test",
+   "description":"Přepis z fektušky",
+   "tasks":[
+      {
+         "title":"Může být použit pohyblivý přívod bez ochranného vodiče:",
+         "answers":{
+            "correct":[
+               "ano, pokud je určen pro připojení předmětů třídy ochrany II a má vidlici neoddělitelně spojenou s přívodem."
+            ],
+            "incorrect":[
+               "může, ale jen pro třífázové obvody.",
+               "nemůže."
+            ]
+         }
+      },
+      {
+         "title":"Ochrana před dotykem nebezpečných živých částí za normálního provozu se nazývá:",
+         "answers":{
+            "correct":[
+               "základní ochrana."
+            ],
+            "incorrect":[
+               "ochrana neživých částí.",
+               "ochrana živých částí."
+            ]
+         }
+      },
+      {
+         "title":"Metody návrhu jímací soustavy jsou:",
+         "answers":{
+            "correct":[
+               "metoda ochranného úhlu, metoda valící se koule a metoda mřížové jímací soustavy."
+            ],
+            "incorrect":[
+               "metoda oddáleného hromosvodu, metoda valící se koule a metoda vzájemného pospojování lan svodů.",
+               "metoda oddáleného hromosvodu, metoda valící se koule a metoda mřížové jímací soustavy."
+            ]
+         }
+      },
+      {
+         "title":"Pro automatické odpojení od zdroje, zajišťují ochranu před nebezpečným nepřímým dotykem, musí být v síti TN 230VAC splněna podmínka:",
+         "answers":{
+            "correct":[
+               "Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>"
+            ],
+            "incorrect":[
+               "R<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>",
+               "Z<sub>s</sub> × I<sub>a</sub> ≤ 50"
+            ]
+         }
+      },
+      {
+         "title":"Vodič PE se:",
+         "answers":{
+            "correct":[
+               "nesmí jistit ani vypínat."
+            ],
+            "incorrect":[
+               "nesmí vypínat, ale může jistit, jsou-li zároveňjištěny i fázové vodiče.",
+               "může jistit jen v instalacích TN-S."
+            ]
+         }
+      },
+      {
+         "title":"Samozhášivý kabel je ten,",
+         "answers":{
+            "correct":[
+               "jehož plášť sám uhasne, jakmile přestane působit oheň."
+            ],
+            "incorrect":[
+               "jehož plášť saám uhasne, jakmile je přerušen průchod proudu.",
+               "který sám uhasne do 2 minut po zapálení."
+            ]
+         }
+      },
+      {
+         "title":"Neživá část je vodivá část EZ, které se lze dotknout a která:",
+         "answers":{
+            "correct":[
+               "se může stát živou v případě poruchy základní izolace."
+            ],
+            "incorrect":[
+               "se může stát živou v případě poruchy pracovní izolace.",
+               "se nemůže stát nebezpčně živou."
+            ]
+         }
+      },
+      {
+         "title":"Obsluha je taková činnost na EZ, kdy",
+         "answers":{
+            "correct":[
+               "pracovník nepoužívá nástrojů a nemůže přijít do styku s živými částmi."
+            ],
+            "incorrect":[
+               "pracovník používá nástrojů, ale pouze na vypnutém zařízení.",
+               "pracovník nepoužívá nástrojů, ale může přijít do styku s živými částmi."
+            ]
+         }
+      },
+      {
+         "title":"Kdo je zodpovědný za provádění prevence:",
+         "answers":{
+            "correct":[
+               "zaměstnavatel a zaměstnanec."
+            ],
+            "incorrect":[
+               "pouze zaměstnavatel.",
+               "každý zaměstnanec je odpovědný za svoji bezpečnost."
+            ]
+         }
+      },
+      {
+         "title":"Neživé části, které jsou současně přístupné dotyku,",
+         "answers":{
+            "correct":[
+               "musí být spojeny se stejnou uzemňovací soustavou."
+            ],
+            "incorrect":[
+               "nesmí být spojeny se stejnou uzemňovací soustavou.",
+               "nesmí být vzájemně vodivě spojeny."
+            ]
+         }
+      },
+      {
+         "title":"Ochranné pospojování uvede všechna připojená místa:",
+         "answers":{
+            "correct":[
+               "na potenciál země."
+            ],
+            "incorrect":[
+               "připojí všechny části EZ k ochranému vodiči.",
+               "uvede všechna přřipojená mmísta na stejný potenciál, který není nebezpečný."
+            ]
+         }
+      },
+      {
+         "title":"Každý rodinný dům musí být vybaven:",
+         "answers":{
+            "correct":[
+               "alespoň jedním autonomním hlásičem kouře nebo pořáru v části vedoucí k východu z bytu."
+            ],
+            "incorrect":[
+               "autonomním hlásičem kouře nebo požáru v každé místnosti určené ke spaní.",
+               "autonomním hlásičem kouře nebo požáru na chodbě bez ohledu na počet bytů."
+            ]
+         }
+      },
+      {
+         "title":"Poměr stlačení hrudníku a dáchání z plic do plic je u dospělého:",
+         "answers":{
+            "correct":[
+               "30:2"
+            ],
+            "incorrect":[
+               "5:1",
+               "15:2"
+            ]
+         }
+      },
+      {
+         "title":"Obecná charakteristika prostorů nebezpečných říká, že",
+         "answers":{
+            "correct":[
+               "vlivem prostředí je zde stálé nebo přechodné nebezpečí úrazu elektrickým proudem."
+            ],
+            "incorrect":[
+               "působením prostředí nedochází ke zvýšení nebezpečí úrazu elektrickým proudem.",
+               "je zde nebezpečí úrazu mimořádně zvýšeno nepříznivými poměry."
+            ]
+         }
+      },
+      {
+         "title":"Jmenovitý proud (In) ochranného prvku (pojistka, jistič) je:",
+         "answers":{
+            "correct":[
+               "nejvyšší hodnota proudu, na kterou nesmí ochranný prvek reagovat vypnutím."
+            ],
+            "incorrect":[
+               "proud, který musí zajistit vypnutí ochranného prvku do 1 hodiny.",
+               "proud, který zabezpečí vypnutí ochranného prvku při automatickém odpojení"
+            ]
+         }
+      },
+      {
+         "title":"Technické požadavky na stanovené výrobky jsou obsaženy v:",
+         "answers":{
+            "correct":[
+               "příslušných nařázeních vlády."
+            ],
+            "incorrect":[
+               "zákoně č. 22/1997 Sb. v platném znění.",
+               "příslušných českých technických normách."
+            ]
+         }
+      },
+      {
+         "title":"Zákazové značky mají tvar",
+         "answers":{
+            "correct":[
+               "bílého červeně orámovaného kruhu."
+            ],
+            "incorrect":[
+               "modrého kruhu.",
+               "žlutého černě orámovaného trojúhelníka."
+            ]
+         }
+      },
+      {
+         "title":"Běžný minimální průřez PEN vodiče je",
+         "answers":{
+            "correct":[
+               "10 mm<sup>2</sup> Cu, 16 mm<sup>2</sup> Al."
+            ],
+            "incorrect":[
+               "16 mm<sup>2</sup> Cu, 25 mm<sup>2</sup> Al.",
+               "6 mm<sup>2</sup> Cu, 10 mm<sup>2</sup> Al."
+            ]
+         }
+      },
+      {
+         "title":"U neodstranitelných rizik při bezpečnosti a ochraně zdraví při práci je zaměstnavatel povinen",
+         "answers":{
+            "correct":[
+               "rizika vyhodnotit a přihmout opatření k jejich minimalizaci."
+            ],
+            "incorrect":[
+               "rizika vyhodnotit a zaměstnance prokazatelně poučit o zvýšeném riziku.",
+               "rizika vyhodnotit a pověřit prací osobu s vyšší kvalifikací."
+            ]
+         }
+      },
+      {
+         "title":"Při označování druhů sítí (např. TN, TT, IT) první písmeno T označuje",
+         "answers":{
+            "correct":[
+               "spojení jednoho bodu sítě se zemí (ve vztahu sítě a uzemnění)."
+            ],
+            "incorrect":[
+               "spojení jednoho bodu sítě se zemí (ve vztahu neživé části EZ a uzemnění).",
+               "spojení jedné neživé části zdroje sítě se zemí."
+            ]
+         }
+      },
+      {
+         "title":"Ochranný kryt je:",
+         "answers":{
+            "correct":[
+               "elektrický kryt obsahující vnitřní části zařízení, který brání přístupu živé části z jakéhokoliv směru."
+            ],
+            "incorrect":[
+               "chrání před neúmyslným dotykem živé části člověkem nebo hospodářským zvířetem.",
+               "část zajišťující ochranu před dotykem živé části člověkem nebo zvířetem z jakéhokoliv směru přístupu."
+            ]
+         }
+      },
+      {
+         "title":"Elektrická zařízení musí být označena na veřejně přístupných místech",
+         "answers":{
+            "correct":[
+               "buď bezpečnostní tabulkou s bleskem podle příslušné normy, nebo bleskem červené barvy na krytu."
+            ],
+            "incorrect":[
+               "příslušnou normou, podle které bylo zarázení vyrobeno.",
+               "nápisem „pozor elektrické zařízení“."
+            ]
+         }
+      },
+      {
+         "title":"Vidlice a zásuvky ELV obvodů",
+         "answers":{
+            "correct":[
+               "musí být nezáměnné s obvody jiných napětí."
+            ],
+            "incorrect":[
+               "musí být barevně rozlišitelné.",
+               "musí mít kontakt pro ochranný vodič."
+            ]
+         }
+      },
+      {
+         "title":"Může být obvod PELV spojen se zemí",
+         "answers":{
+            "correct":[
+               "ano."
+            ],
+            "incorrect":[
+               "jen za podmínky, že je uzemněn transformátor.",
+               "ne."
+            ]
+         }
+      },
+      {
+         "title":"Bezpečný výrobek je ten, který za podmínek užití a po dobu stanovené nebo obvyklé použitelnosti",
+         "answers":{
+            "correct":[
+               "nepředstavuje žádné nebezpečí nebo jen minimální nebezpečí při správném užívání."
+            ],
+            "incorrect":[
+               "představuje jen minimální nebezpečí při správném užívání.",
+               "nepředstavuje žádné nebezpečí při jakémkoliv užívání."
+            ]
+         }
+      }
+   ]
+}
