@@ -23,7 +23,7 @@ export default function Home(props) {
             </h1>
             <a href="/xpc/elb/kt"><button>XPC-ELB/KT shortcut</button></a>
             <a href="/xpc/elb/kt"><button>XPC-ELB/KT shortcut</button></a>
-            <a href="/bpc/psd/l/1kt"><button>BPC-PSD/L/1KT shortcut</button></a>
+            <a href="/bpc/psd/lc/1kt"><button>BPC-PSD/L/1KT shortcut</button></a>
             <img alt={randomMeme.name} src={randomMeme.path} style={{maxHeight: "80vh", maxWidth: "100%"}} />
         </div>
     )
