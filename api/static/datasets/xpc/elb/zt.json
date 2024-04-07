@@ -447,7 +447,7 @@
          }
       },
       {
-         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpešným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub>, kde Z<sub>s</sub> je:",
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub>, kde Z<sub>s</sub> je:",
          "answers":{
             "correct":[
                "impedance poruchové smyčky zahrnující zdroj, pracovní vodič k místu poruchy a ochranný vodič mezi místem poruchy a zdrojem."
