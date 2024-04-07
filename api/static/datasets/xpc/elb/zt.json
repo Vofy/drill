@@ -375,7 +375,7 @@
          }
       },
       {
-         "title":"Pro automatické odpojení od zdroje, zajišǔjící ochranu před nebezpečným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>, kde U<sub>0</sub> je:",
+         "title":"Pro automatické odpojení od zdroje, zajišťující ochranu před nebezpečným nepřímým dotykem, musí být v síti TN splněna podmínka Z<sub>s</sub> × I<sub>a</sub> ≤ U<sub>0</sub>, kde U<sub>0</sub> je:",
          "answers":{
             "correct":[
                "efektivní hodnota jmenovitého střídavého napětí proti zemi."
