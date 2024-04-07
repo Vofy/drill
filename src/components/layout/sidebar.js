@@ -97,6 +97,7 @@ export default function SideBar() {
             </Accordion>
             <Accordion name="XPC">
                 <Accordion name="ELB">
+                    <Link to="/xpc/elb/kt">Kontrolní test</Link>
                     <Link to="/xpc/elb/zt">Závěrečný test</Link>
                 </Accordion>
             </Accordion>
