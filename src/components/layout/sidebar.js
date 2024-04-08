@@ -80,7 +80,7 @@ export default function SideBar() {
                 </Accordion>
                 <Accordion name="PSD">
                     <Accordion name="LC">
-                        <Link to="/bpc/psd/lc/1kt">1. kontrolní test</Link>
+                        <Link to="/bpc/psd/lc/kt">Kontrolní test</Link>
                     </Accordion>
                 </Accordion>
                 <Accordion name="EMV1">
