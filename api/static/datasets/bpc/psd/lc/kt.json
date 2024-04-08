@@ -28,228 +28,213 @@
          }
       },
       {
-         "title":"",
+         "title":"Jaké typy sběrnic jsou použity v systému Foxtrot?",
          "answers":{
             "correct":[
-               ""
+               "CIB, TCL"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "USB, CIB",
+               "GPIB, TCL"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Kolik vodičů vede do křížového spínače? (neuvažujte N a PE)",
          "answers":{
             "correct":[
-               ""
+               "2"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "5",
+               "4",
+               "3"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jaký způsob přístupu na sběrnici používá systém KNX?",
          "answers":{
             "correct":[
-               ""
+               "CSMA/CA (vícenásobný přístup s předcházením kolizí)"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "CSMA/CD (vícenásobný přístup s detekcí kolizí)",
+               "CSMA/CP (vícenásobný přístup se zábranou kolizí)"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Kolik vodičů vede do střídavého spínače?",
          "answers":{
             "correct":[
-               ""
+               "3"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "4",
+               "5",
+               "2"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jaká podmínka musí být splněna, aby bylo možné ovládat laboratorní úlohu ABB free@home prostřednictvím mobilu?",
          "answers":{
             "correct":[
-               ""
+               "Mobil musí být připojen do WiFi sítě systémového modulu."
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Mobil musí být přiipojen k WiFi Eduroam.",
+               "Mobil musí být připojen k internetu prostřednictvím mobilních dat."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jaký je počet vodičů sběrnice KNX?",
          "answers":{
             "correct":[
-               ""
+               "2"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "3",
+               "4"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Vyberte pravdivé tvrzení:",
          "answers":{
             "correct":[
-               ""
+               "Prvky jednotlivých systémů v rámci laboratorních úloh nelze zaměňovat."
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Pro správnou funkci aktoru musí být všechny jeho výtupy zapojeny.",
+               "Pro kteroukoli sběrnici systémů v laboratorních úlohách lze použít kruhovou topologii."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Vyberte pravdivé tvrzení:",
          "answers":{
             "correct":[
-               ""
+               "Centrální jednotka systému Foxtrot obsahuje web server, který umožňuje tvořit vizualizace systému."
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Více samostatných systémů Foxtrot mezi sebou nelze propojovat.",
+               "V systému Foxtrot nelze kombinovat prvky připojené na sběrnici s bezdrátovými prvky."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Co se stane v laboratorní úloze s motorem v případě, že chybou zapojení sepnou všechny stykače najednou?",
          "answers":{
             "correct":[
-               ""
+               "nastane zkrat"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "nic se nestane",
+               "vše bude fungovat správně"
             ]
          }
       },
       {
-         "title":"",
+         "title":"V jakém jazyce je v laboratorní úloze psán program pro řízení panelu Foxtrot?",
          "answers":{
             "correct":[
-               ""
+               "LD (Ladder Diagram)"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Jazyk funkčních bloků",
+               "Strukturovaný text",
+               "Basic",
+               "Java"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Kolik KNX prvků můžeme umístit na jednu linii bez použití opakovačů?",
          "answers":{
             "correct":[
-               ""
+               "64"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "16",
+               "256"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Co jsou to akční členy?",
          "answers":{
             "correct":[
-               ""
+               "žárovky, žaluzie, přímotopy"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "tlačítka, pohybové snímače",
+               "spínací aktor, stmívací aktor"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Jaké napětí je na svorkách motoru při zapojení do hvězdy u přepínače hvězda/trojúhelník v laboratorní úloze?",
          "answers":{
             "correct":[
-               ""
+               "230V"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "400V",
+               "690V"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Vyberte pravdivé tvrzení:",
          "answers":{
             "correct":[
-               ""
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Laboratorní úloha Foxtrot obsahuje bezdrátové senzory nebo aktory.",
+               "Laboratorní úloha KNX obsahuje bezdrátové senzory nebo aktory.",
+               "Laboratorní úloha ABB free@home obsahuje bezdrátové senzory nebo aktory."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Systém ABB free@home může bez problémů fungovat bez systémového modulu.",
          "answers":{
             "correct":[
-               ""
+               "Nepravda"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Pravda"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Co značí svícení modré stavové LED na systémovém modulu ABB free@home?",
          "answers":{
             "correct":[
-               ""
+               "Modul je možné připojit k PC."
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Modul není připojen sběrnicí k ostatním prvkům systému.",
+               "Modul je připojen k napájení."
             ]
          }
       },
       {
-         "title":"",
+         "title":"Časové relé lze nastavit jestli reaguje na náběnou nebo sestupnou hranu.",
          "answers":{
             "correct":[
-               ""
+               "Pravda"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "Nepravda"
             ]
          }
       },
       {
-         "title":"",
+         "title":"Výstupy aktorů systému Foxtrot lze po přepnutí do manuálního režimu ovládat přímo na jednotlivých prvcích ale",
          "answers":{
             "correct":[
                ""
