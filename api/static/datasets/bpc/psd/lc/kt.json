@@ -50,7 +50,8 @@
                "4",
                "3"
             ]
-         }
+         },
+         "comment":"Nejsem si jistý"
       },
       {
          "title":"Jaký způsob přístupu na sběrnici používá systém KNX?",
@@ -65,7 +66,7 @@
          }
       },
       {
-         "title":"Kolik vodičů vede do střídavého spínače?",
+         "title":"Kolik vodičů vede do střídavého spínače? (neuvažujte N a PE)",
          "answers":{
             "correct":[
                "3"
@@ -75,7 +76,8 @@
                "5",
                "2"
             ]
-         }
+         },
+         "comment":"Nejsem si jistý"
       },
       {
          "title":"Jaká podmínka musí být splněna, aby bylo možné ovládat laboratorní úlohu ABB free@home prostřednictvím mobilu?",
@@ -135,7 +137,8 @@
                "nic se nestane",
                "vše bude fungovat správně"
             ]
-         }
+         },
+         "comment":"Nejsem si jistý"
       },
       {
          "title":"V jakém jazyce je v laboratorní úloze psán program pro řízení panelu Foxtrot?",
@@ -197,7 +200,8 @@
                "Laboratorní úloha KNX obsahuje bezdrátové senzory nebo aktory.",
                "Laboratorní úloha ABB free@home obsahuje bezdrátové senzory nebo aktory."
             ]
-         }
+         },
+         "comment":"Nevím"
       },
       {
          "title":"Systém ABB free@home může bez problémů fungovat bez systémového modulu.",
@@ -237,14 +241,14 @@
          "title":"Výstupy aktorů systému Foxtrot lze po přepnutí do manuálního režimu ovládat přímo na jednotlivých prvcích ale",
          "answers":{
             "correct":[
-               ""
+               "toto manuální řízení je nadřazeno programu"
             ],
             "incorrect":[
-               "",
-               "",
-               ""
+               "program je stále nadřazen manuálnímu ovládání",
+               "neplatí to pro bezdrátové prvky"
             ]
-         }
+         },
+         "comment":"Nejsem si jistý"
       },
       {
          "title":"",
