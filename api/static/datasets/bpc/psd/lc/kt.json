@@ -43,11 +43,11 @@
          "title":"Kolik vodičů vede do křížového spínače? (neuvažujte N a PE)",
          "answers":{
             "correct":[
-               "2"
+               "4"
             ],
             "incorrect":[
                "5",
-               "4",
+               "2",
                "3"
             ]
          },
@@ -194,9 +194,9 @@
          "title":"Vyberte pravdivé tvrzení:",
          "answers":{
             "correct":[
+               "Laboratorní úloha Foxtrot obsahuje bezdrátové senzory nebo aktory."
             ],
             "incorrect":[
-               "Laboratorní úloha Foxtrot obsahuje bezdrátové senzory nebo aktory.",
                "Laboratorní úloha KNX obsahuje bezdrátové senzory nebo aktory.",
                "Laboratorní úloha ABB free@home obsahuje bezdrátové senzory nebo aktory."
             ]
@@ -290,7 +290,7 @@
             ],
             "incorrect":[
                "Přenáší datové telegramy a napájí jednotlivé účastníky střídavým napětím",
-               "b.Přenáší datové telegramy a napájí akční prvky stejnosměrným napětím",
+               "Přenáší datové telegramy a napájí akční prvky stejnosměrným napětím",
                "Přenáší datové telegramy"
             ]
          },
