@@ -1631,7 +1631,7 @@
          "answers":{
             "correct":[
                "1.00 V"
-            ],
+            ]
          },
          "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
       },
