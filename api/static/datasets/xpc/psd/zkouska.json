@@ -1460,6 +1460,625 @@
                "Ano, pouze KNX"
             ]
          }
+      },
+      {
+         "title":"Ústředna EPS musí signalizovat svůj základní stav",
+         "answers":{
+            "correct":[
+               "Provoz, Porucha, Požár"
+            ],
+            "incorrect":[
+               "Pouze požár",
+               "Porucha, požár"
+            ]
+         }
+      },
+      {
+         "title":"V topologii systému KNX může jednu linii tvořit maximálně",
+         "answers":{
+            "correct":[
+               "64 účastníků"
+            ],
+            "incorrect":[
+               "128 účastníků",
+               "256 účastníků",
+               "32 účastníků"
+            ]
+         }
+      },
+      {
+         "title":"Ve které síti nesmí být použitý proudový chránič:",
+         "answers":{
+            "correct":[
+               "TN-C"
+            ],
+            "incorrect":[
+               "TT",
+               "IT",
+               "TN-S"
+            ]
+         }
+      },
+      {
+         "title":"Ve vstupním prostoru do rodinného domu, kde je správně instalovaný systém EZS bude",
+         "answers":{
+            "correct":[
+               "Tablo obsluhy, pohybové čidlo, magnetický kontakt na dveře."
+            ],
+            "incorrect":[
+               "Tablo obsluhy, magnetický kontakt na dveře, optický požární senzor.",
+               "Tablo obsluhy, ústředna EZS, pohybové čidlo, magnetický kontakt na dveře."
+            ]
+         }
+      },
+      {
+         "title":"Veličina, která charakterizuje tzv. účinnost světelných zdrojů se nazývá:",
+         "answers":{
+            "correct":[
+               "Měrný výkon"
+            ],
+            "incorrect":[
+               "Chromatičnost",
+               "Účinnost světelných zdrojů",
+               "Světelná účinnost"
+            ]
+         }
+      },
+      {
+         "title":"Vnější vlivy jsou označeny …",
+         "answers":{
+            "correct":[
+               "Dvěma písmeny a číslicemi"
+            ],
+            "incorrect":[
+               "Písmenem a dvěmi číslicemi",
+               "Číslicí a písmenem"
+            ]
+         }
+      },
+      {
+         "title":"Vnější vlivy se určují:",
+         "answers":{
+            "correct":[
+               "Určují se ve všech prostorech, ve kterých je umístěno nebo používáno elektrické zařízení nebo v nichž z jakéhokoliv hledisky musí být řešena ochrana před nebezpečnými účinky statické elektřiny nebo před statickými výboji."
+            ],
+            "incorrect":[
+               "Určují se ve všech prostorech, ve kterých je umístěno nebo používáno elektrické zařízení.",
+               "Určují se ve všech prostorech."
+            ]
+         }
+      },
+      {
+         "title":"Vyhotovení dokumentace probíhá následně:",
+         "answers":{
+            "correct":[
+               "Uzemní řízení, stavební povolení, zadávací dokumentace, dokumentace skutečného stavu, realizační dokumentace."
+            ],
+            "incorrect":[
+               "Na rozložení dokumentací se projektant domluví s investorem.",
+               "Stavební povolení a realizační dokumentace."
+            ]
+         }
+      },
+      {
+         "title":"Vypínač sloužící pro ovládání dvou obvodů z jednoho místa?",
+         "answers":{
+            "correct":[
+               "Sériový přepínač"
+            ],
+            "incorrect":[
+               "Střídavý přepínač",
+               "Jednopólový vypínač"
+            ]
+         }
+      },
+      {
+         "title":"Vypočtěte rezistanci R vodiče o průřezu S = 4 mm<sup>2</sup>, o délce I = 40,7 m a rezistivitě 0,0178 ohm.mm<sup>2</sup> m<sup>-1</sup>",
+         "answers":{
+            "correct":[
+               "0.181"
+            ]
+         },
+         "comment":"\\( R = \\frac {\\rho \\cdot l} {S} \\)"
+      },
+      {
+         "title":"Vypočtěte rezistanci R vodiče o průřezu S = 4 mm<sup>2</sup>, o délce I = 25.2 m a rezistivitě 0,0178 ohm.mm<sup>2</sup> m<sup>-1</sup>",
+         "answers":{
+            "correct":[
+               "0,112"
+            ]
+         },
+         "comment":"\\( R = \\frac {\\rho \\cdot l} {S} \\)"
+      },
+      {
+         "title":"Vypočtěte rezistanci R vodiče o průřezu S = 4 mm<sup>2</sup>, o délce I = 16.0 m a rezistivitě 0,0178 ohm.mm<sup>2</sup> m<sup>-1</sup>",
+         "answers":{
+            "correct":[
+               "0,0712"
+            ]
+         },
+         "comment":"\\( R = \\frac {\\rho \\cdot l} {S} \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí na jednofázovém vedení, které má impedanci 0,2 ohmů a napájí spotřebič o výkonu 0.6 kW. Napětí soustavy 230/400V. Výsledek uveďte na dvě desetinná místa s desetinnou tečkou.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
+         "answers":{
+            "correct":[
+               "0.51 V"
+            ]
+         },
+         "comment":"\\( R = \\frac { U^2 } { P } \\), \\( I = \\frac { U } { R } \\) a \\( U = \\frac { Z } { U } \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí na jednofázovém vedení, které má impedanci 0,2 ohmů a napájí spotřebič o výkonu 1.7 kW. Napětí soustavy 230/400V.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
+         "answers":{
+            "correct":[
+               "1.48 V"
+            ]
+         },
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí ve V v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P= 1.1kW a cosfi = 0.8.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
+         "answers":{
+            "correct":[
+               "0.55 V"
+            ]
+         },
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Vypočtěte úbytek napětí ve V v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P = 2.0 kW a cosfi = 0.8.",
+         "answers":{
+            "correct":[
+               "1.00 V"
+            ],
+         },
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Výkaz výměr je:",
+         "answers":{
+            "correct":[
+               "Seznam použitých komponent v projektu a jejich množství."
+            ],
+            "incorrect":[
+               "Seznam použitých komponent a jejich cena.",
+               "Výsledný rozpočet projektu.",
+               "Dokument obsahující údaje o rozměrech a vyměřené zastavěné ploše objektu."
+            ]
+         }
+      },
+      {
+         "title":"Zapojení stanic do kruhu, co se stane, když připojím další stanici?",
+         "answers":{
+            "correct":[
+               "Nic. Připojení další stanice je bez dalších nákladů na počítačové rozvody"
+            ]
+         }
+      },
+      {
+         "title":"Základní dělení počítačových sítí je:",
+         "answers":{
+            "correct":[
+               "Sběrnicová, hvězdicová, kruhová"
+            ],
+            "incorrect":[
+               "Sběrnicová a hvězdicová",
+               "Sběrnicová, hvězdicová, kruhová a čtvercová"
+            ]
+         }
+      },
+      {
+         "title":"Zvětším-li odběr (proud zátěže) na konci vedení dvakrát, tak ztráty mi vzrostou:",
+         "answers":{
+            "correct":[
+               "4x"
+            ],
+            "incorrect":[
+               "0,5x",
+               "1x",
+               "2x"
+            ]
+         }
+      },
+      {
+         "title":"Veličina, která charakterizuje tzv. účinnost světelných zdrojů se nazývá:",
+         "answers":{
+            "correct":[
+               "Měrný výkon"
+            ],
+            "incorrect":[
+               "Chromatičnost",
+               "Účinnost světelných zdrojů",
+               "Světelná účinnost"
+            ]
+         }
+      },
+      {
+         "title":"Jaké řazení spínače je na obrázku:<br><img src=\"/images/xpc/psd/zkouska/razeni.png\">",
+         "answers":{
+            "correct":[
+               "Řazení č. 6+1"
+            ],
+            "incorrect":[
+               "Řazení č. 7",
+               "Řazení č. 6",
+               "Řazení č. 6+6",
+               "Řazení č. 5+1",
+               "Řazení č. 4",
+               "Řazení č. 2/A"
+            ]
+         }
+      },
+      {
+         "title":"Atmosféra přepětí lze charakterizovat jako",
+         "answers":{
+            "correct":[
+               "Přechodné a podélné přepětí"
+            ],
+            "incorrect":[
+               "Dočasné a podélné přepětí",
+               "Přechodné a příčné přepětí",
+               "Dočasné a příčné přepětí"
+            ]
+         }
+      },
+      {
+         "title":"Je nutné použít v objektu 3 stupně (T1, T2, T3) přepěťových ochran, abychom ochránili počítač před přepětím?",
+         "answers":{
+            "correct":[
+               "Ne"
+            ],
+            "incorrect":[
+               "Ano"
+            ]
+         }
+      },
+      {
+         "title":"Vlnová délka na kterou má lidské oko největší citlivost je:",
+         "answers":{
+            "correct":[
+               "555 nm"
+            ],
+            "incorrect":[
+               "450 nm",
+               "155 nm"
+            ]
+         }
+      },
+      {
+         "title":"Která definice vystihuje slovo selektivita?",
+         "answers":{
+            "correct":[
+               "Selektivnost mezi přístroji téhož obvodu má iniciovat ten ochranný prvek, který je nejblíže k poruše a zajistit tedy požadovanou posloupnost působení tak aby došlo k minimalizaci ztrát."
+            ],
+            "incorrect":[
+               "Selektivnost mezi přístroji téhož obvodu má iniciovat ten ochranný prvek, který je nejdále od poruchy a zajistit tedy požadovanou posloupnost působení tak, aby došlo k minimalizaci ztrát.",
+               "Selektivnost mezi přístroji téhož obvodu má iniciovat všechny ochranné prvky.",
+               "Selektivnost mezi prvky téhož obvodu nemá iniciovat žádný ochranný prvek."
+            ]
+         }
+      },
+      {
+         "title":"Jaké je označení spínače na obrázku?<br><img src=\"/images/xpc/psd/zkouska/spinac.png\">",
+         "answers":{
+            "correct":[
+               "Trojpólový vypínač"
+            ],
+            "incorrect":[
+               "Střídavý přepínač dvojitý",
+               "Jednopólový vypínač",
+               "Střídavý přepínač",
+               "Skupinový přepínač",
+               "Sériový přepínač střídavý",
+               "Křížový přepínač",
+               "Sériový přepínač",
+               "Dvoupólový vypínač"
+            ]
+         }
+      },
+      {
+         "title":"Vypočtěte výkon jednofázového spotřebiče. Proud, který teče spotřebičem má velikost 6,9 a účiník je 0,58. Napětí soustavy 230/400 V.\nVýsledek uveďte na dvě desetinná místa s desetinnou čárkou v [W].",
+         "answers":{
+            "correct":[
+               "920,46"
+            ]
+         },
+         "comment":"\\( P = U \\cdot I \\cdot \\cos {\\Phi} \\)"
+      },
+      {
+         "title":"Jaká hodnota jmenovitého proudu jističe se používá pro připojení jednofázového zásuvkového obvodu?",
+         "answers":{
+            "correct":[
+               "16 A"
+            ],
+            "incorrect":[
+               "20 A",
+               "10 A"
+            ]
+         }
+      },
+      {
+         "title":"Jaké je řazení spínače na obrázku?<br><img src=\"/images/xpc/psd/zkouska/razeni-b.png\">",
+         "answers":{
+            "correct":[
+               "Řazení č. 4"
+            ],
+            "incorrect":[
+               "Řazení č. 6",
+               "Řazeni č. 2",
+               "Řazení č. 1",
+               "Řazení č. 3",
+               "Řazení č. 5",
+               "Řazení č. 7"
+            ]
+         }
+      },
+      {
+         "title":"Klíč od KTPO má:",
+         "answers":{
+            "correct":[
+               "Hasičská záchranná služba"
+            ],
+            "incorrect":[
+               "Policie české republiky",
+               "Ostraha objektu"
+            ]
+         }
+      },
+      {
+         "title":"Co je to proudový chránič s nadproudovou ochranou?",
+         "answers":{
+            "correct":[
+               "Kombinovaný přístroj proudového chrániče a jističe."
+            ],
+            "incorrect":[
+               "Kombinovaný přistroj proudového chrániče a obloukové ochrany.",
+               "Kombinovaný přístroj proudového chrániče a přepěťové ochrany 3. stupně."
+            ]
+         }
+      },
+      {
+         "title":"Co znamená označení strukturované kabeláže U/FTP?",
+         "answers":{
+            "correct":[
+               "Použití folie na stínění párů"
+            ],
+            "incorrect":[
+               "Použití folie na stínění pláště",
+               "Stínění pláště opletením"
+            ]
+         }
+      },
+      {
+         "title":"Vodiče PE a PEN"",
+         "answers":{
+            "correct":[
+               "Se nesměji jistit"
+            ],
+            "incorrect":[
+               "Se jistí pouze ve starých rozvodech, kde není rozlišen od fázového vodiče.",
+               "Se mohou jistit pouze v síti TT.",
+               "Se mohou jistit pouze v případech stanovených normou.",
+               "Se mohou jistit pouze tehdy, slouží-li zároveň jako střední."
+            ]
+         }
+      },
+      {
+         "title":"Jaká je předepsaná maximální doba vypnuti z hlediska správné funkce ochrany před úrazem elektrickým proudem pro zařízení držená v ruce?",
+         "answers":{
+            "correct":[
+               "0,4 s"
+            ],
+            "incorrect":[
+               "0,2 s",
+               "5 s",
+               "0,8 s"
+            ]
+         }
+      },
+      {
+         "title":"Mohou se pevné spotřebiče umisťovat do umývacího prostoru v koupelně?",
+         "answers":{
+            "correct":[
+               "Ano, pokud je výrobce určen do daného umývacího prostoru a má certifikát daný výrobcem."
+            ],
+            "incorrect":[
+               "Ne.",
+               "Ano, pokud se jedná o bojler nebo ohřívač vody a nemá žádný certifikát."
+            ]
+         }
+      },
+      {
+         "title":"Jakým napětím napájí sběrnice KNX jednotlivé účastníky?",
+         "answers":{
+            "correct":[
+               "21 až 29 V"
+            ],
+            "incorrect":[
+               "12 V",
+               "18 V",
+               "20 až 24 V",
+               "14 V",
+               "24 V"
+            ]
+         }
+      },
+      {
+         "title":"Kolik zásuvek je možné instalovat na jeden jednofázový obvod?",
+         "answers":{
+            "correct":[
+               "10 ks"
+            ],
+            "incorrect":[
+               "8 ks",
+               "Počet je omezen pouze jisticím prvkem"
+            ]
+         }
+      },
+      {
+         "title":"Opravy a údržba stávajících zařízení již dokončené stavby podléhají sazbě DPH:",
+         "answers":{
+            "correct":[
+               "15 %"
+            ],
+            "incorrect":[
+               "21 %",
+               "10 %",
+               "20 %"
+            ]
+         }
+      },
+      {
+         "title":"Jaké je jmenovité napětí rozvodné sítě NN v ČR?",
+         "answers":{
+            "correct":[
+               "230/400 V"
+            ],
+            "incorrect":[
+               "120/210 V",
+               "220/380 V"
+            ]
+         }
+      },
+      {
+         "title":"Vodič PEN je součástí sítě:",
+         "answers":{
+            "correct":[
+               "TN-C"
+            ],
+            "incorrect":[
+               "TN-S",
+               "TT"
+            ]
+         }
+      },
+      {
+         "title":"U obvodů SELV:",
+         "answers":{
+            "correct":[
+               "Živé části nesmějí být spojené se zemí nebo jinými živými částmi"
+            ],
+            "incorrect":[
+               "Živé části mohou být spojené se zemí nebo jinými živými částmi",
+               "Živé části musí být uzemněné"
+            ]
+         }
+      },
+      {
+         "title":"Co je to kalkulace:",
+         "answers":{
+            "correct":[
+               "Stanovení skutečného nebo očekávaného výsledku obchodního podnikání."
+            ],
+            "incorrect":[
+               "Spekulativní chování.",
+               "Stanovení variabilních, fixních a celkových nákladů.",
+               "Odhad výsledku obchodního podnikání."
+            ]
+         }
+      },
+      {
+         "title":"Projektovou dokumentaci pro stavební dokumentaci může vypracovávat:",
+         "answers":{
+            "correct":[
+               "Autorizovaný inženýr"
+            ],
+            "incorrect":[
+               "Autorizovaný technik",
+               "Samostatný projektant (vyhl. 50, S10)",
+               "Samozvaný projektant"
+            ]
+         }
+      },
+      {
+         "title":"Máme spotřebič o výkonu 3,2 kW, jiětěný 16A. Použijeme vodič s:",
+         "answers":{
+            "correct":[
+               "Takový, aby podle norem odpovídal úbytek napětí a <?>"
+            ],
+            "incorrect":[
+               "Přůřezem 2,5 mm<sup>2</sup>",
+               "Přůřezem 4 mm<sup>2</sup>"
+            ]
+         }
+      },
+      {
+         "title":"Neizolované fázové vodiče natřeme (označíme) oranžovou barvou (myšlena i pásovina v rozvaděči):",
+         "answers":{
+            "correct":[
+               "Ano."
+            ],
+            "incorrect":[
+               "Ne.",
+               "Pouze u datových rozvodů."
+            ]
+         }
+      },
+      {
+         "title":"Jakým napětím napájí sběrnice Foxtrot jednotlivé účastníky?",
+         "answers":{
+            "correct":[
+               "24 V"
+            ],
+            "incorrect":[
+               "12 V",
+               "18 V",
+               "20 až 24 V",
+               "14 V",
+               "21 až 29 V"
+            ]
+         }
+      },
+      {
+         "title":"Jakou dobu musí vydržet přepěťová ochrana typu SPD typ 1 (T1) při testu <?>",
+         "answers":{
+            "correct":[
+               "10 – 300 μs"
+            ],
+            "incorrect":[
+               "10 –  300ms",
+               "8 – 30 ms",
+               "8 – 30 μs"
+            ]
+         }
+      },
+      {
+         "title":"Jaká je referenční teplota pro výpočet zatěžovacího proudu pro kabely uložené v zemi?",
+         "answers":{
+            "correct":[
+               "20 °C"
+            ],
+            "incorrect":[
+               "30 °C",
+               "18 °C",
+               "26 °C"
+            ]
+         }
+      },
+      {
+         "title":"Kolik minimálně kolikati žilový kabel je třeba na zapojení 2 světelných zdrojů v jednom svítidle, když pro ovládání použijeme sériový přepínač?",
+         "answers":{
+            "correct":[
+               "4"
+            ],
+            "incorrect":[
+               "3",
+               "5"
+            ]
+         }
+      },
+      {
+         "title":"Čím lze ovládat systémová instalace Foxtrot?",
+         "answers":{
+            "correct":[
+               "Talčítky, počítačem, wifi, atd …"
+            ],
+            "incorrect":[
+               "Počítačem nebo tlačítky",
+               "Pouze tlačítky"
+            ]
+         }
       }
    ]
 }
