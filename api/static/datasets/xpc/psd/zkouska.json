@@ -98,7 +98,7 @@
          }
       },
       {
-         "title":"První číslice v označení vnějšího vlivu znamená …",
+         "title":"Číslice v označení vnějšího vlivu znamená …",
          "answers":{
             "correct":[
                "Třídu vnějšího Vlivu."
@@ -1093,11 +1093,11 @@
          "title":"První písmeno v označení vnějšího vlivu značí …",
          "answers":{
             "correct":[
-               "Třídu vnějšího vlivu."
+               "Kategorii vnějšího vlivu."
             ],
             "incorrect":[
                "Povahu vnějšího vlivu.",
-               "Kategorii vnějšího vlivu."
+               "Třídu vnějšího vlivu."
             ]
          }
       },
