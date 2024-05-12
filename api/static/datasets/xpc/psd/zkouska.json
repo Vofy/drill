@@ -98,6 +98,30 @@
          }
       },
       {
+         "title":"První písmeno v označení vnějšího vlivu značí …",
+         "answers":{
+            "correct":[
+               "Kategorii vnějšího vlivu."
+            ],
+            "incorrect":[
+               "Povahu vnějšího vlivu.",
+               "Třídu vnějšího vlivu."
+            ]
+         }
+      },
+      {
+         "title":"Druhé písmeno v označení vnějšího vlivu značí:",
+         "answers":{
+            "correct":[
+               "Povahu vnějšího vlivu."
+            ],
+            "incorrect":[
+               "Všeobecnou kategorií vnějšího vlivu.",
+               "Třídu vnějšího vlivu."
+            ]
+         }
+      },
+      {
          "title":"Číslice v označení vnějšího vlivu znamená …",
          "answers":{
             "correct":[
@@ -190,18 +214,6 @@
             "incorrect":[
                "Pokoje, ložnice, chodba",
                "Technické místnosti, ložnice, chodba, obývací pokoj"
-            ]
-         }
-      },
-      {
-         "title":"Druhé písmeno v označení vnějšího vlivu značí:",
-         "answers":{
-            "correct":[
-               "Povahu vnějšího vlivu."
-            ],
-            "incorrect":[
-               "Všeobecnou kategorií vnějšího vlivu.",
-               "Třídu vnějšího vlivu."
             ]
          }
       },
@@ -1086,18 +1098,6 @@
             "incorrect":[
                "Možnost dodávky elektrické energie",
                "Provozní spolehlivost v daném prostředí při určeném způsobu provozu a vlivu prostředí"
-            ]
-         }
-      },
-      {
-         "title":"První písmeno v označení vnějšího vlivu značí …",
-         "answers":{
-            "correct":[
-               "Kategorii vnějšího vlivu."
-            ],
-            "incorrect":[
-               "Povahu vnějšího vlivu.",
-               "Třídu vnějšího vlivu."
             ]
          }
       },
