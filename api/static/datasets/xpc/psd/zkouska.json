@@ -1995,10 +1995,10 @@
          "title":"Kolik minimálně kolikati žilový kabel je třeba na zapojení 2 světelných zdrojů v jednom svítidle, když pro ovládání použijeme sériový přepínač?",
          "answers":{
             "correct":[
-               "4"
+               "3"
             ],
             "incorrect":[
-               "3",
+               "4",
                "5"
             ]
          }
