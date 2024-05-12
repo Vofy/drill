@@ -1093,11 +1093,11 @@
          "title":"První písmeno v označení vnějšího vlivu značí …",
          "answers":{
             "correct":[
-               "Kategorii vnějšího vlivu."
+               "Třídu vnějšího vlivu."
             ],
             "incorrect":[
                "Povahu vnějšího vlivu.",
-               "Třídu vnějšího vlivu."
+               "Kategorii vnějšího vlivu."
             ]
          }
       },
