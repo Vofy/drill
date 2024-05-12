@@ -1593,7 +1593,7 @@
                "0.51 V"
             ]
          },
-         "comment":"\\( R = \\frac { U^2 } { P } \\), \\( I = \\frac { U } { R } \\) a \\( U = \\frac { Z } { U } \\)"
+         "comment":"\\( R = \\frac { U^2 } { P } \\), \\( I = \\frac { U } { R } \\) a \\( U =  Z \\cdot I \\)"
       },
       {
          "title":"Vypočtěte úbytek napětí na jednofázovém vedení, které má impedanci 0,2 ohmů a napájí spotřebič o výkonu 1.7 kW. Napětí soustavy 230/400V.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
@@ -1602,7 +1602,7 @@
                "1.48 V"
             ]
          },
-         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot I \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot Z \\cdot \\cos {\\Phi} \\)"
+         "comment":"\\( R = \\frac { U^2 } { P } \\), \\( I = \\frac { U } { R } \\) a \\( U =  Z \\cdot I \\)"
       },
       {
          "title":"Vypočtěte úbytek napětí v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P= 1.1kW a cosfi = 0.8.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
