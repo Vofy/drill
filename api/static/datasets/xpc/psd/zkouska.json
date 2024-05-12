@@ -1602,7 +1602,7 @@
                "1.48 V"
             ]
          },
-         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot I \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
       },
       {
          "title":"Vypočtěte úbytek napětí ve V v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P= 1.1kW a cosfi = 0.8.\nVýsledek uveďte na dvě desetinná místa s desetinnou tečkou.",
@@ -1611,7 +1611,7 @@
                "0.55 V"
             ]
          },
-         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
+         "comment":"\\( P = \\sqrt{3} \\cdot U \\cdot I \\cdot \\cos {\\Phi} \\) a \\( \\Delta U = \\sqrt{3} \\cdot I \\cdot \\cos {\\Phi} \\)"
       },
       {
          "title":"Vypočtěte úbytek napětí ve V v 3f soustavě 230/400 V na vodiči s impedancí 0,2 ohmů, který napájí motor o výkonu P = 2.0 kW a cosfi = 0.8.",
