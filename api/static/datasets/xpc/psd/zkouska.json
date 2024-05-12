@@ -1878,21 +1878,6 @@
          }
       },
       {
-         "title":"Jakým napětím napájí sběrnice KNX jednotlivé účastníky?",
-         "answers":{
-            "correct":[
-               "21 až 29 V"
-            ],
-            "incorrect":[
-               "12 V",
-               "18 V",
-               "20 až 24 V",
-               "14 V",
-               "24 V"
-            ]
-         }
-      },
-      {
          "title":"Kolik zásuvek je možné instalovat na jeden jednofázový obvod?",
          "answers":{
             "correct":[
