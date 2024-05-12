@@ -1669,19 +1669,6 @@
          }
       },
       {
-         "title":"Veličina, která charakterizuje tzv. účinnost světelných zdrojů se nazývá:",
-         "answers":{
-            "correct":[
-               "Měrný výkon"
-            ],
-            "incorrect":[
-               "Chromatičnost",
-               "Účinnost světelných zdrojů",
-               "Světelná účinnost"
-            ]
-         }
-      },
-      {
          "title":"Jaké řazení spínače je na obrázku:<br><img src=\"/images/xpc/psd/zkouska/razeni.png\">",
          "answers":{
             "correct":[
