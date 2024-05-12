@@ -72,16 +72,16 @@
          }
       },
       {
-         "title":"Co vyjadřuje součinitel soudobost (náročnost)?",
+         "title":"Co vyjadřuje součinitel soudobosti (náročnosti)?",
          "answers":{
             "correct":[
-               "Hodinové maximum odběru elektrické energie v období celého roku."
+               "Poměr skutečného výkonu spotřebičů, které jsou současně v chodu k jejich instalovanému výkonu."
             ],
             "incorrect":[
+               "Hodinové maximum odběru elektrické energie v období celého roku.",
                "Účinnost přenosu elektrické energie v objektu.",
                "Určitou pravděpodobnost současného chodu spotřebičů v objektu.",
-               "Poměr instalovaných výkonů spotřebičů, které jsou současně v chodu k instalovanému výkonu všech spotřebičů",
-               "Poměr skutečného výkonu spotřebičů, které jsou současně v chodu k jejich instalovanému výkonu."
+               "Poměr instalovaných výkonů spotřebičů, které jsou současně v chodu k instalovanému výkonu všech spotřebičů"
             ]
          }
       },
