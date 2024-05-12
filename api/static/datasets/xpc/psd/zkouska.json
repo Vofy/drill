@@ -1711,17 +1711,6 @@
          }
       },
       {
-         "title":"Je nutné použít v objektu 3 stupně (T1, T2, T3) přepěťových ochran, abychom ochránili počítač před přepětím?",
-         "answers":{
-            "correct":[
-               "Ne"
-            ],
-            "incorrect":[
-               "Ano"
-            ]
-         }
-      },
-      {
          "title":"Vlnová délka na kterou má lidské oko největší citlivost je:",
          "answers":{
             "correct":[
