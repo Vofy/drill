@@ -2014,6 +2014,63 @@
                "Pouze tlačítky"
             ]
          }
+      },
+      {
+         "title":"Jaké je napětí na sběrnici CIB?",
+         "answers":{
+            "correct":[
+               "24 V"
+            ],
+            "incorrect":[
+               "30 V",
+               "21 V",
+               "12 V",
+               "36 V"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      },
+      {
+         "title":"S jakými sběrnicemi komunikuje základní modul TECO CP-2000?",
+         "answers":{
+            "correct":[
+               "CIB + TCL2"
+            ],
+            "incorrect":[
+               "CIB",
+               "CIB + DECO",
+               "KNX"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      },
+      {
+         "title":"Jaká je minimální vzdálenost zásuvky nad podoložkou?",
+         "answers":{
+            "correct":[
+               "20 cm"
+            ],
+            "incorrect":[
+               "15 cm",
+               "25 cm",
+               "30 cm"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
+      },
+      {
+         "title":"Projektování je typ živnosti?",
+         "answers":{
+            "correct":[
+               "Vázaná"
+            ],
+            "incorrect":[
+               "Koncesovaná",
+               "Volná",
+               "Řemeslná"
+            ]
+         },
+         "comment":"Nepřesné znění otázky a odpovědí"
       }
    ]
 }
